@@ -1,0 +1,23 @@
+:可用的参数类型
+:类型,例,效果
+:real
+\real{x=9.1^9+6^8}
+\x is a real number rounded to 8 significant digits. For more precision, use pari or maxima with the text type: \text{a=pari(9.1^9+6^8)}
+:complex
+\complex{z=(1+2*i)^3}
+\z 是复数 z=(1+2*i)^3
+:text
+\text{a=1 2  3}
+\a 是不被变换的文字
+:integer
+\integer{n=3*exp(\a)}
+\n is the integer closest to 3*e<sup>\a</sup> (it depends on the value of \a and is calculated first as real, so with 8 significant digits only)
+:rational
+\rational{x=2*5/6}
+\x 是(精确的)有理数 5/3
+:function
+\function{f=2*x^2}
+函数 2 x^2
+:matrix
+\matrix{m=1,2,3<br>4,5,6<br>7,8,9}
+\m 是一个 3 行 3 列的矩阵.

@@ -1,0 +1,51 @@
+
+!set slib_data=!declosing $slib_data
+!distribute items $slib_data into slib_som,slib_face
+
+!set slib_range=!exec pari A=$slib_som;H=[vecmin(A[,1]),vecmax(A[,1]);vecmin(A[,2]),vecmax(A[,2])];[vecmin(H[,1]),vecmax(H[,2])]
+
+slib_som=!declosing $slib_som
+slib_face=!declosing $slib_face
+slib_facecnt=!itemcnt $slib_face
+!for slib_k=1 to $slib_facecnt
+  !reset slib_tmp slib_test slib_col
+  !set slib_ff=!declosing $(slib_face[$slib_k])
+  !if $slib_type0=2
+    !set slib_ffcnt=!itemcnt $slib_ff
+    !set slib_ff=$slib_ffcnt,$slib_ff,1
+  !endif
+  !set slib_ffcnt=!itemcnt $slib_ff
+  !if $(slib_type0[1])=1 and $(slib_type)=1
+    !set slib_col=$(slib_color[1+$(slib_ff[$[$(slib_ff[1])+2]])])
+  !else
+    !if $(slib_type0[1])=1
+      !set slib_col=$(slib_color[1])
+    !else
+      !set slib_col=$(slib_color[2])
+    !endif
+  !endif
+  !if $slib_k isin $slib_fill
+    !set slib_pol1=f$slib_pol
+  !else
+    !set slib_pol1=$slib_pol
+  !endif
+  !set slib_tmp=$slib_pol1 $(slib_col)
+  !set slib_tmp=!append item $(slib_som[$(slib_ff[2..$(slib_ff[1])+1]);1,2]) to $slib_tmp
+  !set slib_tmp=!replace internal ; by , in $slib_tmp
+  !if $slib_k<$slib_cnt
+    !set slib_dessin=!append line $slib_tmp to $slib_dessin
+  !else
+    !goto out
+    !if $slib_k<800
+      !set slib_dessin1=!append line $slib_tmp to $slib_dessin1
+    !else
+      !if $slib_k<2400
+        !set slib_dessin2=!append line $slib_tmp to $slib_dessin2
+      !else
+        !set slib_dessin3=!append line $slib_tmp to $slib_dessin3
+      !endif
+    !endif
+  !endif
+:end
+!next
+:out

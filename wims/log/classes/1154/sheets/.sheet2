@@ -1,0 +1,71 @@
+Course d'opérations élémentaires
+Exercices d'entraînements sur les opérations élémentaires avec les entiers, les fractions, les décimaux.
+??,2025
+2
+E6
+mathematics
+levele6,levelh1,levelh2,levelh3,levelh4,levelh5,levelh6,multiplication,operation,quizz,fraction,addition,skill_calculate,mental_calculation,decimals
+Benoit, Minus
+communaute.mutuwims@laposte.net
+Conçue pour être utilisée avec la page de présentation associée. Difficulté croissante. Six niveaux disponibles
+
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=1&confparm4=2&confparm4=3&confparm3=1&confparm2=10&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations Niv 1
+<p>entiers 3 opérations 90s</p>
+
+<p>Les résultats peuvent être négatifs.</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=3&confparm3=1&confparm3=2&confparm2=10&qnum=1&scoredelay=100,200&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations niv 2
+<p>entiers ou décimaux mult 100s</p>
+
+<p>Les résultats peuvent être négatifs.</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=3&confparm3=1&confparm3=2&confparm3=3&confparm2=10&qnum=1&scoredelay=100,200&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations niv 3
+<p>entiers ou décimaux ou fractions multiplications 100s</p>
+
+<p>Les résultats peuvent être négatifs.</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=1&confparm4=2&confparm4=3&confparm3=3&confparm2=10&qnum=1&scoredelay=120,240&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations niv 4
+<p>fractions 3 opérations 120s</p>
+
+<p>Les résultats peuvent être négatifs.</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=3&confparm3=1&confparm3=2&confparm3=3&confparm2=10&qnum=1&scoredelay=120,240&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations niv 5
+<p>entiers fractions décimaux mult 120s</p>
+
+<p>Les résultats peuvent être négatifs.</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=1&confparm4=2&confparm4=3&confparm3=2&confparm3=1&confparm3=3&confparm2=10&qnum=1&scoredelay=100,200&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations niv 6
+<p>fractions décimaux entiers 3 opérations 100s</p>
+
+<p>Les résultats peuvent être négatifs.</p>
+
+chrono

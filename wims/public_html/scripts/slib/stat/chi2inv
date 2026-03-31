@@ -1,0 +1,32 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=2\
+,[data]\
+1,degree
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_example=[0.2,0.98,0.99],5
+slib_require=pari
+!exit
+
+:proc
+slib_out=
+!distribute item $wims_read_parm into slib_data,slib_degree
+
+!default slib_degree=1
+slib_data=!declosing $slib_data
+slib_cnt=!itemcnt $slib_data
+
+slib_test=!exec octave pkg list statistics
+!if Installation iswordof $slib_test
+  slib_out=!exec octave chi2inv([$slib_data], $slib_degree)
+!else
+  !readproc slib/stat/commun stat
+  slib_out=!exec pari slib_u=gamma($slib_degree/2); chi2cdf(x,v)=if(x>0,incgamc(v/2,x/2)/slib_u,0);\
+    data=[$slib_data]; vector($slib_cnt,i, solve(x=0,oo,chi2cdf(x,$slib_degree)-data[i]))
+!endif
+slib_out=!words2items $slib_out
+slib_out=!trim $slib_out

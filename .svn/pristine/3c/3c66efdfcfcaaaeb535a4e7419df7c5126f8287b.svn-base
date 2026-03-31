@@ -1,0 +1,69 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Fonction affine (lycée)
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+Une fonction numérique \(f\) est appelée <strong>fonction affine</strong> lorsqu'il
+existe deux nombres réels \(a\) et \(b\) tels que, pour tout nombre réel \(x\)&nbsp;:
+<div class="wimscenter">\(f(x)=a x+b\)</div>
+En particulier, si <span class="nowrap">\(b = 0\),</span> la fonction \(f\) est
+dite <strong>linéaire</strong>.
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Théorème</h4>
+Dans le plan muni d'un repère, la courbe représentative d'une fonction affine est une droite.
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Propriété (variations)</h4>
+Soit \(a\) et \(b\) deux réels et \(f\) la fonction affine définie pour tout réel \(x\)
+par <span class="nowrap">\(f(x)=a x + b\).</span>
+<ul>
+<li>
+<p>Si <span class="nowrap">\(a=0\),</span> la fonction \(f\) est constante sur
+<span class="nowrap">\(\mathbb{R}\).</span></p>
+</li>
+<li>
+<p>Si <span class="nowrap">\(a>0\),</span> la fonction \(f\) est strictement croissante
+sur <span class="nowrap">\(\mathbb{R}\).</span></p>
+</li>
+<li>
+<p>Si <span class="nowrap">\(a<0\),</span> la fonction \(f\) est strictement décroissante
+sur <span class="nowrap">\(\mathbb{R}\).</span></p>
+</li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Propriété (signe)</h4>
+Soit \(a\) et \(b\) deux réels et \(f\) la fonction affine définie pour tout réel \(x\)
+par <span class="nowrap">\(f(x)=a x + b\).</span>
+<ul>
+<li>
+<p>Si <span class="nowrap">\(a=0\),</span> la fonction \(f\) est du signe de \(b\)
+sur <span class="nowrap">\(\mathbb{R}\).</span></p>
+</li>
+<li>
+<p>Si <span class="nowrap">\(a>0\),</span> la fonction \(f\) est strictement négative
+sur <span class="nowrap">\(\left\rbrack-\infty\,;-\dfrac{b}{a}\right\lbrack\),</span>
+strictement positive sur \(\left\rbrack-\dfrac{b}{a}\,;+\infty\right\lbrack\) et
+<span class="nowrap">\(f\left(-\dfrac{b}{a}\right)=0\).</span></p>
+</li>
+<li>
+<p>Si <span class="nowrap">\(a<0\),</span> la fonction \(f\) est strictement positive
+sur <span class="nowrap">\(\left\rbrack-\infty\,;-\dfrac{b}{a}\right\lbrack\),</span>
+strictement négative sur \(\left\rbrack-\dfrac{b}{a}\,;+\infty\right\lbrack\) et
+<span class="nowrap">\(f\left(-\dfrac{b}{a}\right)=0\).</span></p>
+</li>
+</ul>
+</div>

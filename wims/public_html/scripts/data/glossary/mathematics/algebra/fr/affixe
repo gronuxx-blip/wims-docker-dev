@@ -1,0 +1,48 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=complex_number,vectors,complex_plane
+!set gl_title=Affixe d'un point ou d'un vecteur
+!set gl_level=H5 STI2D&nbsp;Spécialité , H6 Générale&nbsp;Experte
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définitions</h4><p>Le plan est muni d'un repère orthonormé
+<span class="nowrap"> \(\left(\mathrm{O}\,;\overrightarrow{u},\,\overrightarrow{v}\right)\).</span></p>
+<p>Soit \(x\) et \(y\) deux nombres réels, \(z\) le nombre complexe défini par <span class="nowrap">\(z=x + \mathrm{i} y\),</span> \(\mathrm{M}\) le point de coordonnées \((x\,;\,y)\) et \(\overrightarrow V\) le vecteur de coordonnées <span class="nowrap">\(   \left( \begin{matrix}x \\ y \end{matrix} \right) \).</span></p>
+<ul><li>On appelle <strong>affixe</strong> du point \(\mathrm{M}\) le nombre complexe <span class="nowrap">\(z\).</span><br>
+On dit que \(\mathrm{M}\) est l'<strong>image</strong> du nombre complexe <span class="nowrap">\(z\).</span>
+</li>
+<li>
+On appelle <strong>affixe</strong> du vecteur \(\overrightarrow{V}\) le nombre complexe <span class="nowrap">\(z\).</span>
+<br>
+Le vecteur \(\overrightarrow{V}\) est appelé <strong>vecteur image</strong> du nombre complexe <span class="nowrap">\(z\).</span></li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+<p>Le plan est muni d'un repère orthonormé
+<span class="nowrap"> \(\left(\mathrm{O}\,;\overrightarrow{u},\,\overrightarrow{v}\right)\).</span></p>
+<ul>
+<li>Deux points sont confondus si et seulement si leurs affixes sont égales.</li>
+<li>Deux vecteurs sont égaux si et seulement si leurs affixes sont égales.</li>
+<li>
+Soit \(\mathrm{A}\) et \(\mathrm{B}\) deux points d'affixes respectives \(z_\mathrm{A}\) et <span class="nowrap">\(z_\mathrm{B}\).</span> <br>
+Le vecteur \(\overrightarrow{\mathrm{AB}}\) a pour affixe \(z_\mathrm{B} - z_\mathrm{A}\).
+</li>
+<li>
+Soit \(\overrightarrow{V}\) et \(\overrightarrow{V^{'}}\) deux vecteurs d'affixes respectives \(z\) et \(z^{'}\) et soit \(k\) un nombre réel.
+<ul>
+<li>
+Le vecteur \(\overrightarrow{V} + \overrightarrow{V^{'}}\) a pour affixe <span class="nowrap">\(z+z^{'}\) ;</span>
+</li>
+<li>
+le vecteur \(k \overrightarrow{V}\) a pour affixe<span class="nowrap"> \(k z\).</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+

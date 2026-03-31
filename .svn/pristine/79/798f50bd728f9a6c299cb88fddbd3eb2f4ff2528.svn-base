@@ -1,0 +1,72 @@
+ <b>Expression mathématique.</b>
+ (noms : <span class="tt">algexp</span>, <span class="tt">litexp</span> et <span class="tt">formal</span>)<br>
+ Es una expresión matemática formal que se comparará
+ con la respuesta correcta dada, según distintos criterios de definición.
+ Se pueden poner varias respuestas correctas separadas por comas.
+!! TODO_lang
+ Il est fortement conseillé que la bonne réponse donnée soit écrite par le programmeur
+ sous la forme mathématique comprise par les logiciels de calcul.
+ En particulier, une lettre autre que <span class="tt">x,y,z</span> devant une parenthèse sera interprétée comme
+ une fonction : <span class="tt">u(x+1)</span> est la valeur de la fonction <span class="tt">u</span> au point
+ <span class="tt">x+1</span>, alors que <span class="tt">(u+1)(x+1)</span> et <span class="tt">x(u+1)</span>
+ sont des polynômes  en 2 variables <span class="tt">u</span> et <span class="tt">x</span>, et  <span class="tt">u*(u+1)</span> est un polynôme en <span class="tt">u</span>.
+ <p>
+  <span class="tt">algexp</span> : Es una expresión algebraica formal con identificaciones limitadas
+ para la comparación. Por ejemplo, no se aceptará (x+1)(x-1)
+ cuando la respuesta correcta es x^2-1. Y tampoco sin(x)^2+cos(x)^2 frente a 1.
+ Por contra, x-y*y y -y^2+x serán consideradas idénticas.
+ Es útil para obligar a los estudiantes a realizar ellos mismos las
+ simplificaciones de las expresiones.
+ </p><p>
+  <b>Expresión literal.</b> (nombre: <span class="tt">litexp</span>)<br>
+ Es una expresión matemática formal que se comparará literalmente
+ con la respuesta correcta dada, sin ninguna simplificación algebraica. Por
+ ejemplo, x+y no se reconocerá como idéntico a y+x, ni 3/2 a 6/4. Sin
+ embargo 2x y 2*x serán vistos como idénticos,
+ y los espacios se eliminarán antes de la comparación.
+ A utilizar con mucha precaución.
+ <br>
+!! TODO_lang
+Il est possible de préciser des mots d'option permettant de spécifier l'analyse syntaxique
+(uniquement pour le type <span class="tt wims_code_words">litexp</span>
+et pour un polyôme en une variable à coefficients entiers).
+!let old=$wims_backslash_insmath
+!let wims_backslash_insmath=yes
+<ul>
+  <li><span class="tt wims_code_words">polexpand</span> Il s'agit de tester une réponse qui est un polynôme de \(\ZZ[X]) sous forme développée. Avec le comportement suivant :
+    <ul>
+      <li>Chaque terme doit être simplifié : pas de \(3\times x\times x).</li>
+      <li>Les coefficients doivent être calculés : pas de \(3\times 2 \times x^2).</li>
+      <li>L'expression doit être réduite : pas de \(2x+5x^2+3x).</li>
+      <li>Pas de parenthèse.</li>
+      <li>Pas de symbole divisé.</li>
+      <li>Il n'est pas utile de fournir la bonne réponse développée : elle sera automatiquement construite à partir de l'expression fournie.
+          Cependant, vous pouvez le faire si vous désirez voir afficher une forme spéciale comme bonne réponse.</li>
+      <li>Les écritures \(x^0), \(x^1) ne sont pas acceptés.</li>
+      <li>Pour un monôme, la constante doit être placée avant la variable : \(x\times 12) n'est pas accepté pour \(12x).</li>
+      <li>Un message adapté est affiché en cas d'erreur d'écriture.</li>
+    </ul>
+  </li>
+  <li><span class="tt wims_code_words">polfactor</span> Il s'agit de tester une réponse qui est un polynôme de \(\ZZ[X]) sous forme factorisée. Avec le comportement suivant :
+    <ul>
+      <li>Les formes non factorisées sont repérées : par exemple \(x^2+2x+1) pour \((x+1)^2).</li>
+      <li>Tolérence au niveau du signe - : par exemple les réponses \((x+1)(2x+3)), \(-(-x-1)(2x+3)), \((-x-1)(-2x-3)) et \(-(x+1)(-2x-3)) sont acceptées.</li>
+      <li>Les expressions qui ne sont pas des produits sont repérées et l'opération qui pose problème est mise en relief.</li>
+      <li>Chaque facteur doit respecter les règles des expressions développées/réduites énoncées plus haut.</li>
+      <li>Repérage de répétition de facteurs proportionnels : par exemple \((x-2)(2-x)) sera refusé à la place de \(-(x-2)^2).</li>
+      <li>Chaque facteur doit être de contenu inversible dans \(\ZZ).</li>
+      <li>Un facteur égal à 1 est signalé comme inutile</li>
+      <li>Un seul facteur constant est accepté par défaut. \(2*3*(x+3)) sera refusé à la place de \(6(x+3)).</li>
+      <li>En cas d'utilisation du mot d'option <span class="wims_code_words">factorcontent</span>, le contenu du polynôme doit lui aussi être factorisé. \(6*(x+3)) sera refusé à la place de \(2*3*(x+3)).</li>
+      <li>Il n'est pas utile de fournir la bonne réponse factorisée : elle sera automatiquement construite à partir de l'expression fournie.
+         Cependant, vous pouvez le faire si vous désirez voir afficher une forme spéciale comme bonne réponse.</li>
+      <li>Un message adapté est affiché en cas d'erreur d'écriture.</li>
+     </ul>
+  </li>
+</ul>
+!let wims_backslash_insmath=$old
+<p>
+ <b>Expresión formal.</b> (nombre: <span class="tt">formal</span>)<br>
+ Como las expresiones numéricas, pero no se permite la aproximación. <p>
+ Es posible poner varias respuestas correctas separándolas con comas.
+</p>

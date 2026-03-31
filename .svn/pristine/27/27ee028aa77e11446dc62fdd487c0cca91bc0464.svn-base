@@ -1,0 +1,52 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Coordonnées d'un point sur une sphère (collège)
+!set gl_level=H3
+:
+:
+:
+:
+<div class="wims_prems"><h4>Première approche</h4>
+On assimile la surface de la Terre à une sphère sur laquelle on définit des cercles ou demi-cercles imaginaires.
+<ul>
+  <li>
+L'<strong>équateur</strong> est le cercle obtenu par la section de la sphère par le plan passant par le centre de la sphère et perpendiculaire à l'axe des pôles.<br>
+Les <strong>parallèles</strong> sont les cercles de la sphère parallèles à l'équateur.<br>
+  </li>
+  <li>Le <strong>méridien de Greenwich</strong> est le demi-cercle d'extrémités les deux pôles et passant par l'observatoire de Greenwich.<br>
+Les <strong>méridiens</strong> géographiques sont les demi-cercles d'extrémités les deux pôles.
+ </li>
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarques</h4>
+Soit \(\mathrm{O}\) le centre de la sphère terrestre.
+<ul>
+  <li>Tout parallèle est identifié par&nbsp;:
+    <ul>
+      <li> son hémisphère (Nord ou Sud)&nbsp;;</li>
+      <li>sa position par la mesure en degré de l'angle \(\widehat{\mathrm{EOP}}\) où \(\mathrm{E}\) est un point de l'équateur et \(\mathrm{P}\) le point d'intersection entre le parallèle et le méridien passant par <span class="nowrap">\(\mathrm{E}\).</span></li>
+   </ul></li>
+ <li>Tout méridien est identifié par&nbsp;:
+   <ul>
+     <li> sa position par rapport au méridien de Greenwich (Est ou Ouest)&nbsp;;</li>
+     <li>par la mesure en degré de l'angle \(\widehat{\mathrm{GOM}}\) où \(\mathrm{M}\) est un point de ce méridien et \(\mathrm{G}\) est le point  d'intersection entre le méridien de Greenwich et le parallèle passant par <span class="nowrap">\(\mathrm{M}\).</span> </li>
+  </ul></li>
+</ul>
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+On appelle <strong>latitude</strong> d’un point \(\mathrm{M}\) la mesure en degré de l’angle associé au parallèle sur lequel se trouve le point \(\mathrm{M}\) en précisant l'hémisphère (Nord ou Sud) auquel il appartient.
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+On appelle <strong>longitude</strong> d’un point \(\mathrm{M}\) la mesure en degré de l’angle associé au méridien sur lequel se trouve le point \(\mathrm{M}\) en précisant sa position par rapport  au méridien de Greenwich (Est ou Ouest).
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+On appelle <strong>coordonnées géographiques</strong> d’un point de la sphère terrestre le couple \((x\,;y)\) où \(x\) est la latitude et \(y\) est la longitude de ce point.  
+</div>

@@ -1,0 +1,130 @@
+
+:H6/analysis/oefeqdif1.fr
+exo=Ordre1homogneg2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Ordre 1 homogène général
+Résoudre une équation différentielle linéaire homogène.
+
+
+:U1/analysis/oefeqdif1.fr
+exo=homg&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+1-Homogène #
+Résoudre une équation différentielle linéaire homogène.
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Ordre1homogneI&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Ordre 1 homogène I
+Résoudre un problème de Cauchy homogène.
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Ordre1homogneI2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Ordre 1 homogène II
+Résoudre un problème de Cauchy homogène.
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Ordre1homogneg&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Ordre 1 homogène graphique
+Résoudre un problème de Cauchy homogène.
+
+
+:U1/analysis/oefeqdif1.fr
+exo=homCI&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+2-Homogène conditions initiales #
+Résoudre un problème de Cauchy homogène.
+
+
+:U1/analysis/oefEquadiff.fr
+exo=equadiff1
+10
+1
+Équa. diff. 1er ordre
+Résoudre un problème de Cauchy homogène et reconnaître le graphe de la solution.
+
+
+:U1/analysis/oefEquadiff.fr
+exo=equadiff1_learn&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Équa. diff. 1er ordre - learn
+Résoudre un problème de Cauchy homogène et reconnaître le graphe de la solution.
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Problme1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Problème 1
+
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Probleme1b&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Problème 1b
+Application des équations différentielles homogènes.
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Ordre1gnral&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Ordre 1 général
+Résoudre une équation différentielle linéaire.
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Ordre1I&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Ordre 1 I
+Résoudre un problème de Cauchy.
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Ordre1II&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Ordre 1 II
+Résoudre un problème de Cauchy.
+
+
+:H6/analysis/oefeqdif1.fr
+exo=Ordre1III&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Ordre 1 III
+Résoudre un problème de Cauchy.
+
+
+:U1/analysis/oefEquadiff.fr
+exo=equadiff2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Équa. diff. 1er ordre avec second membre
+Résoudre un problème de Cauchy et reconnaître le graphe de la solution.
+
+
+:U1/analysis/oefEquadiff.fr
+exo=equadiff2_learn&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Equa. diff. 1er ordre avec second membre - learn
+Résoudre un problème de Cauchy et reconnaître le graphe de la solution.
+
+
+

@@ -1,0 +1,216 @@
+
+:H6/analysis/oefintegrale.fr
+exo=integrale&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul d'une intégrale
+Calculer une intégrale de sommes de fonctions de référence.
+
+
+:H6/analysis/oefinteg1.fr
+exo=Intgraletrigo&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Intégrale trigo
+Calculer l'intégrale d'une fonction trigonométrique.
+
+Pas de correction
+:H6/analysis/oefinteg1.fr
+exo=CalculintgralI&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul intégral I
+Calculer l'intégrale d'une puissance de fonction affine.
+
+
+:H6/analysis/oefinteg1.fr
+exo=CalculintgralI2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul intégral II
+Calculer la valeur moyenne d'une puissance de fonction affine.
+
+
+:H5/analysis/oefintts.fr
+exo=primitives&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Primitives des fonctions usuelles
+Calculer une intégrale en déterminant la primitive d'une composée.
+
+
+:H6/analysis/oefintegrale.fr
+exo=prim2int3bis&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Primitive et intégrale (exp ou ln)
+Calcul de l'intégrale d'un produit de fonctions avec exp ou ln via la détermination d'une primitive de forme donnée.
+
+
+:H6/analysis/oefintegrale.fr
+exo=prim2int2bis&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Primitive et intégrale (exp)
+Calcul de l'intégrale d'un produit de fonctions avec exp ou ln via la détermination d'une primitive de forme donnée.
+
+
+:H6/analysis/oefintegrale.fr
+exo=prim2intbis&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Primitive et intégrale (fraction exp ou ln)
+Calcul de l'intégrale d'un produit de fonctions avec exp ou ln via la détermination d'une primitive de forme donnée.
+
+
+:H6/analysis/oefintegrale.fr
+exo=prim2int4bis&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Primitive et intégrale (ln)
+Calcul de l'intégrale d'un produit de fonctions avec exp ou ln via la détermination d'une primitive de forme donnée.
+
+:H5/analysis/oefintts.fr
+exo=ipp&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Intégration par partie
+Intégration par parties.
+
+
+:H6/analysis/oefinteg1.fr
+exo=Calculintgral3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul intégral III
+Calculer une intégrale à l'aide d'une intégration par parties.
+
+
+:H6/analysis/oefinteg1.fr
+exo=Fonctionetintg&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fonction et intégrale
+Déterminer les variations d'une fonction donnée sous forme intégrale.
+
+
+:H6/analysis/oefintegrale.fr
+exo=aire1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Aire entre une courbe et l'axe des x
+Calculer l'aire entre une courbe et l'axe des abscisses.
+
+
+:H6/analysis/oefinteg1.fr
+exo=Aireetintgrale&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Aire et intégrale
+Calculer l'aire entre une courbe et l'axe des abscisses.
+
+
+:H6/analysis/oefintegrale.fr
+exo=aire2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Aire entre une droite et une courbe
+Calculer l'aire entre une courbe et une droite.
+
+
+:H6/analysis/oefintegrale.fr
+exo=aire3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Aire entre deux courbes
+Calculer l'aire entre deux courbes.
+
+
+:H6/analysis/oefinteg1.fr
+exo=Aire2courbes&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Aire 2 courbes
+Calculer l'aire entre deux courbes.
+
+
+:H6/analysis/oefintegrale.fr
+exo=aire4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul d'aire (avec exp)
+Calculer l'aire entre une courbe et une droite.
+
+
+:H5/analysis/oefintts.fr
+exo=aire2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Aire entre deux courbes
+Aire entre deux courbes.
+
+
+:H5/analysis/oefintts.fr
+exo=aire&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Aires et intégrales
+Calcul d'aire.
+
+Niveau L1.
+:H5/analysis/oefintts.fr
+exo=equaire&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Détermination d'une aire donnée
+Détermination de la borne d'une intégrale sachant sa valeur connue.
+
+
+:H6/analysis/oefintegrale.fr
+exo=moyenne&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Moyenne de fonction
+Estimer puis calculer la valeur moyenne d'une fonction.
+
+
+:U1/analysis/oefintnum.fr
+exo=approxint2
+10
+1
+Intégrale numérique (rectangles)
+Encadrer une intégrale à l'aide de la méthode des rectangles.
+
+
+:U1/analysis/oefintnum.fr
+exo=approxint3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Intégrale numérique (rectangles) 2
+Encadrer une intégrale à l'aide de la méthode des rectangles.
+
+
+:H4/programming/oefalgopython.fr
+exo=rectangle1
+10
+1
+Méthode des rectangles
+Méthode des rectangles et Python.
+
+
+:H4/programming/oefalgopython.fr
+exo=milieu1
+10
+1
+Méthode des milieux
+Méthode des milieux et Python.
+
+
+:H4/programming/oefalgopython.fr
+exo=trapeze1&confparm1=ambiance&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Méthode des trapèzes
+Méthode des trapèzes et Python.
+
+

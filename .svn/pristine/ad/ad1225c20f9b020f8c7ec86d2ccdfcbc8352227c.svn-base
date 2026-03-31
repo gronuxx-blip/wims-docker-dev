@@ -1,0 +1,92 @@
+Alignement, droites parallèles, droites sécantes
+Étudier l'alignement de 3 points, le parallélisme de 2 droites, déterminer le point d’intersection de deux droites sécantes (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,geometry
+levelH4,line,coordinates,analytic_geometry,vectors,line_equation
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Étudier l'alignement de 3 points, le parallélisme de 2 droites, déterminer le point d’intersection de deux droites sécantes (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/h4droites.fr
+exo=3align1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Points alignés (1)
+<p>Déterminer l'abscisse du point \(M\) d'ordonnée donnée aligné avec deux points distincts \(A\) et \(B\) de coordonnées données.</p>
+
+
+:H4/algebra/h4droites.fr
+exo=3align2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Points alignés (2)
+<p>Déterminer l'ordonnée du point \(M\) d'abscisse donnée aligné avec deux points distincts \(A\) et \(B\) de coordonnées données.</p>
+
+
+:H4/geometry/droiteplanrep.fr
+exo=testparallred&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Droites parallèles (eq. réduite) ?
+<p>Déterminer si deux droites données par leurs équations réduites sont parallèles ou non.</p>
+
+
+:H4/geometry/droiteplanrep.fr
+exo=positionrelat&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Droites parallèles (eq. cartésienne) ?
+<p>Déterminer si deux droites données par leurs équations cartésiennes sont parallèles ou non.</p>
+
+
+:H4/geometry/droiteplanrep.fr
+exo=testparall4pts&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Droites parallèles ?
+<p>Les coordonnées des points \(A\), \(B\), \(C\), et \(D\) étant données, déterminer si les droites (\AB\) et \(CD\) sont parallèles.</p>
+
+
+:H4/geometry/droiteplanrep.fr
+exo=eqparallred&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation droite parallèle (eq réduite)
+<p>Déterminer l'équation réduite d'une droite parallèle à une droite d'équation réduite donnée passant par un point donné.</p>
+
+
+:H4/geometry/droiteplanrep.fr
+exo=asparalcart&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation droite parallèle (eq. cartésienne)
+<p>Déterminer une équation cartésienne d'une droite parallèle à une droite d'équation cartésienne donnée passant par un point donné.</p>
+
+
+
+:H4/algebra/h4droites.fr
+exo=selectEqAB3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Sélectionner une équation
+<p>QCM - Sélectionner parmi plusieurs équations cartésiennes de droites, celle qui correspond à la droite parallèle passant par un point de coordonnées données à la droite de vecteur directeur de coordonnées données.</p>
+
+
+:H4/geometry/droiteplanrep.fr
+exo=intersecredstep&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Point d'intersection de 2 droites (exercice guidé)
+<p>Calculer les coordonnées du point d'intersection de deux droites sécantes données par leurs équations réduites (exercice guidé).</p>
+
+
+:H4/geometry/droiteplanrep.fr
+exo=intersecred&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Point d'intersection de 2 droites
+<p>Calculer les coordonnées du point d'intersection de deux droites sécantes données par leurs équations réduites.</p>
+
+

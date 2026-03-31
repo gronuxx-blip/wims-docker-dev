@@ -1,0 +1,20 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Sophie, Lemaire
+!set gl_keywords=continuous_probability_distribution
+!set gl_title=Loi exponentielle
+!set gl_level=U1,U2,U3
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(a\) un réel > 0. La <strong>loi exponentielle</strong>
+\(\mathcal{E}(a)\) est la loi continue sur \(\RR_+\) de densité
+<div class="wimscenter">
+\(x\mapsto a e^{-a x}1_{x>0} \).
+</div>
+</div>
+<table class="wimsborder wimscenter">
+<tr><th>Espérance</th><th>Variance</th><th>Fonction caractéristique</th></tr>
+<tr><td>\(\frac{1}{a}\)</td><td>\(\frac{1}{a^2}\)</td><td>\(\frac{1}{1-i\frac{t}{a}}\)
+</td></tr></table>

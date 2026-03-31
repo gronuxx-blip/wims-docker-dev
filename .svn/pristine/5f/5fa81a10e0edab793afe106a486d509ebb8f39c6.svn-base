@@ -1,0 +1,38 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=complex_number
+!set gl_title=Forme algébrique d'un nombre complexe
+!set gl_level=H5 STI2D&nbsp;Spécialité, H6 Générale&nbsp;Experte
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \(x\) et \(y\) deux nombres réels.
+<br>
+Soit \(z\) le nombre complexe de partie réelle \(x\) et de partie imaginaire
+ <span class="nowrap">\(y\).</span>
+<br>
+La <strong>forme algébrique</strong> de \(z\) est <span class="nowrap">\(x+ \mathrm{i} y\).
+</span></div>
+:
+:
+<div class="wims_thm">
+<h4>Propriétés</h4>
+Soit \(x\), \(y\), \(x^{'}\) et \(y^{'}\) quatre nombres réels.
+<br>
+Si \(z=x+ \mathrm{i} y\) et \(z^{'}= x^{'}+ \mathrm{i} y^{'}\), alors&nbsp;:<br>
+<ul>
+<li>
+ la forme algébrique
+ de \(z+z^{'}\) est <span class="nowrap">\((x+ x^{'})+ \mathrm{i} (y+y^{'})\) ;</span>
+</li>
+<li>
+ la forme algébrique
+ de \(z\times z^{'}\) est <span class="nowrap">\((x x^{'}-y y^{'})+ \mathrm{i} (x y^{'}+x^{'} y)\).</span>
+</li>
+</ul>
+</div>
+:
+:

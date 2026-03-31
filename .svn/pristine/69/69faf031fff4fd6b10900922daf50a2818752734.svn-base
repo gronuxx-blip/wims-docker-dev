@@ -1,0 +1,48 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=power,exponent
+!set gl_title=Puissance entière d'un nombre (collège)
+!set gl_level=H3 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(a\) un nombre et \(n\) un entier naturel.
+<ul>
+<li>On suppose \(a\) non nul.<br>
+La <strong>puissance</strong> d'exposant \(n\) de \(a\) est le nombre noté
+\(a^n\) (&#171; \(a\) puissance \(n\) &#187; ou &#171; \(a\) exposant \(n\) &#187;) et défini par&nbsp;:
+ <ul>
+   <li><span class="nowrap">\(a^0=1\) ;</span></li>
+   <li><span class="nowrap">\(a^1=a\) ;</span></li>
+   <li>si \(n\geqslant 2\) alors \(a^n\) est le produit de \(n\) nombres tous
+   égaux à <span class="nowrap">\(a\).</span></li>
+</ul>
+La <strong>puissance</strong> d'exposant \(-n\) de \(a\) est le nombre noté
+\(a^{-n}\) (&#171; \(a\) puissance \(-n\) &#187; ou &#171; \(a\) exposant
+\(-n\) &#187;) et défini par&nbsp;:
+<span class="nowrap">\(a^{-n}=\frac{1}{a^n}\).</span>
+</li>
+<li>Si \(n\) est un entier naturel non nul&nbsp;: <span class="nowrap">\(0^n=0\).</span></li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm"><h4>Conséquence</h4>
+Pour tout entier relatif <span class="nowrap">\(n\) :</span> <span class="nowrap">\(1^n=1\).</span>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+\(a^2\) se lit &#171; \(a\) au carré &#187;&nbsp;; \(a^2\) est le carré de <span class="nowrap">\(a\).</span><br>
+\(a^3\) se lit &#171; \(a\) au cube &#187;&nbsp;; \(a^3\) est le cube de <span class="nowrap">\(a\).</span>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Cas particulier&nbsp;: puissances de \(10\)</h4>
+Soit \(n\) un entier naturel supérieur ou égal à <span class="nowrap">\(2\),</span> alors \(10^n\) s'écrit avec un \(1\) suivi de \(n\) zéros, \(10^{-n}\) est le nombre décimal de partie entière \(0\) et de partie décimale formée de \(n-1\) zéros suivis d'un <span class="nowrap">\(1\).</span>
+</div>
+

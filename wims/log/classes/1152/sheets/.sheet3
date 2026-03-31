@@ -1,0 +1,60 @@
+
+:H4/algebra/puissances.fr
+exo=val1&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Puissance d'un entier
+
+:H4/algebra/puissances.fr
+exo=signe1&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Signe d'une puissance
+
+:H4/algebra/puissances.fr
+exo=transpuiss&confparm1=1&confparm1=2&confparm1=3&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Puissances (I)
+
+:H4/algebra/puissances.fr
+exo=transpuiss&confparm1=10&confparm1=11&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Puissances (II)
+
+:H4/algebra/racine1.fr
+exo=transfrac&confparm1=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Racines carrées (I)
+
+:H4/algebra/racine1.fr
+exo=transfrac&confparm1=4&confparm1=6&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Racines carrées (II)
+
+:H4/algebra/racine1.fr
+exo=transfrac&confparm1=3&confparm1=5&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Racines carrées (III)
+
+:H4/algebra/racine1.fr
+exo=transfrac&confparm1=7&confparm1=9&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Racines carrées (IV)
+
+:H4/algebra/racine1.fr
+exo=transfrac&confparm1=8&confparm1=10&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Racines carrées (V)
+
+:H4/algebra/racine1.fr
+exo=transfrac&confparm1=11&confparm1=12&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Racines carrées (VI)

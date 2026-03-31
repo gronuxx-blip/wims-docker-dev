@@ -1,0 +1,403 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Fonction carré (exemple 2)
+!set gl_renew=1
+<style>
+/*<![CDATA[*/
+#tab_val_gl2{
+    width : 90%;
+    margin: auto;
+  }
+#tab_val_gl2 table{
+    border: 0.1em solid #000;
+    border-collapse:collapse;
+    table-layout:auto;
+  }
+#tab_val_gl2 th{
+    border: 0.1em solid #999;
+    margin: auto;
+    font-size: 0.75em;
+    }
+#tab_val_gl2 td {
+    border: 0.1em solid #999;
+    text-align: center;
+    font-size: 0.9em;
+    min-width:2em;
+  }
+#tab_val_gl2 thead, tfoot {
+    border: 0.1em solid #eaeaea;
+    background: #999999;
+    color: #fff;
+  }
+button#play:before{
+  content:"\23EF";
+  font-size: 1.5em;
+}
+button#pause:before{
+  content:"\23F8";
+  font-size: 1.5em;
+}
+button#reset:before{
+  content:"\23EE";
+  font-size: 1.5em;
+}
+/*]]>*/
+</style>
+!!Génération de 5 rationnels (des décimaux en fait !)
+!set gl_ratio=!exec pari (Rat()=my(nb);nb=random({[-50,50]})/random({[10,10]});while(denominator(nb)==1||nb>5||nb<-5,nb=random({[-50,50]})/random({[10,10]}));nb);(Gene(n)=my(V);V=vector(n,i,i=Rat());V;);Gene(5)
+!!Suppression des doublons parmi ces 5 rationnels
+!set gl_ratio=!listuniq $gl_ratio
+!!Passage à l'écriture décimale
+!for r in $gl_ratio
+  !set r_dec=!eval $r
+  !set gl_dec=!append item $r_dec to $gl_dec
+!next r
+!!Génération des entiers de -5 à 5
+!set gl_entier=!makelist x for x=-5 to 5
+!!L'ensemble des abscisses des points à représenter
+!set gl_ens_abs=!listunion $gl_dec and $gl_entier
+!!set gl_ens_abs=$gl_entier
+!!Classer les valeurs des abscisses dans l'ordre croissant
+!set gl_ens_abs=!exec pari (L=Vec(List([$gl_ens_abs])));vecsort(L)
+!!Écriture avec une virgule
+!for d in $gl_ens_abs
+  !set d_virg=!replace internal . by &#44; in $d
+  !set gl_ens_abs_aff=!append item $d_virg to $gl_ens_abs_aff
+!next d
+!!Calcul de l'ensemble des images
+!set gl_fonc_ref=x*x
+!set gl_ens_ord=!exec pari M=[$gl_fonc_ref | x <- [$gl_ens_abs]]
+!!Code latex des valeurs des images
+!for e2 in $gl_ens_ord
+  !!set e2_tex=!texmath $e2
+  !set e2_virg=!replace internal . by &#44; in $e2
+  !set gl_ens_abs_ord_aff=!append item $e2_virg to $gl_ens_abs_ord_aff
+!next e2
+!!Nombre de valeurs et de colonnes du tableau de valeurs
+!set gl_nb_val=!itemcnt $gl_ens_abs
+!set gl_nb_col=$[$gl_nb_val+1]
+!set gl_jsxscript=\
+    const val=[$gl_ens_abs];\
+    const nb_valeurs=val.length;\
+    let cpt_cell=1;\
+    let cpt=0;\
+    let myInterval=null;\
+    let cpt_on_pause=null;\
+    let all_object_created=[];\
+    let point_drawed=[];\
+    let play_on = new Boolean(false);\
+    const tabval=document.querySelector("#tab_val_gl2");\
+    const tabval_tbody=document.querySelector("tbody");\
+    const line1=tabval_tbody.firstElementChild;\
+    const line2=tabval_tbody.lastElementChild;\
+    const cell_line1=line1.children;\
+    const cell_line2=line2.children;\
+    const button_play=document.querySelector("#play");\
+    button_play.addEventListener('click',play);\
+    button_play.style.cursor = "pointer";\
+    const button_pause=document.querySelector("#pause");\
+    button_pause.style.cursor = "auto";\
+    const button_reset=document.querySelector("#reset");\
+    button_reset.style.cursor = "auto";\
+    let ind_cell;\
+    for (ind_cell=1;ind_cell<=nb_valeurs;ind_cell++){\
+        cell_line1[ind_cell].addEventListener('click',select_td,false);\
+        cell_line1[ind_cell].style.cursor = "pointer";\
+        cell_line2[ind_cell].addEventListener('click',select_td,false);\
+        cell_line2[ind_cell].style.cursor = "pointer";\
+    }\
+    JXG.Options.axis.lastArrow = false;\
+    const brd2 = JXG.JSXGraph.initBoard(\
+        container = 'mybox2',\
+        attributes = {\
+            axis:true,\
+            grid:false,\
+            boundingbox:[-6,35, 6, -3],\
+            keepAspectRatio:false,\
+            resize:{enabled: true, throttle: 200},\
+            zoom: {\
+             pinchHorizontal: false,\
+             pinchVertical: false,\
+             pinchSensitivity: 7,\
+             min: 0.5,\
+             max: 2,\
+             wheel: true,\
+             needShift: false\
+           },\
+           pan: {\
+             needTwoFingers: false,\
+             needShift: true\
+           },\
+          showFullscreen: true,\
+          fullscreen: {\
+                 symbol: '\u26f6'\
+             },\
+          showNavigation:true,\
+          showCopyright:false,\
+        },\
+        );\
+        brd2.renderer.displayCopyright('Figure réalisée avec JSXGraph v'+JXG.version,11);\
+        let gl2_p1 = brd2.create(\
+            elementType='point',\
+            parents=[val[0],val[0]*val[0]],\
+            attributes={\
+                        showInfobox:false,\
+                        face:'+',\
+                        name:'P',\
+                        withLabel : false,\
+                        strokeColor:'#008854',\
+                        strokeWidth:1,\
+                        fixed:false,\
+                        visible:false,\
+                        shadow:false,\
+                        trace:false,\
+                        }\
+                            );\
+        let gl2_button_graph=brd2.create('button',[-5,32,'Tracer la courbe',draw_curve],{visible:true});\
+        gl2_button_graph.rendNodeButton.setAttribute('style','border:0.20em solid #008854;border-radius:0.5em;font-weight:bold;cursor:pointer');\
+        gl2_button_graph.rendNodeButton.hidden=true;\
+        gl2_button_graph.rendNodeButton.disabled=true;\
+function f(x){return $gl_fonc_ref}\
+function draw_curve(){\
+  let gl2_graph_f=brd2.create('functiongraph',[f,-15,15],{strokeColor:'#008854'});\
+  all_object_created.push(gl2_graph_f);\
+  gl2_button_graph.rendNodeButton.disabled=true;\
+  gl2_button_graph.rendNodeButton.setAttribute('style','border:0.20em solid #eaeaea;border-radius:0.5em;font-weight:bold;cursor:default');\
+}\
+function draw_point(){\
+    if (!already_draw(cpt)){\
+      cell_line1[cpt+1].removeEventListener('click',select_td,false);\
+      cell_line1[cpt+1].style.cursor = "not-allowed";\
+      cell_line2[cpt+1].removeEventListener('click',select_td,false);\
+      cell_line2[cpt+1].style.cursor = "not-allowed";\
+      if (cpt<=nb_valeurs) {\
+          gl2_p1.moveTo([val[cpt],f(val[cpt])],400,{effect:'<>', callback: fixer});\
+          point_drawed.push(cpt);\
+          if (play_on && point_drawed.length==nb_valeurs){\
+            gl2_button_graph.rendNodeButton.hidden=false;\
+            gl2_button_graph.rendNodeButton.disabled=false;\
+            gl2_button_graph.rendNodeButton.setAttribute('style','border:0.20em solid #008854;border-radius:0.5em;font-weight:bold;cursor:pointer');\
+          }\
+          cpt++;\
+        }\
+      }\
+    else{\
+      cpt++;\
+      }\
+  };\
+function fixer(){\
+    let gl2_p = brd2.create(\
+            elementType='point',\
+            parents=[gl2_p1.X(),gl2_p1.Y()],\
+            attributes={\
+                        showInfobox:false,\
+                        face:'+',\
+                        withLabel : false,\
+                        strokeColor:'#008854',\
+                        strokeWidth:2,\
+                        fixed:true,\
+                        visible:true,\
+                        shadow:false,\
+                        trace:false,\
+                        }\
+                            );\
+    all_object_created.push(gl2_p);\
+    let gl2_l1 = brd2.create(\
+              'segment',\
+              [[gl2_p1.X(),0],[gl2_p1.X(),gl2_p1.Y()]],\
+              {\
+                strokeColor : '#008854',\
+                strokeOpacity : 0.6,\
+                strokeWidth : 1,\
+                dash : 2,\
+                fixed:true,\
+              }\
+                      );\
+    all_object_created.push(gl2_l1);\
+    let gl2_l2 = brd2.create(\
+              'segment',\
+              [[gl2_p1.X(),gl2_p1.Y()],[0,gl2_p1.Y()]],\
+              {\
+                strokeColor : '#008854',\
+                strokeOpacity : 0.6,\
+                strokeWidth : 1,\
+                dash : 2,\
+                fixed:true,\
+              }\
+                      );\
+    all_object_created.push(gl2_l2);\
+   };\
+function highlight_cell(){\
+    if (cpt_cell<=nb_valeurs && cpt_cell>0){\
+      if (!already_draw(cpt)){\
+        cell_line1[cpt_cell].style.backgroundColor="#008854";\
+        cell_line2[cpt_cell].style.backgroundColor="#008854";\
+      };\
+      draw_point();\
+      tabval.scrollTo(32*cpt,0);\
+      not_highlight_cell(cpt_cell-1);\
+      if (cpt_cell==nb_valeurs){\
+        not_highlight_cell(cpt_cell);\
+        }\
+      }\
+    cpt_cell++;\
+  };\
+function not_highlight_cell(arg){\
+    cell_line1[arg].setAttribute('style','color:#0000ff;font-weight:bold;transition-duration: 1s;transition-property: background-color;');\
+    cell_line2[arg].setAttribute('style','color:#0000ff;font-weight:bold;transition-duration: 1s;transition-property: background-color;');\
+    cell_line1[arg].setAttribute('style','background-color:#ade6ad;');\
+    cell_line2[arg].setAttribute('style','background-color:#ade6ad;');\
+  };\
+function play(){\
+    if (cpt_on_pause){\
+      cpt = cpt_on_pause;\
+      cpt_cell = cpt+1;\
+      }\
+    else {\
+      cpt = 0;\
+      cpt_cell = 1;\
+     }\
+    button_play.removeEventListener('click',play);\
+    button_play.style.cursor = "auto";\
+    button_pause.addEventListener('click',pause);\
+    button_pause.style.cursor = "pointer";\
+    button_reset.removeEventListener('click',reset);\
+    button_reset.style.cursor = "auto";\
+    play_on = true;\
+    for (let j=cpt;j<=nb_valeurs;j++){\
+        cell_line1[j].style.cursor = "auto";\
+        cell_line2[j].style.cursor = "auto";\
+    }\
+    myInterval=setInterval(move_on_cell,800);\
+    brd2.update();\
+  }\
+function pause(){\
+    play_on = false;\
+    cpt_on_pause = cpt;\
+    for (let j=cpt+1;j<=nb_valeurs;j++){\
+        cell_line1[j].style.cursor = "pointer";\
+        cell_line2[j].style.cursor = "pointer";\
+    }\
+    clearInterval(myInterval);\
+    button_pause.removeEventListener('click',pause);\
+    button_pause.style.cursor = "auto";\
+    button_play.addEventListener('click',play);\
+    button_play.style.cursor = "pointer";\
+    button_reset.addEventListener('click',reset);\
+    button_reset.style.cursor = "pointer";\
+}\
+  function reset(){\
+    cpt=0;\
+    cpt_cell=1;\
+    cpt_on_pause=null;\
+    brd2.removeObject(all_object_created);\
+    all_object_created=[];\
+    point_drawed=[];\
+    button_play.addEventListener('click',play);\
+    button_play.style.cursor = "pointer";\
+    button_reset.removeEventListener('click',reset);\
+    button_reset.style.cursor = "auto";\
+    tabval.scrollTo(0,0);\
+    play_on=false;\
+    gl2_button_graph.rendNodeButton.hidden=true;\
+    gl2_button_graph.rendNodeButton.disabled=true;\
+    gl2_button_graph.rendNodeButton.setAttribute('style','border:0.20em solid #008854;border-radius:0.5em;font-weight:bold;cursor:pointer');\
+    for (ind_cell=0;ind_cell<=nb_valeurs;ind_cell++){\
+        cell_line1[ind_cell].setAttribute('style','border:solid 0.1em #999;color:#000;cursor:pointer');\
+        cell_line2[ind_cell].setAttribute('style','border:solid 0.1em #999;color:#000;cursor:pointer');\
+        cell_line1[ind_cell].addEventListener('click',select_td,false);\
+        cell_line2[ind_cell].addEventListener('click',select_td,false);\
+    }\
+}\
+function move_on_cell(){\
+    if (cpt_cell<=nb_valeurs){\
+       highlight_cell();\
+    }\
+    else {\
+      clearInterval(myInterval);\
+      button_pause.removeEventListener('click',pause);\
+      button_pause.style.cursor = "auto";\
+      button_play.removeEventListener('click',play);\
+      button_play.style.cursor = "auto";\
+      button_reset.addEventListener('click',reset);\
+      button_reset.style.cursor = "pointer";\
+      gl2_button_graph.rendNodeButton.hidden=false;\
+      gl2_button_graph.rendNodeButton.disabled=false;\
+    }\
+  }\
+function highlight_cell_on_click(){\
+  cell_line1[cpt_cell].setAttribute('style','background-color:#ade6ad;font-weight:bold;');\
+  cell_line2[cpt_cell].setAttribute('style','background-color:#ade6ad;font-weight:bold;');\
+  draw_point();\
+  if (point_drawed.length==nb_valeurs){\
+    button_reset.addEventListener('click',reset);\
+    button_reset.style.cursor = "pointer";\
+    gl2_button_graph.rendNodeButton.hidden=false;\
+    gl2_button_graph.rendNodeButton.disabled=false;\
+    };\
+}\
+function select_td(){\
+    if (play_on==false){\
+      let n=this.cellIndex;\
+      cpt_cell=n;\
+      cpt=n-1;\
+      highlight_cell_on_click();\
+      }\
+  };\
+select_td.bind(ind_cell);\
+function already_draw(c){\
+  if (point_drawed.length==0){return false;}\
+  else {\
+    for(let k=0;k<point_drawed.length;k++)\
+      {\
+        if (point_drawed[k]==c){\
+            return true;\
+          }\
+      }\
+      return false;\
+  }\
+}
+
+<div>
+    <div class="grid-container fluid">
+      <div class="grid-x grid-margin-x">
+        <div class="cell small-12 medium-6 large-8" >
+               <h4 class="wimscenter">Exemple - Une représentation de la fonction carré</h4>
+               <p>Le plan est muni d'un repère orthogonal.<br>On note \(f\) la fonction carré, définie pour tout réel \(x\) par <span class="nowrap">\(f(x)=x^2\).</span> Pour tracer une représentation graphique de \(f\) sur l'intervalle <span class="nowrap">\( \left \lbrack -5;5 \right \rbrack \),</span> on utilise un tableau de valeurs.</p>
+               <h5 class="wimscenter">Exemple d'un tableau de valeurs de \(f\) sur l'intervalle \( \left \lbrack -5;5 \right \rbrack \)</h5>
+              <table id="tab_val_gl2" class="unbreakable" >
+                <tbody>
+                  !for i2=1 to 2
+                    <tr>
+                      <th scope="row">
+                        !if $i2=1
+                          \(x\)
+                          !set gl_line=$gl_ens_abs_aff
+                        !else
+                          \(f(x)\)
+                          !set gl_line=$gl_ens_abs_ord_aff
+                        !endif
+                      </th>
+                      !for j2=1 to $gl_nb_val
+                        <td>\($(gl_line[$j2])\)</td>
+                      !next j2
+                    </tr>
+                  !next i2
+                </tbody>
+              </table>
+	      <div id="buttons_gl2" class="wimscenter">
+	        <button id="play" class="gl2_button_test" title="Démarrer l'animation"></button>
+		      <button id="pause" class="gl2_button_test" title= "Mettre en pause l'animation"></button>
+		      <button id="reset" class="gl2_button_test" title="Réinitialiser l'animation"></button>
+	      </div>
+        </div>
+        <div class="cell small-12 medium-6 large-4">
+          <div>
+            !readproc slib/geo2D/jsxgraph  mybox2 brd2, [200x200,min=200px max=400px scroll],$gl_jsxscript
+            $slib_out
+          </div>
+          <span class="wimscenter"><em>Pour dessiner des points de la courbe lancer l'animation ou cliquer sur les colonnes de coordonnées du tableau</em></span>
+        </div>
+      </div>
+    </div>
+  </div>

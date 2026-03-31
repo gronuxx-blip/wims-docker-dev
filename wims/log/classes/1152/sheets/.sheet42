@@ -1,0 +1,426 @@
+
+:H6/analysis/OEFderivee.fr
+exo=form1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Formules1 (monômes)
+Dérivée de monômes.
+
+
+:H6/analysis/quizder.en
+exo=formulas&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Formules
+Formules de dérivation.
+
+
+:H6/analysis/OEFderivee.fr
+exo=der1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée de polynôme 1
+Dérivée d'une fonction polynomiale.
+
+Très simple
+:H6/analysis/OEFderivee.fr
+exo=der2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée de polynôme 2
+Dérivée d'une fonction polynomiale.
+
+
+:H6/analysis/OEFderivee.fr
+exo=der6&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée de trinôme degré2
+Dérivée d'une fonction polynomiale.
+
+
+:H5/analysis/exoder.fr
+exo=Drivedunefonct&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée d'une fonction polynôme
+Déterminer la dérivée d'une fonction polynomiale.
+
+
+:U1/analysis/oefDerives.fr
+exo=derives3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée d'un polynôme du 2ème degré
+Déterminer la dérivée d'une fonction polynomiale.
+
+
+:U1/analysis/oefDerives.fr
+exo=derives4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée d'un polynôme
+Déterminer la dérivée d'une fonction polynomiale.
+
+
+:H6/analysis/quizder.en
+exo=poly&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivées polynomiales
+Déterminer la dérivée d'une fonction polynomiale.
+
+
+:H5/analysis/oefderivee.fr
+exo=derchc&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée d'une fonction polynomiale.
+Déterminer la dérivée d'une fonction polynomiale.
+
+
+:H6/analysis/OEFderivee.fr
+exo=form2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Formules2 (polynômes)
+Dérivées de fonctions polynomiales.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=dirderive1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul direct de dérivée 1
+Déterminer la dérivée d'une somme avec des fonctions puissances, racine, inverse.
+
+
+:H5/analysis/oefderivee.fr
+exo=derfacto1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée à factoriser (1)
+Déterminer la dérivée d'une fonction polynomiale et la factoriser.
+
+
+:H5/analysis/oefderivee.fr
+exo=derfacto2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée à factoriser (2)
+Déterminer la dérivée d'une fonction polynomiale et la factoriser.
+
+niveau première
+:H6/analysis/oefderiv.fr
+exo=poly2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Polynôme II
+Déterminer la dérivée d'une fonction polynomiale.
+
+Avec outil "calculatrice de fonction"
+:H6/analysis/OEFcontinueTS.fr
+exo=racinen2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+La fonction racine n-ième 2
+Déterminer la dérivée d'une fonction puissance.
+
+
+:H5/analysis/derivation1ere.fr
+exo=deriverProduit
+10
+1
+Dérivée d'un produit
+Dérivée d'un produit par étapes.
+
+Dérivée de produit de polynômes. À partir de la première
+:H6/analysis/OEFderiveTS.fr
+exo=dirderive2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul direct de dérivée 2
+Déterminer la dérivée d'un produit.
+
+Polynôme, racine carrée. Première
+:H6/analysis/oefderiv.fr
+exo=multvert1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Multiplication virtuelle I
+Déterminer l'expression de la dérivée d'un produit de fonctions.
+
+
+:H5/analysis/exoder.fr
+exo=Drviedelinvers&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée de l'inverse d'une fonction.
+Étude d'une fonction inverse.
+
+
+:H5/analysis/derivation1ere.fr
+exo=deriverQuotient
+10
+1
+Dérivée d'un quotient.
+Dérivée d'un quotient par étapes.
+
+Niveau première
+:H6/analysis/OEFderivee.fr
+exo=div1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée d'un quotient simple.
+Dérivée d'un quotient par étapes.
+
+À partir de la première
+:H6/analysis/OEFderiveTS.fr
+exo=dirderive3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul direct de dérivée 3
+Déterminer la dérivée d'un quotient.
+
+Fonctions rationnelles a priori. À partir de la première
+:U1/analysis/oefDerives.fr
+exo=derives5&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée d'une fraction rationnelle
+Déterminer la dérivée d'une fraction rationnelle.
+
+
+:H6/analysis/quizder.en
+exo=frac1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fractions I
+Déterminer la dérivée d'une fraction rationnelle.
+
+
+:H6/analysis/quizder.en
+exo=frac2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fractions II
+Déterminer la dérivée d'une fraction rationnelle.
+
+
+:H6/analysis/oefderiv.fr
+exo=rat
+10
+1
+Fonctions rationnelles I
+Déterminer la dérivée d'une fraction rationnelle.
+
+
+:H6/analysis/oefderiv.fr
+exo=rat2
+10
+1
+Fonctions rationnelles II
+Déterminer la dérivée d'une fraction rationnelle.
+
+À partir de la première
+:U1/analysis/oefDerives.fr
+exo=derives6&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée d'un polynôme à une puissance
+Déterminer la dérivée de la composée d'une fonction polynomiale par une fonction puissance.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=dirderive4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul direct de dérivée 4
+Déterminer la dérivée d'une composée simple.
+
+
+:H6/analysis/oefderiv.fr
+exo=compvert1a
+10
+1
+Composition virtuelle Ia
+Expression de la dérivée d'une composée.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=compderive1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dérivée composée 1
+Déterminer la dérivée d'une composée.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=compderive2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dérivée composée 2
+Déterminer la dérivée d'une composée.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=compderive3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dérivée composée 3
+Déterminer la dérivée d'une composée.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=compderive4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dérivée composée 4
+Déterminer la dérivée d'une composée.
+
+
+:H5/analysis/exoder.fr
+exo=Calculdunombre&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul du nombre dérivé
+Détermination de l'équation d'une tangente via le calcul de la dérivée.
+
+À partir de la première
+:H5/analysis/OEFevalwimsder1.fr
+exo=tangente3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Équation de tangente 3
+collection d'exercices d'autopositionnement Première S: Fonctions dérivées.
+
+Déterminer le nombre de tangentes de coefficient directeur donné.
+:H6/analysis/quizder.en
+exo=growpos&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Croissance et signe
+Lien entre les variations et le signe.
+
+
+:H5/analysis/exoder.fr
+exo=Lienentrevaria&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Lien entre variation et signe de la dérivée 1
+Lien entre les variations et le signe.
+
+
+:H5/analysis/exoder.fr
+exo=Lienentrevaria2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Lien entre variation et signe de la dérivée 2
+Lien entre les variations et le signe.
+
+
+:H5/analysis/exoder.fr
+exo=Lienentrevaria3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Lien entre variation et signe de la dérivée 3
+Lien entre les variations et le signe.
+
+
+:H5/analysis/exoder.fr
+exo=Variationsdunp2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Variations d'un polynôme : graphique
+Lien entre les variations et le signe.
+
+
+:H5/analysis/exoder.fr
+exo=Variationsdunp3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Variations d'un polynôme : graphique 2
+Lien entre les variations et le signe.
+
+
+:U1/analysis/graphder.en
+repeat=1&asktype=1&present=3&list=3
+10
+1
+Dérivée graphique
+Reconnaître le graphe de la dérivée d'une fonction.
+
+Lecture graphique, à partir de la première
+:H5/analysis/OEFevalwimsder1.fr
+exo=signeder4
+10
+1
+Signe de la dérivée et variations 4
+Reconnaître le graphe de la dérivée d'une fonction.
+
+
+:U1/analysis/oefderiv.fr
+exo=contder&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Continuité de dérivée
+Lien entre continuité et dérivabilité.
+
+
+:U1/analysis/oefderiv.fr
+exo=dercourb&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Courbe d'une fonction et de ses dérivées
+Reconnaître le graphe de f, de f' et de f''.
+
+
+:H6/analysis/oefconvexity.fr
+exo=convexite&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Étude de la convexité
+Étude de la convexité d'une fonction.
+
+
+:H6/analysis/oefconvexity.fr
+exo=graph&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Lecture graphique de la convexité
+Lecture graphique de la convexité d'une fonction.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=dersucc1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dérivées successives 1
+Déterminer des dérivées d'ordre supérieur.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=dersucc2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dérivées successives 2
+Dérivées d'ordre supérieur et polynôme.
+
+
+:H5/analysis/derivation1ere.fr
+exo=varTrinome
+10
+1
+Variation d'un polynôme du second degré
+Étude d'un polynôme du second degré.
+
+Niveau première
+:H5/analysis/derivation1ere.fr
+exo=varPolydeg3
+10
+1
+Étude guidée d'un polynôme (deg.3)
+Étude d'une fonction polynomiale.
+
+Niveau première
+

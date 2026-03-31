@@ -1,0 +1,21 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=real_number,inequalities,order
+!set gl_title=Encadrement (lycée)
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définitions</h4>
+<p>Soit \(x\) un nombre réel et soit deux nombres réels \(a\) et \(b\) tels que <span class="nowrap">\(a \leqslant x \leqslant b \).</span><br>
+La double inégalité \(a \leqslant x \leqslant b \) est un <strong>encadrement</strong> du nombre réel <span class="nowrap">\(x\).</span><br>
+Le réel positif \(b-a\) est <strong>l'amplitude</strong> de cet encadrement.
+</p>
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>Soit \(x\) un nombre réel et soit \(n\) un entier naturel.<br>
+Donner un <strong>encadrement décimal à \(10^{-n}\) près</strong> de \(x\) c'est donner un encadrement de \(x\) d'amplitude inférieure ou égale à \(10^{-n}\) par deux nombres décimaux.</p>
+</div>

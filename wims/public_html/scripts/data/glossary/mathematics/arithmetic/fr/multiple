@@ -1,0 +1,25 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=arithmetic,divisibility
+!set gl_title=Multiple d'un nombre entier
+!set gl_level=E6 Cycle&nbsp;3
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(a\) et \(b\) deux nombres entiers.<br>
+On dit que \(a\) est un <strong>multiple</strong> de \(b\) s'il existe un nombre entier \(k\) tel que&nbsp;:
+<span class="nowrap">\(a=k\times b\).</span></div>
+:
+:
+<div class="wims_rem"><h4>Remarques</h4>
+<ul>
+<li>Tout nombre entier est un multiple de 1.</li>
+<li>0 est un multiple de tout nombre entier.</li>
+<li>Tout nombre entier est un multiple de lui-même.</li>
+<li>Si le nombre entier \(a\) est un multiple d'un nombre entier \(b\) alors \(b\) est un diviseur de <span class ="nowrap">\(a\).</span></li>
+<li>Si le nombre entier \(b\) est un diviseur du nombre entier \(a\) alors \(a\) est un multiple de <span class ="nowrap">\(b\).</span></li>
+</ul>
+</div>
+:mathematics/arithmetic/fr/multiple_1

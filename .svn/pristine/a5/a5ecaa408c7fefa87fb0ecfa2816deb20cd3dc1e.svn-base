@@ -1,0 +1,20 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Vitesse moyenne
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+<div><em>Des unités de longueur et de temps étant choisies, on considère l'unité de vitesse associée</em>. </div>
+<div class="spacer">
+La <strong>vitesse moyenne</strong> \(v_m\) d'un objet en mouvement pendant une durée \(t\) non nulle est égale au quotient de la distance parcourue \(d\) par la  durée <span class="nowrap">\(t\) :</span>
+<div class="wimscenter">
+\(v_m=\dfrac{d}{t}\)
+
+</div>
+</div>
+</div>

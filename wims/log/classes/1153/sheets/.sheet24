@@ -1,0 +1,71 @@
+Notions de multiples et diviseurs
+Collection d'exercices sur les notions de multiples et diviseurs (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics
+levelH4,arithmetic,divisibility,irreducible_fraction
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur les notions de multiples et diviseurs (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H3/arithmetic/oefarith.fr
+exo=multiple&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Donner un multiple d'un nombre entier naturel
+<p>Indiquer un multiple d'un nombre entier donné différent de 0 et de lui-même.</p>
+
+
+
+cerveau
+:H3/arithmetic/oefarith.fr
+exo=diviseur&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Donner un diviseur d'un nombre entier naturel
+<p>Indiquer un diviseur d'un nombre entier non premier.</p>
+
+
+
+cerveau
+:H3/arithmetic/oefarith.fr
+exo=listdiv&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Donner la liste des diviseurs d'un entier naturel
+<p>Lister les diviseurs positifs d'un nombre entier naturel donné.</p>
+
+
+
+cerveau
+:H3/arithmetic/oefarith.fr
+exo=listdivcom&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Lister les diviseurs communs à deux entiers naturels
+<p>Après avoir listé les diviseurs positifs de chacun des deux entiers donnés, en déduire la liste des diviseurs positifs communs à ces deux entiers.</p>
+
+
+
+cerveau
+:H3/arithmetic/oefarith.fr
+exo=DiviseurMultiple&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Diviseur - multiple
+<p>À partir d'une égalité donnée, en déduire si l'entier proposé est un diviseur ou un multiple d'un autre entier.</p>
+
+
+
+cerveau
+:H3/arithmetic/oefarith.fr
+exo=critere1&exo=critere2&qnum=2&random=0&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Fractions irréductibles
+<p>Réduire une fraction en utilisant les critères de divisibilité</p>
+
+
+
+cerveau

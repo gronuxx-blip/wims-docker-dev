@@ -1,0 +1,30 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=factorization,power,literal_calculation
+!set gl_title=Identités remarquables
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+Pour tous nombres réels \(a\) et \(b\) :
+<ul>
+<li><span class="nowrap">\((a+b)^2=a^2+2ab+b^2\) ;</span></li>
+<li><span class="nowrap">\((a-b)^2=a^2-2 a b + b^2\) ;</span> </li>
+<li><span class="nowrap">\((a+b)(a-b)=a^2 - b^2\).</span></li>
+</ul>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+On peut utiliser ces identités remarquables&nbsp;:
+<ul>
+<li>soit, pour factoriser une expression algébrique de la forme <span class="nowrap">\(a^2+2ab+b^2\),</span> \(a^2-2ab+b^2\) ou <span class="nowrap">\(a^2 - b^2\) ;</span> 
+</li>
+<li>soit, pour développer une expression algébrique de la forme <span class="nowrap">\((a+b)^2\),</span> \((a-b)^2\) ou <span class="nowrap">\((a+b)(a-b)\).</span>
+</li>
+</ul>
+</div>

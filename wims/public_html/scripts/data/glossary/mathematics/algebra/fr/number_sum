@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Somme de deux nombres
+!set gl_level=E6 Cycle&nbsp;3
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>
+Soit \(a\) et \(b\) deux nombres.<br>
+La <strong>somme</strong> des nombres \(a\) et \(b\) est le résultat de l'addition des nombres \(a\) et <span class="nowrap">\(b\).</span><br>
+Les nombres \(a\) et \(b\) sont appelés <strong>termes</strong> de cette somme.
+</p>
+</div>

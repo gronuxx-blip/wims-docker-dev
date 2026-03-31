@@ -1,0 +1,120 @@
+!!!!
+!read getparm $module_init_parm wksheet
+!setdef wims_wksheet=$get_wksheet in wimshome/sessions/$wims_session/var.stat
+
+!if \ isin $parm1
+  !for p in 1
+    !set parm$p=!slashsubst $(parm$p)
+  !next p
+!endif
+!set parms=!slashsubst $(parms)
+!set add=$parm1
+!if ? isin $add
+  !set add=!translate internal ? to , in $add
+  !set add=!item 2 of $add
+!endif
+!set eq==
+!!for exercices and tools in a class, syntax of the form numero_sheet/numero_exercise
+!if $eq notin $add and $wims_class>0 and / isin $add \
+    and $prim iswordof exercise tool
+  !set add=!translate internal / to $ $ in $add
+  !distribute words $add into sh,ex
+  !set l_=!record $ex of wimshome/log/classes/$wims_class/sheets/.sheet$sh
+  !set sev=!record 0 of wimshome/log/classes/$wims_class/sheets/.severity
+  !set sev=!line $sh+1 of $sev
+  !distribute lines $l_ into m_,p_,a_,b_,t_,d_
+  !set m_exotitle=$t_
+  !set m_exodescription=$d_
+  !set prompt=!item 2 to -1 of $parms
+  !default prompt=$t_
+  !read docu/scoreprint $sh/$ex,$sev
+  !href target=wims_exo cmd=new&module=$m_&worksheet=$sh&$p_ $prompt
+  !exit
+!endif
+!set add=!replace internal &+ by & in $add
+!set add=!replace internal %2F by / in $add
+!read getparm $add wksheet
+!set add=!translate internal & to $ $ in $add
+!set n=!wordcnt $add
+!reset nadd,lmod,lses,lcmd naddw nadd1
+!for i=1 to $n
+  !set l=!word $i of $add
+  !set ll=!translate = to , in $l
+  !distribute items $ll into l1,l2
+  !if $l1=cmd and $l2 iswordof intro help close
+    !set lcmd=$l2
+  !endif
+  !if $l1=module
+    !set lmod=$l2
+  !endif
+  !if $l1 notwordof module cmd session wksheet worksheet
+    !set nadd=$nadd $l
+  !endif
+  !if $l1 iswordof worksheet
+    !set naddw=$l
+  !endif
+!next i
+!default lmod=home
+!default lcmd=new
+!set nadd=!trim $nadd
+!set nadd=!translate internal $ $ to & in $nadd
+!set prompt=!item 2 to -1 of $parms
+!default prompt=!module title_$lang $lmod
+!default prompt=!module title $lmod
+
+!default prompt=$n_unknown
+
+!if $prim=exercise
+  !reset ww_ naddw work
+  !if $naddw!=
+    !set ww_=$naddw
+  !else
+    !set ww_=&worksheet=$get_wksheet
+    !if $get_wksheet!=$empty and $get_wksheet!=0
+      !set work=!getexoindex module=$lmod param=$nadd sheet=$get_wksheet
+    !endif
+    !if $work=$empty
+      !set work=!getexoindex module=$lmod param=$nadd
+    !endif
+    !if $work!=$empty
+      !read docu/scoreprint $work
+      !set ww_=&worksheet=$tmp_sheet
+    !endif
+  !endif
+  !href target=wims_exo module=$lmod&cmd=$lcmd&$nadd$ww_ $prompt
+  !if $lcmd=new
+    !set nadd=!replace internal &+ by & in $nadd
+    !set nadd=!char 2 to -1 of $nadd
+    !set sheetdata=$sheetdata\
+:$lmod\
+$nadd\
+10\
+1\
+$prompt\
+\
+\
+\
+module=$module&doc=$doc&block=$block&cmd=new,9\
+
+  !endif
+!endif
+!if $prim=tool
+  !href target=wims_tool module=$lmod&cmd=$lcmd&$nadd $prompt
+!endif
+!if $prim=doc
+  !href target=wims_doc module=$lmod&cmd=$lcmd&$nadd $prompt
+!endif
+!if $prim=example
+  !href target=wims_example module=$lmod&cmd=$lcmd&$nadd $prompt
+!endif
+!if $prim=help
+  !href target=wims_help module=$lmod&cmd=$lcmd&$nadd $prompt
+!endif
+!if $prim=adm
+  !href module=$lmod&cmd=$lcmd&$nadd $prompt
+!endif
+!if $prim=glose
+  !set lcmd=reply
+  !set nadd=!replace internal & by &special_parm= in $nadd
+  !href module=adm/tool/glossary&cmd=$lcmd$nadd&job=main prompt
+!endif

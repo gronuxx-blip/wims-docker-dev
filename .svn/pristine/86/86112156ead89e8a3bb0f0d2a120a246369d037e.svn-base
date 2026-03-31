@@ -1,0 +1,72 @@
+\def{text name_1=Bravo.,Dernier niveau validé.}
+\def{text name_level=Niveau,niveaux disponibles.}
+\def{text name_2=Bravo. Le niveau,est atteint.}
+\def{text name_score=Meilleur score}
+\def{text name_try=Essais}
+\def{text name_bravo=Félicitations}
+\def{text name_3=On y est presque, essayez encore.,il va falloir s'entraîner encore.,
+  Vous n'avez pas encore essayé., vous n'avez pas encore commencé ?}
+\def{text name_4=Bravo ! Le niveau 1 est atteint}
+\def{text name_click=Cliquez sur , pour commencer.}
+<div class="wimscenter"><h2>\title</h2></div>
+<div>\desc</div>
+\def{text commentaires_profs=affichage ssi tous les niveaux précédents sont validés.}
+\def{text etoile=<img src="gifs/logo.gif" alt="wims" width="8%" hight="8%" align="right">}
+\for{k=1 to \nbexo}{
+  \if{\scorebests[\k]==10}{
+    \def{integer nmax=\k+1}}}
+\def{integer p=\scorebests[1]*10}
+\def{integer nscore=\scorebests[1]}
+\for{jk=2 to \nbexo}{
+  \def{integer ptemp=\scorebests[\jk]*10}
+  \def{text p=\p,\ptemp}
+  \def{integer tempnscore=\scorebests[\jk]*\nscore[\jk-1]}
+  \def{text nscore=\nscore,\tempnscore}}
+\for{jj=2 to \nbexo}{
+  \def{integer i=\nbexo-\jj+2}
+  \def{integer exoprecedent=\i-1}
+  \if{(\scorebests[\exoprecedent]=10) and (\exoprecedent<\nmax+1)}{
+    \if{\scorebests[\nbexo]==10 and \i==\nbexo}{
+      <div class="wims_question">
+      <b>\name_1[1]</b><br>\name_1[2]
+      <br><b>\name_bravo \user_firstname &#128540;</b></div>}
+    <div class="wims_question">
+      \if{\scorebests[\i]=10}{\for{kk=1 to \i}{\etoile}}
+      \exercise{\sheet/\i}{\name_level[1] \i}
+      \if{\scorealltries[\i]>0}{<br>\name_score :
+      \if{\p[\i]>79}{<b><span style="color:green"> \p[\i] &#37;</span></b>}{
+        \if{\p[\i]>50}{<span style="color:orange">\p[\i] &#37;</span>}{
+          <span style="color:red">\p[\i] &#37;</span>
+        }
+      }
+      <br>\name_try :<span style="color:#33ff6b;">
+      \def{integer essais=\scorealltries[\i]}
+      \for{kp=1 to \essais}{ &#9632; }
+      </span>
+      \if{\p[\i]=100}{<br>\name_2[1] \i name_2[2]}{
+        <br>\if{\p[\i]>75}{\name_3[1] \user_firstname,\name_3[2]}
+        {\user_firstname, \name_3[3]}
+      }
+    }{<br>\name_3[4] <b>\user_firstname</b>, \name_3[5]}
+  </div>}
+}
+<div class="wims_question">
+\if{\scorebests[1]=10}{\etoile}
+\exercise{\sheet/1}{\name_level[1] 1}
+\if{\scorealltries[1]>0}{<br>\name_score :
+  \if{\scorebests[1]>7.9}{<b><span style="color:green">\p[1] &#37;</span></b>}{
+    \if{\scorebests[1]>5}{
+      <span style="color:orange">\p[1] &#37;</span>}{
+      <span style="color:red">\p[1] &#37;</span>}}
+  \def{text bar1=&#9632;}
+  <br>\name_try :<span style="color:#33ff6b;">
+  \for{i0=1 to \scorealltries[1]}{&#9632;}</span>\if{\p[1]=100}{
+    <br>\name_4[1]}{
+    \if{\p[1]>75}{<br>
+      \name_3[1] \user_firstname, \name_3[2]}
+    {<br>\user_firstname, \name_3[3]}}}
+    {<br>\name_3[4], <b>\user_firstname</b>. \name_3[5]
+    <br>\name_click[1] \exercise{\sheet/1}{\name_level[1] 1} \name_click[2]}
+</div>
+<p>\nbexo \name_level[2]</p>
+        

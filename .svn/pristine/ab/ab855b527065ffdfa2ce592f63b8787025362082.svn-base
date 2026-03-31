@@ -1,0 +1,10 @@
+!readproc adm/class/checkuserscorecondition F$freework
+!! avoid possible confusion with variable names
+fwaccess=$output
+fwstart=$accessstart
+fwend=$accessend
+!if $fwstart!=$empty
+  begh_=!char 9 to 10 of $fwstart
+  begm_=!char 11 to 12 of $fwstart
+  !readproc adm/date.phtml $fwstart
+!endif

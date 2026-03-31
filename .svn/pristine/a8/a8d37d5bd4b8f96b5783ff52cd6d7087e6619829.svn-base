@@ -1,0 +1,57 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=graph,prob_graph,matrix
+!set gl_title=Graphe probabiliste
+!set gl_level=H6 Générale&nbsp;Experte
+:
+:
+:
+:
+<div class="wims_defn">
+    <h4>Définitions</h4>
+  <ul>
+    <li>
+      Un <strong>graphe probabiliste</strong> est un graphe orienté pondéré dans
+      lequel la somme des poids des arêtes issues de chaque sommet est égale à 1.
+    </li><li>
+      La <strong>matrice de transition</strong> associée à un graphe probabiliste
+      d'ordre \(n\) est la matrice carrée \(M =(a_{i,j})\) d'ordre \(n\) telle
+      que, pour tous entiers \(i\) et \(j\) vérifiant \(1\leqslant i\leqslant n\)
+      et <span class="nowrap">\(1\leqslant j\leqslant n\),</span>
+      \(a_{i,j}\) est égal au poids de l'arête orientée d'origine le sommet \(i\)
+      et d'extrémité le sommet \(j\) si cette arête existe, et est égal à \(0\)
+      sinon.
+      <br>
+      Cette matrice décrit le passage d'un état au suivant.
+    </li><li>
+      Un <strong>état probabiliste</strong> est une loi de probabilité sur
+      l'ensemble des états possibles.
+      <br>
+      Cette loi est représentée par une matrice ligne.
+    </li>
+  </ul>
+</div>
+:
+:
+<div class="wims_thm">
+    <h4>Théorème</h4>
+  Soit \(M\) la matrice de transition d'un graphe probabiliste, \(P_0\) la
+  matrice ligne décrivant l'état initial et \(P_n\) l'état probabiliste à l'étape
+  \(n\), où <span class="nowrap">\(\n \in \NN\).</span>
+  <br>
+  Pour tout <span class="nowrap">\(n\in \NN\),</span> <span class="nowrap">\(P_n=P_0 \times M^n\).</span>
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Théorème</h4>
+  Pour tout graphe probabiliste d'ordre 2 dont la matrice de transition \(M\) ne
+  comporte pas de <span class="nowrap">\(0\),</span> l'état \(P_n\)
+  converge vers un état \(P\) indépendant de l'état initial \(P_0\) et \(P\) est
+  l'unique solution de l'équation \(X=X \times M\) où
+  <span class="nowrap">\(X=\left(x \;\; y\right)\),</span>
+  <span class="nowrap">\(x\in [ 0\,;1]\),</span>
+  <span class="nowrap"> \(y\in [ 0\,;1]\),</span> et
+  <span class="nowrap">\(x + y = 1\).</span>
+
+</div>

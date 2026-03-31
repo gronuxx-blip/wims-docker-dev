@@ -1,0 +1,121 @@
+Écritures fractionnaires
+Collection d'exercices sur des calculs d'expressions fractionnaires (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,algebra
+levelH4,fraction,irreducible_fraction
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur des calculs d'expressions fractionnaires (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H2/number/OEFevalwimsfrac.fr
+exo=simplifier5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Réduction de fraction
+<p>Déterminer la forme irréductible d'une écriture fractionnaire.</p>
+
+
+
+algebra
+:H2/algebra/oefcalcul.fr
+exo=additfrac0&exo=additfrac&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Somme ou différence de deux fractions (1)
+<p>Calculer la somme ou la différence de deux fractions (en mode guidé).</p>
+
+
+
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=1&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Somme ou différence de deux fractions (2)
+<p>Calculer la somme ou la différence de deux fractions et en donner la forme irréductible. En cas d'erreur, un bouton <strong>vert Besoin d'aide</strong> apparaît dans le menu de gauche pour proposer le même genre d'exercice mais en mode guidé.</p>
+
+
+module=H2/algebra/oefcalcul.fr&exo=additfrac0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1&cmd=new,10,0
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=5&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Somme ou différence d'une fraction et d'un entier
+<p>Calculer la somme ou la différence d'une fraction et d'un nombre entier et en donner la forme irréductible.</p>
+
+
+
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=2&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Produit de deux fractions
+<p>Calculer le produit de deux fractions et en donner la forme irréductible.</p>
+
+
+
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=6&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Produit d'une fraction par un entier
+<p>Calculer le produit d'une fraction par un entier et en donner la forme irréductible.</p>
+
+
+
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=3&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Quotient de deux fractions
+<p>Calculer le quotient de deux fractions et en donner la forme irréductible.</p>
+
+
+
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=7&confparm1=8&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Quotient avec une fraction et un entier
+<p>Calculer le quotient d'une fraction par un entier ou d'un entier par une fraction et en donner la forme irréductible.</p>
+
+
+
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=9&confparm1=10&confparm1=11&confparm1=12&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Expression avec plusieurs sommes
+<p>Calculer une somme de plusieurs fractions et en donner la forme irréductible.</p>
+
+
+
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=13&confparm1=14&confparm1=15&confparm1=16&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Expression avec somme et produit
+<p>Calculer une expression comportant un produit et une somme de fractions et en donner la forme irréductible.</p>
+
+
+
+algebra
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=17&confparm1=18&confparm1=19&confparm1=20&confparm1=21&confparm1=22&confparm1=23&confparm1=24&confparm2=1&confparm3=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Expression avec somme et quotient
+<p>Calculer une expression comportant un quotient et une somme de fractions et en donner la forme irréductible.</p>
+
+
+
+algebra

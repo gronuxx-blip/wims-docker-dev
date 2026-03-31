@@ -1,0 +1,22 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Base de l'espace
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Une <strong>base</strong> de l'espace est un triplet de vecteurs non coplanaires. 
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriété</h4>
+Soit  \(\mathrm{O}\) un point de l'espace.<br>
+Soit \(\left(\overrightarrow{u},\, \overrightarrow{v},\,\overrightarrow{w} \right)\) une base de l'espace.<br>
+Pour tout point  \(\mathrm{M}\) de l'espace, il existe un unique triplet \(\left(x,\,y,\,z\right)\) de réels tels que&nbsp;:
+<div class="wimscenter">
+\(\overrightarrow{\mathrm{OM}}=x\,\overrightarrow{u}+y\,\overrightarrow{v}+z\,\overrightarrow{w}\)
+</div>
+</div>

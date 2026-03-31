@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Valeur absolue et distance
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Notation</h4>
+<p>Sur une droite graduée d'origine un point O, on considère deux points A et B d'abscisses respectives \(a\) et  \(b\).<br>
+La distance AB est notée \(\lvert b - a\rvert\) et se lit <strong>valeur absolue de b moins a</strong>.</p>
+<p>En particulier, \(\lvert a\rvert\) désigne la distance OA.</p>
+
+</div>

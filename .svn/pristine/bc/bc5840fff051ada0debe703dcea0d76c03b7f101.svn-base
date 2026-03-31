@@ -1,0 +1,33 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=fonc_2de
+!set gl_title=Fonction paire
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+    Soit une fonction \(f\) définie sur un ensemble de réels <span class="nowrap">\(E\).</span><br>
+La fonction \(f\) est <strong>paire</strong> lorsque les deux conditions suivantes sont vérifiées&nbsp;:
+<ul>
+<li>
+pour tout réel \(x\) de <span class="nowrap">\(E\),</span> \(-x\)  appartient à <span class="nowrap">\(E\)&nbsp;;</span>
+</li>
+<li>
+pour tout réel \(x\) de <span class="nowrap">\(E\),</span> <span class="nowrap">\(f(-x)=f(x)\).</span> 
+</li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (symétrie) </h4>
+Le plan est muni d'un repère orthogonal. <br>
+La courbe représentative d'une fonction est symétrique par rapport à l'axe des ordonnées si et seulement si la fonction est paire.
+
+</div>
+
+
+

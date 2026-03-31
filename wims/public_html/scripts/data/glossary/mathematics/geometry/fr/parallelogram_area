@@ -1,0 +1,26 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=area,measurement,parallelogram
+!set gl_title=Aire d'un parallélogramme
+!set gl_level=H1 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+<em>Une unité de longueur étant donnée dans le plan, on considère l'unité d'aire associée.</em>
+<br class="spacer">
+L'aire d'un parallélogramme est égale au produit de la longueur d'un côté par la longueur de la hauteur relative à ce côté.
+<br class="spacer">
+Autrement dit :<br>
+Si  \(c\) désigne la longueur d'un côté du parallélogramme, \(h\) la hauteur relative à ce côté et <strong>\(A\)</strong> l'aire de ce parallélogramme, alors&nbsp;:<br>
+<div class=wimscenter>
+\(A=c \times h\)
+</div>
+</div>
+:mathematics/geometry/fr/parallelogram_area_1
+:
+:mathematics/geometry/fr/parallelogram_area_2
+
+

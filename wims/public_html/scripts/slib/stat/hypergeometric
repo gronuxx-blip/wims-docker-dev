@@ -1,0 +1,64 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+slib_parms=4\
+,m\
+,N\
+,K\
+,n
+
+slib_example= 5,16,4,6\
+[2,5],16,4,6
+!exit
+
+:proc
+slib_out=
+
+!distribute item $wims_read_parm into slib_data,slib_N,slib_K,slib_n
+slib_data=!declosing $slib_data
+slib_cnt=!itemcnt $slib_data
+!if $slib_cnt=1
+  slib_data=1,$slib_data
+!endif
+slib_test=!exec octave pkg list statistics
+!if Installation iswordof $slib_test
+  slib_out=!exec octave hygernd($slib_N,$slib_K,$slib_n,$slib_data)
+  !goto end
+!endif
+slib_b=$[binomial($slib_N,$slib_n)^(-1)]
+slib_min=$[max(0,$slib_n+$slib_K-$slib_N)]
+slib_max=$[min($slib_n,$slib_K)]
+!if $slib_max<$slib_min
+  slib_out=0
+  !exit
+!endif
+slib_PP=!values binomial($slib_K,x)*binomial($slib_N-$slib_K,$slib_n-x)*$slib_b for x=$slib_min to $slib_max
+!for slib_x=1 to $(slib_data[1])
+  !reset slib_line
+  !for slib_y=1 to $(slib_data[2])
+    slib_p=!random 0,1
+    !if $slib_p=1
+      slib_res=$[$slib_max-$slib_min+1]
+    !else
+      slib_P=0
+      !for slib_k=1 to $[$slib_max-$slib_min+1]
+        slib_a=!item $slib_k of $slib_PP
+        slib_P=$[$slib_P+$slib_a]
+        !if $slib_P>=$slib_p
+          slib_res=$[$slib_k-1]
+          !break
+        !endif
+      !next
+    !endif
+    slib_line=!append item $slib_res to $slib_line
+  !next
+  slib_out=!append line $slib_line to $slib_out
+!next
+
+:end
+slib_out=!trim $slib_out
+slib_out=!replace internal $\
+$ by ; in $slib_out
+slib_out=!words2items $slib_out

@@ -1,0 +1,68 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=complex_number,complex_plane
+!set gl_title=Module d'un nombre complexe
+!set gl_level=H5 STI2D&nbsp;Spécialité , H6 Générale&nbsp;Experte
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit les réels \(x\) et \(y\) et soit \(z\) le nombre complexe défini par
+ <span class="nowrap">\(z=x+\mathrm{i} y\).</span><br>
+On appelle <strong>module</strong> de \(z\) le nombre réel, noté
+<span class="nowrap">\(\left\|z\right\|\),</span> défini par&nbsp;:<br>
+   <div class="wimscenter">
+   \(\left\|z\right\| = \sqrt{x^2+y^2}\)
+   </div>
+</div>
+<div class="wims_rem">
+<h4>Remarque</h4>
+Le module d'un nombre réel est égal à sa valeur absolue.
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Propriété (interprétation géométrique)</h4>
+Le plan complexe est muni d'un repère orthonormé
+ \((\mathrm{O}\,;\overrightarrow{u},\overrightarrow{v})\).
+<br>
+Soit \(z\) un nombre complexe et \(\mathrm{M}\) le point d'affixe <span class="nowrap">\(z\),</span> on a&nbsp;: <span class="nowrap">\(\left\|z\right\| = \mathrm{OM}\).</span>
+</div>
+:
+:
+
+<div class="wims_thm">
+<h4>Propriétés immédiates</h4>
+<ul>
+<li>
+Pour tout \(z\in \CC\), <span class="nowrap">\(\left\|z\right\|^2 = z \bar{z}\).</span>
+</li>
+  <li>
+  Pour tout \(z\in \CC\), <span class="nowrap">\(\left\|z\right\|\geqslant 0\).</span>
+  </li>
+  <li> Pour tout \(z\in \CC\), \(\left\|z\right\| = 0 \) si et seulement si <span class="nowrap">\(z = 0\).</span>
+  </li>
+  <li>Pour tout \(z\in \CC\), <span class="nowrap">\(\left\|-z\right\| = \left\|z\right\|\).</span>
+  </li>
+  <li>Pour tout \(z\in \CC\), <span class="nowrap">\(\left\|\bar{z}\right\| = \left\|z\right\|\).</span>
+  </li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Théorème</h4>
+<ul>
+<li>
+Pour tous \(z_1\in \CC\) et \(z_2\in \CC\),
+<span class="nowrap">\(\left\|z_1 z_2\right\| = \left\|z_1\right\|\times \left\| z_2\right\|\).</span>
+</li>
+<li>Pour tout \(z\in \CC^*\), <span class="nowrap">\(\left\|\frac{1}{z}\right\| = \frac{1}{|z|}\).</span>
+</li>
+<li>
+Pour tous \(z_1\in \CC\) et \(z_2\in \CC^*\),
+ <span class="nowrap">\(\left\|\frac{z_1}{z_2}\right\| = \frac{|z_1|}{|z_2|}\).</span></li>
+</ul>
+</div>

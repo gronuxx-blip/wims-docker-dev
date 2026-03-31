@@ -1,0 +1,37 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Taux d'évolution global
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+L'évolution correspondant à plusieurs évolutions successives est appelée <strong>évolution globale</strong>.
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>Lorsqu'une quantité subit des évolutions successives de coefficients multiplicateurs <span class="nowrap">\(CM_1\),</span> <span class="nowrap">\(CM_2\),</span> <span class="nowrap">\(\dots\),</span> <span class="nowrap">\(CM_n\),</span> elle subit alors une <strong>évolution globale </strong> de coefficient multiplicateur <span class="nowrap">\(CM = CM_1\times CM_2 \times \dots \times CM_n\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+Le taux d'évolution correspondant à plusieurs évolutions successives est appelé <strong>taux d'évolution global</strong>.
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>Le calcul du coefficient multiplicateur de l'évolution globale permet de déterminer le taux d'évolution global.
+</p>
+</div>

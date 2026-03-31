@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# check endif and if number in a file
+# use : checkifendif dirname
+
+cd $1
+list=`find . -mindepth 1 -type f`;
+echo "**************************************************************************************"
+echo "Recherche différence entre le nombre de if et endif dans les fichiers du répertoire $1"
+echo "**************************************************************************************"
+cpt=0
+for f in $list; do
+  nb=`awk 'BEGIN{cpt=0}; ! /^[ \t]*!!/ && /^[ \t]*!/ && /!if/{cpt++}; ! /^[ \t]*!!/ && /^[ \t]*!/ && /!endif/{cpt--}; END{print cpt};' $f;`;
+  cpt=$(expr $cpt + 1)
+  if [ $nb -gt 0 ]; then
+    echo "$f : $nb";
+  fi
+done
+echo "Nombre de fichiers examinés : $cpt"
+echo "Pour voir les lignes avec des if/endif du fichier monfichier taper la commande : "
+echo "awk '! /^[ \t]*!!/ && /^[ \t]*!/ && /!if/{print FNR,\$0;}; ! /^[ \t]*!!/ && /^[ \t]*!/ && /!endif/{print FNR,\$0;};' monfichier";
+

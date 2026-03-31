@@ -1,0 +1,121 @@
+Variations et extrema
+Collection d'exercices sur la notion de sens de variation d'une fonction sur un intervalle, lectures et constructions de tableaux de variations, comparaisons d'images en utilisant le sens de variation d'une fonction, notion d'extremum (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,analysis
+levelH4,functions,real_function,image,preimage,curves,function_variation,extremum
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la notion de sens de variation d'une fonction sur un intervalle, lectures et constructions de tableaux de variations, comparaisons d'images en utilisant le sens de variation d'une fonction, notion d'extremum (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/analysis/oeffonctgen.fr
+exo=sensvar2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Sens de variation (1)
+<p>Travailler sur le sens de variation d'une fonction sur un intervalle à partir de la définition.</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=sensvar1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Sens de variation (2)
+<p>Comparer des images connaissant le sens de variation de la fonction \(f\) sur un intervalle.</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=sensvar2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Lecture d'un tableau de variations
+<p>Lire un tableau de variations.</p>
+
+
+
+quizz
+:H4/analysis/oeffonctgen.fr
+exo=constrtbvar&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Construction du tableau de variations
+<p>Construire le tableau de variations d'une fonction par lecture graphique.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=tbvarextr3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tableau de variations et comparaisons (1)
+<p>Comparer des images à partir d'un tableau de variations.</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=tbvarextr4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tableau de variations et comparaisons (2)
+<p>Comparer des images à partir d'un tableau de variations.</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=tbvarextr5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tableau de variations et comparaisons (3)
+<p>Comparer des images à partir d'un tableau de variations.</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=tbvarextr1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tableau de variations et maximum
+<p>Déterminer le maximum d'une fonction sur un intervalle par lecture du tableau de variations.</p>
+
+
+
+bulles
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=tbvarextr2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tableau de variations et minimum
+<p>Déterminer le minimum d'une fonction sur un intervalle par lecture du tableau de variations.</p>
+
+
+
+bulles
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=sensvar3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Extremum et comparaisons
+<p>Comparer des images à partir de la définition d'un extremum.</p>
+
+
+
+quizz
+:H4/analysis/oeffonctgen.fr
+exo=exploitabvar&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nombre de solutions d'une équation
+<p>Déterminer le nombre de solutions d'une équation \(f(x)=k\) à partir du tableau de variations de la fonction <span class="nowrap">\(f\).</span></p>
+
+
+
+quizz

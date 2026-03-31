@@ -1,0 +1,101 @@
+type=gapfill
+textarea="data explain"
+iEdit="explain"
+
+:Scrivere le proprietà di un oggetto scelto casualmente in una lista
+
+<p>
+Viene presentato un oggetto scelto a caso in un elenco e viene chiesto di scriverne le proprietà seguendo domande guida.
+</p><p>
+Per costruire un esercizio basato su questo modello è sufficiente inserire l'elenco degli oggetti e le rispettive proprietà.
+<p class="wims_credits">Autore del modello: <a href="mailto:qualite@wimsedu.info">Gang Xiao</a></p>
+
+:%%%%%%%%%%%%%%%%%      ATTENZIONE      %%%%%%%%%%%%%%%%%%%%
+
+Se si rimuovono le indicazioni del modulo modelli (le righe che
+cominciano con ':') è necessario rimuovere tutta questa parte
+introduttiva del file. Altrimenti Createxo potrebbe non accettare il
+codice dell'esercizio.
+
+:%%%%%%%% Parametri che possono essere ridefiniti %%%%%%%%%%%%%%%%%
+:\title{Scrivere proprietà}
+:\author{XIAO, Gang}
+:\email{qualite@wimsedu.info}
+:\credits{}
+
+:Dimensione del campo per la risposta
+Impostare basandosi sulla proprietà più lunga.
+\integer{size=20}
+
+:Dati principali
+<p>Inserire un oggetto per riga, prima il nome dell'oggetto da visualizzare
+poi la sua proprietà così come dovrebbe essere digitata, separati
+da una virgola.
+</p><p>
+È possibile inserire sinonimi per le proprietà da riconoscere, separandoli
+con una barra verticale (esempio: mamma|madre).</p>
+\matrix{data=
+casa,case
+nave,navi
+miglio,miglia
+tavolo,tavoli
+tavola,tavole
+formula,formule
+roba,robe
+sole,soli
+luna,lune
+tovaglia,tovaglie
+}
+
+:Tipi di analisi delle risposte
+I tipi <span class="tt">case</span> e <span class="tt">nocase</span> sono soprattutto pensati per le
+applicazioni linguistiche. Per tutti gli altri utilizzi è preferibile l'opzione
+<span class="tt">atext</span>.
+\text{atype=item(1,case (nessun errore tollerato),
+  nocase (tollerate differenze maiuscole/minuscole),
+  atext (ignorate differenze plurale/singolare e articoli))}
+
+:Scelte casuali di elementi inseriti tra parentesi graffe
+$embraced_randitem
+
+\text{accolade=item(1,1 oui,
+2 non)}
+
+:%%%%%%%%%%%%%% Parte che precede l'enunciato: da non modificare %%%%%%%%%%%%%%%%
+\text{accolade=wims(word 1 of \accolade)}
+\text{data=randomrow(\data)}
+\text{name=\data[1]}
+\text{prop=\data[2]}
+\text{atype=wims(word 1 of \atype)}
+
+:%%%%%%%%%%%%% Maintenant l'énoncé en code html. %%%%%%%%%%%%%%%%%%%%
+
+:Contenuto effettivo dell'esercizio.
+Per riferirsi all'oggetto estratto usare il comando <span class="tt">\name</span>.
+$embraced_randitem
+\text{explain=
+Scrivere il plurale del nome <span class="wims_emph">\name</span>.
+}
+
+:%%%%%%%%%%%%%% Parte che precede l'enunciato: da non modificare %%%%%%%%%%%%%%%%
+\text{explain=\accolade=1 ? wims(embraced randitem \explain)}
+
+::In questa parte non dovrebbe esserci nulla da modificare.
+
+\statement{
+	<label for="reply1" class="oef_explain">\explain</label>
+	<span class="oef_input">
+	\embed{r1,\size
+	autocomplete="off"}.
+	</span>
+}
+
+:%%%%%%%%%%%%% Rien à modifier ci-après. %%%%%%%%%%%%%%%%%5
+
+\answer{La tua risposta}{\prop}{type=\atype}
+
+\latex{
+\begin{statement}
+\explain
+\end{statement}
+}

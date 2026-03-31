@@ -1,0 +1,91 @@
+Fonction inverse
+Collection d'exercices sur la fonction inverse&nbsp;: images, antécédents, résolutions d'équations et d'inéquations en utilisant les variations (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,analysis
+levelH4,real_function,functions,image,preimage,curves,function_variation,extremum,reference_function,equations,inequations
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la fonction inverse&nbsp;: images, antécédents, résolutions d'équations et d'inéquations en utilisant les variations (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/analysis/OEFevalwimsfctref.fr
+exo=pteinverse4
+30
+1
+Images et antécédents
+<p>Déterminer des images et antécédents de quelques réels par la fonction inverse.</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=invequ1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(\frac{1}{x}=a\)
+<p>Résoudre une équation de la forme \(\frac{1}{x}=a\)</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=invequ2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(\frac{a}{x}=b\)
+<p>Résoudre une équation de la forme \(\frac{a}{x}=b\)</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=invequ3
+30
+1
+Équation \(\frac{1}{x}+a=b\)
+<p>Résoudre une équation de la forme \(\frac{1}{x}+a=b\)</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=invequ4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(\frac{a}{x}+b=c\)
+<p>Résoudre une équation de la forme \(\frac{a}{x}+b=c\)</p>
+
+
+
+algebra
+:H4/analysis/OEFevalwimsfctref.fr
+exo=pteinverse1&exo=pteinverse2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Propriétés
+<p>Deux propriétés de la fonction inverse (comparaison).</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=invineq1
+30
+1
+Inéquation \(\frac{1}{x}\leqslant\ a\) avec \(x >0\)
+<p>Résoudre une inéquation de la forme \(\frac{1}{x}\leqslant\ a\) ou \(\frac{1}{x}\geqslant\ a) avec \(x &gt; 0\) en utilisant les variations de la fonction inverse.</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=invineq2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Inéquation \(\frac{1}{x}\leqslant\ a\)
+<p>Résoudre une inéquation de la forme \(\frac{1}{x}\leqslant\ a\) ou \(\frac{1}{x}\geqslant\ a) en utilisant les variations de la fonction inverse.</p>
+
+
+
+algebra

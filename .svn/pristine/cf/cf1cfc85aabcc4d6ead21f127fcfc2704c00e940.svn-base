@@ -1,0 +1,23 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=gl_derv
+!set gl_title=Fonction tangente
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+La fonction tangente est la fonction qui à tout réel \(x\) tel que \(\cos(x)\ne0\) associe le réel&nbsp;: <br>
+<p class="wimscenter">
+\(\tan(x)=\dfrac{\sin(x)}{\cos(x)}\)
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+La fonction tangente est une fonction impaire, sa courbe représentative dans un repère orthogonal est symétrique par rapport à l'axe des ordonnées.
+</div>
+

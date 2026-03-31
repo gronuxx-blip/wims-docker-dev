@@ -1,0 +1,22 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Base d'un plan
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Une <strong>base</strong> d'un plan est un couple de vecteurs non colinéaires. 
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriété</h4>
+Soit \(\mathcal{P}\) un plan et soit \(\mathrm{O}\) un point de ce plan.<br>
+Soit \(\left(\overrightarrow{u},\overrightarrow{v}\right)\) une base de <span class="nowrap">\(\mathcal{P}\).</span><br>
+Pour tout point  \(\mathrm{M}\) du plan  <span class="nowrap">\(\mathcal{P}\),</span> il existe un unique couple \(\left(x,y\right)\) de réels tels que&nbsp;:<br>
+<div class="wimscenter">
+\(\overrightarrow{\mathrm{OM}}=x\,\overrightarrow{u}+y\,\overrightarrow{v}\)
+</div>
+</div>

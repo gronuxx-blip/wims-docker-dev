@@ -1,0 +1,24 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Loi géométrique (lycée)
+!set gl_level=H6 Générale&nbsp;Spécialité, H6 Générale&nbsp;Complémentaire
+:
+:
+:
+:
+<div class="wims_thm">
+<h4>Théorème (admis)</h4>
+<p>Soit \(p\) un réel de l'intervalle \(\left \rbrack0\,;1\right \lbrack\) et soit \(g\) la suite définie sur \(\NN^*\) de terme général <span class="nowrap">\(g_k=p(1-p)^{k-1}\).</span><br>
+Cette suite définie une loi de probabilité sur l'univers <span class="nowrap">\(\Omega = \NN^{*}\).</span></p>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(p\) un réel de l'intervalle \(\left \rbrack0\,;1\right \lbrack\) et soit une épreuve aléatoire dont l'univers \({\Omega}\) a deux issues dont l'une, appelée succès, a pour probabilité  <span class="nowrap">\(p\).</span></p>
+<p>Soit \(X\) une variable aléatoire définie sur \({\Omega}\) à valeurs dans <span class="nowrap">\(\NN^*\).</span> On dit que \(X\) suit la <strong>loi géométrique de paramètre \(p\)</strong> si pour tout entier naturel non nul \(k\) on a&nbsp;:</p>
+<div class="wimscenter">
+\(P(X=k)=p(1-p)^{k-1}\)
+</div>
+</div>

@@ -1,0 +1,35 @@
+!set lang_exists=yes
+
+!distribute lines Version abrégée\
+  Description\
+  Ressources\
+  Notions connexes\
+  ??\
+into name_abstract,name_definition,name_activities, name_connexe,\
+  name_choose
+
+!set name_example_dyna=Exemple dynamique de la notion
+!set name_glose_infos=Informations sur cette glose
+!set name_example_infos=Informations sur cet exemple dynamique
+!set name_linklight_glose=Lien "light" (sans interface)&nbsp;
+!set name_link_glose=Lien pour cette glose&nbsp;
+!set name_doc_insert=Lien dans un doc
+!set name_oef_insert=Lien dans un OEF
+!set name_this_glose=cette glose
+!set name_this_exple=cet exemple dynamique
+!set name_glose_in_doc=pour insérer cette glose dans un document WIMS
+!set name_glose2=Pour n'afficher qu'une partie de cette glose, remplacer dans les\
+ codes précédents, la liste
+!set name_grains=par la liste des numéros des encadrés dans l'ordre dans lequel\
+ ils doivent être insérés (les numéros pairs correspondent aux exemples dynamiques).
+!set name_glose_in_oef=pour insérer cette glose dans un exercice OEF
+!set name_exple_in_doc=pour insérer cet exemple dynamique dans un document WIMS
+!set name_exple_in_oef=pour insérer cet exemple dynamique dans un exercice OEF
+!set wims_name_rmq=Remarque
+
+!set name_filter=Filtrer
+!set name_filters=Filtres
+!set name_filter_desc=N'affiche que les gloses correspondant aux critères.
+!set name_domain=Domaine
+!set name_zone=Matière
+!set name_contact=Contact&nbsp;

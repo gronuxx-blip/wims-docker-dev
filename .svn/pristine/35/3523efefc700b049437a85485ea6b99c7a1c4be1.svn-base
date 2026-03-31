@@ -1,0 +1,70 @@
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=1&confparm3=1&confparm1=1&confparm2=3&qnum=1&scoredelay=45,90&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations
+<p>automatismes nécessaires pour la résolution de problèmes au collège</p>
+
+<p>5 additions d'entier<br>(45s, 90s)</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=3&confparm3=1&confparm1=1&confparm2=6&qnum=1&scoredelay=45,90&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations
+<p>automatismes nécessaires pour la résolution de problèmes au lycée.</p>
+
+<p>6 multiplications d'entiers<br>(45s, 90s)</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=2&confparm3=1&confparm1=1&confparm2=5&qnum=1&scoredelay=45,90&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations
+<p>automatismes nécessaires pour la résolution de problèmes au lycée.</p>
+
+<p>5 soustractions d'entiers, résultats positifs<br>(45s, 90s)</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=1&confparm3=2&confparm1=1&confparm2=5&qnum=1&scoredelay=45,90&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations
+<p>automatismes nécessaires pour la résolution de problèmes au lycée.</p>
+
+<p>5 additions d'entiers et/ou décimaux<br>(45s, 90s)</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=2&confparm3=2&confparm1=1&confparm2=5&qnum=1&scoredelay=45,90&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations
+<p>automatismes nécessaires pour la résolution de problèmes au lycée.</p>
+
+<p>5 soustractions d'entiers et/ou décimaux<br>(45s, 90s)</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=1&confparm4=2&confparm3=2&confparm1=1&confparm2=5&qnum=1&scoredelay=45,90&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations
+<p>automatismes nécessaires pour la résolution de problèmes au lycée.</p>
+
+<p>5 additions ou soustractions d'entiers et/ou décimaux<br>(45s, 90s)</p>
+
+chrono
+:H4/math/quizzautomat.fr
+exo=courseop&confparm4=3&confparm3=2&confparm1=1&confparm2=5&qnum=1&scoredelay=45,90&seedrepeat=0&qcmlevel=1
+10
+1
+Course d'opérations
+<p>automatismes nécessaires pour la résolution de problèmes au lycée.</p>
+
+<p>5 multiplications d'entiers et/ou décimaux<br>(45s, 90s)</p>
+
+chrono

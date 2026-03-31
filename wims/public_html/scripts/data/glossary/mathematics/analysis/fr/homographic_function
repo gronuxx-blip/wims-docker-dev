@@ -1,0 +1,25 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Fonction homographique
+!set gl_level= 
+:
+:
+:
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+    Une fonction numérique \(f\) est appelée <strong>fonction homographique</strong>
+    lorsqu'il existe quatre nombres réels \(a\), \(b\), \(c\) et \(d\) pour lesquels \(a d - b c \ne 0\) et tels que pour tout nombre réel \(x\), \(x\ne-\dfrac{d}{c}\) dans le cas où \(c\) est non nul&nbsp;:
+<div class="wimscenter">
+\(f(x)=\dfrac{a x + b}{c x + d}\)
+</div>
+</div>
+:
+:
+<div class="wims_thm">
+    <h4>Propriétés</h4>
+    Dans le plan muni d'un repère orthogonal, la courbe représentative d'une fonction
+    homographique est une hyperbole ou une droite.
+</div>
+

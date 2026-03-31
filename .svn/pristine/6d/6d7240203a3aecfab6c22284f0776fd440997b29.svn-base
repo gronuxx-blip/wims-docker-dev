@@ -1,0 +1,30 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Vecteurs orthogonaux de l'espace
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p> On dit que deux vecteurs de l'espace sont <strong>orthogonaux</strong> lorsque leur produit scalaire est nul.</p>
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarque</h4>
+<p>Le vecteur nul est orthogonal à tout vecteur de l'espace.</p>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+<p>Deux droites de l'espace de vecteurs directeurs respectifs \(\overrightarrow{u}\)
+et \(\overrightarrow{v}\) sont orthogonales si et seulement si les vecteurs
+\(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont orthogonaux.</p>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+<p>Dans l'espace, un plan de vecteur normal \(\overrightarrow{n}\) et une droite de vecteur directeur \(\overrightarrow{u}\) sont orthogonaux si et seulement si les vecteurs
+\(\overrightarrow{n}\) et \(\overrightarrow{u}\) sont orthogonaux.</p>
+</div>

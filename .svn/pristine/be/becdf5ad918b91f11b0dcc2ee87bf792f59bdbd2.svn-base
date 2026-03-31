@@ -1,0 +1,22 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Vecteurs coplanaires
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>
+Soit <span class="nowrap">\(\overrightarrow{u}\),</span> \(\overrightarrow{v}\) et \(\overrightarrow{w}\) trois vecteurs de l'espace.<br>
+On dit que les vecteurs <span class="nowrap">\(\overrightarrow{u}\),</span> \(\overrightarrow{v}\) et \(\overrightarrow{w}\) sont coplanaires si l'un est une combinaison linéaire des deux autres.<br>
+Autrement dit, il existe deux réels \(a\) et \(b\) tels que \(\overrightarrow{u}=a\overrightarrow{v}+b\overrightarrow{w}\) ou \(\overrightarrow{v}=a\overrightarrow{u}+b\overrightarrow{w}\) ou <span class="nowrap">\(\overrightarrow{w}=a\overrightarrow{u}+b\overrightarrow{v}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+<p>Quatre points <span class="nowrap">\(\mathrm{A}\),</span> <span class="nowrap">\(\mathrm{B}\),</span> \(\mathrm{C}\) et \(\mathrm{D}\) de l'espace sont coplanaires si et seulement si les vecteurs <span class="nowrap">\(\overrightarrow{\mathrm{AB}}\),</span> \(\overrightarrow{\mathrm{AC}}\) et \(\overrightarrow{\mathrm{BC}}\) sont coplanaires.</p>
+</div>
+

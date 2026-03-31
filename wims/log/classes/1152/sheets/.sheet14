@@ -1,0 +1,73 @@
+
+:U1/mechanics/oefvector.fr
+exo=vecteur7&qnum=1&scoredelay=&qcmlevel=1
+10
+10
+Vecteur : direction ; sens ; norme
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS1S2&cmd=new,10,0
+:H3/geometry/oefcoord.fr
+exo=egalitegr2
+10
+1
+Egalité vectorielle
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS1S3S2&cmd=new,10
+:H5/geometry/oefgeoplan.fr
+exo=relchasles
+10
+1
+Relation de Chasles
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS1S5S1&cmd=new,10
+:H5/geometry/oefgeoplan.fr
+exo=sommevect1
+10
+1
+Somme graphique de deux vecteurs
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS1S5S1&cmd=new,10
+:H5/geometry/oefgeoplan.fr
+exo=ruche
+10
+1
+Relations de Chasles dans des hexagones
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS1S5S1&cmd=new,10
+:U1/mechanics/oefvectors.fr
+exo=vec11
+10
+1
+Relation entre trois vecteurs
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS1S5S4&cmd=new,10
+:H5/geometry/oefgeoplan.fr
+exo=pdtvectk
+10
+1
+Produit d'un vecteur par un réel
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS1S5S4&cmd=new,10
+:H5/geometry/oefgeoplan.fr
+exo=caractvect
+10
+1
+Caractérisation vectorielle de propriétés géométriques
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS1S6&cmd=new,10

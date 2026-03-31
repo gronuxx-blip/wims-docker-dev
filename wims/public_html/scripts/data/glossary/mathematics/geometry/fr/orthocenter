@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=altitude,triangles
+!set gl_title=Orthocentre d'un triangle
+:
+:
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Soit <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{C}\) trois points non alignés.<br>
+Les trois hauteurs du triangle \(\mathrm{ABC}\) sont concourantes.</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>Le point de concours des trois hauteurs
+d'un triangle est appelé <strong>orthocentre</strong> du triangle.</div>
+:mathematics/geometry/fr/orthocenter_1

@@ -1,0 +1,65 @@
+Développements limités
+Dans les exercices, on utilise les notations o(.) et O(.) qui ont les significations suivantes : o\(((x-x_0)^n)\) signifie \((x-x_0)^n\)\(\epsilon)\((x-x_0)\) où \(\epsilon) est une fonction qui tend vers 0 en 0. Quand à O\(((x-x_0)^n)\), il signifie \((x-x_0)^n B(x-x_0)\) où \(B\) est une fonction bornée au voisinage de 0.  En particulier, <center>\((x-x0)^n B(x-x_0) = (x-x_0)^(n-1)\)\(\epsilon)\((x-x_0)\) avec \(\epsilon)\((x)) \(\to) 0 en 0.</center>
+90 2009
+3
+U1
+mathematics, analysis
+levelU1, postbac, functions, taylor_expansion
+Jean-Christophe, Léger
+jean-christophe.leger@math.u-psud.fr
+niveau Postbac
+
+:U1/analysis/oeftaylor.fr
+exo=derivee&exo=derivee2&exo=value&qnum=2&qcmlevel=3&scoredelay=
+30
+1
+Valeurs
+Déduire d'un d.l. la valeur de f ou de f' en un point.
+:U1/analysis/oeftaylor.fr
+exo=DLordre&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Ordre d'un d.l.
+Sommes, produits, quotients.
+:U1/analysis/oeftaylor.fr
+exo=DLordrecomposi&exo=DLordrecompos0&qnum=2&qcmlevel=3&scoredelay=
+30
+1
+Composition de d.l.
+Peut-on composer deux d.l. ? Quel est l'ordre du d.l. obtenu ?
+:U1/analysis/taylor.en
+types=addition&types=addmixed&center=0&ORder=3
+30
+1
+Sommes de d.l.
+Calculs de développements limités.
+:U1/analysis/taylor.en
+types=squaresum&types=square&types=mult&types=multmixed&types=sumsquare&center=0&ORder=2
+30
+1
+Produits de d.l.
+Calculs de développements limités.
+:U1/analysis/taylor.en
+types=compo&types=division&types=reciproc&center=0&ORder=2
+30
+1
+Compositions, quotients de d.l.
+Calculs de développements limités.
+:U1/analysis/oeftaylor.fr
+exo=erreur&exo=erreur3&qnum=2&qcmlevel=3&scoredelay=
+30
+1
+Estimation d'erreur
+Qualité de l'approximation d'une fonction par son d.l. (Taylor-Lagrange ou Taylor avec reste intégral)
+:U1/analysis/oeftaylor.fr
+exo=tangent&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Tangente
+Position relative d'une courbe et de sa tangente au voisinage d'un point.
+:U1/analysis/coincdev.en
+Degree=2&range=3
+30
+1
+D.l. graphique
+Recherche graphique du développement limité d'une fonction.

@@ -1,0 +1,11 @@
+slib_lang_exists_tmp=yes
+slib_title= Matrix in Latex
+slib_parms=3\
+,matrix between brackets\
+(,  lbrace, rbrack,.., ., none\
+),  lbrace, rbrack,...,.,none
+
+slib_out=tex matrix with  options (lbrace,lbrack,..., or .)
+slib_comment=No transformation is made on the elements of the matrix.\
+  One can put . or `none' if no bracket is asked. If nothing is put, parenthesis\
+  are put by default.

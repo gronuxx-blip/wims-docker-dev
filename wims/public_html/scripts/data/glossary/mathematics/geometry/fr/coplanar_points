@@ -1,0 +1,25 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Points coplanaires
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+On dit que des points de l'espace sont <strong>coplanaires</strong> s'il existe un plan qui passe par tous ces points.
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarques</h4>
+<ul>
+<li>Trois points <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{C}\) de l'espace sont coplanaires.<br>
+S'ils ne sont pas alignés ils définissent un plan noté <span class="nowrap">\((\mathrm{ABC})\),</span> sinon il existe une infinité de plans passant par ces trois points.
+</li>
+<li>Quatre points <span class="nowrap">\(\mathrm{A}\),</span> <span class="nowrap">\(\mathrm{B}\),</span> \(\mathrm{C}\) et \(\mathrm{D}\) de l'espace peuvent ne pas être coplanaires, ils forment alors un tétraèdre <span class="nowrap">\(\mathrm{ABCD}\).</span>
+</li>
+</ul>
+</div>
+
+

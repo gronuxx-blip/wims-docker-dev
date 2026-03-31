@@ -1,0 +1,82 @@
+
+:H6/analysis/oeflimite.fr
+exo=formules0&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+*Limites des fonctions de base
+Déterminer des limites simples.
+
+
+:H6/analysis/oeflimite.fr
+exo=formules02&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+*Limites des fonctions de base 2
+Déterminer des limites simples.
+
+
+:H6/analysis/oeflimite.fr
+exo=formules&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limites des fonctions de base
+Déterminer des limites simples.
+
+
+:H6/analysis/oeflimite.fr
+exo=formules2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limites des fonctions de base 2
+Déterminer des limites simples.
+
+
+:H6/analysis/oeflimite.fr
+exo=simples&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Opérations simples sur les limites
+Utiliser les opérations sur les limites. Cas simples.
+
+Limite de fonctions parfois composées avec ln
+:H5/analysis/limpolfrac.fr
+exo=moninf&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite en l'infini d'un monôme
+Déterminer une limite simple.
+
+
+:H5/analysis/limpolfrac.fr
+exo=polydevinf&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite en l'infini d'un polynôme (développé)
+Déterminer la limite d'un polynôme.
+
+
+:H6/analysis/oeflimite.fr
+exo=asympt2hv&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Asymptote (hv) -> limite
+Connaître la définition d'asymptote verticale ou horizontale.
+
+Très bien pour vérifier la connaissance du cours sur asymptotes et limites
+:H6/analysis/oeflimite.fr
+exo=asympt1hv&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite -> asymptote (hv)
+Connaître la définition d'asymptote verticale ou horizontale.
+
+Ex pour vérification du cours lim-asymp
+
+:H5/analysis/OEFasymptote.fr
+exo=calcullim&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de limites
+Déterminer une limite et en déduire l'existence d'une asymptote ou non.
+
+

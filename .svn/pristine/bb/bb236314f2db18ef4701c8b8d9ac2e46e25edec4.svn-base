@@ -1,0 +1,21 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Coût marginal
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+Le <strong>coût marginal</strong> est l'accroissement de coût résultant de la production d’une unité supplémentaire.
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+Lorsque le coût associé à une production est donné par une fonction \(C\) du nombre \(q\) d'unités produites, le  coût marginal, pour \(q\) unités produites, est <span class="nowrap">\(C_m(q)=C(q+1)-C(q)\).</span><br>
+Si de plus la fonction \(C\) est dérivable sur \(\lbrack 0 \,;+\infty \lbrack \), celui-ci est approché par le réel <span class="nowrap">\(C^{\prime}(q)\).</span>
+
+</div>

@@ -1,0 +1,40 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=vectors,analytic_geometry,line_equation
+!set gl_title=Vecteur directeur d'une droite du plan
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>Soit \(\mathcal{D}\) une droite du plan.<br>
+On appelle <strong>vecteur directeur</strong> de \(\mathcal{D}\) tout vecteur \(\overrightarrow{v}\) non nul pour lequel il existe deux points \(\mathrm{A}\) et \(\mathrm{B}\) de \(\mathcal{D}\) tels que <span class="nowrap">\(\overrightarrow{v}=\overrightarrow{\mathrm{AB}}\).</span></p>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Théorème</h4>
+<p>Soit \(\mathrm{A}\) un point et \(\overrightarrow{v}\) un vecteur non nul du
+plan.<br>
+La droite \(\mathcal{D}\) passant par \(\mathrm{A}\) et de vecteur directeur \(\overrightarrow{v}\) est l'ensemble des points \(\mathrm{M}\) du plan tels que
+les vecteurs \(\overrightarrow{\mathrm{AM}}\) et \(\overrightarrow{v}\) soient colinéaires.</p>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Théorème</h4>
+<p>Deux droites du plan de vecteurs directeurs respectifs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont parallèles si et seulement si les vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont colinéaires.</p>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Théorème</h4>
+<p>Le plan est muni d'un repère.<br>
+Soit <span class="nowrap">\(a\),</span> \(b\) et \(c\) des réels tels que <span class="nowrap">\((a\,,b) \ne (0\,,0)\).</span><br>
+Si \(a x + b y +c = 0\) est une équation cartésienne de la droite \(\mathcal{D}\), alors le vecteur de coordonnées \(\begin{pmatrix}-b\\a\end{pmatrix}\) est un vecteur directeur de la droite <span class="nowrap">\(\mathcal{D}\).</span></p>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Théorème</h4>
+<p>Le plan est muni d'un repère.<br>
+Soit \({\alpha}\) et \({\beta}\) des réels tels que <span class="nowrap">\((\alpha\,,\beta) \ne (0\,,0)\).</span><br>
+Si \(\mathcal{D}\) est une droite dont un vecteur directeur a pour coordonnées <span class="nowrap">\(\begin{pmatrix}\alpha \\  \beta\end{pmatrix}\),</span> alors il existe un réel \(c\) tel que \(\beta x - \alpha y + c=0 \) soit une équation cartésienne de <span class="nowrap">\(\mathcal{D}\).</span></p>
+</div>

@@ -1,0 +1,29 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=liste,tableau,python,p-liste
+!set gl_title=p-liste
+!set gl_level=H6
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(E\) un ensemble et soit \(p\) un entier supérieur ou égal à 2.<br>
+Une <span class = "nowrap">\(p\)<strong>-liste</strong></span> d'éléments de \(E\) est une suite de \(p\) éléments de <span class = "nowrap">\(E\).</span></p>
+<p>La <span class = "nowrap">\(p\)-liste</span> des éléments  <span class = "nowrap">\(a_1\), \(a_2\), \(\dots\), \(a_p\)</span> de \(E\) est notée <span class ="nowrap"> \(\big(a_1,a_2,\dots,a_p\big)\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarques</h4>
+<ul>
+<li>
+Un <strong>triplet</strong> est une <span class ="nowrap">3-liste</span> et un <strong>couple</strong> est une <span class ="nowrap">2-liste</span>.
+</li>
+<li>
+Une <span class ="nowrap">\(p\)-liste</span> est également appelée <span class ="nowrap">\(p\)-uplet</span>.
+</li>
+</ul>
+</div>

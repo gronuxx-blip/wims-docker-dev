@@ -1,0 +1,27 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Opposé d'un nombre
+!set gl_level=H1 Cycle&nbsp;4
+:
+:
+:
+:
+</p><div class="wims_thm">
+<h4>Théorème</h4>
+<p>
+Soit \(a\) un nombre, il existe un unique nombre \(b\) tel que <span class="nowrap">\(a + b = 0\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+L'<strong>opposé</strong> d'un nombre \(a\) est le nombre \(b\) qui vérifie <span class="nowrap">\(a + b = 0\).</span><br>
+On note ce nombre <span class="nowrap">\(- a\).</span>
+</div>
+
+
+
+

@@ -1,0 +1,54 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+slib_author=Bernadette, Perrin-Riou
+
+slib_title=Repeating decimal of a rational
+slib_parms=2\
+,rational number as a fraction of integer numbers\
+raw,format
+slib_out=return [length of the non-periodic decimal part, length of the periodic pattern],\
+  [integral part , non-periodic part, periodic pattern] in default format.\
+  If the option is <span class="tt">tex</span> the second item is the formatted number\
+  with overlined periodic pattern.
+!set slib_comment=do not check if the rational number is written as a \
+  fraction of integer numbers.
+!set slib_example=34/45,tex\
+34/45\
+297/670\
+453/37,tex\
+453/37\
+65/12,tex\
+65/12\
+67/66,tex\
+67/66
+
+!exit
+
+:proc
+
+!!borner le dénominateur
+!reset slib_format slib_out
+!distribute item $wims_read_parm into slib_n,slib_format
+!default slib_format=raw
+slib_res=!exec pari algo(x)={my(b,r,s);b=denominator(x);r=valuation(b,2);s=valuation(b,5);\
+  [max(r,s),znorder(Mod(10,b/2^r/5^s)),x*1.]};\
+  algo($slib_n)
+slib_res=!nospace $slib_res
+slib_rn=$(slib_res[3])
+slib_rn=!replace internal . by , in $slib_rn
+slib_test=!charcnt $(slib_rn[2])
+!if $(slib_res[2]) > $slib_test-1
+  slib_out=!nospace [$(slib_res[1,2])]
+  !exit
+!endif
+slib_per=!char $(slib_res[1])+1 to $(slib_res[1])+$(slib_res[2]) of $(slib_rn[2])
+!reset slib_beg
+!if $(slib_res[1])>0
+  slib_beg=!char 1 to $(slib_res[1]) of $(slib_rn[2])
+!endif
+!if $slib_format=tex
+  slib_out=[$(slib_res[1,2])],\($(slib_rn[1]).$slib_beg\overline{$slib_per}\)
+!else
+  slib_out=[$(slib_res[1,2])],[$(slib_rn[1]),$slib_beg,$slib_per]
+!endif

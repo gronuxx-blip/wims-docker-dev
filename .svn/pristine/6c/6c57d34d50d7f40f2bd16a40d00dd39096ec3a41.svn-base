@@ -1,0 +1,26 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=functions,linear_function,reference_function
+!set gl_title=Fonction linéaire
+!set gl_level=H3 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>
+    Définition
+  </h4>
+    Une fonction numérique \(f\) est appelée <strong>fonction linéaire</strong>
+    lorsqu'il existe un nombre \(a\) tel que, pour tout nombre
+    <span class="nowrap">\(x\),</span> on puisse écrire
+    <span class="nowrap">\(f(x)=a x \).</span>
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Théorème</h4>
+    Dans le plan muni d'un repère, la
+    courbe représentative d'une fonction linéaire est une droite passant par
+    l'origine de ce repère.
+</div>

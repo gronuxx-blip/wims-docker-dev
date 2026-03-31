@@ -1,0 +1,41 @@
+
+:U1/set/setlang.fr
+exo=ens1&qnum=2&scoredelay=&qcmlevel=1
+10
+1
+Appartenance/inclusion : entiers (symboles)
+
+
+
+:U1/set/setlang.fr
+exo=ens2&confparm1=1&confparm1=2&confparm2=1&confparm2=2&confparm2=3&qnum=2&scoredelay=&qcmlevel=1
+10
+1
+Appartenance/inclusion : entiers (expressions)
+
+
+
+:U1/set/setlang.fr
+exo=interv1&qnum=2&scoredelay=&qcmlevel=1
+10
+1
+Appartenance/inclusion : intervalles (symboles)
+
+
+
+:U1/set/setlang.fr
+exo=appop1&qnum=2&scoredelay=&qcmlevel=1
+10
+1
+Appartenance et opérations sur les ensembles 1
+
+
+
+:classes/fr
+exo=Oprationsurles&qnum=2&scoredelay=&qcmlevel=1
+10
+1
+Appartenance et opération sur les ensembles
+
+
+

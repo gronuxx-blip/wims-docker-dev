@@ -1,0 +1,91 @@
+
+:H6/geometry/OEFeqdteplan.fr
+exo=paramdte1
+10
+1
+Représentation paramétrique d'une droite
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S1&cmd=new,9
+:H6/geometry/OEFeqdteplan.fr
+exo=paramdte2
+10
+1
+Système d'équations cartésiennes d'une droite
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S2&cmd=new,9
+:H5/algebra/oefgeoesp.fr
+exo=interdrplan
+10
+1
+Intersection d'une droite et d'un plan
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S4&cmd=new,9
+:H5/geometry/OEFgeospace.fr
+exo=dteplanesp&confparm1=2&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Position relative d'une droite et d'un plan
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S4&cmd=new,9
+:H5/algebra/oefgeoesp.fr
+exo=posreldr
+10
+1
+Position relative de deux droites
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S5&cmd=new,9
+:H5/geometry/OEFgeospace.fr
+exo=dteaffesp&qnum=1&qcmlevel=3&scoredelay=&confparm1=2
+10
+1
+Position relative de deux droites
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S5&cmd=new,9
+:H4/geometry/espcube.fr
+mode=3&niv=1&selplan=1&colblue=&colrose=
+10
+1
+Droite et plan dans un cube
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S6&cmd=new,9
+:H4/geometry/espcube.fr
+mode=3&niv=2&selplan=1&colblue=&colrose=
+10
+1
+Droite et plan dans un cube
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S6&cmd=new,9
+:H4/geometry/espcube.fr
+mode=2&niv=1&selplan=1&colblue=&colrose=
+10
+1
+Position relative de deux droites dans un cube
+niveau 1
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S6&cmd=new,9,0
+:H4/geometry/espcube.fr
+mode=2&niv=2&selplan=1&colblue=&colrose=
+10
+1
+Position relative de deux droites dans un cube
+niveau 2
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS3S6&cmd=new,9,0

@@ -1,0 +1,17 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=irreducible, fraction
+!set gl_title=Fraction irréductible
+!set gl_level=H3 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \(a\) et \(b\) deux entiers naturels avec \(b\) non nul.<br>
+La fraction \(\dfrac{a}{b}\) est <strong>irréductible</strong> lorsque le seul diviseur commun positif de \(a\) et \(b\) est <span class="nowrap">\(1\).</span>
+
+</div>
+:
+:

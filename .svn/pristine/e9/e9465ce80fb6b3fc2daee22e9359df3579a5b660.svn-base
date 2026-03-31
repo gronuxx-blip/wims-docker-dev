@@ -1,0 +1,161 @@
+Équations de droites
+Déterminer une équation de droite, déterminer la pente ou un vecteur directeur d'une droite donnée par une équation ou une représentation graphique, tracer une droite connaissant une équation cartésienne ou réduite (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,geometry
+levelH4,line_equation,analytic_geometry,direction,line,vectors,coordinates
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Déterminer une équation de droite, déterminer la pente ou un vecteur directeur d'une droite donnée par une équation ou une représentation graphique, tracer une droite connaissant une équation cartésienne ou réduite (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/h4droites.fr
+exo=assoEqDroite&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Associer droites et équations
+<p>Associer chaque représentation graphique de droite à son équation réduite.</p>
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=assoEqVectDir&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Vecteurs directeurs et équations
+<p>Associer chaque équation réduite de droite avec la représentation graphique d'un de ses vecteurs directeurs.</p>
+
+
+
+
+:H4/geometry/droiteplanrep.fr
+exo=lectequat&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Lecture graphique de l'équation réduite
+Déterminer graphiquement l'équation réduite d'une droite.
+
+
+
+
+:H4/geometry/droiteplanrep.fr
+exo=tracred&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Reconnaitre le tracé d'une droite (eq. réduite)
+Reconnaître, parmi 4 représentations graphiques de droites, celle d'une droite donnée par son équation réduite.
+
+
+
+
+:H4/geometry/droiteplanrep.fr
+exo=tracredstep&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tracé d'une droite (guidé)
+Exercice guidé pour tracer une droite donnnée par son équation réduite.
+
+
+
+
+:H4/geometry/droiteplanrep.fr
+exo=eqredstep&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation réduite (guidé)
+Déterminer l'équation réduite d'une droite dont on connaît les coordonnées de deux de ses points (exercice guidé).
+
+
+
+
+:H4/geometry/droiteplanrep.fr
+exo=eqred&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Equation réduite
+Déterminer l'équation réduite d'une droite dont on connaît les coordonnées de deux de ses points.
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=selectVectDir1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Sélectionner un vecteur directeur I
+<p>QCM - Une équation cartésienne de droite étant donnée, sélectionner parmi plusieurs représentations graphiques de vecteurs, un vecteur directeur de cette droite.</p>
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=selectVectDir2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Sélectionner un vecteur directeur II
+<p>QCM - Une équation cartésienne de droite étant donnée, sélectionner parmi plusieurs expressions de vecteurs sous la forme \(a \overrightarrow{i} + b \overrightarrow{j}\) , un vecteur directeur de cette droite.</p>
+
+
+
+
+:H4/geometry/droiteplanrep.fr
+exo=vectdirectcart&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Vecteur directeur d'une droite (eq cartésienne)
+Déterminer les coordonnées d'un vecteur directeur d'une droite donnée par une équation cartésienne.
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=selectEqAB1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Sélectionner une équation I
+<p>QCM - Sélectionner parmi plusieurs équations cartésiennes de droites, celle qui correspond à la droite passant par les deux points de coordonnées données.</p>
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=selectEqAB2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Sélectionner une équation II
+<p>QCM - Sélectionner parmi plusieurs équations cartésiennes de droites, celle qui correspond à la droite passant par un point de coordonnées données et de vecteur directeur de coordonnées données.</p>
+
+
+
+
+:H4/geometry/droiteplanrep.fr
+exo=tracpar&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Reconnaitre la représentation graphique d'une droite
+<p>Reconnaître, parmi 4 représentations graphiques de droites, celle d'une droite donnée par une équation cartésienne.</p>
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=equationPtVect&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Equation cartésienne (point et vecteur)
+<p>Déterminer une équation cartésienne d'une droite connaissant un point et un vecteur directeur de cette droite.</p>
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=equationDe2pts&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Equation cartésienne (deux points)
+<p>Déterminer une équation cartésienne d'une droite connaissant deux points distincts de cette droite.</p>
+
+
+
+

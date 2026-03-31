@@ -1,0 +1,53 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Variance d'une variable aléatoire
+!set gl_level=H5 Générale , H6 Générale 
+:
+:
+:
+:
+<div class="wims_defn">
+<H4>Définition :</H4>
+Soit \(X\) une <strong>variable aléatoire</strong> réelle définie sur un univers fini <span class="nowrap">\({\Omega}\).</span><br>
+On suppose que \(X\) prend \(n\) valeurs (\(n\) entier naturel non nul) notées \(x_1,\,x_2,\,\ldots,\,x_n\) avec les probabilités \(p_1,\,p_2,\,\ldots,\,p_n\) et on note \(\mathbf{E}(X)\) son espérance mathématique.
+<table class="wimscenter wimsborder" >
+<tr>
+<th style="background-color:#c8c3c3;">\(k\)</th>
+<td>\(x_1\)</td>
+<td>\(x_2\)</td>
+<td>...</td>
+<td>\(x_n\)</td>
+</tr>
+<tr>
+<th style="background-color:#c8c3c3;">\(\mathbf{P}\left(X=k\right)\)</th>
+<td>\(p_1\)</td>
+<td>\(p_2\)</td>
+<td>...</td>
+<td>\(p_n\)</td>
+</tr>
+</table>
+La <strong>variance</strong> de la variable aléatoire \(X\) est le réel noté \(\mathbf{V}(X)\) défini par&nbsp;:
+<div class="wimscenter unbreakable">
+\(\mathbf{V}(X) = p_1 \left(x_1-\mathbf{E}(X)\right)^2 + p_2 \left(x_2-\mathbf{E}(X)\right)^2 + ... + p_n \left(x_n-\mathbf{E}(X)\right)^2\)
+</div>
+On note également&nbsp;:
+<div class="wimscenter">
+\(\displaystyle{\mathbf{V}(X) = \sum_{i=1}^{n} \left(x_i-\mathbf{E}(X)\right)^2}\)
+</div>
+</div>
+:
+:
+<div class="wims_thm">
+<H4>Propriétés (uniquement en classe de terminale)&nbsp;:</H4>
+Soit \(X\) et \(Y\) des variables aléatoires <strong>indépendantes</strong> définies sur un univers fini \({\Omega}\) et soit \(a\) et \(b\) deux réels, on a&nbsp;:
+<ul>
+<li> \(\mathbf{V}(a X) =a^2\mathbf{V}(X) \)
+</li>
+<li> \(\mathbf{V}(X+b) =\mathbf{V}(X)\)
+</li>
+<li> \(\mathbf{V}(X+Y) =\mathbf{V}(X) +\mathbf{V}(Y) \)
+</li>
+</ul>
+</div>
+

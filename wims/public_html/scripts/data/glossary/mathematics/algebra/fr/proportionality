@@ -1,0 +1,18 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Grandeurs proportionnelles
+!set gl_level=E6
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>
+Deux séries de nombres \((a, b, c, \cdots)\) et \((a', b', c', \cdots)\) sont <strong>proportionnelles</strong> s'il existe un nombre \(k\) non nul tel que <span class = "nowrap">\(a'= k \times a\),</span> <span class = "nowrap">\(b'=k \times b\),</span> <span class = "nowrap">\(c'=k \times c, \cdots\).</span><br>
+Le nombre \(k\) est appelé <strong>coefficient de proportionnalité</strong>.<br>
+Deux grandeurs sont proportionnelles lorsque leurs séries de nombres associées sont proportionnelles.
+</p>
+</div>
+
+

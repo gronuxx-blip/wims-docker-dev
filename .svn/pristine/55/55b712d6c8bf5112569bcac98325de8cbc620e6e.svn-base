@@ -1,0 +1,60 @@
+:E6/number/oeftabmul.fr
+exo=coursemult&confparm1=2&confparm1=3&confparm1=4&confparm2=10&qnum=1&scoredelay=100,200&seedrepeat=0&qcmlevel=1
+10
+1
+Course aux tables de Multiplications
+<p>Niveau 1 </p>
+
+<p>tables 2 à 4 ,10 en 100 secondes</p>
+
+chrono
+:E6/number/oeftabmul.fr
+exo=coursemult&confparm1=2&confparm1=3&confparm1=4&confparm2=10&qnum=1&scoredelay=80,160&seedrepeat=0&qcmlevel=1
+10
+1
+Course aux tables de Multiplications
+
+
+<p>tables 2 à 4 ,10 en 80 secondes</p>
+
+chrono
+:E6/number/oeftabmul.fr
+exo=coursemult&confparm1=2&confparm1=3&confparm1=4&confparm1=5&confparm1=6&confparm2=10&qnum=1&scoredelay=100,200&seedrepeat=0&qcmlevel=1
+10
+1
+Course aux tables de Multiplications
+
+
+<p>tables 2 à 6 ,10 en 100 secondes</p>
+
+chrono
+:E6/number/oeftabmul.fr
+exo=coursemult&confparm1=3&confparm1=4&confparm1=5&confparm1=6&confparm2=10&qnum=1&scoredelay=80,160&seedrepeat=0&qcmlevel=1
+10
+1
+Course aux tables de Multiplications
+
+
+<p>tables 3 à 6 ,10 en 80 secondes</p>
+
+chrono
+:E6/number/oeftabmul.fr
+exo=coursemult&confparm1=2&confparm1=3&confparm1=4&confparm1=5&confparm1=6&confparm1=7&confparm1=8&confparm1=9&confparm2=10&qnum=1&scoredelay=100,200&seedrepeat=0&qcmlevel=1
+10
+1
+Course aux tables de Multiplications
+
+
+<p>tables 2 à 9 ,10 en 100 secondes</p>
+
+chrono
+:E6/number/oeftabmul.fr
+exo=coursetroumult&confparm1=7&confparm1=8&confparm2=10&qnum=1&scoredelay=100&seedrepeat=0&qcmlevel=1
+10
+1
+Course aux trous des tables de Multiplications
+<p>Tables 6,7,8,9, 10 questions en 100 secondes</p>
+
+
+
+chrono

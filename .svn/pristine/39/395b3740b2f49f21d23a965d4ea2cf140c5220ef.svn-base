@@ -1,0 +1,55 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Point d'inflexion (Exemple 2)
+
+!readproc data/glossary/mathematics/analysis/macro/convexity_gen inflexion,2
+
+<style>
+/*<![CDATA[*/
+#enonce{order:1;}\
+#applet{order:2;}\
+@media screen and (max-width: 40em) {\
+#enonce{order:2;}\
+#applet{order:1;}\
+}\
+div.applet{padding-left:1.5em;}\
+details{box-shadow:none}\
+div.gl_intro{margin-bottom:1em}\
+/*]]>*/
+</style>
+
+!set gl_lang=convexe,concave\
+croissante,décroissante
+
+<div class="gl_intro">
+  <p>Soit \(f\) la fonction définie sur \(\mathrm{I}=\left\lbrack $(gl_aa1) \,;$(gl_bb1) \right\rbrack\) par \(f(x)=$(gl_fonction[1;3])\) et de courbe repésentative <span class="nowrap">\(\mathcal{C}\).</span>
+  </p>
+  <p>Démontrer que \(f\) admet un point d'inflexion sur <span class="nowrap">\(\mathrm{I}\).</span>
+  </p>
+</div>
+<div class="grid-x grid-margin-x">
+  <div id="enonce" class="cell small-12 medium-6 large-6">
+    <details>
+      <summary class="oef_indgood">Éléments de solution</summary>
+    <p>La fonction \(f\) est dérivable sur \(\mathrm{I}\) et pour tout réel \(x\) de <span class="nowrap">\(\mathrm{I}\),</span>
+    <span class="nowrap">\(f^{'}(x)=$(gl_fonction[1;6])\).</span></p>
+    <p>La fonction \(f^{'}\) est dérivable sur \(\mathrm{I}\) et pour tout réel \(x\) de <span class="nowrap">\(\mathrm{I}\),</span>
+    <span class="nowrap">\(f^{''}(x)=$(gl_fonction[1;8])\).</span></p>
+    <p>Le signe de \(f^{''}\) sur \(\mathrm{I}\) est donné par <br>
+    !readproc slib/function/tabsignes [[x,$(gl_fonction[1;7])],[$(gl_absimag[1;9]),$(gl_absimag[1;11]);$(gl_absimag[1;1]);]],text=[Signe de \(f^{''}(x)\),replace,2]
+    $slib_out
+    <p>On en déduit que la fonction \(f\) est $(gl_lang[1;$(gl_typeConv[1])]) sur \
+    \(\left\lbrack $gl_aa1 \,;$gl_infl \right\rbrack\) et $(gl_lang[1;$(gl_typeConv[2])]) sur \
+    <span class="nowrap">\(\left\lbrack $gl_infl \,;$gl_bb1 \right\rbrack\).</span></p>
+    <p>\(f\left($gl_infl\right)= $gl_infly\)<br>
+     On en déduit que le point de coordonnées \(\left($gl_infl\,;$gl_infly \right)\) est un point \
+     d'inflexion de <span class="nowrap">\(\mathcal{C}\).</span></p>
+    </details>
+  </div>
+  <div id="applet" class="cell small-12 medium-6 large-6">
+    <div>
+      !readproc slib/geo2D/jsxgraph id$(gl_a)1 brd$(gl_a)1,[$gl_xsize x $gl_ysize,min=250px max=400px scroll],$(gl_script$(gl_a)1)
+      $slib_out
+    </div>
+  </div>
+</div>

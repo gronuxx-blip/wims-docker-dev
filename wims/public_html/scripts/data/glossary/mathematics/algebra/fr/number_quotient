@@ -1,0 +1,15 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Quotient de deux nombres
+!set gl_level=E6 Cycle&nbsp;3
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>
+Soit \(a\) un nombre et soit \(b\) un nombre non nul.<br>
+Le <strong>quotient</strong> de \(a\) par \(b\) est le nombre qui multiplié par  \(b\) donne <span class="nowrap">\(a\).</span><br>
+</p>
+</div>

@@ -1,0 +1,76 @@
+Point sur une droite
+Vérifier si un point appartient à une droite d'équation donnée, déterminer les coordonnées d'un point d'une droite d'équation donnée (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,geometry
+levelH4,analytic_geometry,line,line_equation,coordinates
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Vérifier si un point appartient à une droite d'équation donnée, déterminer les coordonnées d'un point d'une droite d'équation donnée (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/h4droites.fr
+exo=abs2ordonnee&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Avec l'ordonnée trouver l'abscisse
+<p>Calculer l'ordonnée du point d'abscisse donnée d'une droite dont on connaît une équation cartésienne.</p>
+
+
+:H4/algebra/h4droites.fr
+exo=ordoneeOrign&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Ordonnée à l'origine
+<p>Déterminer l'ordonnée à l'origine d'une droite d'équation donnée.</p>
+
+
+:H4/geometry/droiteplanrep.fr
+exo=pointsur&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Point sur la droite ? (eq. réduite)
+Déterminer si un point de coordonnées données appartient ou non à une droite d'équation réduite donnée.
+
+
+:H4/geometry/droiteplanrep.fr
+exo=pointsurcart&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Point sur la droite ? (eq. cartésienne)
+Déterminer si un point de coordonnées données appartient ou non à une droite d'équation cartésienne donnée.
+
+
+:H4/analysis/OEFequdrt.fr
+exo=point1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées d'un point (1)
+<p>Déterminer les coordonnées d'un point appartenant à une droite d'équation réduite donnée.</p>
+
+
+:H4/analysis/OEFequdrt.fr
+exo=point2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées d'un point (2)
+<p>Déterminer les coordonnées d'un point appartenant à une droite d'équation réduite donnée et n'appartenant pas à l'axe des ordonnées.</p>
+
+
+:H4/analysis/OEFequdrt.fr
+exo=point3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées d'un point (3)
+<p>Déterminer les coordonnées d'un point appartenant à une droite d'équation cartésienne donnée.</p>
+
+
+:H4/analysis/OEFequdrt.fr
+exo=point4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées d'un point (4)
+<p>Déterminer les coordonnées d'un point appartenant à une droite d'équation cartésienne donnée et n'appartenant pas à l'axe des ordonnées.</p>
+
+
+

@@ -1,0 +1,36 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=isometries,vectors
+!set gl_title=Translation
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\overrightarrow{u}\) un vecteur du plan ou de l'espace.<br>La <strong>translation</strong> de vecteur \(\overrightarrow{u}\) est la transformation du plan ou de l'espace par laquelle tout point \(\mathrm{M}\) a pour image le point \(\mathrm{M}^{'}\) tel que <span class="nowrap">\(\overrightarrow{\mathrm{MM}^{'}} = \overrightarrow{u}\).</span>
+</div>
+:mathematics/geometry/fr/translation_1
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Si \(t\) est une translation et si <span class="nowrap">\(\mathrm{A}\),</span> <span class="nowrap">\(\mathrm{B}\),</span> <span class="nowrap">\(\mathrm{A}^{'}\),</span> \(\mathrm{B}^{'}\) sont quatre points tels que
+  \(t(\mathrm{A})=\mathrm{A}^{'}\) et <span class="nowrap">
+  \(t(\mathrm{B})=\mathrm{B}^{'}\),</span> alors <span class="nowrap">
+  \(\overrightarrow{\mathrm{A}^{'}\mathrm{B}^{'}} = \overrightarrow{\mathrm{AB}}\).
+  </span></div>
+:
+:
+<div class="wims_thm">
+<h4>Corollaire</h4>
+Une translation conserve les distances&nbsp;: si \(t\) est une translation et si
+<span class="nowrap">\(\mathrm{A}\),</span> <span class="nowrap">\(\mathrm{B}\),</span> <span class="nowrap">\(\mathrm{A}^{'}\),</span> \(\mathrm{B}^{'}\) sont quatre points tels que \(t(\mathrm{A})=\mathrm{A}^{'}\) et
+<span class="nowrap"> \(t(\mathrm{B})=\mathrm{B}^{'}\),</span> alors
+<span class="nowrap">\(\mathrm{A}^{'}\mathrm{B}^{'}=\mathrm{AB}\).</span>
+</div>
+:mathematics/geometry/fr/translation_2
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Le quadrilatère \(\mathrm{ABCD}\) est un parallélogramme si et seulement si la translation
+qui transforme \(\mathrm{A}\) en <span class="nowrap">\(\mathrm{B}\),</span> transforme \(\mathrm{D}\) en <span class="nowrap">\(\mathrm{C}\).</span>
+</div>
+:mathematics/geometry/fr/translation_3

@@ -1,0 +1,52 @@
+
+:H6/geometry/OEFeqdteplan.fr
+exo=paramplan1
+10
+1
+Point d'un plan donné par une représentation paramétrique
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS2S1&cmd=new,9
+:H6/geometry/OEFeqdteplan.fr
+exo=paramplan2
+10
+1
+Équation cartésienne d'un plan
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS2S2&cmd=new,9
+:H5/algebra/oefgeoesp.fr
+exo=pointplan
+10
+1
+Point d'un plan
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS2S3&cmd=new,9
+:H6/geometry/OEFeqdteplan.fr
+exo=paramplan3
+10
+1
+Représentation paramétrique
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS2S3&cmd=new,9
+:U1/geometry/oefdistortho.fr
+exo=parallel3deq
+10
+1
+Équation d'un plan parallèle à un autre donné et passant par un point donné
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS2S5S1&cmd=new,9
+:H5/algebra/oefgeoesp.fr
+exo=interplan
+10
+1
+Intersection de deux plans non parallèles
+

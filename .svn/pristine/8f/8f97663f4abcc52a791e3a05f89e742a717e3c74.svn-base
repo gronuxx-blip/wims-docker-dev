@@ -1,0 +1,66 @@
+Courbes paramétrées
+L'objectif est dans un premier temps de travailler le lien entre variations des fonctions coordonnées et trajectoire de la courbe paramétrée. Après une discussion sur les tangentes à une courbe paramétrée, on travaille finalement les formules de droites et coniques en polaires
+90 2009
+3
+U1
+mathematics,analysis
+levelU1,postbac,parametric_curves
+Jean-Christophe Léger
+jean-christophe.leger@math.u-psud.fr
+niveau Postbac
+
+:U1/geometry/paramchoice.en
+type=point&type=deriv&choices=4&miss=no&repeat=1
+30
+1
+Valeurs et dérivées des coordonnées
+à partir d'une courbe paramétrée, reconnaître des valeurs ou des dérivées des fonctions. Graphisme animé.
+:U2/geometry/oefparmcurv.fr
+exo=tabalpha2&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Tableaux de variations des coordonnées
+trouver la courbe à partir des variations des coordonnées.
+:U1/geometry/paramcomp.en
+asktype=1&level=3&repeat=1
+30
+1
+Graphes des coordonnées
+reconnaître les graphes des fonctions coordonnées à l'aide de la courbe.
+:U2/geometry/oefparmcurv.fr
+exo=cubictflat&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Tangentes horizontales
+Déterminer les instants où la tangente est horizontale ou verticale.
+:U2/geometry/oefparmcurv.fr
+exo=ptstat0&qnum=1&qcmlevel=1&scoredelay=
+30
+1
+Tangentes et points stationnaires
+Calcul de vecteur tangent en un point où la vitesse est nulle.
+:U1/geometry/oefpolar.fr
+exo=recogb&exo=polaire&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Courbes en polaire (1)
+reconnaître r(theta) à l'aide de la courbe.
+:U1/geometry/oefpolar.fr
+exo=polaire2&exo=recoga&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Courbes en polaire (2)
+reconnaître une courbe polaire à l'aide de r(theta).
+:U1/geometry/oefpolar.fr
+exo=drcerc&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Droites et cercles en polaire
+Reconnaissance de formules. NB: le paramètre s dans cet exercice est l'angle.
+:U1/geometry/oefpolar.fr
+exo=conique&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Coniques en polaire
+Reconnaissance de formules et détermination des paramètres d'une conique. NB: le paramètre s dans cet exercice est l'angle.
+

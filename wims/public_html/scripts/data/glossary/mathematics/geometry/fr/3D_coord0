@@ -1,0 +1,24 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Coordonnées d'un point de l'espace (collège)
+!set gl_level=H2
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit un parallélépipède rectangle (pavé droit).<br>
+On définit un repère par la donnée dans ce parallélépipède rectangle d'un sommet \(\mathrm{A}\) et par un triplet d'arêtes ayant ce sommet en commun, chaque arête étant portée par une droite graduée d'origine le point <span class="nowrap">\(\mathrm{A}\).</span> Le point \(\mathrm{A}\)  est appelé origine du repère. 
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Soit un parallélépipède rectangle muni d'un repère et soit \(\mathrm{M}\) est un point de ce parallélépipède rectangle alors il est repéré par un unique triplet \((x\,;y\,;z)\) de trois nombres.
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Les trois nombres de ce triplet \((x\,;y\,;z)\) sont appelées les coordonnées du point <span class="nowrap">\(\mathrm{M}\) :</span><br>
+\(x\) est l'abscisse, \(y\) est l'ordonnée et \(z\) est l'altitude (ou cote).
+</div>

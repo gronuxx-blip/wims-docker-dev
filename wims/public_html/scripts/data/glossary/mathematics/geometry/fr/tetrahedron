@@ -1,0 +1,27 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Tétraèdre
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Un <strong>tétraèdre</strong> est un polyèdre à quatre faces.
+ </div>
+:
+:
+<div class="wims_thm"><h4>Propriétés</h4>
+Un tétraèdre a&nbsp;:
+<ul>
+<li>quatre sommets,</li>
+<li>six arêtes,</li>
+<li>ses quatre faces triangulaires.</li>
+</ul>
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition (hors programme)</h4>
+Un <strong>tétraèdre régulier</strong> est un tétraèdre dont toutes les faces sont des triangles équilatéraux.
+</div>

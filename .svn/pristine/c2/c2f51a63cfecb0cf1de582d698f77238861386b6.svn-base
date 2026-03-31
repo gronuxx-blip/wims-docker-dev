@@ -1,0 +1,131 @@
+Fonction carré
+Collection d'exercices sur la fonction carré&nbsp;: images, antécédents, résolutions d'équations et d'inéquations en utilisant les variations (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,analysis
+levelH4,real_function,functions,image,preimage,curves,function_variation,extremum,reference_function,equations,inequations
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la fonction carré&nbsp;: images, antécédents, résolutions d'équations et d'inéquations en utilisant les variations (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/oefseconddegree.fr
+exo=sdimag&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul d'image (1)
+<p>Calculer de l'image d'un entier et l'image d'un rationnel par une fonction du second degré.</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdimag2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul d'image (2)
+<p>Calculer l'image de deux nombres comportant une racine carrée.</p>
+
+
+
+algebra
+:H4/analysis/OEFevalwimsfctref.fr
+exo=ptecarre3
+30
+1
+Images et antécédents
+<p>Déterminer des images et des antécédents de quelques réels par la fonction carré.</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdequ1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Equation \(x^2=a\)
+<p>Résoudre une équation de la forme \(x^2=a\)</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdequ2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+&Eacute;quation \(a x^2+b=c\)
+<p>Résoudre une équation de la forme \(a x^2+b=c\)</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdequ3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+&Eacute;quation \((a x+b)^2=c\)
+<p>Résoudre une équation de la forme \((a x+b)^2=c\)</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdequ4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+&Eacute;quation \((a x+b)^2=(c x+d)^2\)
+<p>Résoudre une équation de la forme \((a x+b)^2=(c x+d)^2\)</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdequ5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+&Eacute;quation \(a x^2+b x=0\)
+<p>Résoudre une équation de la forme \(a x^2+b x=0\)</p>
+
+
+
+algebra
+:H4/analysis/OEFevalwimsfctref.fr
+exo=ptecarre1&exo=ptecarre2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Propriétés
+<p>Deux propriétés de la fonction carré.</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdineq1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Inéquation \(x^2 \leqslant a\)
+<p>Résoudre une inéquation de la forme \(x^2 \leqslant a\) en utilisant les variations de la fonction carré.</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdineq2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Inéquation \(a x^2+b\leqslant c\)
+<p>Résoudre une inéquation de la forme \(a x^2+b\leqslant c\) en utilisant les variations de la fonction carré.</p>
+
+
+
+algebra
+:H4/analysis/OEFevalwimsfctref.fr
+exo=ptecarre4
+30
+1
+Encadrement
+<p>Encadrer \(x^2\) sachant \(a \leqslant x \leqslant b\) où \(a\) et \(b\) sont deux réels donnés.</p>
+
+
+
+algebra

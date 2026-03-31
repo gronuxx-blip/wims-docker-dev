@@ -1,0 +1,196 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+slib_title=Pavage hyperbolique du disque de Poincaré
+slib_author=Bernadette, Perrin-Riou
+slib_parms=3\
+,vecteur représentant les paramètres de configuration du pavage\
+0.01,eps\
+size=600 color=[black,white] depl=0 type=1, option (mots) : size= color=[] html/url fill depl= type= alt
+
+slib_out=dessin d'un pavage hyperbolique ou code ou url selon les cas \
+  associé à un polygone tangentiel ou régulier.
+slib_comment=Les pavages considérés sont <ul><li>cas de type 1:\
+  transitifs sur l'ensemble des polygones (faces) et le premier paramètre est\
+    la configuration de faces [d_1, ... , d_n],\
+    c'est-à-dire la suite des types de faces\
+    (nombre de sommets) pour chacun des sommets d'une face (pavage de Catalan);\
+    </li><li>\
+    cas de type 2: transitifs sur l'ensemble des sommets et le premier paramètre est\
+    la configuration de sommets [d_1, ... , d_n],\
+    c'est-à-dire la suite des types de faces (nombre de sommets) ayant un sommet commun.\
+  </li><li>Le cas de type 3 montre le pavage et son dual sur le même dessin.</li></ul>\
+  Dans le premier cas, la tuile de base est un polygone tangentiel\
+    (polygone convexe admettant un cercle inscrit) dont les angles\
+    sont la suite des 2*pi/d_1, ..., 2*pi/d_n.\
+  Dans le deuxième cas, le pavage est dual du pavage de type 1 de configuration de faces\
+  [d_1, ... , d_n].<br>\
+ Dans le cas <span class=tt">"regular"</span>, deux paramètres suffisent,\
+  le polygone est un polygone à d_1 côtés égaux et d_1 angles égaux à 2*pi/d_2.<br>\
+   Ces pavages existent si sum_i=1^n 1/d_i<(n-2)/2 et si les d_i sont pairs.\
+  Il semble qu'on puisse affaiblir cette deuxième condition en supposant que\
+  pour tout i et j, d_i est pair ou d_{i-j}=d_{i+j}.<br>\
+  Le pavage (qui est théoriquement infini) est limité au cercle de rayon 1-eps (eps>0.04).\
+  Cependant, le nombre de polygones dessinés est limité à 400 et même plus dans le cas de canvasdraw.\
+  Si eps est un entier, seules les esp premières tuiles sont dessinées.\
+  <br>\
+  L'option depl change le centrage initial du polygone de base: entre autre,\
+  depl=1: le centre du polygone de départ est 0,\
+  depl=0 :le cercle est tangent au point 0 au polygone.\
+  Dans le cas canvasdraw, il y a limitation du nombre de polygones ... \
+  et donc seuls les types 1 et 2 sont possibles pour l'instant (et encore, à suivre).
+
+
+  type=1: catalan
+  type=2: dual de catalan
+  type=3: les deux
+
+  !!!<br>On peut appliquer la transformation de Moebius z->(a*z+b)/(\bar{b}z+\bar{a})\
+  !!!codé par [a,b,0] ou z->(a*\bar{z}+b)/(\bar{b}\bar{z}+\bar{a}) codé par [a,b,1]\
+  !!!avec |a|>|b|; elle envoie 0 sur b/\bar{a} et le point 1 de l'horizon sur\
+  !!!a/\bar{a}.
+slib_example=[4,5],0.1,html type=1 regular\
+[4,20,16],0.1,html type=1\
+[4,8,10],0.1,html type=1\
+[4,8,10],0.01,html color=blue depl=1\
+[4,8,10],0.01,html color=blue canvasdraw type=2\
+[4,8,10],0.01,html color=[blue,green] type=3\
+[8,8,4,8],0.01,html canvasdraw\
+[8,8,4,8],0.01,html \
+[4,8,6,4,6,6],0.01,html color=blue type=1\
+[4,8,6,4,6,6],0.01,html color=green type=2\
+[4,8,6,4,6,6],0.01,html color=[blue,green] type=3\
+[34,5,34],0.1,html color=green fill=[1]\
+[6,8,10],0.1,html color=[blue,grey] fill\
+[6,8,10],0.1,html fill=[1,5,7]\
+[4,8,9,8,6],0.01,html
+!exit
+:proc
+
+!reset slib_Test slib_type slib_type0 slib_bound slib_cnt slib_size slib_color slib_dessin slib_dessin1 slib_dessin2 slib_dessin3 slib_depl slib_fill slib_dual
+!distribute items $wims_read_parm into slib_data,slib_bound,slib_option
+!set slib_gpprog=hyptiling
+!if $slib_bound<0.01
+  !!reset slib_bound
+!endif
+!set wims_multiexec=$wims_multiexec pari
+!default slib_bound=0.01
+!set slib_size=!getopt size in $slib_option
+!default slib_size=600
+!set slib_color=!getopt color in $slib_option
+!set slib_color=!declosing $slib_color
+!set slib_type=!getopt type in $slib_option
+!default slib_color=black
+!set slib_color=$slib_color,$(slib_color[1])
+!set slib_color=$(slib_color[1,2])
+!set slib_fill=!getopt fill in $slib_option
+!set slib_fill=!declosing $slib_fill
+!set slib_depl=!getopt depl in $slib_option
+!default slib_depl=0
+!default slib_type=1
+!if canvasdraw iswordof $slib_option
+  !set slib_cnt=100
+  !if $slib_bound>1
+    !set slib_cnt=$slib_bound
+  !else
+    !if $slib_type=3
+      !set slib_cnt=$[$slib_cnt/2]
+    !endif
+  !endif
+!else
+  !set slib_cnt=100
+!endif
+!set slib_pqr=!declosing $slib_data
+!set slib_pqr=!exec pari [$slib_pqr]
+!if regular notin $slib_option
+  !set slib_n=!itemcnt $slib_pqr
+  !set slib_testexist=!exec pari a=[$slib_pqr];test=vecsum(vector($slib_n,i,1/a[i]))>=($slib_n-2)/2;a=concat(a,a[1..2]); for(i=2,1+$slib_n,if(a[i]%2==1, test+=a[i-1]!=a[i+1])); test
+  !if $slib_testexist>0
+    !set slib_out=error $slib_testexist>0
+    !exit
+  !endif
+!endif
+!if regular isin $slib_option
+  !if $[1/$(slib_pqr[1])+1/$(slib_pqr[2])]>=1/2
+    slib_out=Error regular
+    !exit
+  !endif
+  !set slib_pqr=!makelist $(slib_pqr[2]) for x=1 to $(slib_pqr[1])
+!endif
+!set slib_testint=!exec pari t=[$slib_pqr]; t-round(t)==0
+!if $slib_testint!=1
+  slib_out=Error integers
+  !exit
+!endif
+!if $(slib_header_$slib_gpprog)=
+  !readproc gp/$slib_gpprog.gp
+  !set slib_tiling=!exec pari tikz=0;$(slib_header_$slib_gpprog);
+!endif
+slib_depl:0 pas au centre
+1 au centre
+1-> 1,2
+2-> 3,4
+3- > le faire en deux fois.
+!set slib_type0=$slib_type
+!if $slib_type=3
+  !set slib_type0=1,2
+!else
+  !set slib_type0=$slib_type
+!endif
+!set slib_tiling=!exec pari wwww=wims_catalan([$slib_pqr],$slib_bound,$slib_depl,$(slib_type0[1]));default(realprecision,3);wwww
+!set slib_data=!trim $(slib_tiling[2*$(slib_type0[1])-1,2*$(slib_type0[1])])
+!if $(slib_type0[1])=1
+  !if fill iswordof $slib_option
+    !set slib_pol=fhyppolygon
+    !default slib_color=black,white
+  !else
+    !set slib_pol=hyppolygon
+    !set slib_col=$(slib_color[1])
+  !endif
+!else
+  !set slib_pol=hyprays
+  !set slib_col=$(slib_color[1])
+!endif
+!readproc slib/geo2D/offtiling
+!if $slib_type=3
+  !set slib_type0=2
+  !set slib_tiling=!exec pari wwww=wims_catalan([$slib_pqr],$slib_bound,$slib_depl,$(slib_type0));default(realprecision,3);wwww
+  !set slib_data=!trim $(slib_tiling[2*$(slib_type0)-1,2*$(slib_type0)])
+  !set slib_pol=hyprays
+  !set slib_col=$(slib_color[2])
+  !readproc slib/geo2D/offtiling
+!endif
+
+!set slib_range=-1,1
+!set slib_head=xrange $slib_range\
+yrange $slib_range\
+circles black,0,0,1
+
+slib_out=$slib_dessin
+$slib_dessin1\
+$slib_dessin2\
+$slib_dessin3
+!if url iswordof $slib_option or html iswordof $slib_option
+  insdraw_size=$slib_size,$slib_size
+  !if canvasdraw isin $slib_option
+    slib_out=!exec canvasdraw\
+size $insdraw_size\
+$slib_head\
+$slib_out
+  !else
+    !insdraw $slib_head\
+    $slib_out
+    !set slib_out=$ins_url
+    !if html iswordof $slib_option
+      !if alt iswordof $slib_option
+        !set slib_alt=[$slib_pqr]
+      !else
+        !reset slib_alt
+      !endif
+    !set slib_out=<img src="$ins_url" alt="$slib_alt">
+    !else
+      !set slib_out=$slib_out,$insdraw_size
+    !endif
+  !endif
+!endif
+slib_out=$slib_out

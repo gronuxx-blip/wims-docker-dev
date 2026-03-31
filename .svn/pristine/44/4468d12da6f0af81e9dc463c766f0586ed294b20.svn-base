@@ -1,0 +1,152 @@
+Évolution
+Variation absolue, variation relative, exploiter la relation entre deux valeurs successives et leur taux d’évolution (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,statistics
+levelH4,percentage
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Variation absolue, variation relative, exploiter la relation entre deux valeurs successives et leur taux d’évolution (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H5/algebra/OEFpctprem.fr
+exo=taux5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Taux d'évolution et coefficients multiplicateurs
+<p>Associer taux d'évolution et coefficients multiplicateurs.</p>
+
+
+:H5/algebra/OEFpctprem.fr
+exo=taux4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Taux d'évolution Vrai/Faux
+<p>Vrai/Faux sur taux d'évolution et coefficients multiplicateurs.</p>
+
+
+:H5/algebra/OEFpctprem.fr
+exo=taux1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Taux d'évolution 1
+<p>Calculer le prix final d'un article dont le prix initial a subi une augmentation ou une diminution.</p>
+
+
+:H5/algebra/OEFpctprem.fr
+exo=taux2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Taux d'évolution 2
+<p>Calculer le taux d'évolution d'un article connaissant son prix initial et son prix final.</p>
+
+
+:H5/algebra/OEFpctprem.fr
+exo=taux3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Taux d'évolution 3
+<p>Calculer le prix initial d'un article connaissant son prix final après une évolution donnée.</p>
+
+
+:H5/analysis/oefpercent1.fr
+exo=coeff1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coefficient multiplicateur et augmentation
+<p>Différentes questions sur le coefficient multiplicateur associé à une augmentation.</p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=coeff2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coefficient multiplicateur et diminution
+<p>Différentes questions sur le coefficient multiplicateur associé à une diminution.</p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=prixtaxe&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Le prix Hors Taxe
+<p>Calculer le prix hors taxe d'un article connaissant son prix TTC et le taux de taxe sur le prix hors taxe.</p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=solde1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Les soldes
+<p>Exercices sur les pourcentages avec une seule référence (avec choix de méthode)</p>
+
+
+:H5/analysis/oefpercent1.fr
+exo=solde2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Les soldes 2
+<p>Exercices sur les pourcentages avec une seule référence (avec choix de méthode et schémas mélangés).</p>
+
+
+:H5/analysis/oefpercent1.fr
+exo=solde3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Les soldes 3
+<p>Exercices sur les pourcentages avec une seule référence (classement des types de pourcentages et de questions).</p>
+
+
+:H5/analysis/oefpercent1.fr
+exo=augm&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Pourcentage d'augmentation
+<p>Différentes questions sur les pourcentages d'augmentation avec la possibilité de choisir différentes aides.</p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=percentdim&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Pourcentage de diminution
+<p>Différentes questions sur les pourcentages de diminution avec la possibilité de choisir différentes aides.</p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=percentref2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Référence d'un pourcentage d'augmentation
+<p>Différentes questions sur la référence d'un pourcentage d'augmentation avec la possibilité de choisir différentes aides.</p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=percentref3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Référence d'un pourcentage de diminution
+<p>Différentes questions sur la référence d'un pourcentage de diminution avec la possibilité de choisir différentes aides.</p>
+
+
+
+
+ 

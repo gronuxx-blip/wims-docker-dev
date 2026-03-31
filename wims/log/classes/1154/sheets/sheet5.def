@@ -1,0 +1,812 @@
+<div class="wimscenter"><h2> $m_title</h2></div>
+<div>$m_desc</div>
+
+!set m_commentaires_profs=39 exos max+affichage ssi tous les niveaux précédents sont validés,	 fait le 10 octobre 2025 MB 12.6
+
+
+ 
+!if $m_nbexo<10 
+
+!set m_tetoile=$[rint(40/$m_nbexo)]
+
+!else
+
+                         
+!set m_tetoile=$[rint(60/$m_nbexo)]
+
+!endif
+
+ 
+!if $m_nbexo>25 
+
+!set m_tetoile=$[rint(80/$m_nbexo)]
+
+!endif
+
+
+!set m_tetoile=$m_tetoile%
+
+
+
+!set m_etoile=<img style="float:right;height:$m_tetoile;width:$m_tetoile;" src="gifs/logo.gif" alt="récompense" >
+
+
+
+!set m_nscore=$[rint($(m_scorebests[1]))]
+
+
+!set m_conditionaff=1
+
+
+
+!set m_p=$[rint($(m_scorebests[1])*10)]
+
+
+!set m_temp=$[rint($(m_scorebests[2])*10)]
+
+
+!set m_p=$m_p,$m_temp
+
+
+ 
+!if $(m_scorebests[1])=10 
+
+ 
+!set m_conditionaff=$m_conditionaff,1
+
+
+ 
+!else
+ 
+!set m_conditionaff=$m_conditionaff,0
+
+
+!endif
+
+ 
+!if ($(m_scorebests[2])=10) and ($(m_conditionaff[2])=1) 
+
+ 
+!set m_conditionaff=$m_conditionaff,1
+
+
+ 
+!else
+ 
+ 
+!set m_conditionaff=$m_conditionaff,0
+
+
+ 
+!endif
+
+ 
+!for m_k0=3 to $m_nbexo 
+
+
+!set m_temp=$[rint($(m_scorebests[$m_k0])*10)]
+
+
+!set m_p=$m_p,$m_temp
+
+
+ 
+!if ($(m_scorebests[$m_k0])=10) and ($(m_conditionaff[$m_k0])=1) 
+
+ 
+!set m_conditionaff=$m_conditionaff,1
+
+
+ 
+!else
+ 
+ 
+!set m_conditionaff=$m_conditionaff,0
+
+
+ 
+!endif
+
+!next
+
+ 
+!for m_jj=2 to $m_nbexo 
+
+  
+!set m_i=$[rint($m_nbexo-$m_jj+2)]
+
+  
+!set m_exoprecedent=$[rint($m_i-1)]
+
+   
+!if $(m_conditionaff[$m_i])==1  
+
+         
+!if $(m_scorebests[$m_nbexo])==10 and $m_i==$m_nbexo 
+<div class="wims_question"><b>Bravo &#33; </b><br>Dernier niveau validé &#33; <br><b>FELICITATIONS $m_user_firstname &#128540;</b></div>
+!endif
+
+        <div class="wims_question">
+         
+!if $(m_scorebests[$m_i])=10 
+ 
+!for m_kk=1 to $m_i 
+$m_etoile 
+!next
+
+!endif
+
+         
+!if $m_i=1 
+
+!read primitives.phtml 1, exercise, \sheet/1, Niveau 1 
+
+!endif
+
+         
+!if $m_i=2 
+
+!read primitives.phtml 2, exercise, \sheet/2, Niveau 2 
+
+!endif
+
+         
+!if $m_i=3 
+
+!read primitives.phtml 3, exercise, \sheet/3, Niveau 3 
+
+!endif
+
+         
+!if $m_i=4 
+
+!read primitives.phtml 4, exercise, \sheet/4, Niveau 4 
+
+!endif
+
+         
+!if $m_i=5 
+
+!read primitives.phtml 5, exercise, \sheet/5, Niveau 5 
+
+!endif
+
+         
+!if $m_i=6 
+
+!read primitives.phtml 6, exercise, \sheet/6, Niveau 6 
+
+!endif
+
+         
+!if $m_i=7 
+
+!read primitives.phtml 7, exercise, \sheet/7, Niveau 7 
+
+!endif
+
+         
+!if $m_i=8 
+
+!read primitives.phtml 8, exercise, \sheet/8, Niveau 8 
+
+!endif
+
+         
+!if $m_i=9 
+
+!read primitives.phtml 9, exercise, \sheet/9, Niveau 9 
+
+!endif
+
+         
+!if $m_i=10 
+
+!read primitives.phtml 10, exercise, \sheet/10, Niveau 10 
+
+!endif
+
+         
+!if $m_i=11 
+
+!read primitives.phtml 11, exercise, \sheet/11, Niveau 11 
+
+!endif
+
+         
+!if $m_i=12 
+
+!read primitives.phtml 12, exercise, \sheet/12, Niveau 12 
+
+!endif
+
+         
+!if $m_i=13 
+
+!read primitives.phtml 13, exercise, \sheet/13, Niveau 13 
+
+!endif
+
+         
+!if $m_i=14 
+
+!read primitives.phtml 14, exercise, \sheet/14, Niveau 14 
+
+!endif
+
+         
+!if $m_i=15 
+
+!read primitives.phtml 15, exercise, \sheet/15, Niveau 15 
+
+!endif
+
+         
+!if $m_i=16 
+
+!read primitives.phtml 16, exercise, \sheet/16, Niveau 16 
+
+!endif
+
+         
+!if $m_i=17 
+
+!read primitives.phtml 17, exercise, \sheet/17, Niveau 17 
+
+!endif
+
+         
+!if $m_i=18 
+
+!read primitives.phtml 18, exercise, \sheet/18, Niveau 18 
+
+!endif
+
+         
+!if $m_i=19 
+
+!read primitives.phtml 19, exercise, \sheet/19, Niveau 19 
+
+!endif
+
+         
+!if $m_i=20 
+
+!read primitives.phtml 20, exercise, \sheet/20, Niveau 20 
+
+!endif
+
+         
+!if $m_i=21 
+
+!read primitives.phtml 21, exercise, \sheet/21, Niveau 21 
+
+!endif
+
+         
+!if $m_i=22 
+
+!read primitives.phtml 22, exercise, \sheet/22, Niveau 22 
+
+!endif
+
+         
+!if $m_i=23 
+
+!read primitives.phtml 23, exercise, \sheet/23, Niveau 23 
+
+!endif
+
+         
+!if $m_i=24 
+
+!read primitives.phtml 24, exercise, \sheet/24, Niveau 24 
+
+!endif
+
+         
+!if $m_i=25 
+
+!read primitives.phtml 25, exercise, \sheet/25, Niveau 25 
+
+!endif
+
+         
+!if $m_i=26 
+
+!read primitives.phtml 26, exercise, \sheet/26, Niveau 26 
+
+!endif
+
+         
+!if $m_i=27 
+
+!read primitives.phtml 27, exercise, \sheet/27, Niveau 27 
+
+!endif
+
+         
+!if $m_i=28 
+
+!read primitives.phtml 28, exercise, \sheet/28, Niveau 28 
+
+!endif
+
+         
+!if $m_i=29 
+
+!read primitives.phtml 29, exercise, \sheet/29, Niveau 29 
+
+!endif
+
+         
+!if $m_i=30 
+
+!read primitives.phtml 30, exercise, \sheet/30, Niveau 30 
+
+!endif
+
+         
+!if $m_i=31 
+
+!read primitives.phtml 31, exercise, \sheet/31, Niveau 31 
+
+!endif
+
+         
+!if $m_i=32 
+
+!read primitives.phtml 32, exercise, \sheet/32, Niveau 32 
+
+!endif
+
+         
+!if $m_i=33 
+
+!read primitives.phtml 33, exercise, \sheet/33, Niveau 33 
+
+!endif
+
+         
+!if $m_i=34 
+
+!read primitives.phtml 34, exercise, \sheet/34, Niveau 34 
+
+!endif
+
+         
+!if $m_i=35 
+
+!read primitives.phtml 35, exercise, \sheet/35, Niveau 35 
+
+!endif
+
+         
+!if $m_i=36 
+
+!read primitives.phtml 36, exercise, \sheet/36, Niveau 36 
+
+!endif
+
+         
+!if $m_i=37 
+
+!read primitives.phtml 37, exercise, \sheet/37, Niveau 37 
+
+!endif
+
+         
+!if $m_i=38 
+
+!read primitives.phtml 38, exercise, \sheet/38, Niveau 38 
+
+!endif
+
+         
+!if $m_i=39 
+
+!read primitives.phtml 39, exercise, \sheet/39, Niveau 39 
+
+!endif
+
+          
+!if $(m_scorealltries[$m_i])>0 
+<br >Meilleur score &#58;
+             
+!if $(m_p[$m_i])>79 
+<b><span style="color&#58;green"> $(m_p[$m_i]) &#37;</span></b>
+                
+!else
+  
+!if $(m_p[$m_i])>50 
+<span style="color&#58;orange">$(m_p[$m_i]) &#37;</span>
+                    
+!else
+ <span style="color&#58;red">$(m_p[$m_i]) &#37;</span>
+!endif
+
+                
+!endif
+
+            <br >Essais &#58;<span style="color&#58;#33ff6b;">
+            
+!set m_essais=$[rint($(m_scorealltries[$m_i]))]
+
+             
+!for m_kp=1 to $m_essais 
+ &#9632; 
+!next
+
+            </span>
+             
+!if $(m_p[$m_i])=100 
+<br>Bravo &#33; Le niveau $m_i est atteint
+                
+!else
+ 
+                 
+!if $(m_p[$m_i])>75 
+<br>On y est presque $m_user_firstname, essaie encore
+!else
+ <br>$m_user_firstname il va falloir s'entraîner encore..
+!endif
+
+!endif
+
+!else
+
+             <br>Jamais essayé. <b>$m_user_firstname</b> tu n'as pas encore commencé ?
+!endif
+
+         
+!if $(m_p[$m_i])<100 
+<div class="wimscenter">
+          <div class="wims_button">
+           
+!if $m_i=1 
+
+!read primitives.phtml 40, exercise, \sheet/1, <span style="color:var(--wims_ref_button_color)">Niveau 1</span> 
+
+!endif
+
+           
+!if $m_i=2 
+
+!read primitives.phtml 41, exercise, \sheet/2, <span style="color:var(--wims_ref_button_color)">Niveau 2</span> 
+
+!endif
+
+           
+!if $m_i=3 
+
+!read primitives.phtml 42, exercise, \sheet/3, <span style="color:var(--wims_ref_button_color)">Niveau 3</span> 
+
+!endif
+
+           
+!if $m_i=4 
+
+!read primitives.phtml 43, exercise, \sheet/4, <span style="color:var(--wims_ref_button_color)">Niveau 4</span> 
+
+!endif
+
+           
+!if $m_i=5 
+
+!read primitives.phtml 44, exercise, \sheet/5, <span style="color:var(--wims_ref_button_color)">Niveau 5</span> 
+
+!endif
+
+           
+!if $m_i=6 
+
+!read primitives.phtml 45, exercise, \sheet/6, <span style="color:var(--wims_ref_button_color)">Niveau 6</span> 
+
+!endif
+
+           
+!if $m_i=7 
+
+!read primitives.phtml 46, exercise, \sheet/7, <span style="color:var(--wims_ref_button_color)">Niveau 7</span> 
+
+!endif
+
+           
+!if $m_i=8 
+
+!read primitives.phtml 47, exercise, \sheet/8, <span style="color:var(--wims_ref_button_color)">Niveau 8</span> 
+
+!endif
+
+           
+!if $m_i=9 
+
+!read primitives.phtml 48, exercise, \sheet/9, <span style="color:var(--wims_ref_button_color)">Niveau 9</span> 
+
+!endif
+
+           
+!if $m_i=10 
+
+!read primitives.phtml 49, exercise, \sheet/10, <span style="color:var(--wims_ref_button_color)">Niveau 10</span> 
+
+!endif
+
+           
+!if $m_i=11 
+
+!read primitives.phtml 50, exercise, \sheet/11, <span style="color:var(--wims_ref_button_color)">Niveau 11</span> 
+
+!endif
+
+           
+!if $m_i=12 
+
+!read primitives.phtml 51, exercise, \sheet/12, <span style="color:var(--wims_ref_button_color)">Niveau 12</span> 
+
+!endif
+
+           
+!if $m_i=13 
+
+!read primitives.phtml 52, exercise, \sheet/13, <span style="color:var(--wims_ref_button_color)">Niveau 13</span> 
+
+!endif
+
+           
+!if $m_i=14 
+
+!read primitives.phtml 53, exercise, \sheet/14, <span style="color:var(--wims_ref_button_color)">Niveau 14</span> 
+
+!endif
+
+           
+!if $m_i=15 
+
+!read primitives.phtml 54, exercise, \sheet/15, <span style="color:var(--wims_ref_button_color)">Niveau 15</span> 
+
+!endif
+
+           
+!if $m_i=16 
+
+!read primitives.phtml 55, exercise, \sheet/16, <span style="color:var(--wims_ref_button_color)">Niveau 16</span> 
+
+!endif
+
+           
+!if $m_i=17 
+
+!read primitives.phtml 56, exercise, \sheet/17, <span style="color:var(--wims_ref_button_color)">Niveau 17</span> 
+
+!endif
+
+           
+!if $m_i=18 
+
+!read primitives.phtml 57, exercise, \sheet/18, <span style="color:var(--wims_ref_button_color)">Niveau 18</span> 
+
+!endif
+
+           
+!if $m_i=19 
+
+!read primitives.phtml 58, exercise, \sheet/19, <span style="color:var(--wims_ref_button_color)">Niveau 19</span> 
+
+!endif
+
+           
+!if $m_i=20 
+
+!read primitives.phtml 59, exercise, \sheet/20, <span style="color:var(--wims_ref_button_color)">Niveau 20</span> 
+
+!endif
+
+           
+!if $m_i=21 
+
+!read primitives.phtml 60, exercise, \sheet/21, <span style="color:var(--wims_ref_button_color)">Niveau 21</span> 
+
+!endif
+
+           
+!if $m_i=22 
+
+!read primitives.phtml 61, exercise, \sheet/22, <span style="color:var(--wims_ref_button_color)">Niveau 22</span> 
+
+!endif
+
+           
+!if $m_i=23 
+
+!read primitives.phtml 62, exercise, \sheet/23, <span style="color:var(--wims_ref_button_color)">Niveau 23</span> 
+
+!endif
+
+           
+!if $m_i=24 
+
+!read primitives.phtml 63, exercise, \sheet/24, <span style="color:var(--wims_ref_button_color)">Niveau 24</span> 
+
+!endif
+
+           
+!if $m_i=25 
+
+!read primitives.phtml 64, exercise, \sheet/25, <span style="color:var(--wims_ref_button_color)">Niveau 25</span> 
+
+!endif
+
+           
+!if $m_i=26 
+
+!read primitives.phtml 65, exercise, \sheet/26, <span style="color:var(--wims_ref_button_color)">Niveau 26</span> 
+
+!endif
+
+           
+!if $m_i=27 
+
+!read primitives.phtml 66, exercise, \sheet/27, <span style="color:var(--wims_ref_button_color)">Niveau 27</span> 
+
+!endif
+
+           
+!if $m_i=28 
+
+!read primitives.phtml 67, exercise, \sheet/28, <span style="color:var(--wims_ref_button_color)">Niveau 28</span> 
+
+!endif
+
+           
+!if $m_i=29 
+
+!read primitives.phtml 68, exercise, \sheet/29, <span style="color:var(--wims_ref_button_color)">Niveau 29</span> 
+
+!endif
+
+           
+!if $m_i=30 
+
+!read primitives.phtml 69, exercise, \sheet/30, <span style="color:var(--wims_ref_button_color)">Niveau 30</span> 
+
+!endif
+
+           
+!if $m_i=31 
+
+!read primitives.phtml 70, exercise, \sheet/31, <span style="color:var(--wims_ref_button_color)">Niveau 31</span> 
+
+!endif
+
+           
+!if $m_i=32 
+
+!read primitives.phtml 71, exercise, \sheet/32, <span style="color:var(--wims_ref_button_color)">Niveau 32</span> 
+
+!endif
+
+           
+!if $m_i=33 
+
+!read primitives.phtml 72, exercise, \sheet/33, <span style="color:var(--wims_ref_button_color)">Niveau 33</span> 
+
+!endif
+
+           
+!if $m_i=34 
+
+!read primitives.phtml 73, exercise, \sheet/34, <span style="color:var(--wims_ref_button_color)">Niveau 34</span> 
+
+!endif
+
+           
+!if $m_i=35 
+
+!read primitives.phtml 74, exercise, \sheet/35, <span style="color:var(--wims_ref_button_color)">Niveau 35</span> 
+
+!endif
+
+           
+!if $m_i=36 
+
+!read primitives.phtml 75, exercise, \sheet/36, <span style="color:var(--wims_ref_button_color)">Niveau 36</span> 
+
+!endif
+
+           
+!if $m_i=37 
+
+!read primitives.phtml 76, exercise, \sheet/37, <span style="color:var(--wims_ref_button_color)">Niveau 37</span> 
+
+!endif
+
+           
+!if $m_i=38 
+
+!read primitives.phtml 77, exercise, \sheet/38, <span style="color:var(--wims_ref_button_color)">Niveau 38</span> 
+
+!endif
+
+           
+!if $m_i=39 
+
+!read primitives.phtml 78, exercise, \sheet/39, <span style="color:var(--wims_ref_button_color)">Niveau 39</span> 
+
+!endif
+
+             </span>
+          </div>
+          </div>
+!endif
+
+            </div>
+!endif
+
+!next
+
+<div class="wims_question">
+ 
+!if $(m_scorebests[1])=10 
+<img style="float&#58;right;height&#58;$m_tetoile;width&#58;$m_tetoile;" src="gifs/logo.gif" alt="récompense" >
+!endif
+
+
+!read primitives.phtml 79, exercise, \sheet/1, Niveau 1 
+
+ 
+!if $(m_scorealltries[1])>0 
+<br>Meilleur score &#58;
+      
+!if $(m_scorebests[1])>7.9 
+<b><span style="color&#58;green"> $(m_p[1]) &#37;</span></b>
+!else
+  
+!if $(m_scorebests[1])>5 
+<span style="color&#58;orange">$(m_p[1]) &#37;</span>
+!else
+ <span style="color&#58;red">$(m_p[1]) &#37;</span>
+!endif
+
+!endif
+
+     
+!set m_bar1=&#9632;
+
+
+     <br >Essais &#58;<span style="color&#58;#33ff6b;">
+      
+!for m_i0=1 to $(m_scorealltries[1]) 
+&#9632;
+!next
+</span> 
+!if $(m_p[1])=100 
+<br>Bravo &#33; Le niveau 1 est atteint
+!else
+ 
+                 
+!if $(m_p[1])>75 
+<br>On y est presque $m_user_firstname, essaie encore
+!else
+ <br>$m_user_firstname il va falloir s'entraîner encore..
+!endif
+
+!endif
+
+!else
+
+             <br>Jamais essayé. <b>$m_user_firstname</b> tu n'as pas encore commencé ? <br>Clic sur 
+!read primitives.phtml 80, exercise, \sheet/1, Niveau 1 
+ pour commencer
+!endif
+
+ 
+!if $(m_scorebests[1])<10 
+<div class="wimscenter"><div class="wims_button">
+!read primitives.phtml 81, exercise, \sheet/1, <span style="color:var(--wims_ref_button_color)">Niveau 1</span> 
+</div></div>
+!endif
+
+</div>
+<p>$m_nbexo niveaux disponibles</p>
+        

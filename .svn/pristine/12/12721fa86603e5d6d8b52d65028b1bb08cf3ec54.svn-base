@@ -1,0 +1,39 @@
+\(\frac{1}{2}\)
+\( \frac{1}{2} &lt; 1..3\)
+
+\( \frac{1}{2}
+\(a\)
+
+<br />
+
+<br />
+
+
+voici 5 $: c'est beaucoup!
+\draw{200,200}{
+  xrange -2,2
+  yrange _2,2
+  hline black,0,0
+  vline black, 0,0
+}
+!if t
+  ddd
+!else
+  eee
+!endif
+
+> citation1
+
+
+> citation2
+> citation3
+<div class="wimscenter"> dddd
+
+\variable
+
+\\
+
+phrase\
+longue
+
+\exercise{module=U1/analysis/oefstokes.fr}{Exercice}

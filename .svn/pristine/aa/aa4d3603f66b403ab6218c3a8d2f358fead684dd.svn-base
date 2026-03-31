@@ -1,0 +1,124 @@
+
+:H6/algebra/cplxmodarg.fr
+exo=geomodarg1&confparm1=1&confparm1=2&confparm1=3&confparm1=4&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Interprétation géométrique : module et argument
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=module&cmd=new,10,0
+:H6/algebra/cplxmodarg.fr
+exo=module&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Module d'un nombre complexe
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=module&cmd=new,10,0
+:H6/algebra/cplxmodarg.fr
+exo=argument&confparm1=1&confparm1=2&confparm1=3&confparm1=4&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Argument d'un nombre complexe
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=module&cmd=new,10,0
+:H6/algebra/synComplexesTS.fr
+exo=formetrigorem
+10
+1
+Calculer le module et un argument
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=module&cmd=new,10,0
+:H5/algebra/quizcomplex.en
+exo=arggiven
+10
+1
+Calculez \(z\) connaissant son module et son argument
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=module&cmd=new,10
+:H5/algebra/quizcomplex.en
+exo=module
+10
+1
+QCM sur les propriétés des modules
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=propriete&cmd=new,10
+:H5/algebra/quizcomplex.en
+exo=arg0&qnum=1&qcmlevel=3&scoredelay=
+10
+1
+QCM sur les propriétés des arguments
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=propriete&cmd=new,10
+:H6/algebra/oefplancomplexe.fr
+exo=affixe&qnum=1&qcmlevel=3&scoredelay=&confparm1=B&confparm2=TRI&confparm3=2
+10
+1
+Placez sur un graphique un nombre complexe donné sous forme trigonométrique
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=forme&cmd=new,10
+:H6/algebra/oefplancomplexe.fr
+exo=affixe&qnum=1&qcmlevel=3&scoredelay=&confparm1=B&confparm2=XP&confparm3=2
+10
+1
+Placez sur un graphique un nombre complexe donné sous forme exponentielle
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=forme&cmd=new,10
+:H6/algebra/cplxmodarg.fr
+exo=expvcart&confparm1=1&confparm1=2&confparm1=3&confparm1=4&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Forme exponentielle -> forme algébrique
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=forme&cmd=new,10,0
+:H6/algebra/cplxmodarg.fr
+exo=cartvexp&confparm1=1&confparm1=2&confparm1=3&confparm1=4&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Forme algébrique -> forme exponentielle
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=forme&cmd=new,10,0
+:H6/algebra/oefplancomplexe.fr
+exo=oper&qnum=1&qcmlevel=3&scoredelay=&confparm1=B&confparm2=TRI&confparm3=1
+10
+1
+Nombre complexe sous forme trigonométrique et opérations
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=forme&cmd=new,10
+:H6/algebra/oefplancomplexe.fr
+exo=oper&qnum=1&qcmlevel=3&scoredelay=&confparm1=B&confparm2=XP&confparm3=1
+10
+1
+Nombre complexe sous forme exponentielle et opérations
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=forme&cmd=new,10
+:U1/algebra/graphcompineq.en
+atype=2&style=0mod&style=0reim&repeat=4
+10
+1
+Lieux
+reconnaître une région du plan complexe décrite par des inégalités.

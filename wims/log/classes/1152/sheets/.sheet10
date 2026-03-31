@@ -1,0 +1,64 @@
+
+:H5/algebra/oefsecdeg.fr
+exo=Inquationsetse
+10
+1
+Résolution d'inéquations
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=inequation&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=signetrinome1
+10
+1
+Signe d'un trinôme avec un tableau
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=signe&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=signetrinome2
+10
+1
+Tableau de signe à construire
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=signe&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=signetrinome3
+10
+1
+Résolution d'inéquation à l'aide d'un tableau à construire
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=signe&cmd=new,10
+:H4/analysis/OEFevalwimsgrph.fr
+exo=ineqalgpara3
+10
+1
+Résolution d'inéquation 1
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=signe&cmd=new,10
+:H4/analysis/OEFevalwimsgrph.fr
+exo=ineqalgpara4
+10
+1
+Résolution d'inéquation 2
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=signe&cmd=new,10
+:H5/algebra/oefsecdeg.fr
+exo=Inequa_clic&qnum=1&qcmlevel=3&scoredelay=
+10
+1
+Résolution d'inéquation 3
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=signe&cmd=new,10

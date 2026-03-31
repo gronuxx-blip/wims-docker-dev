@@ -1,0 +1,237 @@
+!! About window for a glose of data/tool/glossary
+
+!set ad=!getopt gloss_item in $module_init_parm
+!if $ad=
+  !goto exit
+!else
+  !goto about
+!endif
+
+:about
+!read lang/names.$lang
+
+!set embedabble_height= 600
+!set embedabble_width= 100%
+
+!set about_author=!getdef gl_author in $data_dir/$ad
+!distribute items $about_author into about_firstname,about_lastname
+!set about_firstname=!trim $about_firstname
+!set about_lastname=!trim $about_lastname
+!set about_author=$about_firstname $about_lastname
+
+!set about_email=!getdef gl_email in $data_dir/$ad
+!set about_list_auth=euler academie de versailles\
+bernadette perrin-riou\
+sophie lemaire\
+jacques vileo\
+marina cazzola
+
+!set about_list_email=euler.wims@ac-versailles.fr\
+bernadette.m.riou@orange.fr\
+sophie.lemaire@universite-paris-saclay.fr\
+jacques.vileo@wanadoo.fr\
+marina.cazzola@unimib.it
+
+!if $about_email=$empty
+  !set about_authornet=!lower $about_author
+  !set about_authornet=!deaccent $about_authornet
+  !set about_pos=!positionof row $about_authornet in $about_list_auth
+  !if $about_pos!=$empty
+    !set about_email=$(about_list_email[$about_pos;])
+  !endif
+!endif
+
+!set about_title=!getdef gl_title in $data_dir/$ad
+
+!set about_type=!getdef gl_type in $data_dir/$ad
+!set notion_dir=!replace internal / by , in $ad
+!set about_lang=$(notion_dir[-2])
+!set about_dom=!lookup $(notion_dir[2]) in bases/sys/domain/domain.$about_lang
+!if $about_type != $empty
+  !set about_tmp=$(notion_dir[-1])
+  !set about_tmp=!replace internal _ by , in $about_tmp
+  !set about_tmp=$(about_tmp[1..-2])
+  !set about_tmp=!replace internal , by _ in $about_tmp
+  !set about_tmp=!nospace $about_tmp
+  !set notion_dir=$(notion_dir[1..-2]),$about_tmp
+  !set notion_dir=!replace internal , by / in $notion_dir
+  !set notion_dir=!nospace $notion_dir
+  !set about_level=!getdef gl_level in $data_dir/$notion_dir
+  !set notion_title=!getdef gl_title in $data_dir/$notion_dir
+  !set glose_job=$about_type
+!else
+  !set about_level=!getdef gl_level in $data_dir/$ad
+  !set glose_job=main
+  !set about_cnt=!recordcnt $data_dir/$ad
+  !for about_i=4 to $about_cnt
+    !set about_tmp=!record $about_i of $data_dir/$ad
+    !if $about_tmp!=$empty
+      !set about_list=!append item $[$about_i-3] to $about_list
+    !endif
+  !next
+!endif
+
+!if $about_type != $empty or $about_cnt<=4
+  !set ad_docoef=$ad
+  !set gloselink=$wims_ref_name?module=$module&amp;+special_parm=$ad&amp;+job=$glose_job
+  !set lightlink=$wims_ref_name?module=adm/raw&amp;job=lightpopup&amp;option=noabout&amp;emod=$module&amp;parm=job=$glose_job;special_parm=$ad
+  !set gloseiframe=$gloselink
+  !set lightiframe=$lightlink
+!else
+  !set ad_docoef=$ad,content=[$about_list]
+  !set gloselink=$wims_ref_name?module=$module&amp;+special_parm=$ad|content=[$about_list]&amp;+job=$glose_job
+  !set lightlink=$wims_ref_name?module=adm/raw&amp;job=lightpopup&amp;option=noabout&amp;emod=$module&amp;parm=job=$glose_job;special_parm=$ad|content=[$about_list]
+  !set gloseiframe=$wims_ref_name?module=$module&amp;+special_parm=$ad%7Ccontent=%5B$about_list%5D&amp;+job=$glose_job
+  !set lightiframe=$wims_ref_name?module=adm/raw&amp;job=lightpopup&amp;option=noabout&amp;emod=$module&amp;parm=job=$glose_job;special_parm=$ad%7Ccontent=%5B$about_list%5D
+!endif
+
+!set about_keywords=!getdef gl_keywords in $data_dir/$ad
+
+!read ./tabletheme
+!reset table_center
+$table_header
+  <caption>
+  !if $about_type != $empty
+    $name_example_infos
+  !else
+    $name_glose_infos
+  !endif
+  </caption>
+  <tbody>
+  	$table_tr
+	  <th>$wims_name_title</th>
+	  <td>$about_title
+	    !if $about_type != $empty
+          <br><em>$name_example_dyna <strong>$notion_title</strong></em>.
+	    !endif
+	  </td>
+    </tr>
+    !if $about_level != $empty
+	  $table_tr
+		<th>$wims_name_level</th>
+		<td>
+		!set levelcnt=!itemcnt $about_level
+	    !for ll=1 to $levelcnt
+	      !set level__=!words2items $(about_level[$ll])
+	      !read adm/levelname.phtml
+	      $(name_wims_level_$(level__[1])) $(level__[2..-1])
+	      !if $ll<$levelcnt
+	        ;
+	      !endif
+	    !next
+		</td>
+	  </tr>
+	!endif
+    $table_tr
+	  <th>$wims_name_Author</th>
+	  <td>
+    !set mail_subject=!replace internal ' by %27 in $about_title
+    !set mail_subject=[$wims_name_Glossary - $about_dom - $mail_subject]
+    !if $about_email!=$empty
+      !mailurl $about_email $about_author\
+$mail_subject
+    !else
+      $about_author <br>
+      $name_contact:
+      !mailurl euler.wims@ac-versailles.fr euler.wims@ac-versailles.fr\
+$mail_subject
+    !endif
+    </td>
+    </tr>
+    $table_tr
+      <th>$wims_name_Address</th>
+      <td>$ad</td>
+    </tr>
+    !if $about_keywords!=$empty
+      $table_tr
+        <th>$wims_name_Keywords</th>
+        <td>$about_keywords</td>
+      </tr>
+    !endif
+    $table_tr
+      <th>$wims_name_permalink</th>
+      <td>$wims_name_permalink_desc
+        <p><strong>$name_link_glose:&nbsp;</strong>
+	        <a href="$gloselink">$gloselink</a>
+	      </p>
+	      <p><strong>$name_linklight_glose:&nbsp;</strong>
+	        <a href="$lightlink">$lightlink</a>
+	      </p>
+      </td>
+    </tr>
+    $table_tr
+      <th>$wims_name_embeddable</th>
+      <td>
+        <p>$wims_name_copy_and_paste $wims_name_the_code $wims_name_on_your_site</p>
+        <p>
+          <label for="embed_glose">
+          <strong>$wims_name_display
+          !if $about_type != $empty
+            $name_this_exple
+          !else
+            $name_this_glose
+          !endif
+          $wims_name_on_your_site&nbsp;:</strong></label><br>
+          <textarea id="embed_glose" class="copy_text" rows="5" cols="50"
+          readonly="readonly">&lt;iframe src="$gloseiframe&amp;embededwindow=true" width="$embedabble_width" height="$embedabble_height" style="border:none"&gt;&lt;/iframe&gt;
+          </textarea>
+        </p>
+        <p>
+          <label for="embed_setup_light">
+          <strong>$wims_name_display
+          !if $about_type != $empty
+            $name_this_exple
+          !else
+            $name_this_glose
+          !endif
+          $wims_name_on_your_site ("light" version)&nbsp;:</strong></label><br>
+          <textarea id="embed_setup_light" class="copy_text" rows="5" cols="50"
+          readonly="readonly">&lt;iframe src="$lightiframe" width="$embedabble_width" height="$embedabble_height" style="border:none"&gt;&lt;/iframe&gt;
+        </textarea>
+        </p>
+      </td>
+    </tr>
+    $table_tr
+      <th>$name_doc_insert</th>
+      <td>
+        <p><label for="link_glose">
+        <strong>$wims_name_copy_and_paste $wims_name_the_code
+        !if $about_type != $empty
+          $name_exple_in_doc
+        !else
+          $name_glose_in_doc
+        !endif
+        </strong></label><br>
+        <textarea id="link_glose" class="copy_text" rows="2" cols="50"
+        readonly="readonly">\glossary{$ad_docoef}</textarea>
+        </p>
+      </td>
+    </tr>
+    $table_tr
+      <th>$name_oef_insert</th>
+      <td>
+        <p><label for="link_glose2">
+        <strong>$wims_name_copy_and_paste $wims_name_the_code
+        !if $about_type != $empty
+          $name_exple_in_oef
+        !else
+          $name_glose_in_oef
+        !endif
+        </strong></label><br>
+        <textarea id="link_glose2" class="copy_text" rows="2" cols="50"
+        readonly="readonly">\special{glossary $ad_docoef}</textarea>
+      </p>
+      </td>
+    </tr>
+    !if $about_type = $empty and $about_cnt>4
+      $table_tr
+        <th>$wims_name_rmq</th>
+        <td>
+          <p><strong>$name_glose2 $about_list $name_grains</strong></p>
+        </td>
+      </tr>
+    !endif
+  </tbody>
+$table_end
+
+:exit

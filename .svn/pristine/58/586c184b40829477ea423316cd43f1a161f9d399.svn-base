@@ -1,0 +1,20 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=polygons
+!set gl_title=Polygone régulier
+!set gl_level=H6 Générale&nbsp;Experte 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \(C\) un cercle, soit \(\mathrm{O}\) son centre et soit \(n\) un entier supérieur ou égal à 3.<br>
+Soit \(n\) points deux à deux distincts
+\(\mathrm{A}_1, \mathrm{A}_2, \dots , \mathrm{A}_n\) de \(C\).<br>
+Si les angles au centre \(\widehat{\mathrm{A}_1 \mathrm{O} \mathrm{A}_2}\),
+\(\widehat{\mathrm{A}_2 \mathrm{O} \mathrm{A}_3}\), \(\widehat{\mathrm{A}_n \mathrm{O} \mathrm{A}_1}\) ont pour mesure en degrés \(\frac{360}{n}\), alors le polygone \(\mathrm{A}_1\mathrm{A}_2\cdots \mathrm{A}_n\) est dit
+  <strong>polygone régulier</strong> à \(n\) côtés.
+</div>
+
+:mathematics/geometry/fr/regular_polygon_1

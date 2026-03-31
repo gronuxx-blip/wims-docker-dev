@@ -1,0 +1,31 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Produit cartésien
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(A\) et \(B\) deux ensembles.<br>
+On appelle <strong>produit cartésien</strong> de \(A\) par <span class = "nowrap">\(B\),</span> noté <span class = "nowrap">\(A \times B\),</span> l'ensemble des couples \((a , b)\) d'éléments de \(A \cup B\)  tels que \(a \in A\) et <span class = "nowrap">\(b \in B\).</span></p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>Soit \(A\) un ensemble .<br>
+On note \(A^2\)  le produit cartésien <span class = "nowrap">\(A \times A\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(n\) un entier supérieur ou égal à 2.<br>
+On appelle <strong>produit cartésien</strong> des ensembles <span class = "nowrap">\(A_1\),</span> <span class = "nowrap">\(A_2\),...,</span><span class = "nowrap">\(A_n\),</span> noté <span class = "nowrap">\(A_1\times A_2 \times \dots \times A_n\),</span> l'ensembles des <span class = "nowrap">\(n\)-uplets</span> \(\big(a_1,a_2,\dots,a_n\big)\) tels que <span class = "nowrap">\(a_1 \in A_1\),</span> <span class = "nowrap">\(a_2 \in A_2\),...,</span><span class = "nowrap">\(a_n \in A_n\).</span> 
+</p>
+
+</div>

@@ -1,0 +1,118 @@
+
+:H3/geometry/oefcoord.fr
+exo=CORvect5
+10
+1
+Associer vecteurs et coordonnées
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S2S3&cmd=new,10,0
+:H3/geometry/oefcoord.fr
+exo=lirevect
+10
+1
+Lire les coordonnées d'un vecteur
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S2S3&cmd=new,10
+:H3/geometry/oefcoord.fr
+exo=coord2
+10
+1
+Tracer un vecteur de coordonnées données
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S2S3&cmd=new,10
+:H3/geometry/oefcoord.fr
+exo=vectgraph
+10
+1
+Placer l'origine ou l'extrémité d'un vecteur de coordonnées données
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S2S3&cmd=new,10
+:H3/geometry/oefcoord.fr
+exo=vecteurs
+10
+1
+Coordonnées d'un vecteur défini par deux points
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S4&cmd=new,10
+:H5/geometry/oefgeoplan.fr
+exo=sommevectms
+10
+1
+Somme graphique de deux vecteurs et coordonnées
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S4&cmd=new,10
+:H3/geometry/oefcoord.fr
+exo=egalite1
+10
+1
+Point défini par une origine et un vecteur
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S4&cmd=new,10
+:H5/geometry/oefgeomvec.fr
+exo=pt_vec2
+10
+1
+Coordonnées d'un point défini par une relation vectorielle
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S4&cmd=new,10
+:H5/geometry/oefgeoplan.fr
+exo=comblinvect
+10
+1
+Combinaison linéaire graphique de deux vecteurs
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S4&cmd=new,10
+:H5/geometry/oefgeomvec.fr
+exo=paralvec
+10
+1
+Parallélogramme
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS2S4&cmd=new,10
+:H4/geometry/OEFevalwimsvect1.fr
+exo=critcolin1
+10
+1
+Critère de colinéarité sur les coordonnées
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS3S2&cmd=new,10
+:H5/geometry/oefgeomvec.fr
+exo=det
+10
+1
+Calcul d'un paramètre pour colinéarité
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS3S2&cmd=new,10
+:H5/geometry/oefgeoplan.fr
+exo=getalign
+10
+1
+Alignement de 3 points
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS3S2&cmd=new,10

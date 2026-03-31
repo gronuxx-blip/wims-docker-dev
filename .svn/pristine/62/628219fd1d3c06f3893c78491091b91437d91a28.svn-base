@@ -1,0 +1,101 @@
+Course calcul littéral
+Exercices d'entraînements sur le calcul littéral. Développement, factorisation, substitution et identités remarquables.
+??,2025
+2
+H4
+mathematics
+levelh3,levelh4,levelh5,levelh6,literal_calculation,quizz,skill_calculate,factorization,mental_calculation
+Benoit, Minus
+communaute.mutuwims@laposte.net
+Conçue pour être utilisée avec la page de présentation associée. Difficulté croissante. Six niveaux disponibles.
+
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=1&confparm1=2&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv1
+Substitution simple et double
+
+Les résultats peuvent être négatifs par défaut. Configuration possible sur le module
+
+chrono
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=3&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv2
+Reduction
+
+Les résultats peuvent être négatifs par défaut. Configuration possible sur le module
+
+chrono
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=4&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv3
+
+
+Les résultats peuvent être négatifs par défaut. Configuration possible sur le module
+
+chrono
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=5&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv4
+<p>double distrib</p>
+
+<p>Les résultats peuvent être négatifs par défaut. Configuration possible sur le module</p>
+
+chrono
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=6&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv5
+<p>id remarquables, développer</p>
+
+<p>Les résultats peuvent être négatifs par défaut. Configuration possible sur le module</p>
+
+chrono
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=7&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv6
+<p>Identitées remarquables, factoriser</p>
+
+<p>Les résultats peuvent être négatifs par défaut.</p> <p>Configuration possible sur le module</p>
+
+chrono
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=8&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv7
+<p>Substituer par une fonction affine</p>
+
+<p>Les résultats peuvent être négatifs par défaut. Configuration possible sur le module</p>
+
+chrono
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=8&confparm1=9&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv 8
+Isoler une variable, additions de quotients
+
+Les résultats peuvent être négatifs par défaut. Configuration possible sur le module. Pensez à limiter le temps.
+
+
+:H4/algebra/oefcalcullit.fr
+exo=quizz&confparm1=5&confparm1=6&confparm1=7&confparm1=8&confparm1=9&confparm1=10&confparm3=0&confparm2=5&qnum=1&scoredelay=90,180&seedrepeat=0&qcmlevel=1
+10
+1
+Course calcul littéral niv 9
+Presque tout
+
+Les résultats peuvent être négatifs par défaut. Configuration possible sur le module. Pensez à limiter le temps.
+
+chrono

@@ -1,0 +1,81 @@
+Inéquations
+Collection d'exercices sur somme d'inégalités, produit d'une inégalité par un réel et résolution d'inéquations du premier degré (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,algebra
+levelH4,inequations,inequalities
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur somme d'inégalités, produit d'une inégalité par un réel et résolution d'inéquations du premier degré  (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/oefordrevabs.fr
+exo=transfineg1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Transformations d'inégalités
+<p>Manipuler des inégalités.</p>
+
+
+
+organiser
+:H4/algebra/oefordrevabs.fr
+exo=transfencad1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Transformations d'encadrements
+<p>Manipuler des encadrements.</p>
+
+
+
+organiser
+:H3/algebra/eqineq.fr
+mode=3&natcoef=entierrel&difficulte=1&nocalcul=1
+30
+1
+Inéquation étape par étape (1)
+<p>Indiquer les différentes étapes de la résolution d'une inéquation du 1<sup>er</sup> degré (avec l'inconnue dans un seul membre). Tous les calculs intermédiaires sont effectués par le serveur.</p>
+
+
+
+steps
+:H3/algebra/eqineq.fr
+mode=3&natcoef=entierrel&difficulte=2&nocalcul=1
+30
+1
+Inéquation étape par étape (2)
+<p>Indiquer les différentes étapes de la résolution d'une inéquation du 1<sup>er</sup> degré (avec l'inconnue dans les deux membres). Tous les calculs intermédiaires sont effectués par le serveur.</p>
+
+
+
+steps
+:H4/algebra/OEFevalwimsequ.fr
+exo=inequation4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Résolution d'une inéquation (1)
+<p>Formuler par une phrase l'ensemble des solutions d'une inéquation.</p>
+
+
+
+bulles
+:H4/algebra/inequations.fr
+exo=ineqlin2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Résolution d'une inéquation (2)
+<p>Résoudre une inéquation du 1<sup>er</sup> degré et déterminer l'ensemble des solutions sous forme d'intervalle.</p>
+
+
+
+algebra
+:H4/algebra/inequations.fr
+exo=ineqlin3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Résolution d'une inéquation (3)
+<p>Résoudre une inéquation du 1<sup>er</sup> degré (inconnue présente dans les deux membres) et déterminer l'ensemble des solutions sous forme d'intervalle.</p>
+
+
+
+algebra

@@ -1,0 +1,61 @@
+Coefficients directeurs, vecteurs directeurs
+Déterminer un coefficient directeur ou un vecteur directeur d'une droite sans en connaître une équation (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,geometry
+levelH4,analytic_geometry,direction,line,vectors
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Déterminer un coefficient directeur ou un vecteur directeur d'une droite sans en connaître une équation (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/h4droites.fr
+exo=coeffDirTrace&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Lecture graphique de coefficient directeur de droite
+<p>Déterminer le coefficient directeur d'une droite représentée graphiquement.</p>
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=coeffDir2Points&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Coefficient directeur connaissant deux points d'une droite
+<p>Déterminer le coefficient directeur d'une droite déterminée par deux points distincts.</p>
+
+
+
+
+:H4/geometry/droiteplanrep.fr
+exo=coeffdir&confparm1=0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul du coefficient directeur
+Calculer le coefficient directeur d'une droite dont on connaît les coordonnées de deux points.
+
+
+
+
+:H4/math/quizzautomat.fr
+exo=fct4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tracé d'une droite avec coefficient directeur
+Cliquer dans le repère sur un deuxième point d'une droite dont on connaît déjà un point et le coefficient directeur.
+
+
+
+
+:H4/algebra/h4droites.fr
+exo=coeffDirVect&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+30
+1
+Coefficient et vecteur directeurs d'une droite
+<p>Déterminer le coefficient directeur d'une droite dont un vecteur directeur est représenté graphiquement.</p>
+
+
+
+

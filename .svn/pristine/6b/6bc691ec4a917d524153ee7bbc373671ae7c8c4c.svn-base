@@ -1,0 +1,103 @@
+
+:H4/number/fracrevis2.fr
+exo=simp1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Simplification d'une fraction (I)
+
+:H4/number/fracrevis2.fr
+exo=simp2&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Simplification d'une fraction (II)
+
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=1&confparm1=5&confparm2=1&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme
+
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=2&confparm2=1&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Produit
+
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=3&confparm1=7&confparm1=8&confparm2=1&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Quotient
+
+:H4/number/fracrevis2.fr
+exo=som1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme avec des grands dénominateurs (I)
+
+:H4/number/fracrevis2.fr
+exo=som2&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme avec des grands dénominateurs (II)
+
+:H4/number/fracrevis2.fr
+exo=prod1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Simplification d'un produit (I)
+
+:H4/number/fracrevis2.fr
+exo=prod2&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Simplification d'un produit (II)
+
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=13&confparm1=14&confparm2=1&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme et produit
+
+
+Possibilité de régler la difficulté des coefficients dans les paramètres de l'exercice.
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=15&confparm1=16&confparm2=1&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme et produit (avec des entiers)
+
+
+Possibilité de régler la difficulté des coefficients dans les paramètres de l'exercice.
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=13&confparm1=14&confparm2=2&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme et produit (avec des fractions non-réduites)
+
+
+Possibilité de régler la difficulté des coefficients dans les paramètres de l'exercice.
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=17&confparm1=21&confparm2=1&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme et quotient
+
+
+Possibilité de régler la difficulté des coefficients dans les paramètres de l'exercice.
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=18&confparm1=19&confparm1=20&confparm1=22&confparm1=23&confparm1=24&confparm2=1&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme et quotient (avec des entiers)
+
+
+Possibilité de régler la difficulté des coefficients dans les paramètres de l'exercice.
+:H4/number/fracrevis1.fr
+exo=calculfrac&confparm1=17&confparm1=21&confparm2=2&confparm3=1&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme et quotient (avec des fractions non-réduites)
+
+
+Possibilité de régler la difficulté des coefficients dans les paramètres de l'exercice.

@@ -1,0 +1,102 @@
+::wims.4.31b
+:Work on taxonomies
+:Use octave or pari according to the installation in slib/stat; add script gp for the stats (work in progress).
+:Add example class 1154, complete class 1368.
+:Add access, authscoresuspend, examscore_withoutip in propagating variables.
+:Fix calculation of exam score in case there is a cut date.
+:Fix precision in anstype numeric and in anstype vector by using ifval and wims_compare_precision.
+:Security fix.
+:Add break-before for printing exercises and solutions on different pages (depend on the browser ...).
+:Add print version for public sheets (with solution), add an about for public sheets.
+:Add numerotation in case of exercise series.
+:Add some hyperbolic geometry tools (moebius, hyppolygon, hyptiling, afftiling,fhyppolygon ...), examples in doc1028, gp script.
+:Add vlines and hlines, triangles, ftriangles, imagefill in flydraw.
+:Improvment in canvasdraw for levelcurve, use the same parameter as flydraw (levelstep and plotstep), dashed parallel, lewis macro improved.
+:Add package eurosym for euro in latex.
+:Add simple Venn exercise model.
+:html5 everywhere ...
+::wims.4.30
+:Improve filltoborder (do now what says the documentation and faster).
+:Add fillopacity and strokeopacity in canvasdraw.
+:Add hypcircles, hyprays, hyplines, hypsegments, hyppolygon in canvasdraw.
+:Correct colors in userdraw patterns in canvasdraw.
+:Add commands in flydraw for hyperbolic geometry.
+:Add slib for afftiling and hyptiling.
+:Add dual tiling in gp script and in the slib hyptiling.
+:To modify a glose in a class glossary, the glose's address now appears with |content=[...] in the glossary properties table.
+:Should fix troubles when all the columns of the manual scores are not upload or if some students are not in the list of manual scores (to check).
+:Upgrade JsXGraph to v.1.11.1 and adaptation of responsiveness to JSXGraph v 1.11.1.
+:Mails are now sent to the select list.
+:Try to take in account exercises series in print version and in latex version (to check).
+:Improve the slib tabsignes.
+:Calculate correctly title of a glose following related link.
+:Add many items in glossary.
+:Sessions with non authenticated user should be deleted after idle_time2 seconds (according to the doc).
+:New option in anstype/geogebra named last to define the name of the last object created.
+:In anstype using maxima, don't accept %.
+:If there are accents in the good answer, change the anstype default to atext.
+:Add rootscontract in the analysis of the answer with formal anstype.
+:Add option nospace and singlespace in answer type set.
+:Add option vector_left and vector_right to vector anstype.
+:Fix listcomplement, listunion and listintersection.
+:Possibility to put the language in the variable translation_language if the module is internationalized,
+:Add four sheets and some presentation pages in open class 1150.
+:Add field ldap_accreditation.
+:Sheet score are visible for the participant for expired sheet with weight 0.
+:Show that the module is deprecated when doing a sheet.
+
+::wims.4.28
+:Add open classe 1152 'liaison lycée université' (WIMS PreSup).
+:Add open classe 1153 'AP Seconde Mathématiques' (eulerwims).
+:Add the option content= [list of numbers] to the command \glossary{} so that teacher can make visible for students only a part of a glossary entry in the glossary of his class,  an exercise, a document or as a feedback.
+:Improvement of the 'About' page of a glossary entry.
+:Add many items in glossary.
+:Adapt the command \exercise{} in a document: if a document is inserted in a class and linked with a sheet, scores of the student for this exercise are shown to him. Add the choice 'Automatic' to link a document with all sheets defined in the class.
+:Freework: access control via technical variables, access control via accessconf. Fix bugs.
+:Variable \sheet can be used to create a presentation page of a sheet; its value is the number of the sheet.
+:Add the possibility to propagate institution name in group of classes and portals.
+:Add angle, fcircles, ellipses, arrows, arrows2, halfline, dashhalfline, dashed, filled, noreset, reset in flydraw.
+:Add hyperbolic geometry commands in flydraw: hyplines hypsegments hyptriangle fhyptriangle
+:Add slib geometry/hyptiling
+:Add translation in tikz of almost all commands in flydraw.
+:Canvasdraw: snaptopoints may be called multiple times (no limit).
+:Add command drawtikz to get tikz version of flydraw commands in a variable (same syntax as draw).
+:Add flydraw2tikz and bc in direct exec.
+:In multidraw answer type, accept curved arrows with only 2 points.
+:Add snappoints in moldraw, fix color.
+:Add complex in the possible types of mathmlinput.
+:Add slib numeration/rational: repeating decimal of a rational.
+:Output a periodic table, in HTML format and add a slib to display a table of elements (Mendeliev's periodic table).
+:Add new command calc_getexoindex.
+:The administrator of a server can send an email to all the holders of a modtool account.
+
+::wims.4.26
+:Can clone a class from a saveclass file (given by link or upload in navigator).
+:New administrative module adm/class/swork to make automatic working suggestion to student.
+:A printable version of a sheet with exercises containing a latex version can be individualized per student.
+:New exam mode (called 'course' in French) in which exercises must be performed in a fixed order.
+:New type of applet in freework allows the teacher to upload multiple files. For each student one (and only one) of these files will be randomly picked and shown.
+:New parameter in freework configuration to allow a student to close its freework before the deadline.
+:Students' work on freework is shown in students' score page.
+:Display of the daily time spent by each student in a class, group of classes or portal (adm/class/activity).
+:Personalisation of sheet presentation page (can replace the use of a document).
+:A link to a glose of the general glossary can be added as helpexo.
+:When a user enters in an open class as anonymous user, a new account is created (called anonymous1, anonymous2, ...). These accounts are removed each day by the housekeep.daily script (their number is limited to 50% of class_limit).
+:New open classes 1150 'Mathématique en 6ième' and 1151 'Mathématique en Terminale professionnelle'.
+:Some gloses have been added in the glossary.
+:The list of deprecated modules is shown in the menu of page 'module updates'.
+:Updated open class, sheet and taxonomy to use non deprecated version of modules.
+:New coding/editor for coding slib.
+:Add option polfactor polexpand to anstype litexp.
+:Scripts about nets of polyedra are added.
+:The raw module can give pedagogical module connexion informations.
+:Tikz version for flydraw (cannot yet be used ...).
+:Chemeq uses now a recent database for atomic weights, which improves some slibs like chemistry/chemeq_* and make them usable for exercises about mass spectroscopy; added a slib which shows this mass database (formated as a periodic table).
+
+::wims.4.24
+:canvasdraw: add keyword 'group' and command 'kill group'
+:Il est possible de demander à un étudiant de travailler sur un exercice wims et de rédiger ses réponses en ligne grâce à l'activité "Devoir libre" (module freework)
+:Lors de l'insertion de la plupart des exercices wims dans une feuille, il est maintenant possible de n'afficher certaines aides (bonnes réponses, feedback, indications ou solution) que lorsque la feuille est périmée.
+:Il est possible de faire afficher l'applet d'une calculatrice à coté du titre de l'exercice dans une feuille.
+:Il est maintenant possible de cacher un examen ou une séquence à une partie des étudiants en utilisant une variable technique.
+:On peut donner la possibilité à un étudiant d'envoyer un mail à l'enseignant du cours lorsqu'il enregistre les détails d'un exercice pour le prévenir/lui poser une question.

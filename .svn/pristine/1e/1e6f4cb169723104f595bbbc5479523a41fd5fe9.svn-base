@@ -1,0 +1,96 @@
+!!for the documentation
+option:absolute symbols=" "
+
+!if vector_left isin $(replyoption$i) or vector_right isin $(replyoption$i)
+  !set vector_left_=!getopt vector_left in $(replyoption$i)
+  !set vector_right_=!getopt vector_right in $(replyoption$i)
+!endif
+
+!default vector_left_=(
+!default vector_right_=)
+dd=!declosing $(reply$i)
+reply$i=$vector_left_ $dd $vector_right_
+!if ; isin $dd
+  test=NaN
+  !exit
+!endif
+m_reply$i=$dd
+!if $wims_read_parm=nocompare
+  !exit
+!endif
+
+good=!declosing $(replygood$i)
+!if , notin $good
+  good=!words2items $good
+!endif
+!if , notin $dd
+  dd=!words2items $dd
+!endif
+replyGood$i=$vector_left_$good$vector_right_
+n1=!itemcnt $good
+n2=!itemcnt $dd
+
+wcp_old=$wims_compare_precision
+!default precision=1000
+!if absolute iswordof $(replyoption$i)
+  prec=$[$precision/10]
+!else
+  prec=$[sqrt($precision)]
+!endif
+test=
+!if $n1=$n2
+  test=yes
+  !for j=1 to $n1
+    x_=!item $j of $good
+    y_=!item $j of $dd
+    !distribute item $[$x_],$[$y_] into x_,y_
+    !if NaN isin $x_ or Inf isin $x_
+      Test=bad $i
+      !exit
+    !endif
+    !if NaN isin $y_ or Inf isin $y_
+      test=NaN
+      !exit
+    !endif
+    test=
+    !if absolute iswordof $(replyoption$i)
+      diff=$[abs($x_-($y_))]
+      !if $precision*$diff < 1
+        test=!append item yes to $test
+      !else
+        !if $prec*$diff < 1
+          test=!append item almost to $test
+        !else
+          test=!append item bad to $test
+        !endif
+      !endif
+    !else
+      !set wims_compare_precision=$precision
+      !ifval $x_=$y_
+        test=!append item yes to $test
+      !else
+        !set wims_compare_precision=$prec
+        !ifval $x_=$y_
+          test=!append item almost to $test
+        !else
+          test=!append item bad to $test
+        !endif
+      !endif
+    !endif
+  !next j
+!else
+  badsize$i=true
+!endif
+test=!listuniq $test
+!if $test=yes
+  diareply$i=good
+  !advance freegot
+!else
+  !if bad notin $test and $(badsize$i)!=true
+    precreply$i=yes
+    !advance precgood
+  !endif
+  diareply$i=bad
+!endif
+!reset vector_left_ vector_right_
+wims_compare_precision=$wcp_old

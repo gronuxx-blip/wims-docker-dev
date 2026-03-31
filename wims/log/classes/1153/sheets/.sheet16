@@ -1,0 +1,71 @@
+Identités remarquables
+Collection d'exercices sur l'utilisation des identités remarquables (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,algebra
+levelH4,factorization,literal_calculation
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur l'utilisation des identités remarquables (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H3/algebra/oefdevfact.fr
+exo=deve3&confparm2=2&confparm1=1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Développer \((a+b)^2\)
+<p>Développer \((a+b)^2\) où \(a\) et \(b\) sont deux nombres réels.</p>
+
+
+module=H3/algebra/oefdevfact.fr&exo=deve3&confparm2=1&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1&cmd=new,10,0
+algebra
+:H3/algebra/oefdevfact.fr
+exo=deve4&confparm2=2&confparm1=1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Développer \((a-b)^2\)
+<p>Développer \((a-b)^2\) où \(a\) et \(b\) sont deux nombres réels.</p>
+
+
+module=H3/algebra/oefdevfact.fr&exo=deve4&confparm2=1&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1&cmd=new,10,0
+algebra
+:H3/algebra/oefdevfact.fr
+exo=deve6&confparm2=2&confparm1=1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Développer \((a-b) (a+b)\)
+<p>Développer\((a-b) (a+b)\) où \(a\) et \(b\) sont deux nombres réels.</p>
+
+
+module=H3/algebra/oefdevfact.fr&exo=deve6&confparm2=1&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1&cmd=new,10,0
+algebra
+:H3/algebra/oefdevfact.fr
+exo=factor4&confparm2=2&confparm1=1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Factoriser \(a^2 \pm 2ab+b^2\)
+<p>Factoriser \(a^2 \pm 2ab+b^2\) où \(a\) et \(b\) sont des nombres réels.</p>
+
+
+
+algebra
+:H3/algebra/oefdevfact.fr
+exo=factor3&confparm2=2&confparm1=1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Factoriser \(a^2-b^2\)
+<p>Factoriser \(a^2-b^2\) où \(a\) et \(b\) sont des nombres réels.</p>
+
+
+
+algebra
+:H3/algebra/oefracine.fr
+exo=devred&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Avec des racines carrées
+<p>Développer et réduire des identités remarquables contenant des racines carrées.</p>
+
+
+
+algebra

@@ -1,0 +1,161 @@
+
+<h2>Calcolo dei voti nei test di autovalutazione</h2>
+
+!set wims_backslash_insmath=yes
+
+!if $wims_user=supervisor
+<p>
+Per ciascun esercizio il server calcola tre indicatori dei
+risultati degli studenti (l'indicatore di quantità (\(i_0)),
+l'indicatore di successo (\(i_1)) e l'indicatore di livello acquisito
+\((i_2))) e un indice di qualità \(q).
+Per spiegare il calcolo dei diversi indicatori, supponiamo che il numero
+di punti richiesti per un esercizio sia \(10n\), dove \(n\) è un intero, e che
+lo studente abbia svolto questo esercizio \(p\) volte ottenendo i punteggi \(x_1, x_2, x_3, ..., x_p\)
+(che sono numeri tra 0 e 10).
+</p>
+<ul><li>
+l'indicatore di <span class="wims_emph">quantità</span> \((i_0)) è la somma dei punteggi fino a raggiungere il limite di \(10 n\),
+divisa per \(10n\), cioè \(i_0=min(x_1+...+x_p, 10*n)/(10*n)).
+!! nella pagina studente è "% punti richiesti"
+Tale indicatore è mostrato nella pagina dei voti dello studente come percentuale (colonna <span class="wims_emph">$(wims_name_thsheet[5])</span>).
+</li><li>
+Indichiamo con \(y_1\geq y_2\geq ... \geq y_p\) i punteggi ottenuti
+dallo studente ordinati in ordine decrescente.
+
+L'indicatore di <span class="wims_emph">successo</span> (\(i_1)) è la media degli \(n\) voti migliori divisa per 10, cioè
+\(i_1 = (y_1+...+y_n)/(n*10)) se il numero \(p\)
+di punteggi ottenuti è superiore a \(n\) e \(i_1 = (y_1+...+y_p)/(n*10)) se
+il numero \(p\) di punteggi ottenuti è inferiore a \(n).
+!! nella pagina sutente è "% voti migliori"
+Tale indicatore è mostrato nella pagina dei voti dello studente come percentuale (colonna <span class="wims_emph">$(wims_name_thsheet[10])</span>).
+</li><li>
+l'indicatore di <span class="wims_emph">livello acquisito</span> (\(i_2)) è il minore degli \(n\) punteggi
+migliori ottenuti dagli studenti, diviso per 10, cioè \(i_2 = 0) se il numero
+\(p\) di punteggi ottenuti è minore di \(n\) e \(i_2= y_n/10\) se \(p\geq n\).
+!! verificare che sia vero
+Tale indicatore è mostrato nella pagina dei voti dello studente (colonna <span class="wims_emph">$(wims_name_thsheet[13])</span>).
+</li></ul>
+<p>
+Per esempio, se \(n=2\) e se i punteggi sono 7, 5 e 3, allora \(i_0 = 0.75\) (75%),
+\(i_1=0.6\) (60%) e \(i_2=0.5) (50%).
+</p><p>
+L'indice di qualità \(q\) è la media ponderata incrementale dei
+punteggi (è, cioè, calcolato in modo che il peso degli ultimi
+punteggi ottenuti sia maggiore di quello dei punteggi precedenti).
+Questo indice viene corretto penalizzando i tentativi senza
+risposta nel modo seguente:
+se il numero di tentativi non teminati \(s_n\), è strettamente superiore a \(5+2*s_t\),
+dove \(s_t\) è il numero di tentativi terminati (cioè per i quali è stato registrato un punteggio),
+l'indice di qualità è moltiplicato per \(\frac{2 s_t}{s_n-4} < 1\).
+</p><p>
+Per ciascun test, il server calcola allora
+</p>
+<ul><li>
+le medie pesate (\(I_0, I_1, I_2)) su tutti gli esercizi del test
+degli indicatori \(i_0, i_1, i_2) corrispondenti
+utilizzando come coefficienti i prodotti dei pesi degli esercizi per il numero
+di punti richiesti;
+</li><li>
+la media pesata \(Q\) degli indici \(q\) utilizzando come coefficienti
+il prodotto del peso dell'esercizio e dell'indicatore di quantità \(i_0\)
+per l'esercizio (quindi, tenendo conto sia della qualità
+sia di ciò che è stato fatto).
+</li>
+</ul>
+<div class="wims_msg info">
+Un valore basso dell'indice di qualità \(q\) viene interpretato come un
+tentativo di <em>cheating</em>: l'indice di qualità
+influenza perciò tutti gli indicatori \(I\).
+<br>
+Se l'indice di qualità \(q\) per un esercizio è inferiore a 1, l'indicatore \(i)
+utilizzato per il calcolo del corrispondente \(I\) è impostato a 0 per questo
+esercizio;
+se l'indice di qualità è tra 1 e 2, l'indicatore \(i\) utilizzato per
+il calcolo del corrispondente \(I\) è dimezzato.
+</div><p>
+I valori di \(Q, I_0, I_1, I_2\) per ciascun test sono mostrati nella
+pagina dei voti degli studenti.
+</p><p>
+Il server calcola allora il voto nel test seguendo una regola di calcolo
+impostata dal docente (è possibile scegliere la formula e l'indicatore
+\(I\) da utilizzare tra i diversi \(I_0, I_1, I_2)).
+
+Queste sono le formule possibili:
+</p>
+
+!reset table_center
+$table_header
+$table_hdtr<th>Regola</th><th>Formula</th><th>$wims_name_Explanations</th></tr>
+$table_tr<td>0</td><td> \($scoremax * $(list[1;]) \)
+ </td><td>il voto è il massimo tra l'indicatore scelto e la qualità.</td></tr>
+$table_tr<td>1</td><td> \($scoremax * $(list[2;]) \)
+ </td><td>Si trascura l'indice di qualità. Lo studente ottiene il massimo
+ dei voti una volta che ha ottenuto il massimo sull'indicatore scelto.</td></tr>
+$table_tr<td>2</td><td>\($scoremax * $(list[3;])\)
+ </td><td>L'indice di qualità influenza, ma solo parzialmente, il voto complessivo.</td></tr>
+$table_tr<td>3</td><td>\($scoremax * $(list[4;])\)
+ </td><td>Aumenta l'influenza dell'indice di qualità sul voto finale.</td></tr>
+$table_tr<td>4</td><td>\($scoremax * $(list[5;])\)
+ </td><td>Per ottenere un voto $scoremax, occorre effettuare tutti gli esecizi
+  (100%) senza fare alcun errore (qualità=10).</td></tr>
+$table_tr<td>5</td><td>$\($scoremax * $(list[6;])\)
+ </td><td></td></tr>
+$table_end
+!read help/sheetscore.phtml
+!else
+Per questo test di autovalutazione, il docente ha scelto questo
+metodo di calcolo del voto: se per un esercizio il numero di punti
+richiesti è \(10 n\), per ciascun esercizio si calcola
+<ul>
+<li>
+!if $help_sw=0
+  \(i\): la somma dei punteggi fino a raggiungere \(10n\),
+  divisa per \(10n\) (indicatore di quantità);
+!endif
+!if $help_sw=1
+  la media \(i\) degli \(n\) voti migliori divisa per 10 (livello di successo):
+  per esempio se i vostri punteggi sono \(y_1\geq y_2\geq ... \geq y_p \)
+  in ordine decrescente allora \(i  = (y_1+...+y_n)/(10n)\) se il numero \(p\)
+  di punteggi ottenuti è superiore a \(n\) oppure \(i = (y_1+...+y_p)/(10n))
+  se il numero \(p\) di punteggi ottenuti è inferiore a \(n\).
+!endif
+!if $help_sw=2
+  il minimo \(i\) degli \(n\) voti migliori diviso per 10 (livello acquisito):
+  per esempio se i vostri punteggi sono \(y_1\geq y_2\geq ... \geq y_p \)
+  in ordine decrescente allora \(i  = 0\) fino a che il numero \(p\) di
+  punteggi ottenuti è inferiore a \(n), dopo di che \(i = y_n/10).
+!endif
+</li>
+!if $help_level>0
+<li>
+  l'indice di qualità \(q\) dei punti ottenuti relativamente all'esercizio, che
+  è una media pesata in modo da tenere in maggior conto i punteggi più recenti
+  rispetto a quelli ottenuti in precedenza. Attenzione, se abbandonate la
+  risoluzione di un esercizio, senza cioè ottenere un punteggio, l'indice
+  di qualità si abbassa.
+</li>
+!endif
+</ul>
+Il voto complessivo nel test viene calcolato a partire da medie pesate
+\(I) e \(Q) rispettivamente degli \(i\) e \(q\) calcolati per ogni esercizio.
+
+<div class="wims_msg info">
+!if $help_level>0
+L'indice di qualità influisce sul punteggio di ogni esercizio.
+<br>
+Se l'indice di qualità \(q\) è inferiore a 1 per un esercizio, allora per tale
+esercizio si prende il valore 0 per \(i\); se l'indice
+di qualità è compreso tra 1 e 2, allora \(i\) viene diviso per 2.
+!else
+ Attenzione però che se vi interrompete troppo spesso o se non
+ completate l'esercizio, ottenendo un voto, queste valutazioni possono
+ abbassarsi. Rivolgetevi al vostro docente per informazioni sulla formula
+ precisa del calcolo dei voti.
+!endif
+</div>
+<p>
+Per il calcolo del voto di questo test è applicata la formula
+<span class="bold">$scoremax $(list[$help_level+1;])</span>.
+</p>
+!endif

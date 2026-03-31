@@ -1,0 +1,24 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=gl_pbcond
+!set gl_title=Partition d'un ensemble
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(E\) un ensemble. Soit \(n\) un entier naturel supérieur ou égal à 2 et soit <span class="nowrap">\(A_1\),</span> <span class="nowrap">\(A_2\),</span> ..., \(A_n\) des sous-ensembles non vides de <span class="nowrap">\(E\).</span></p>
+<p>Les ensembles <span class="nowrap">\(A_1\),</span> <span class="nowrap">\(A_2\),</span> ..., \(A_n\) forment une <strong>partition</strong> de \(E\) lorsque les deux conditions suivantes sont réalisées&nbsp;:</p>
+<ul>
+<li>
+les ensembles <span class="nowrap">\(A_1\),</span> <span class="nowrap">\(A_2\),</span> ..., \(A_n\) sont deux à deux disjoints&nbsp;;
+</li>
+<li>
+la réunion des ensembles <span class="nowrap">\(A_1\),</span> <span class="nowrap">\(A_2\),</span> ..., \(A_n\) est égale à <span class="nowrap">\(E\).</span>
+</li>
+</ul>
+</div>
+
+

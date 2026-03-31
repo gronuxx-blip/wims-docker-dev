@@ -1,0 +1,176 @@
+:E6/number/OEFaddsous.fr
+exo=addition3A&exo=addition3B&exo=addition4A&exo=addition4B&exo=soustraction3A&exo=soustraction3B&exo=soustraction4A&exo=soustraction4B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Addition ou Soustraction à trou posée
+
+
+Difficulté variable
+:E6/number/OEFaddsous.fr
+exo=addition1B&exo=addition1A&exo=addition2A&exo=addition2B&exo=soustraction1A&exo=soustraction1B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Addition ou Soustraction posée
+
+
+Difficulté variable
+:H1/number/oefoperation.fr
+exo=mult3&exo=mult2&exo=mult1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Table de multiplication 1-3
+
+
+Difficulté 1 à 3 aléatoirement
+
+
+:H1/number/oefoperation.fr
+exo=mult1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Table de multiplication 1
+
+
+Difficulté 1
+
+
+:H1/number/oefoperation.fr
+exo=mult2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Table de multiplication 2
+
+
+Difficulté 2
+
+
+:H1/number/oefoperation.fr
+exo=mult3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Table de multiplication 3
+
+
+Difficulté 3
+
+
+
+:E6/number/labyrinthes.fr
+exo=fracent&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Labyrinthes : Écritures fractionnaires d'entiers
+
+
+
+
+
+:E6/number/dominos.fr
+exo=entfrac&confparm1=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Domino Écritures fractionnaires d'entiers
+
+
+
+
+
+:E6/number/OEFaddsous.fr
+exo=addition1A&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Addition posée Niv 1
+
+
+
+
+
+:E6/number/OEFaddsous.fr
+exo=addition1B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Addition posée Niv 2
+
+
+
+
+
+:E6/number/OEFaddsous.fr
+exo=addition2A&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Addition posée sans retenue Niv 1
+
+
+
+
+
+:E6/number/OEFaddsous.fr
+exo=addition2B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Addition posée sans retenue Niv 2
+
+
+
+
+
+:E6/number/OEFaddsous.fr
+exo=add3A&xo=add3B&exo=add4A&exo=add4B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Addition en ligne à trou
+
+
+Difficulté variable
+
+
+:E6/number/OEFaddsous.fr
+exo=addition3A&exo=addition3B&exo=addition4A&exo=addition4B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Addition à trou posée
+
+
+Difficulté variable
+
+
+:E6/number/OEFaddsous.fr
+exo=sous1A&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Soustraction en ligne
+
+Difficulté variable
+:E6/number/OEFaddsous.fr
+exo=soustraction1A&exo=soustraction1B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Soustraction posée
+
+
+<p>Niveau variable</p>
+:E6/number/OEFaddsous.fr
+exo=soustraction2B&exo=soustraction2A&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Soustraction posée sans retenue
+
+
+Difficulté variable
+:E6/number/OEFaddsous.fr
+exo=sous3A&xo=sous3B&exo=sous4A&exo=sous4B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Soustraction en ligne à trou
+
+
+Difficulté variable
+:E6/number/OEFaddsous.fr
+exo=soustraction3A&exo=soustraction3B&exo=soustraction4A&exo=soustraction4B&qnum=2&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Soustraction à trou posée
+
+
+Difficulté variable

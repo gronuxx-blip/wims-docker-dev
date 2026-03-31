@@ -1,0 +1,20 @@
+clean=$1
+configdir=.
+outputdir=tmp
+mkdir -p $outputdir
+validator="$configdir/w3c-validator.py"
+cleanup="$configdir/validator_clean.pl --option=$clean"
+rm -f $outputdir/html.log
+mod=devel/wimsdev/help~teacher~program.fr
+mod=help/teacher/program.fr
+for job in `ls ../../public_html/modules/$mod/fr`; do
+  job=`basename $job .phtml` ;
+  message=`wget "http://127.0.0.1/wims/wims.cgi?module=$mod&job=$job" -nv -O  test.html ;
+    $validator test.html  2>&1;`
+  if [ "$message" ] ; then
+    echo -e "$job\n$message\n" >> $outputdir/html.log;
+  fi;
+  $cleanup --dir=$outputdir
+done
+
+exit

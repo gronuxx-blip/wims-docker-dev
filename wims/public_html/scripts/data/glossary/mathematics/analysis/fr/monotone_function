@@ -1,0 +1,26 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=real_function,monotonic_function,function_variation
+!set gl_title=Fonction monotone
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>
+    Définition
+  </h4>
+  Soit \(f\) une fonction définie sur un intervalle <span class="nowrap">\(\mathrm{I}\).</span><br>
+ <ul>
+<li> La fonction \(f\) est dite <strong>monotone</strong> sur \(\mathrm{I}\) si et
+  seulement si \(f\) est soit croissante sur \(\mathrm{I}\) soit  décroissante sur <span class="nowrap">\(\mathrm{I}\).</span>
+</li>
+<li>
+La fonction \(f\) est dite <strong>strictement monotone</strong> sur \(\mathrm{I}\) si et
+  seulement si \(f\) est soit strictement croissante sur \(\mathrm{I}\) soit
+  strictement décroissante sur <span class="nowrap">\(\mathrm{I}\).</span>
+</li>
+</ul>
+
+</div>

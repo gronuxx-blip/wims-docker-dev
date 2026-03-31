@@ -1,0 +1,17 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=gl_ens
+!set gl_title=Complémentaire d'un sous-ensemble 
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+Soit \(E\) un ensemble et \(A\) un sous-ensemble de <span class="nowrap">\(E\).</span>
+<br>On appelle complémentaire de \(A\) dans \(E\) l'ensemble des éléments de \(E\) n'appartenant pas à <span class="nowrap">\(A\).</span> 
+<br>On le note par <span class="nowrap">\(\overline{A}\).</span>
+</div>
+
+

@@ -1,0 +1,1085 @@
+Math cycle 3 et 4 (France), clmath
+CL_8:Cours moyen première année
+CL_8_C:Nombres, calcul et résolution de problèmes
+CL_8_C_N:Les nombres entiers
+CL_8_C_N_O:Objectifs d'apprentissage
+CL_8_C_N_O_01:Comparer et dénombrer des collections en les organisant
+CL_8_C_N_O_02:Construire des collections de cardinal donné
+CL_8_C_N_O_03:Connaître et utiliser les relations entre les unités de numération
+CL_8_C_N_O_04:Connaître la suite écrite et la suite orale des nombres jusqu'à 999 999
+CL_8_C_N_O_05:Connaître la valeur des chiffres en fonction de leur position dans un nombre
+CL_8_C_N_O_06:Connaître et utiliser diverses représentations d'un nombre et passer de l'une à l'autre
+CL_8_C_N_O_07:Comprendre et savoir utiliser les expressions « égal à », « supérieur à », « inférieur à », « compris entre ... et ... »
+CL_8_C_N_O_08:Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles =, < et >
+CL_8_C_N_O_09:Ordonner des nombres dans l'ordre croissant ou décroissant
+CL_8_C_N_O_10:Savoir placer des nombres et repérer des points sur une demi-droite graduée
+CL_8_C_N_O_11:Savoir reconnaître les multiples de 2, de 5 et de 10 à partir de leur écriture chiffrée
+CL_8_C_N_O_12:Savoir déterminer si un nombre entier donné est un multiple d'un nombre entier inférieur ou égal à 10
+CL_8_C_N_O_13:Savoir déterminer si un nombre entier inférieur ou égal à 10 est un diviseur d'un nombre entier donné
+CL_8_C_F:Les fractions
+CL_8_C_F_O:Objectifs d'apprentissage
+CL_8_C_F_O_01:Savoir interpréter, représenter, écrire et lire des fractions
+CL_8_C_F_O_02:Savoir écrire une fraction supérieure à 1 comme la somme d'un entier et d'une fraction inférieure à 1
+CL_8_C_F_O_03:Savoir écrire la somme d'un entier et d'une fraction inférieure à 1 comme une unique fraction
+CL_8_C_F_O_04:Savoir encadrer une fraction par deux nombres entiers consécutifs
+CL_8_C_F_O_05:Savoir placer une fraction ou la somme d'un nombre entier et d'une fraction inférieure à un sur une demi-droite graduée
+CL_8_C_F_O_06:Savoir repérer un point d'une demi-droite graduée par une fraction ou par la somme d'un nombre entier et d'une fraction
+CL_8_C_F_O_07:Comparer des fractions
+CL_8_C_F_O_08:Additionner et soustraire des fractions
+CL_8_C_F_O_09:Déterminer une fraction d'une quantité ou d'une grandeur
+CL_8_C_Z:Les nombres décimaux
+CL_8_C_Z_O:Objectifs d'apprentissage
+CL_8_C_Z_O_01:Interpréter, représenter, écrire et lire des fractions décimales
+CL_8_C_Z_O_02:Connaître et utiliser les relations entre unités simples, dixièmes et centièmes
+CL_8_C_Z_O_03:Placer une fraction décimale sur une demi-droite graduée et repérer un point d'une demi-droite graduée par une fraction décimale
+CL_8_C_Z_O_04:Écrire une fraction décimale supérieure à 1 comme la somme d'un nombre entier et d'une fraction décimale inférieure à 1
+CL_8_C_Z_O_05:Écrire une fraction décimale supérieure à 1 comme la somme d'un nombre entier et de fractions décimales ayant un numérateur inférieur à 10
+CL_8_C_Z_O_06:Comparer, encadrer, intercaler des fractions décimales en utilisant les symboles =, < et >
+CL_8_C_Z_O_07:Ordonner des fractions décimales dans l'ordre croissant ou décroissant
+CL_8_C_Z_O_08:Passer d'une écriture sous forme d'une fraction décimale ou d'une somme de fractions décimales à une écriture à virgule et réciproquement
+CL_8_C_Z_O_09:Interpréter, représenter, écrire et lire des nombres décimaux (écriture à virgule)
+CL_8_C_Z_O_10:Placer un nombre décimal en écriture à virgule sur une demi-droite graduée et repérer un point d'une demi-droite graduée par un nombre décimal
+CL_8_C_Z_O_11:Savoir donner la partie entière et l'arrondi à l'entier d'un nombre décimal
+CL_8_C_Z_O_12:Comparer, encadrer, intercaler, ordonner, par ordre croissant ou décroissant, des nombres décimaux donnés par leur écriture à virgule en utilisant les symboles =, < et >
+CL_8_C_M:Le calcul mental
+CL_8_C_M_M:Mémoriser des faits numériques
+CL_8_C_M_M_O:Objectifs d'apprentissage
+CL_8_C_M_M_O_01:Connaître des faits numériques usuels relatifs aux nombres entiers
+CL_8_C_M_M_O_02:Connaître quelques relations entre des fractions usuelles
+CL_8_C_M_M_O_03:Connaître l'écriture décimale de fractions usuelles
+CL_8_C_M_U:Utiliser ses connaissances en numération pour calculer mentalement
+CL_8_C_M_U_O:Objectifs d'apprentissage
+CL_8_C_M_U_O_01:Ajouter ou soustraire un nombre entier inférieur à 10, d'unités, de dizaines, de centaines, de dixièmes ou de centièmes à un nombre décimal, lorsqu'il n'y a pas de retenue
+CL_8_C_M_U_O_02:Multiplier un nombre entier par 10, 100 ou 1 000
+CL_8_C_M_U_O_03:Multiplier un nombre décimal par 10
+CL_8_C_M_U_O_01:Diviser un nombre décimal par 10
+CL_8_C_M_A:Apprendre des procédures de calcul mental
+CL_8_C_M_A_O:Objectifs d'apprentissage
+CL_8_C_M_A_O_01:Ajouter ou soustraire 8, 9, 18, 19, 28, 29, 38 ou 39, à un nombre
+CL_8_C_M_A_O_02:Multiplier un nombre entier inférieur à 10 par un nombre entier de dizaines ou de centaines
+CL_8_C_M_A_O_03:Multiplier un nombre entier par 4 ou par 8
+CL_8_C_M_A_O_04:Multiplier un nombre entier par 5
+CL_8_C_M_A_O_05:Utiliser la distributivité de la multiplication par rapport à l'addition dans des cas simples
+CL_8_C_O:Les quatre opérations
+CL_8_C_O_O:Objectifs d'apprentissage
+CL_8_C_O_O_01:Estimer le résultat d'une opération
+CL_8_C_O_O_02:Savoir effectuer un calcul contenant des parenthèses
+CL_8_C_O_O_03:Poser en colonnes et effectuer des additions et des soustractions de nombres décimaux
+CL_8_C_O_O_04:Poser et effectuer des multiplications de deux nombres entiers
+CL_8_C_O_O_05:Poser et effectuer des multiplications d'un nombre décimal par un nombre entier inférieur à 10
+CL_8_C_O_O_06:Poser et effectuer des divisions euclidiennes avec un diviseur à un chiffre
+CL_8_C_R:La résolution de problèmes
+CL_8_C_R_O:Objectifs d'apprentissage
+CL_8_C_R_O_01:Résoudre des problèmes additifs en une étape des types « parties-tout » et « comparaison »
+CL_8_C_R_O_02:Résoudre des problèmes additifs en deux ou trois étapes
+CL_8_C_R_O_03:Résoudre des problèmes multiplicatifs de type « parties-tout » en une étape
+CL_8_C_R_O_04:Résoudre des problèmes de comparaison multiplicative
+CL_8_C_R_O_05:Résoudre des problèmes mixtes en deux ou trois étapes
+CL_8_C_R_O_06:Résoudre des problèmes de dénombrement
+CL_8_C_R_O_07:Résoudre des problèmes d'optimisation
+CL_8_C_A:Algèbre
+CL_8_C_A_O:Objectifs d'apprentissage
+CL_8_C_A_O_01:Trouver le nombre manquant dans une égalité à trous
+CL_8_C_A_O_01:Déterminer la valeur d'un nombre inconnu en utilisant un symbole ou une lettre pour le représenter
+CL_8_C_A_O_01:Résoudre des problèmes algébriques
+CL_8_C_A_O_01:Exécuter un programme de calcul
+CL_8_C_A_O_01:Identifier et formuler une règle de calcul pour poursuivre une suite de nombres
+CL_8_C_A_O_01:Identifier des régularités et poursuivre une suite de motifs évolutive
+CL_8_P:Grandeurs et mesures
+CL_8_P_L:Les longueurs
+CL_8_P_L_O:Objectifs d'apprentissage
+CL_8_P_L_O_01:Connaître et utiliser les unités de longueur du millimètre au kilomètre et les symboles associés
+CL_8_P_L_O_02:Connaître les relations entre les unités de longueur
+CL_8_P_L_O_03:Choisir une unité adaptée pour exprimer une longueur
+CL_8_P_L_O_04:Comparer des longueurs
+CL_8_P_L_O_06:Disposer de quelques longueurs de référence
+CL_8_P_L_O_07:Estimer la longueur d'un objet ou d'une distance
+CL_8_P_L_O_08:Savoir ce qu'est le périmètre d'une figure plane
+CL_8_P_L_O_09:Déterminer le périmètre d'un polygone en utilisant une règle graduée
+CL_8_P_L_O_10:Résoudre des problèmes mettant en jeu les longueurs des côtés d'un polygone et son périmètre
+CL_8_P_M:Les masses
+CL_8_P_M_O:Objectifs d'apprentissage
+CL_8_P_M_O_01:Connaître et utiliser les unités de masse du milligramme au kilogramme et la tonne, et les symboles associés
+CL_8_P_M_O_02:Connaître les relations entre les unités de masse
+CL_8_P_M_O_03:Choisir une unité adaptée pour exprimer une masse
+CL_8_P_M_O_04:Comparer des masses
+CL_8_P_M_O_05:Disposer de quelques masses de référence
+CL_8_P_M_O_06:Estimer la masse d'un objet
+CL_8_P_C:Les contenances
+CL_8_P_C_O:Objectifs d'apprentissage
+CL_8_P_C_O_01:Connaître et utiliser les unités de contenance du millilitre à l'hectolitre et les symboles associés
+CL_8_P_C_O_02:Connaître les relations entre les unités de contenance
+CL_8_P_C_O_03:Choisir une unité adaptée pour exprimer une contenance
+CL_8_P_C_O_04:Comparer des contenances
+CL_8_P_A:Les aires
+CL_8_P_A_O:Objectifs d'apprentissage
+CL_8_P_A_O_01:Comparer les aires de différentes figures planes
+CL_8_P_A_O_02:Déterminer des aires
+CL_8_P_A_O_03:Connaître et utiliser les centimètres carrés pour exprimer des aires
+CL_8_P_G:Les angles
+CL_8_P_G_O:Objectifs d'apprentissage
+CL_8_P_G_O_01:Utiliser le lexique spécifique associé aux angles
+CL_8_P_G_O_02:Comprendre et utiliser les notations des angles
+CL_8_P_G_O_03:Comparer des angles
+CL_8_P_R:Le repérage dans le temps et les durées
+CL_8_P_R_O:Objectifs d'apprentissage
+CL_8_P_R_O_01:Lire l'heure sur une horloge à aiguilles
+CL_8_P_R_O_02:Positionner les aiguilles d'une horloge correspondant à une heure donnée en heure et minute
+CL_8_P_R_O_03:Comparer et mesurer des durées écoulées entre deux instants affichés sur une horloge (instants et durées sont exprimés en heure et minute)
+CL_8_P_R_O_04:Résoudre des problèmes à une ou deux étapes impliquant des durées
+CL_8_G:Espace et géométrie
+CL_8_G_P:La géométrie plane
+CL_8_G_P_O:Objectifs d'apprentissage
+CL_8_G_P_O_01:Utiliser le vocabulaire géométrique approprié dans le contexte d'apprentissage des notions correspondantes
+CL_8_G_P_O_02:Utiliser les outils géométriques usuels : règle, règle graduée, équerre et compas
+CL_8_G_P_O_03:Connaître les codes usuels utilisés en géométrie
+CL_8_G_P_O_04:Décrire et reconnaître un cercle et un disque comme un ensemble de points caractérisés par leur distance à un point donné
+CL_8_G_P_O_05:Reconnaître et utiliser la notion de perpendicularité
+CL_8_G_P_O_06:Reconnaître et utiliser la notion de parallélisme
+CL_8_G_P_O_07:Reconnaître et nommer les figures suivantes en faisant référence à leur définition : triangle, triangle rectangle, triangle isocèle, triangle équilatéral, quadrilatère, carré, rectangle et losange
+CL_8_G_P_O_08:Connaître les propriétés de parallélisme des côtés opposés, des égalités de longueurs et d'angles pour les figures usuelles : triangle rectangle, triangle isocèle, triangle équilatéral, carré, rectangle et losange.
+CL_8_G_P_O_09:Reproduire ou construire un carré, un rectangle, un triangle, un triangle rectangle ou un cercle ou des assemblages de ces figures sur tout support (papier quadrillé, pointé ou uni), avec une règle graduée, une équerre ou un compas.
+CL_8_G_P_O_10:Construire une figure géométrique composée de segments, de droites, de polygones usuels et de cercles.
+CL_8_G_P_O_11:Reconnaître si une figure possède un ou plusieurs axes de symétrie
+CL_8_G_P_O_12:Compléter une figure pour la rendre symétrique par rapport à une droite donnée, horizontale ou verticale
+CL_8_G_P_O_13:Construire, sur papier quadrillé, la figure symétrique d'une figure donnée par rapport à une droite horizontale ou verticale
+CL_8_G_P_P:Prolongements
+CL_8_G_S:Les solides
+CL_8_G_S_O:Objectifs d'apprentissage
+CL_8_G_S_O_01:Nommer un cube, une boule, un pavé, un cône, une pyramide, un cylindre et un prisme droit
+CL_8_G_S_O_02:Décrire un cube, un pavé, une pyramide et un prisme droit en faisant référence à des propriétés et en utilisant le vocabulaire approprié
+CL_8_G_S_O_03:Connaître le nombre et la nature des faces d'un cube ou d'un pavé
+CL_8_G_S_O_04:Connaître la nature des faces d'une pyramide
+CL_8_G_S_O_05:Connaître la nature des faces d'un prisme droit
+CL_8_G_S_O_06:Construire un cube, un pavé, une pyramide ou un prisme droit
+CL_8_G_S_O_07:Reconnaître un patron d'un cube
+CL_8_G_S_O_08:Construire un patron d'un cube
+CL_8_G_D:Le repérage dans l'espace
+CL_8_G_D_O:Objectifs d'apprentissage
+CL_8_G_D_O_01:Connaître et utiliser le vocabulaire lié aux déplacements
+CL_8_G_D_O_02:Comprendre, utiliser et produire une suite d'instructions qui décrivent un déplacement en utilisant un vocabulaire spatial précis
+CL_8_G_D_O_03:Résoudre des problèmes portant sur des assemblages de cubes
+CL_8_O:Organisation et gestion de données et probabilités
+CL_8_O_O:Organisation et gestion de données
+CL_8_O_O_O:Objectifs d'apprentissage
+CL_8_O_O_O_01:Recueillir des données et produire un tableau, un diagramme en barres ou un ensemble de points dans un repère pour les présenter
+CL_8_O_O_O_02:Lire et interpréter les données d'un tableau à simple ou double entrée, d'un diagramme en barres ou d'une courbe
+CL_8_O_O_O_03:Résoudre des problèmes en une ou plusieurs étapes en utilisant les données d'un tableau à simple ou double entrée, d'un diagramme en barres ou d'une courbe
+CL_8_O_P:Les probabilités
+CL_8_O_P_O:Objectifs d'apprentissage
+CL_8_O_P_O_01:Identifier des expériences aléatoires
+CL_8_O_P_O_02:Identifier toutes les issues possibles lors d'une expérience aléatoire simple
+CL_8_O_P_O_03:Comprendre et utiliser le vocabulaire approprié : « impossible », « possible », « certain », « probable », « peu probable », « une chance sur deux »
+CL_8_O_P_O_04:Comparer des issues d'expériences aléatoires ou des évènements selon leur probabilité de réalisation
+CL_8_O_P_O_05:Comprendre que ce n'est pas parce qu'il y a deux issues possibles que chacune a une chance sur deux de se réaliser
+CL_8_O_P_O_06:Reconnaître des situations d'équiprobabilité
+CL_8_O_Pr:Proportionnalité
+CL_8_O_Pr_O:Objectifs d'apprentissage
+CL_8_O_Pr_O_01:Identifier une situation de proportionnalité
+CL_8_O_Pr_O_02:Savoir résoudre un problème de proportionnalité
+CL_8_I:Initiation à la pensée informatique
+CL_7:Cours moyen deuxième année
+CL_7_C:Nombres, calcul et résolution de problèmes
+CL_7_C_N:Les nombres entiers
+CL_7_C_N_O:Objectifs d'apprentissage
+CL_7_C_N_O_01:Connaître et utiliser les relations entre les unités de numération
+CL_7_C_N_O_02:Connaître la suite écrite et la suite orale des nombres jusqu'à 999 999 999
+CL_7_C_N_O_03:Connaître et utiliser diverses représentations d'un nombre et passer de l'une à l'autre
+CL_7_C_N_O_04:Connaître la valeur des chiffres en fonction de leur position dans un nombre
+CL_7_C_N_O_05:Comparer, encadrer, intercaler des nombres entiers en utilisant les symboles =, < et >
+CL_7_C_N_O_06:Ordonner des nombres dans l'ordre croissant ou décroissant
+CL_7_C_N_O_07:Placer des nombres et repérer des points sur une demi-droite graduée
+CL_7_C_N_O_08:Déterminer si un nombre entier inférieur ou égal à 10 est un diviseur d'un nombre entier donné ou si un nombre entier donné est un multiple d'un nombre entier inférieur ou égal à 10
+CL_7_C_N_O_09:Déterminer des diviseurs d'un nombre entier inférieur ou égal à 100
+CL_7_C_N_O_10:Déterminer tous les diviseurs d'un nombre entier inférieur ou égal à 30
+CL_7_C_N_O_11:Déterminer les diviseurs communs à deux nombres entiers inférieurs ou égaux à 30
+CL_7_C_N_O_12:Déterminer des multiples communs à deux nombres entiers inférieurs à 15
+CL_7_C_F:Les fractions
+CL_7_C_F_O:Objectifs d'apprentissage
+CL_7_C_F_O_01:Interpréter, représenter, écrire et lire des fractions
+CL_7_C_F_O_02:Écrire une fraction supérieure à 1 comme la somme d'un entier et d'une fraction inférieure à 1
+CL_7_C_F_O_03:Écrire la somme d'un entier et d'une fraction inférieure à 1 comme une unique fraction
+CL_7_C_F_O_04:Encadrer une fraction entre deux nombres entiers consécutifs
+CL_7_C_F_O_05:Placer une fraction ou la somme d'un nombre entier et d'une fraction inférieure à un sur une demi-droite graduée
+CL_7_C_F_O_06:Repérer un point d'une demi-droite graduée par une fraction ou par la somme d'un nombre entier et d'une fraction
+CL_7_C_F_O_07:Comparer des fractions
+CL_7_C_F_O_08:Additionner et soustraire des fractions
+CL_7_C_F_O_09:Calculer le produit d'un entier et d'une fraction
+CL_7_C_F_O_10:Déterminer une fraction d'une quantité ou d'une grandeur
+CL_7_C_D:Les nombres décimaux
+CL_7_C_D_O:Objectifs d'apprentissage
+CL_7_C_D_O_01:Interpréter, représenter, écrire et lire des fractions décimales
+CL_7_C_D_O_02:Connaître et utiliser les relations entre unités simples, dixièmes, centièmes et millièmes
+CL_7_C_D_O_03:Placer une fraction décimale sur une demi-droite graduée et repérer un point d'une demi-droite graduée par une fraction décimale
+CL_7_C_D_O_04:Écrire une fraction décimale supérieure à 1 comme la somme d'un nombre entier et d'une fraction décimale inférieure à 1
+CL_7_C_D_O_05:Écrire une fraction décimale supérieure à 1 comme la somme d'un nombre entier et de fractions décimales ayant un numérateur inférieur à 10
+CL_7_C_D_O_06:Comparer, encadrer, intercaler des fractions décimales en utilisant les symboles =, < et >
+CL_7_C_D_O_07:Ordonner des fractions décimales dans l'ordre croissant ou décroissant
+CL_7_C_D_O_08:Passer d'une écriture sous forme d'une fraction décimale ou de la somme de fractions décimales à une écriture à virgule et réciproquement
+CL_7_C_D_O_09:Interpréter, représenter, écrire et lire des nombres décimaux (écriture à virgule)
+CL_7_C_D_O_10:Placer un nombre décimal en écriture à virgule sur une demi-droite graduée et repérer un point d'une demi-droite graduée par un nombre en écriture à virgule
+CL_7_C_D_O_11:Savoir donner la partie entière et l'arrondi à l'entier d'un nombre décimal
+CL_7_C_D_O_12:Comparer, encadrer, intercaler, ordonner par ordre croissant ou décroissant des nombres décimaux donnés par leur écriture à virgule
+CL_7_C_M:Le calcul mental
+CL_7_C_M_M:Mémoriser des faits numériques
+CL_7_C_M_O:Objectifs d'apprentissage
+CL_7_C_M_O_01:Connaître des faits numériques usuels avec des entiers
+CL_7_C_M_O_01:Connaître la moitié des nombres impairs jusqu'à 15
+CL_7_C_M_O_01:Connaître quelques relations entre des fractions usuelles
+CL_7_C_M_O_01:Connaître l'écriture décimale de fractions usuelles
+CL_7_C_M_U:Utiliser ses connaissances en numération pour calculer mentalement
+CL_7_C_M_U_O:Objectifs d'apprentissage
+CL_7_C_M_U_O_01:Ajouter ou soustraire un nombre entier à un nombre décimal lorsqu'il n'y a pas de retenue
+CL_7_C_M_U_O_01:Ajouter un nombre entier à un nombre décimal lorsqu'il y a une retenue
+CL_7_C_M_U_O_01:Multiplier un nombre décimal par 10, 100 ou 1 000
+CL_7_C_M_U_O_01:Diviser un nombre décimal par 10, 100 ou 1 000
+CL_7_C_M_A:Apprendre des procédures de calcul mental
+CL_7_C_M_A_O:Objectifs d'apprentissage
+CL_7_C_M_A_O_01:Ajouter deux nombres décimaux inférieurs à 10, s'écrivant avec au plus un chiffre après la virgule
+CL_7_C_M_A_O_02:Ajouter ou soustraire 8, 9, 18, 19, 28, 29, ..., 98 ou 99 à un nombre
+CL_7_C_M_A_O_03:Multiplier un nombre entier, inférieur à 10, de dizaines, de centaines ou de milliers par un nombre entier, inférieur à 10, de dizaines, de centaines ou de milliers
+CL_7_C_M_A_O_04:Utiliser la distributivité de la multiplication par rapport à l'addition dans des cas simples
+CL_7_C_M_A_O_05:Calculer le double d'un nombre décimal dans des cas simples
+CL_7_C_M_A_O_06:Calculer la moitié d'un nombre décimal dans des cas simples
+CL_7_C_M_A_O_07:Diviser un nombre entier par 4 ou par 8
+CL_7_C_M_A_O_08:Multiplier un nombre décimal par 5
+CL_7_C_M_A_O_09:Multiplier un nombre décimal par 50
+CL_7_C_O:Les quatre opérations
+CL_7_C_O_O:Objectifs d'apprentissage
+CL_7_C_O_O_01:Estimer le résultat d'une opération
+CL_7_C_O_O_02:Savoir réaliser un calcul contenant une ou deux paires de parenthèses
+CL_7_C_O_O_03:Poser et effectuer la multiplication d'un nombre décimal par un nombre entier
+CL_7_C_O_O_04:Poser et effectuer des divisions décimales avec un dividende entier et un diviseur à un chiffre
+CL_7_C_O_O_05:Poser et effectuer des divisions décimales avec un dividende décimal et un diviseur à un chiffre
+CL_7_C_R:La résolution de problèmes
+CL_7_C_R_O:Objectifs d'apprentissage
+CL_7_C_R_O_01:Résoudre des problèmes additifs en une ou plusieurs étapes
+CL_7_C_R_O_02:Résoudre des problèmes multiplicatifs de type « parties-tout » en une étape
+CL_7_C_R_O_03:Résoudre des problèmes mixtes en plusieurs étapes
+CL_7_C_R_O_04:Résoudre des problèmes de comparaison multiplicative
+CL_7_C_R_O_05:Résoudre des problèmes de dénombrement
+CL_7_C_R_O_06:Résoudre des problèmes d'optimisation
+CL_7_C_R_O_07:Résoudre des problèmes préparant à l'utilisation d'algorithmes
+CL_7_C_A:Algèbre
+CL_7_C_A_O:Objectifs d'apprentissage
+CL_7_C_A_O_01:Trouver le nombre manquant dans une égalité à trous
+CL_7_C_A_O_02:Résoudre des problèmes algébriques
+CL_7_C_A_O_03:Exécuter ou produire un programme de calcul
+CL_7_C_A_O_04:Identifier et formuler une règle de calcul pour poursuivre une suite de nombres
+CL_7_C_A_O_05:Identifier des régularités et poursuivre une suite de motifs évolutive
+CL_7_C_A_O_06:Trouver le nombre d'éléments pour une étape donnée dans une suite de motifs évolutive
+CL_7_P:Grandeurs et mesures
+CL_7_P_A:Les aires
+CL_7_P_A_O:Objectifs d'apprentissage
+CL_7_P_A_O_01:Comparer les aires de différentes figures planes
+CL_7_P_A_O_02:Déterminer des aires
+CL_7_P_A_O_03:Connaître et utiliser les unités centimètre carré, décimètre carré et mètre carré pour exprimer des aires
+CL_7_P_A_O_04:Convertir des aires entre différentes unités
+CL_7_P_A_O_05:Déterminer l'aire d'un carré ou d'un rectangle
+CL_7_P_G:Les angles
+CL_7_P_G_O:Objectifs d'apprentissage
+CL_7_P_G_O_01:Utiliser le lexique spécifique associé aux angles
+CL_7_P_G_O_02:Comprendre et utiliser les notations des angles
+CL_7_P_G_O_03:Comparer des angles
+CL_7_P_G_O_04:Construire un angle égal à la somme de deux angles donnés ou un angle multiple d'un angle donné
+CL_7_P_G_O_05:Construire par pliage la moitié d'un angle donné
+CL_7_P_G_O_06:Savoir qu'un angle droit mesure 90°
+CL_7_P_R:Le repérage dans le temps et les durées
+CL_7_P_R_O:Objectifs d'apprentissage
+CL_7_P_R_O_01:Lire l'heure sur une horloge à aiguilles
+CL_7_P_R_O_02:Positionner les aiguilles d'une horloge correspondant à une heure donnée en heure, minute et seconde
+CL_7_P_R_O_03:Comparer et mesurer des durées écoulées entre deux instants affichés sur une horloge (instants et durées sonheure, minute et seconde)
+CL_7_P_R_O_04:Résoudre des problèmes à une ou plusieurs étapes impliquant des durées
+CL_7_G:Géométrie
+CL_7_G_P:La géométrie plane
+CL_7_G_P_O:Objectifs d'apprentissage
+CL_7_G_P_O_01:Utiliser le vocabulaire géométrique approprié dans le contexte d'apprentissage des notions correspondantes
+CL_7_G_P_O_02:Utiliser les outils géométriques usuels : règle, règle graduée, équerre et compas
+CL_7_G_P_O_03:Connaître les notations et les codes usuels utilisés en géométrie
+CL_7_G_P_O_04:Reconnaître et utiliser la notion de perpendicularité
+CL_7_G_P_O_05:Reconnaître et utiliser la notion de parallélisme
+CL_7_G_P_O_06:Décrire et reconnaître un cercle et un disque comme un ensemble de points caractérisés par leur distance à un point donné
+CL_7_G_P_O_07:Reconnaître et nommer les figures suivantes en s'appuyant sur leur définition : triangle, triangle rectangle, triangle isocèle, triangle équilatéral, quadrilatère, carré, rectangle, losange, trapèze, trapèze rectangle, pentagone et hexagone
+CL_7_G_P_O_08:Connaître les propriétés de parallélisme des côtés opposés, des égalités de longueurs et d'angles pour les figures usuelles : triangle rectangle, triangle isocèle, triangle équilatéral, carré, rectangle, losange, trapèze et trapèze rectangle
+CL_7_G_P_O_09:Reproduire ou construire un carré, un rectangle, un triangle, un triangle rectangle ou un cercle ou des assemblages de ces figures sur tout support (papier quadrillé, pointé ou uni), avec une règle graduée, une équerre ou un compas.
+CL_7_G_P_O_10:Construire une figure géométrique composée de segments, de droites, de polygones usuels et de cercles
+CL_7_G_P_O_11:Élaborer un programme de construction
+CL_7_G_P_O_12:Construire, sur papier quadrillé, la figure symétrique d'une figure donnée par rapport à une droite verticale, horizontale ou une diagonale du quadrillage
+CL_7_G_S:Les solides
+CL_7_G_S_O:Objectifs d'apprentissage
+CL_7_G_S_O_01:Nommer un cube, une boule, un pavé, un cône, une pyramide, un cylindre ou un prisme droit
+CL_7_G_S_O_02:Décrire un cube, un pavé, une pyramide ou un prisme droit en faisant référence à des propriétés et en utilisant le vocabulaire approprié
+CL_7_G_S_O_03:Reconnaître un patron d'un cube
+CL_7_G_S_O_04:Construire un patron d'un cube
+CL_7_G_S_O_05:Reconnaître un patron d'un pavé
+CL_7_G_D:Déplacements dans l'espace
+CL_7_G_D_O:Objectifs d'apprentissage
+CL_7_G_D_O_01:Connaître et utiliser le vocabulaire lié aux déplacements
+CL_7_G_D_O_02:Comprendre, utiliser et produire une suite d'instructions qui décrivent un déplacement en utilisant un vocabulaire spatial précis
+CL_7_G_D_O_03:Résoudre des problèmes portant sur des assemblages de cubes
+CL_7_O:Organisation et gestion de données
+CL_7_O_O:Objectifs d'apprentissage
+CL_7_O_O_01:Recueillir des données et produire un tableau, un diagramme en barres ou un ensemble de points dans un repère pour présenter des données recueillies
+CL_7_O_O_02:Lire et interpréter les données d'un tableau, d'un diagramme en barres, d'un diagramme circulaire ou d'une courbe
+CL_7_O_O_03:Résoudre des problèmes en une ou deux étapes en utilisant les données d'un tableau, d'un diagramme en barres, d'un diagramme circulaire ou d'une courbe
+CL_7_O_P:Probabilités
+CL_7_O_P_O:Objectifs d'apprentissage
+CL_7_O_P_O_01:Identifier toutes les issues possibles lors d'une expérience aléatoire simple
+CL_7_O_P_O_02:Identifier toutes les issues réalisant un évènement dans une expérience aléatoire simple
+CL_7_O_P_O_03:Dans une situation d'équiprobabilité, lors d'une expérience aléatoire simple, exprimer la probabilité d'un évènement sous la forme « a chances sur b »
+CL_7_O_P_O_04:Comparer des probabilités dans des cas simples
+CL_7_O_P_O_05:Comprendre la notion d'indépendance lors de la répétition de la même expérience aléatoire
+CL_7_O_P_O_06:Dans des situations d'équiprobabilité, recenser toutes les issues possibles d'une expérience aléatoire en deux étapes dans un tableau ou dans un arbre afin de déterminer des probabilités
+CL_7_O_Pr:Proportionnalité
+CL_7_O_Pr_O:Objectifs d'apprentissage
+CL_7_O_Pr_O_01:Identifier une situation de proportionnalité
+CL_7_O_Pr_O_02:Savoir résoudre un problème de proportionnalité
+CL_7_I:Informatique
+CL_7_I_I:Initiation à la pensée informatique
+CL_6:Sixième
+CL_6_C:Nombres, calcul et résolution de problèmes
+CL_6_C_N:Les nombres entiers et décimaux
+CL_6_C_N_O:Objectifs d'apprentissage
+CL_6_C_N_O_01:Connaître et utiliser la valeur des chiffres selon leur rang dans l'écriture d'un nombre
+CL_6_C_N_O_02:Connaître les liens entre les unités de numération unité, dizaine, centaine, millier, dixième, centième, millième
+CL_6_C_N_O_03:Connaître des grands nombres entiers
+CL_6_C_N_O_04:Reconnaître un nombre décimal
+CL_6_C_N_O_05:Connaître la définition d'un pourcentage
+CL_6_C_N_O_06:Associer et utiliser différentes écritures d'un nombre décimal : écriture à virgule, fraction, nombre mixte, pourcentage
+CL_6_C_N_O_07:Placer sur une demi-droite graduée un point dont l'abscisse est un nombre décimal
+CL_6_C_N_O_08:Repérer un nombre décimal sur une demi-droite graduée
+CL_6_C_N_O_09:Comparer deux nombres décimaux
+CL_6_C_N_O_10:Ordonner une liste de nombres décimaux
+CL_6_C_N_O_11:Donner la valeur arrondie à l'unité, au dixième ou au centième, d'un nombre décimal
+CL_6_C_N_O_12:Déterminer ou connaître la valeur arrondie de certains nombres non décimaux
+CL_6_C_N_O_13:Encadrer un nombre décimal par deux nombres décimaux, intercaler un nombre décimal entre deux nombres décimaux
+CL_6_C_N_O_14:Additionner et soustraire des nombres décimaux
+CL_6_C_N_O_15:Multiplier un nombre entier ou un nombre décimal par 0,1, par 0,01, et par 0,001
+CL_6_C_N_O_17:Connaître le lien avec la division par 10, 100 et par 1 000
+CL_6_C_N_O_18:Comprendre le sens de la multiplication de deux nombres décimaux
+CL_6_C_N_O_19:Calculer le produit de deux nombres décimaux
+CL_6_C_N_O_20:Contrôler les résultats à l'aide d'ordres de grandeur
+CL_6_C_N_O_21:Résoudre des problèmes mettant en jeu des multiplications entre des nombres décimaux
+CL_6_C_N_O_22:Diviser un nombre décimal par un nombre entier non nul inférieur à 10
+CL_6_C_N_O_23:Résoudre des problèmes mettant en jeu des divisions décimales
+CL_6_C_N_O_24:Effectuer la division euclidienne d'un nombre entier par un nombre entier inférieur à 100
+CL_6_C_N_O_25:Résoudre des problèmes mettant en jeu des divisions euclidiennes
+CL_6_C_N_P:Prolongements possibles : mises en perspective historiques et culturelles
+CL_6_C_N_P_01:La découverte d'écritures des nombres à partir de lettres ou de dessins : numérations acrophoniques grecque, romaine, hiéroglyphique égyptienne ;
+CL_6_C_N_P_02:La découverte d'algorithmes opératoires, développés dans plusieurs traditions mathématiques, comme la multiplication par jalousies ou en tableau ;
+CL_6_C_N_P_03:La manipulation d'abaques à jetons ou de bouliers pour remobiliser le principe de la numération et la notion de « base de numération » ;
+CL_6_C_N_P_04:La découverte de la numération sexagésimale paléo-babylonienne, qui repose sur les mêmes principes mathématiques que le système utilisé pour exprimer des durées en heures, minutes et secondes. Le passage de ce système de numération au système décimal (et vice versa) est un autre contexte que celui des durées pour travailler la division euclidienne ;
+CL_6_C_N_P_05:La découverte de l'écriture des nombres décimaux utilisée par Simon Stevin de Bruges pour illustrer le lien entre numération décimale et fractions décimales.
+CL_6_C_F:Les fractions
+CL_6_C_F_S:Le sens quotient d'une fraction
+CL_6_C_F_S_O:Objectifs d'apprentissage
+CL_6_C_F_S_O_01:Relier une fraction au résultat exact de la division de son numérateur par son dénominateur
+CL_6_C_F_S_O_02:Comprendre et connaître la définition du quotient d'un entier a par un entier b non nul
+CL_6_C_F_S_O_03:Compléter des égalités à trous multiplicatives
+CL_6_C_F_S_O_04:Placer une fraction sur une demi-droite graduée dans des cas simples
+CL_6_C_F_S_O_05:Graduer un segment de longueur donnée
+CL_6_C_F_S_O_06:Savoir que la fraction a b peut représenter un nombre entier, un nombre décimal non entier ou un nombre non décimal
+CL_6_C_F_M:La fraction comme opérateur multiplicatif
+CL_6_C_F_M_O:Objectifs d'apprentissage
+CL_6_C_F_M_O_01:Utiliser une multiplication pour appliquer une fraction à un nombre entier
+CL_6_C_F_C:Comparer des fractions
+CL_6_C_F_C_O:Objectifs d'apprentissage
+CL_6_C_F_C_O_01:Établir des égalités de fractions
+CL_6_C_F_C_O_02:Comparer et encadrer des fractions
+CL_6_C_F_C_O_03:Ordonner une liste de nombres écrits sous forme de fractions ou de nombres mixtes
+CL_6_C_F_E: Effectuer des opérations sur les fractions
+CL_6_C_F_E_O:Objectifs d'apprentissage
+CL_6_C_F_E_O_01:Additionner et soustraire des fractions
+CL_6_C_F_E_O_01:Multiplier une fraction par un nombre entier
+CL_6_C_F_E_O_01:Résoudre des problèmes mettant en jeu des fractions
+CL_6_C_F_E_O_01:Inventer des problèmes mettant en jeu des fractions
+CL_6_C_F_P:Pourcentages
+CL_6_C_F_P_O:Objectifs d'apprentissage
+CL_6_C_F_P_O_01:Comprendre le sens d'un pourcentage
+CL_6_C_F_P_O_02:Calculer une proportion (rapport entre une partie et le tout) et l'exprimer sous forme de pourcentage dans des cas simples
+CL_6_C_F_P_O_03:Appliquer un pourcentage à une grandeur ou à un nombre
+CL_6_C_F_P_P:Prolongements possibles : mises en perspective historiques et culturelles
+CL_6_C_F_P_P_01:L'élève découvre les contextes historiques (impôt, héritage, cadastre) qui ont conduit à la notion de fraction ainsi que leurs différentes écritures avant l'utilisation de la barre de fraction.
+CL_6_C_F_P_P_02:Il comprend pourquoi une fraction a été appelée nombre rompu, nombre cassé ou encore nombre coupé.
+CL_6_C_A:Algèbre
+CL_6_C_A_R:Résoudre des problèmes mettant en jeu des nombres inconnus
+CL_6_C_A_R_O:Objectifs d'apprentissage
+CL_6_C_A_R_O_01:Utiliser des modèles pré-algébriques pour résoudre des problèmes algébriques
+CL_6_C_A_R_O_02:Identifier la structure d'un motif évolutif en repérant une régularité et en identifiant une structure
+CL_6_P:Grandeurs et mesures
+CL_6_P_L:Les longueurs
+CL_6_P_L_A:Automatismes
+CL_6_P_L_A_01:L'élève connaît les significations des préfixes allant du kilo- au milli-, ainsi que les relations entre le mètre, ses multiples et ses sous-multiples, et fait le lien avec les unités de numération du système décimal.
+CL_6_P_L_A_02:L'élève connaît les relations entre deux unités successives du système décimal, par exemple : 1 dm = 10 cm et 1 cm = 1 10 dm = 0,1 dm.
+CL_6_P_L_A_03:L'élève sait convertir en mètre une longueur donnée dans une autre unité, multiple ou sous-multiple du mètre. Inversement, l'élève sait convertir dans une unité donnée une longueur exprimée en mètre.
+CL_6_P_L_A_04:L'élève sait utiliser le compas comme outil de report de longueurs.
+CL_6_P_L_A_05:Il sait que le périmètre d'une figure plane est la longueur de son contour. L'élève sait calculer le périmètre d'un carré et d'un rectangle.
+CL_6_P_L_O:Objectifs d'apprentissage
+CL_6_P_L_O_01:Savoir que le périmètre du disque est proportionnel à son diamètre
+CL_6_P_L_O_02:Connaître la formule du périmètre d'un disque
+CL_6_P_L_O_03:Calculer le périmètre d'un disque
+CL_6_P_L_O_04:Calculer des périmètres de figures composées
+CL_6_P_L_O_05:Résoudre des problèmes impliquant des longueurs
+CL_6_P_A:Les aires
+CL_6_P_A_A:Automatismes
+CL_6_P_A_A_01:L'élève sait comparer des aires sans avoir recours à la mesure, par superposition ou par découpage et recollement de surfaces.
+CL_6_P_A_A_01:L'élève sait que 1 cm² est l'aire d'un carré de 1 cm de côté, que 1 m² est l'aire d'un carré de 1 m de côté, que 1 dm² est l'aire d'un carré de 1 dm de côté.
+CL_6_P_A_A_01:Dans des cas simples, l'élève sait déterminer l'aire d'une surface en s'appuyant sur un quadrillage composé de carreaux dont les côtés mesurent 1 cm.
+CL_6_P_A_A_01:L'élève sait que : 1 m2 = 1 m × 1 m = 10 dm × 10 dm = 10 × 10 dm2 = 100 dm2 ; 1 dm2 = 1 dm × 1 dm = 10 cm × 10 cm = 10 × 10 cm2 = 100 cm2
+CL_6_P_A_A_01:L'élève mémorise que 1 cm² est égal à un centième de 1 dm², qu'il écrit 1 cm² = 1 100 dm2 ou 1 cm2 = 0,01 dm2
+CL_6_P_A_A_01:L'élève mémorise que 1 dm² est égal à un centième de 1 m², qu'il écrit 1 dm² = 1100 m2 ou 1 dm² = 0,01 m2
+CL_6_P_A_O:Objectifs d'apprentissage
+CL_6_P_A_O_01:Effectuer des conversions d'aire
+CL_6_P_A_O_02:Connaître la formule de l'aire d'un carré ou d'un rectangle
+CL_6_P_A_O_03:Calculer l'aire d'un carré ou d'un rectangle
+CL_6_P_V:Les volumes
+CL_6_P_V_O:xxxx
+CL_6_P_V_O_01:Connaître l'unité centimètre cube
+CL_6_P_V_O_01:Comparer des volumes
+CL_6_P_V_O_01:Déterminer un volume
+CL_6_P_R:Le repérage dans le temps et les durées
+CL_6_P_R_A:Automatismes
+CL_6_P_R_A_01:L'élève lit l'heure sur un cadran à aiguilles ou sur un affichage digital (heures, minutes et secondes).
+CL_6_P_R_A_02:L'élève place les aiguilles pour qu'une horloge indique une heure donnée.
+CL_6_P_R_A_03:L'élève connaît les unités de mesure de durées jour, heure, minute et seconde et les relations qui les lient.
+CL_6_P_R_A_04:L'élève sait combien de jours il y a dans une année (bissextile ou non), combien d'années il y a dans un siècle, et dans un millénaire.
+CL_6_P_R_A_05:L'élève sait qu'une demi-heure c'est 30 minutes, qu'un quart d'heure c'est 15 minutes, que trois quarts d'heure c'est 45 minutes.
+CL_6_P_R_O:Objectifs d'apprentissage
+CL_6_P_R_O_01:Effectuer des calculs sur des horaires et des durées
+CL_6_P_R_O_02:Résoudre des problèmes impliquant des horaires et des durées
+CL_6_P_R_O_03:Convertir des durées
+CL_6_P_R_P:Mises en perspective historiques et culturelles
+CL_6_P_R_P_01:L'élève découvre l'histoire et le fonctionnement de différents types de calendriers : solaires, lunaires ou luni-solaires. Il comprend le lien entre les calendriers julien et grégorien et les différentes approximations de la valeur de l'année tropique.
+CL_6_P_R_P_02:Selon ses intérêts et ses besoins, l'élève peut également s'interroger sur les moyens de partager le temps, découvrir les clepsydre (horloges à eau) ou d'autres instruments historiques et interculturels (grecs, arabes, chinois).
+CL_6_G:Géométrie
+CL_6_G_C:Étude de configurations planes
+CL_6_G_C_A:Automatismes
+CL_6_G_C_A_01:L'élève connaît le lexique et le codage des objets de base de la géométrie plane : angle droit, égalité de longueurs, égalité d'angles.
+CL_6_G_C_A_02:Il reconnaît un carré, un rectangle, un triangle.
+CL_6_G_C_A_03:Il reconnaît si une figure possède un ou plusieurs axes de symétrie.
+CL_6_G_C_A_04:Il sait coder des angles droits et des longueurs égales.
+CL_6_G_D:Distances
+CL_6_G_D_O:Objectifs d'apprentissage
+CL_6_G_D_O_01:Connaître et utiliser la définition de la distance entre deux points
+CL_6_G_D_O_01:Connaître et utiliser la définition du milieu d'un segment
+CL_6_G_C:Cercles et disques
+CL_6_G_C_O:Objectifs d'apprentissage
+CL_6_G_C_O_01:Connaître les définitions d'un cercle, d'un disque, d'un rayon, d'un diamètre, d'une corde
+CL_6_G_C_O_02:Comprendre la définition d'un cercle et celle d'un disque sous la forme d'ensembles de points
+CL_6_G_C_O_03:Résoudre des problèmes mettant en jeu des distances à un point
+CL_6_G_M:Médiatrice d'un segment
+CL_6_G_M_O:Objectifs d'apprentissage
+CL_6_G_M_O_01:Connaître la définition de la médiatrice d'un segment
+CL_6_G_M_O_02:Comprendre et utiliser la propriété caractéristique de la médiatrice d'un segment
+CL_6_G_M_O_03:Résoudre des problèmes en s'appuyant sur la propriété caractéristique de la médiatrice
+CL_6_G_A:Angles
+CL_6_G_A_O:Objectifs d'apprentissage
+CL_6_G_A_O_01:Connaître et utiliser les angles ainsi que le lexique et les notations qui s'y rapportent : angle droit, angle plat, angle plein, angle nul, angle aigu, angle obtus, angles opposés par le sommet, angles adjacents, angles supplémentaires
+CL_6_G_A_O_02:Mesurer un angle
+CL_6_G_A_O_03:Construire un angle de mesure donnée
+CL_6_G_A_O_04:Bissectrice d'un angle saillant
+CL_6_G_A_O_05:Connaître la définition de la bissectrice d'un angle saillant
+CL_6_G_A_O_06:Utiliser la définition de la bissectrice d'un angle pour effectuer des constructions et résoudre des problèmes
+CL_6_G_T:Triangles
+CL_6_G_T_O:Objectifs d'apprentissage
+CL_6_G_T_O_01:Construire des triangles
+CL_6_G_T_O_02:Connaître et utiliser les propriétés angulaires des triangles particuliers : triangle rectangle, triangle isocèle, triangle équilatéral
+CL_6_G_T_O_03:Connaître la valeur de la somme des mesures des angles d'un triangle
+CL_6_G_T_O_04:L'utiliser pour calculer des angles, effectuer des constructions et résoudre des problèmes
+CL_6_G_T_O_05:Savoir que les médiatrices d'un triangle sont concourantes
+CL_6_G_T_O_06:Connaître et construire le cercle circonscrit à un triangle
+CL_6_G_S:Symétrie axiale
+CL_6_G_S_O:Objectifs d'apprentissage
+CL_6_G_S_O_01:Connaître la définition du symétrique d'un point par rapport à une droite
+CL_6_G_S_O_02:Connaître et utiliser les propriétés de la symétrie axiale pour effectuer des constructions
+CL_6_G_E:La vision dans l'espace
+CL_6_G_E_A:Automatismes
+CL_6_G_E_A_01:L'élève identifie dans un ensemble de solides lesquels sont des pyramides, des boules, des cubes, des cylindres, des pavés, des cônes ou des prismes droits.
+CL_6_G_E_O:Objectifs d'apprentissage
+CL_6_G_E_O_01:Voir dans l'espace des assemblages de cubes
+CL_6_O:Organisation et gestion de données et probabilités
+CL_6_O_O:Objectifs d'apprentissage
+CL_6_O_O_01:Planifier une enquête et recueillir des données
+CL_6_O_O_02:Réaliser des mesures et les consigner dans un tableau
+CL_6_O_O_03:Construire un tableau simple pour présenter des données (observations, caractères)
+CL_6_O_O_04:Faire un choix en filtrant les données d'un tableau selon un critère
+CL_6_O_A:Automatismes
+CL_6_O_A_01:L'élève sait lire un tableau, un diagramme en barres, un diagramme circulaire ou une courbe dans des cas adaptés à une lecture immédiate.
+CL_6_O_P:Les probabilités
+CL_6_O_P_O:Objectifs d'apprentissage
+CL_6_O_P_O_01:Savoir que la probabilité d'un évènement est un nombre compris entre 0 et 1
+CL_6_O_P_O_02:Calculer des probabilités dans des situations simples d'équiprobabilité
+CL_6_O_P_O_03:Comparer des résultats d'une expérience aléatoire répétée à une probabilité calculée
+CL_6_O_Pr:La proportionnalité
+CL_6_O_Pr_O:Objectifs d'apprentissage
+CL_6_O_Pr_O_01:Identifier une situation de proportionnalité
+CL_6_O_Pr_O_02:Savoir résoudre un problème de proportionnalité
+CL_6_O_Pr_O_03:Connaître la définition de la proportionnalité entre deux grandeurs et la mettre en lien avec des expressions de la vie courante
+CL_6_O_Pr_O_04:Identifier si une situation relève du « modèle » de la proportionnalité
+CL_6_O_Pr_O_05:Résoudre un problème de proportionnalité en choisissant une procédure adaptée : propriété de linéarité pour la multiplication ou l'addition, retour à l'unité
+CL_6_O_Pr_O_06:Représenter une situation de proportionnalité à l'aide d'un tableau ou de notations symboliques
+CL_6_O_Pr_O_07:S'initier à la résolution de problèmes d'échelles
+CL_6_O_Pr_A:Automatismes
+CL_6_O_Pr_A_01:L'élève sait repérer des relations multiplicatives simples entre des nombres (double, quadruple, moitié, tiers, quart).
+CL_6_O_Pr_A_02:Il associe de manière automatique les expressions du type : « 4 fois plus grand, 4 fois plus petit, 5 fois plus, 5 fois moins » à une multiplication ou à une division.
+CL_6_I:Initiation à la pensée informatique
+CL_6_I_O:Objectifs d'apprentissage
+CL_6_I_O_01:Identifier une instruction ou une séquence d'instructions
+CL_6_I_O_02:Produire et exécuter une séquence d'instructions
+CL_6_I_O_03:Répéter à la main une séquence d'instructions pour accomplir une tâche imposée
+CL_6_I_O_04:Programmer la construction d'un chemin simple
+CL_5:Cinquième
+CL_5_C:Nombres et calculs
+CL_5_C_O:Opérations
+CL_5_C_O_A:Automatismes
+CL_5_C_O_A_01:Mobiliser les critères de divisibilité par 2, 5 et 10 vus en CM1 et CM2.
+CL_5_C_O_A_02:Déterminer le quotient et le reste dans une division euclidienne, par exemple, savoir que \(17 = 3 \times 5 + 2\).
+CL_5_C_O_A_03:Utiliser les tables de multiplication pour factoriser des nombres entiers décomposables en produit de deux nombres différents de 1, par exemple, 21 = 3 x 7.
+CL_5_C_O_A_04:Savoir calculer des produits en lien avec les tables comme 0,6 x 7 ; 40 x 0,03.
+CL_5_C_O_A_05:Multiplier et diviser par 10, 100, 1 000.
+CL_5_C_O_A_06:Additionner et soustraire des décimaux, par exemple, 2,7 + 1,4 ; 3,4 - 0,8.
+CL_5_C_O_O:Objectifs d'apprentissage
+CL_5_C_O_O_01:Additionner, soustraire, multiplier et diviser pour résoudre des problèmes et contrôler la vraisemblance de son résultat.
+CL_5_C_O_O_02:Connaitre le sens et les situations d'emploi de ces opérations.
+CL_5_C_O_O_03:Diviser par un nombre décimal.
+CL_5_C_O_O_04:Enchainer des opérations.
+CL_5_C_O_O_05:Traduire un problème, une succession donnée d'opérations, un programme de calcul, en une seule expression, en faisant appel ou non à des parenthèses.
+CL_5_C_O_O_06:Nommer un calcul, distinguer sommes et produits, termes et facteurs.
+CL_5_C_O_O_07:Connaitre et utiliser les priorités opératoires.
+CL_5_C_O_O_08:Connaitre et utiliser la distributivité simple sur des exemples numériques.
+CL_5_C_O_O_09:Utiliser les notions de multiples et diviseurs.
+CL_5_C_O_O_10:Connaitre les critères de divisibilité par 3 et par 9.
+CL_5_C_O_O_11:Mobiliser un algorithme dans le cadre du calcul numérique.
+CL_5_C_O_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_5_C_O_P_01:Notion de nombre premier et développements sur ce thème (existence d'un nombre infini de nombres premiers, crible d'Ératosthène, etc.).
+CL_5_C_Z:Nombres relatifs
+CL_5_C_Z_A:Automatismes
+CL_5_C_Z_A_01:Additionner, soustraire, multiplier des nombres décimaux à une ou deux décimales.
+CL_5_C_Z_A_02:Savoir que pour compléter une addition à trou, on utilise une soustraction, par exemple 2 + ... = 7 se complète en calculant 7 - 2.
+CL_5_C_Z_O:Objectifs d'apprentissage
+CL_5_C_Z_O_01:Définir les nombres relatifs.
+CL_5_C_Z_O_02:Définir l'opposé et la valeur absolue d'un nombre.
+CL_5_C_Z_O_03:Définir la notion de nombre positif, strictement positif, négatif, strictement négatif.
+CL_5_C_Z_O_04:Utiliser les nombres relatifs pour représenter des grandeurs observables qui peuvent prendre des valeurs inférieures à zéro (température, temps, altitude, etc.), en particulier dans le cadre de la résolution de problèmes.
+CL_5_C_Z_O_05:Lire l'abscisse d'un nombre relatif sur une droite graduée et placer un nombre relatif d'abscisse donnée.
+CL_5_C_Z_O_06:Comparer et ranger dans l'ordre croissant et décroissant des nombres décimaux relatifs.
+CL_5_C_Z_O_07:Additionner deux nombres décimaux relatifs.
+CL_5_C_Z_O_08:Additionner plusieurs nombres décimaux relatifs.
+CL_5_C_Z_O_09:Soustraire deux nombres décimaux relatifs.
+CL_5_C_Z_O_10:Connaitre et justifier les situations dans lesquelles des parenthèses sont indispensables au sens des écritures.
+CL_5_C_Z_O_11:Simplifier l'écriture de sommes comportant des parenthèses.
+CL_5_C_Z_O_12:Enchainer additions et soustractions de décimaux relatifs.
+CL_5_C_Z_O_13:Résoudre des problèmes mobilisant addition et soustraction de nombres décimaux relatifs.
+CL_5_C_Z_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_5_C_Z_P_01:Premières apparitions des nombres négatifs avec Brahmagupta (600), dont l'existence était toujours niée au XVIIe siècle.
+CL_5_C_Q:Nombres rationnels
+CL_5_C_Q_A:Automatismes
+CL_5_C_Q_A_01:Entretenir la connaissance et l'utilisation des tables de multiplication.
+CL_5_C_Q_A_02:Entretenir l'écriture décimale des fractions simples
+CL_5_C_Q_A_03:Faire vivre la notion de nombre quotient en complétant des multiplications à trou.
+CL_5_C_Q_A_04:Lire l'abscisse d'un point sur une droite graduée en tiers, en quarts, en moitiés, en dixièmes.
+CL_5_C_Q_A_05:Reconnaitre des fractions égales.
+CL_5_C_Q_A_06:Comparer deux fractions.
+CL_5_C_Q_A_07:Écrire une fraction sous la forme d'une somme d'un nombre entier et d'une fraction inférieure à 1.
+CL_5_C_Q_A_08:Addition et soustraction de fractions simples.
+CL_5_C_Q_A_09:Prendre une fraction simple d'un nombre.
+CL_5_C_Q_A_10:Prendre 1 %, 10 % ou 50 % d'un nombre, en lien avec la proportionnalité.
+CL_5_C_Q_A_11:Écrire un même nombre sous de multiples formes
+CL_5_C_Q_O:Objectifs d'apprentissage
+CL_5_C_Q_O_01:Comparer des fractions.
+CL_5_C_Q_O_02:Additionner et soustraire des fractions de dénominateurs quelconques.
+CL_5_C_Q_O_03:Résoudre des problèmes avec des additions et soustractions de fractions.
+CL_5_C_P:Puissances
+CL_5_C_P_A:Automatismes
+CL_5_C_P_A_01:Entretenir les tables de multiplications.
+CL_5_C_P_A_02:Connaitre les unités d'aires et de volume.
+CL_5_C_P_O:Objectifs d'apprentissage
+CL_5_C_P_O_01:Découvrir la notion de puissance d'un nombre et sa notation dans le cas du carré et du cube.
+CL_5_C_P_O_02:Connaitre les carrés des entiers de 0 à 12.
+CL_5_C_P_O_03:Connaitre le cube de 10.
+CL_5_C_P_O_04:Savoir écrire un nombre sous la forme d'une puissance 2 ou 3.
+CL_5_C_P_O_05:Calculer la valeur numérique d'expressions contenant des puissances simples, additions, soustractions et produits.
+CL_5_C_P_O_06:Calculer la valeur d'une expression
+CL_5_C_P_A:Automatismes
+CL_5_C_P_A_01:Entretenir les tables de multiplications.
+CL_5_C_P_A_02:Connaitre les unités d'aires et de volume.
+CL_5_C_P_O:Objectifs d'apprentissage
+CL_5_C_P_O_01:Découvrir la notion de puissance d'un nombre et sa notation dans le cas du carré et du cube.
+CL_5_C_P_O_02:Connaitre les carrés des entiers de 0 à 12.
+CL_5_C_P_O_03:Connaitre le cube de 10.
+CL_5_C_P_O_04:Savoir écrire un nombre sous la forme d'une puissance 2 ou 3.
+CL_5_C_P_O_05:Calculer la valeur numérique d'expressions contenant des puissances simples, additions, soustractions et produits.
+CL_5_C_P_O_06:Calculer la valeur d'une expression littérale contenant une puissance simple.
+CL_5_C_L:Calcul littéral et algébrique
+CL_5_C_L_A:Automatismes
+CL_5_C_L_A_01:Identifier des régularités et poursuivre une suite de motifs évolutive.
+CL_5_C_L_A_02:Trouver le nombre d'éléments pour une étape donnée dans une suite de motifs évolutive.
+CL_5_C_L_A_03:Identifier la structure d'un motif évolutif en repérant une régularité.
+CL_5_C_L_A_04:Nombre quotient.
+CL_5_C_L_O:Objectifs d'apprentissage
+CL_5_C_L_O_01:Produire des formules (double, triple, carré, successeur, prédécesseur, aire, périmètre, etc.).
+CL_5_C_L_O_02:Calculer la valeur d'une expression littérale par substitution.
+CL_5_C_L_O_03:Tester si une égalité entre expressions algébriques comportant une variable est vraie ou fausse.
+CL_5_C_L_O_04:Déterminer si une expression littérale est une somme ou un produit.
+CL_5_C_L_O_05:Exploiter les relations \(\,k(a + b) = k a + k b\) ou \(\,k(a - b) = k a - k b\) pour factoriser, ou développer une expression littérale.
+CL_5_C_L_O_06:Réduire une expression littérale de la forme \(\,a x + b\), où \(a\) et \(b\) sont des nombres décimaux.
+CL_5_C_L_O_07:Démontrer une propriété générale par le calcul littéral.
+CL_5_C_L_O_08:Utiliser un contre-exemple pour démontrer qu'une assertion est fausse.
+CL_5_C_L_O_09:Formuler des conjectures en s'appuyant sur un langage algorithmique ou un tableur.
+CL_5_C_L_O_10:Donner à la lettre le statut d'inconnue.
+CL_5_C_L_O_11:Modéliser des problèmes relevant des opérations à trous par des équations du type \(a x = c\) ou \(x + b = c\).
+CL_5_C_L_O_12:Résoudre des équations du type \(a x = c\) ou \(x + b = c\) par des méthodes arithmétiques s'appuyant sur les opérations inverses.
+CL_5_C_L_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_5_C_L_P_01:Lien avec Al Khwarizmi pour qui la résolution des problèmes fait appel à la "chose" qu'on cherche.
+CL_5_C_L_P_02:Spécificité de la résolution des équations du type \(x + b = c\) et du type \(a x = c\) chez Al Khwarizmi.
+CL_5_G:Espace et géométrie
+CL_5_G_R:Repérage sur une droite et dans le plan
+CL_5_G_R_A:Automatismes
+CL_5_G_R_A_01:Placer sur une demi-droite graduée un point dont l'abscisse est un nombre décimal.
+CL_5_G_R_A_02:Repérer un nombre décimal sur une demi-droite graduée.
+CL_5_G_R_O:Objectifs d'apprentissage
+CL_5_G_R_O_01:Sur une droite graduée,lire l'abscisse d'un point donné.
+CL_5_G_R_O_02:Sur une droite graduée, placer un point d'abscisse donnée.
+CL_5_G_R_O_03:Dans le plan muni d'un repère orthogonal, lire les coordonnées d'un point donné.
+CL_5_G_R_O_04:Dans le plan muni d'un repère orthogonal, placer un point de coordonnées données.
+CL_5_G_E:Représentation de l'espace
+CL_5_G_E_A:Automatismes
+CL_5_G_E_A_01:Reconnaitre des vues (de dessus, dessous) d'empilements de cubes.
+CL_5_G_E_A_02:Dénombrer des cubes dans des empilements.
+CL_5_G_E_A_03:Reconnaitre un cube, un pavé représenté en perspective cavalière.
+CL_5_G_E_A_04:Reconnaitre un patron d'un cube.
+CL_5_G_E_O:Objectifs d'apprentissage
+CL_5_G_E_O_01:Construire et mettre en relation différentes représentations en perspectives cavalières des solides pavé droit, cube. cylindre de révolution, prisme droit.
+CL_5_G_E_O_02:Savoir mettre en relation une représentation en perspective cavalière et un patron d'un pavé, d'un prisme droit ou d'un cylindre de révolution.
+CL_5_G_E_O_03:Calculer le volume du cube, du pavé droit, du prisme droit.
+CL_5_G_E_O_04:Connaitre et convertir des unités usuelles (volume et capacité).
+CL_5_G_E_O_05:Calculer l'aire du disque, le volume du cylindre de révolution.
+CL_5_G_E_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_5_G_E_P_01:Solides de Platon, formule d'Euler.
+CL_5_G_E_P_02:Tableaux d'Escher pour jouer sur la perception de l'espace et des volumes.
+CL_5_G_T:Transformations
+CL_5_G_T_A:Automatismes
+CL_5_G_T_A_01:Reconnaitre et construire le symétrique d'une figure par symétrie axiale, dont l'axe est vertical, horizontal, ou en diagonale sur quadrillage.
+CL_5_G_T_A_02:Construire le symétrique, par rapport à un axe, d'un point, d'une figure, sur feuille blanche.
+CL_5_G_T_O:Objectifs d'apprentissage
+CL_5_G_T_O_01:Définir le demi-tour, ou symétrie centrale.
+CL_5_G_T_O_02:Connaitre les propriétés du demi-tour.
+CL_5_G_T_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_5_G_T_P_01:Rosaces et pavages dans l'art du Moyen âge.
+CL_5_G_T_P_02:Lien avec les formes vues dans la nature comme flocon, alvéoles d'abeilles, fleurs.
+CL_5_G_A:Angles
+CL_5_G_A_A:Automatismes
+CL_5_G_A_A_01:Reconnaitre et citer sur une configuration géométrique des angles (angle plein, plat, nul, droit ; angles opposés par le sommet, adjacents, supplémentaires, aigus, obtus).
+CL_5_G_A_A_02:Savoir qu'un angle droit mesure \(90^\circ\), qu'un angle plat mesure \(180^\circ\).
+CL_5_G_A_A_03:Reconnaitre une bissectrice.
+CL_5_G_A_A_04:Connaitre les mesures des angles de l'équerre dont dispose l'élève (\(30^\circ\) \(60^\circ\) \(90^\circ\) ou \(45^\circ\) \(45^\circ\) \(90^\circ\)).
+CL_5_G_A_O:Objectifs d'apprentissage
+CL_5_G_A_O_01:Caractériser le parallélisme par les angles (angles alternes internes, angles correspondants).
+CL_5_G_A_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_5_G_A_P_01:Éléments d'Euclide (Livre I, proposition 27 ou 28).
+CL_5_G_TR:Triangles
+CL_5_G_TR_A:Automatismes
+CL_5_G_TR_A_01:Reconnaitre un triangle isocèle, équilatéral ou rectangle à partir d'un schéma codé.
+CL_5_G_TR_A_02:Connaitre la somme des angles d'un triangle, calculer le 3e angle d'un triangle connaissant les mesures des deux autres.
+CL_5_G_TR_A_03:Connaitre la notion de médiatrice, de cercle circonscrit.
+CL_5_G_TR_O:Objectifs d'apprentissage
+CL_5_G_TR_O_01:Connaitre la somme des angles d'un triangle et savoir la démontrer.
+CL_5_G_TR_O_02:Construire des triangles à partir de données partielles.
+CL_5_G_TR_O_03:Connaitre les propriétés des médiatrices et du cercle circonscrit dans le cas de triangles particuliers.
+CL_5_G_TR_O_04:Calculer l'aire d'un triangle.
+CL_5_G_TR_O_05:Définir et tracer les hauteurs dans un triangle.
+CL_5_G_TR_O_06:Savoir que les hauteurs d'un triangle sont concourantes.
+CL_5_G_TR_O_07:Définir et tracer les médianes dans un triangle.
+CL_5_G_TR_O_08:Démontrer qu'une médiane partage un triangle en deux triangles d'aires égales.
+CL_5_G_TR_O_09:Utiliser ces propriétés dans le cas de triangles particuliers.
+CL_5_G_TR_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_5_G_TR_P_01:Droite d'Euler, cercle des neufs points.
+CL_5_G_TR_P_02:En suivant un programme de construction donné, l'élève construit, à la règle et au compas, un pentagone régulier.
+CL_5_G_TR_P_03:Construction d'ogives en lien avec l'art gothique.
+CL_5_G_TR_P_04:Construction de rosaces trilobées, du triangle de Reuleaux.
+CL_5_G_TR_P_05:Différents instruments de mesure.
+CL_5_G_P:Parallélogrammes
+CL_5_G_P_A:Automatismes
+CL_5_G_P_A_01:Reconnaitre en justifiant un quadrilatère, un parallélogramme, un rectangle, un losange, un carré, un trapèze, un pentagone, un hexagone dans des figures complexes.
+CL_5_G_P_A_02:Exploiter le codage d'une figure pour identifier des parallélogrammes particuliers.
+CL_5_G_P_O:Objectifs d'apprentissage
+CL_5_G_P_O_01:Définir le parallélogramme.
+CL_5_G_P_O_02:Construire des parallélogrammes.
+CL_5_G_P_O_03:Connaitre les propriétés caractéristiques des côtés opposés et des diagonales.
+CL_5_G_P_O_04:Utiliser une propriété caractéristique sur les diagonales ou les côtés pour les construire ou donner la nature du quadrilatère.
+CL_5_G_P_O_05:Définir les parallélogrammes particuliers (rectangle, losange, carré).
+CL_5_G_P_O_06:Connaitre les propriétés caractéristiques.
+CL_5_G_P_O_07:Savoir calculer l'aire d'un parallélogramme et de figures complexes.
+CL_5_G_P_O_08:Résoudre des problèmes faisant appel à des conversions d'unités de longueur et d'unités d'aires.
+CL_5_S:Organisation et gestion de données et probabilités
+CL_5_S_S:Statistiques
+CL_5_S_S_O:Objectifs d'apprentissage
+CL_5_S_S_O_01:Recueillir et organiser des données.
+CL_5_S_S_O_02:Calculer des effectifs et des fréquences (exprimées sous forme décimale, fractionnaire ou de pourcentage).
+CL_5_S_S_O_03:Lire et interpréter des informations présentées sous forme de tableaux, de diagrammes et de graphiques.
+CL_5_S_S_O_04:Représenter, sur papier ou à l'aide d'un tableur-grapheur, des données sous la forme d'un tableau, d'un diagramme (diagramme en barres, diagramme circulaire) ou d'un graphique cartésien.
+CL_5_S_S_O_05:Choisir une représentation adaptée à ce qu'il convient de mettre en avant.
+CL_5_S_S_O_06:Calculer et interpréter la moyenne simple d'une série de données.
+CL_5_S_S_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_5_S_S_P_01:Étude des diagrammes de Florence Nightingale.
+CL_5_S_P:Probabilités
+CL_5_S_P_A:Automatismes
+CL_5_S_P_A_01:Positionner sur une échelle de probabilité les évènements de différents types.
+CL_5_S_P_A_02:Donner la probabilité sous diverses formes (fraction, décimale, pourcentage) pour certains évènements de différents types.
+CL_5_S_P_A_03:Lier l'expression "une chance sur quatre" (par exemple) et la probabilité 1 4.
+CL_5_S_P_O:Objectifs d'apprentissage
+CL_5_S_P_O_04:Aborder les questions relatives au hasard à partir de problèmes simples.
+CL_5_S_P_O_05:Utiliser le vocabulaire des probabilités dans des contextes concrets (expérience aléatoire, issue, évènement).
+CL_5_S_P_O_06:Attribuer des probabilités dans des cas simples (équiprobabilité).
+CL_5_S_P_O_07:Répéter matériellement une expérience aléatoire simple. Enregistrer les résultats observés dans un tableau d'effectifs et de fréquences.
+CL_5_P:Proportionnalité et fonctions
+CL_5_P_P:Proportionnalité
+CL_5_P_P_A:Automatismes
+CL_5_P_P_A_01:Reconnaitre si une situation donnée entre dans le cadre de la proportionnalité ou non.
+CL_5_P_P_A_02:Dans des situations simples, mobiliser une procédure adaptée (propriété de linéarité pour la multiplication ou l'addition, retour à l'unité) pour résoudre un problème lié à la proportionnalité.
+CL_5_P_P_O:Objectifs d'apprentissage
+CL_5_P_P_O_01:Utiliser des proportions, des pourcentages.
+CL_5_P_P_O_02:Calculer, appliquer des proportions, des pourcentages.
+CL_5_P_P_O_03:Identifier des situations de proportionnalité dans des contextes concrets (prix, recettes, distances, échelles).
+CL_5_P_P_O_04:Utiliser un coefficient de proportionnalité dans des contextes concrets (prix unitaire, vitesse moyenne, échelle, etc.).
+CL_5_P_P_O_05:Représenter une situation de proportionnalité par un tableau ou un graphique.
+CL_5_P_P_O_06:Reconnaitre une situation de proportionnalité à partir d'un tableau ou d'un graphique.
+CL_5_P_P_O_07:Reconnaitre graphiquement qu'un nuage de points est ou n'est pas associé à une situation de proportionnalité entre données discrètes.
+CL_5_P_F:Fonctions
+CL_5_P_F_O:Objectifs d'apprentissage
+CL_5_P_F_O_01:Introduire l'expression "en fonction de" dans des contextes concrets ou mathématiques.
+CL_5_P_F_O_02:Produire un tableau de valeurs.
+CL_5_P_F_O_03:Lire et interpréter un tableau de valeurs.
+CL_5_P_F_O_04:Placer dans un repère orthogonal donné des points correspondant à un tableau de valeurs.
+CL_5_P_F_O_05:Lire et interpréter un graphique cartésien donné par une courbe ou un nuage de points.
+CL_5_P_F_O_06:Traduire la relation de dépendance entre deux grandeurs par un tableau de valeurs à partir d'une formule.
+CL_5_P_F_O_07:Produire une formule simple représentant la dépendance de deux grandeurs.
+CL_5_P_F_O_08:Caractériser graphiquement la proportionnalité.
+CL_5_I:La pensée informatique
+CL_5_I_I:Programmation
+CL_5_I_I_O:Objectifs d'apprentissage
+CL_5_I_I_O_01:Manipuler des instructions simples et les séquencer.
+CL_5_I_I_O_02:Identifier les entrées et sorties d'un programme.
+CL_5_I_I_O_03:Représenter des formules sous la forme d'une expression informatique dans un langage de programmation par blocs.
+CL_5_I_I_O_04:Calculer la valeur de formules à l'aide d'une suite d'instruction dans un langage de programmation par blocs.
+CL_5_I_I_O_05:Prévoir la valeur d'une expression informatique avant son exécution.
+CL_5_I_I_O_06:Analyser un programme simple donné et modifier ses paramètres.
+CL_5_I_I_O_07:Effectuer une boucle inconditionnelle simple permettant de répéter une séquence linéaire d'instructions un nombre précis de fois.
+CL_4:Quatrième
+CL_4_C:Nombres et calculs
+CL_4_C_Z:Opérations sur les nombres relatifs
+CL_4_C_Z_A:Automatismes
+CL_4_C_Z_A_01:Manipulation de sommes et différences de nombre relatifs.
+CL_4_C_Z_A_02:Opposé d'un nombre, somme des opposés.
+CL_4_C_Z_A_03:Entretien des tables de multiplication.
+CL_4_C_Z_A_04:Multiplier et diviser par 10, 100, 1 000.
+CL_4_C_Z_A_05:Compléter des multiplications à trou par exemple \(5 \times \cdots = 3\) ; faire le lien entre multiplication et division.
+CL_4_C_Z_A_06:Multiplication comme addition itérée par exemple \(3 + 3 + 3 + 3 = 4 \times 3\).
+CL_4_C_Z_O:Objectifs d'apprentissage
+CL_4_C_Z_O_01:Multiplier deux nombres relatifs, d'abord dans le cas où un seul des facteurs est négatif, puis, grâce à la distributivité, dans le cas où les deux facteurs sont négatifs.
+CL_4_C_Z_O_02:Diviser deux nombres relatifs.
+CL_4_C_Z_O_03:Savoir calculer un enchainement d'opérations avec des nombres relatifs.
+CL_4_C_Z_O_04:Utiliser le vocabulaire (somme, quotient, etc.) à partir d'un enchainement d'opérations dans un programme de calcul et inversement.
+CL_4_C_Q:Nombres rationnels
+CL_4_C_Q_A:Automatismes
+CL_4_C_Q_A_01:Addition et soustraction de fractions de dénominateurs quelconques mais simples.
+CL_4_C_Q_A_02:Comparaison de fractions.
+CL_4_C_Q_A_03:Savoir qu'une fraction est aussi un quotient.
+CL_4_C_Q_A_04:Savoir que prendre la fraction d'un nombre revient à multiplier la fraction par ce nombre.
+CL_4_C_Q_O:Objectifs d'apprentissage
+CL_4_C_Q_O_01:Simplifier une fraction.
+CL_4_C_Q_O_02:Définir la notion de nombre rationnel comme le quotient de deux nombres entiers relatifs.
+CL_4_C_Q_O_03:Exprimer l'opposé d'un nombre rationnel.
+CL_4_C_Q_O_04:Calculer le produit de nombres rationnels.
+CL_4_C_Q_O_05:Calculer et représenter la fraction d'une fraction, d'un nombre, d'une quantité.
+CL_4_C_Q_O_06:Définir l'inverse d'un nombre et connaitre sa notation.
+CL_4_C_Q_O_07:Déterminer l'inverse d'une fraction.
+CL_4_C_Q_O_08:Diviser des fractions.
+CL_4_C_Q_O_09:Calculer la valeur d'expressions comportant plusieurs opérations avec des fractions.
+CL_4_C_Q_O_10:Résoudre des problèmes mobilisant les opérations sur les fractions (addition, soustraction, multiplication, division, inverse).
+CL_4_C_P:Puissances
+CL_4_C_P_A:Automatismes
+CL_4_C_P_A_01:Connaitre et reconnaitre les carrés parfaits des entiers de 0 à 12.
+CL_4_C_P_A_02:Multiplier et diviser par 10, 100, 1 000 ; savoir compléter \(1\,200 = 1,2 \times \cdots\)
+CL_4_C_P_A_03:Puissances simples comme \(2^2 = 4\) ; \(2^3 = 8\) ; \(3^3 = 27\),
+CL_4_C_P_A_04:\(10^2 = 100\) ; \(10^3 = 1\,000\).
+CL_4_C_P_O:Objectifs d'apprentissage
+CL_4_C_P_O_01:Définir les puissances d'exposant positif d'un nombre a.
+CL_4_C_P_O_02:Multiplier des puissances d'exposant entier naturel d'un même nombre entre elles.
+CL_4_C_P_O_03:Multiplier des puissances d'un même exposant entier naturel de deux nombres entre elles.
+CL_4_C_P_O_04:Résoudre des problèmes faisant intervenir des puissances.
+CL_4_C_R:Racine carrée
+CL_4_C_R_A:Automatismes
+CL_4_C_R_A_01:Donner les carrés des nombres entiers compris entre 0 et 12.
+CL_4_C_R_O:Objectifs d'apprentissage
+CL_4_C_R_O_01:Comprendre et connaitre la définition de la racine carrée d'un nombre posit
+CL_4_C_R_O_02:Encadrer la racine carrée d'un entier par deux nombres entiers consécutifs.
+CL_4_C_R_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_4_C_R_P_01:Découverte de l'existence de nombres irrationnels (lien entre l'aire d'un carré et la longueur d'un de ses côtés).
+CL_4_C_R_P_02:\(\sqrt{2}\) n'est pas décimal (démonstration par l'absurde en considérant le chiffre des unités).
+CL_4_C_L:Calcul littéral et algébrique
+CL_4_C_L_A:Automatismes
+CL_4_C_L_A_01:Donner la valeur d'expressions numériques simples.
+CL_4_C_L_A_02:Résoudre des équations du type \(a x = c\) et \(x + b = c\), où \(a\), \(b\) et \(c\) sont des nombres.
+CL_4_C_L_A_03:Écrire 3 x x sous la forme 3x et savoir que 3x c'est 3 x x.
+CL_4_C_L_A_04:Connaitre et utiliser \(1 \times x = x\) ; \(x + x = 2x\) ; \(x \times x = x^2\) ; \(3x + 2x = 5x\) ; \(3x \times 2x = 6x^2\).
+CL_4_C_L_A_05:Donner le double, le triple, la moitié, le prédécesseur, le successeur, le carré d'un nombre.
+CL_4_C_L_A_06:Tester si un nombre vérifie une égalité.
+CL_4_C_L_O:Objectifs d'apprentissage
+CL_4_C_L_O_01:Produire des formules et tester leur vraisemblance par exemple aires de formes géométriques simples, nombres pairs/impairs, etc.
+CL_4_C_L_O_02:Connaitre et utiliser la distributivité simple pour développer et factoriser une expression algébrique.
+CL_4_C_L_O_03:Utiliser le calcul algébrique pour produire des démonstrations.
+CL_4_C_L_O_04:Résoudre une équation du premier degré du type \(a x + b = c\).
+CL_4_C_L_O_05:Mettre en équation un problème et le résoudre à l'aide d'une équation du premier degré du type \(a x + b = c x + d\).
+CL_4_C_L_O_06:Formuler des conjectures à l'aide d'un algorithme ou d'un tableur pour résoudre de manière exacte ou approchée une équation.
+CL_4_G:Espace et géométrie
+CL_4_G_T:Transformations
+CL_4_G_T_A:Automatismes
+CL_4_G_T_A_01:Construire le symétrique d'un point par demi-tour.
+CL_4_G_D:Repérage sur une droite et dans le plan
+CL_4_G_D_A:Automatismes
+CL_4_G_D_A_01:Placer sur une droite graduée un point dont l'abscisse est un nombre relatif.
+CL_4_G_D_A_02:Repérer un nombre relatif sur une droite graduée.
+CL_4_G_D_A_03:Dans le plan muni d'un repère orthogonal, lire les coordonnées d'un point donné.
+CL_4_G_D_A_04:Dans le plan muni d'un repère orthogonal, placer un point de coordonnées données.
+CL_4_G_E:Représentation de l'espace
+CL_4_G_E_A:Automatismes
+CL_4_G_E_A_01:Reconnaitre les solides (cube, pavé, cylindre, prisme droit).
+CL_4_G_E_A_02:Connaitre et utiliser les formules du volume d'un cube, d'un pavé, d'un prisme, d'un cylindre.
+CL_4_G_E_A_03:Reconnaitre la base d'un prisme donné en perspective cavalière.
+CL_4_G_E_A_04:Savoir calculer l'aire des figures planes usuelles (triangle, rectangle, disque).
+CL_4_G_E_O:Objectifs d'apprentissage
+CL_4_G_E_O_01:Reconnaitre des solides (pyramide, cône de révolution).
+CL_4_G_E_O_02:Construire et mettre en relation différentes représentations des solides (pavé droit, cube, cylindre de révolution, prisme droit, pyramides et cônes de révolution).
+CL_4_G_E_O_03:Connaitre le volume de la pyramide et du cône de révolution.
+CL_4_G_E_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_4_G_E_P_01:Lien avec la pyramide du Louvre, les pyramides égyptiennes.
+CL_4_G_P:Parallélogrammes et translations
+CL_4_G_P_A:Automatismes
+CL_4_G_P_A_01:Dire si des figures planes sont images l'une de l'autre par une symétrie axiale (dont on identifie l'axe) ou par un demi-tour (dont on identifie le centre).
+CL_4_G_P_A_02:Dans une configuration donnée, déterminer les images de figures, de droites, de segments, de points par une symétrie axiale ou un demi-tour.
+CL_4_G_P_A_03:Reconnaitre un parallélogramme à l'aide de sa définition ou d'une propriété caractéristique grâce aux codages.
+CL_4_G_P_A_04:Reconnaitre un parallélogramme particulier à partir de ses propriétés caractéristiques, notamment à partir des propriétés de ses diagonales.
+CL_4_G_P_O:Objectifs d'apprentissage
+CL_4_G_P_O_01:Comprendre l'effet d'une translation.
+CL_4_G_P_O_02:Faire le lien avec les parallélogrammes, les angles.
+CL_4_G_P_O_03:Connaitre et utiliser les propriétés de conservations des translations.
+CL_4_G_P_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_4_G_P_P_01:Pavage d'Escher ou de l'Alhambra.
+CL_4_G_T:Triangles
+CL_4_G_T_A:Automatismes
+CL_4_G_T_A_01:Reconnaitre des droites remarquables, y compris dans les triangles particuliers (médiatrices, médianes, hauteurs, bissectrices).
+CL_4_G_T_O:Objectifs d'apprentissage
+CL_4_G_T_O_02:Connaitre les trois théorèmes relatifs à la droite des milieux dans un triangle.
+CL_4_G_T_O_03:Connaitre le théorème de Pythagore, sa réciproque, sa contraposée.
+CL_4_G_T_O_04:Mener un travail de logique sur la réciproque et la contraposée.
+CL_4_G_T_O_05:Caractériser un triangle rectangle à l'aide de son cercle circonscrit, par son inscription dans un demi-cercle dont le diamètre est un côté du triangle.
+CL_4_G_T_O_06:Déterminer le centre du cercle circonscrit d'un triangle rectangle.
+CL_4_G_T_O_07:Construire des rectangles sans équerre.
+CL_4_G_T_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_4_G_T_P_01:Théorème de Varignon (l'élève étudie la démonstration historique d'Euclide basée sur les aires).
+CL_4_G_T_P_02:Quelques repères historiques autour de Pythagore et son oeuvre.
+CL_4_S:Organisation et gestion de données et probabilités
+CL_4_S_S:Statistiques
+CL_4_S_S_A:Automatismes
+CL_4_S_S_A_01:Calculer une moyenne pour un très petit nombre de valeurs.
+CL_4_S_S_A_02:Calculer un effectif manquant dans un tableau pour un petit nombre de valeurs.
+CL_4_S_S_A_03:Calculer une fréquence simple.
+CL_4_S_S_O:Objectifs d'apprentissage
+CL_4_S_S_O_01:Calculer une moyenne pondérée dans le cas d'une série discrète de petits effectifs présentée sous forme de données brutes, d'un tableau ou d'un diagramme en barres.
+CL_4_S_S_O_02:Déterminer une médiane et l'interpréter dans le cas d'une série de petit effectif présentée sous forme de données brutes.
+CL_4_S_S_O_03:Calculer et interpréter l'étendue d'une série présentée sous forme de données brutes, d'un tableau, d'un diagramme en barres, d'un diagramme circulaire.
+CL_4_S_S_O_04:Comprendre l'évolution de la médiane et de la moyenne quand on ajoute une valeur extrême.
+CL_4_S_S_O_05:Résoudre des problèmes faisant intervenir les différents indicateurs.
+CL_4_S_S_O_06:Résoudre des problèmes de comparaison de séries statistiques.
+CL_4_S_S_O_07:Utiliser le tableur pour calculer une moyenne, une médiane et l'étendue d'une série statistique.
+CL_4_S_S_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_4_S_S_P_01:Le premier traité des Essais d'arithmétique politique de Willem Kersseboom (XVIIIe s.).
+CL_4_S_P:Probabilités
+CL_4_S_P_O:Objectifs d'apprentissage
+CL_4_S_P_O_01:Utiliser le vocabulaire et les notations ensemblistes pour décrire une expérience aléatoire dans des cas simples et définir la notion d'évènement.
+CL_4_S_P_O_02:Définir complémentaire, réunion, intersection, ensemble vide (évènement impossible).
+CL_4_S_P_O_03:Calculer la probabilité d'un évènement et de l'évènement contraire.
+CL_4_S_P_O_04:Exemples simples d'expériences aléatoires à deux épreuves (par exemple, lancer de deux pièces, d'une pièce et d'un dé, de deux dés, etc.) à partir de la répétition d'une expérience aléatoire, réalisée matériellement ou simulée, comparer des graphiques de distributions (fréquentielle et probabiliste).
+CL_4_S_P_O_05:Observer la fluctuation des fréquences pour un nombre de répétitions fixé de l'expérience aléatoire.
+CL_4_P:Proportionnalité et fonctions
+CL_4_P_P:Proportionnalité
+CL_4_P_P_A:Automatismes
+CL_4_P_P_A_01:Déterminer a % de c quand a vaut 100, 50, 25, 10, 1.
+CL_4_P_P_A_02:Compléter 20 % de 120 = ...; \(30 = \frac{...}{100} \times 1 000\).
+CL_4_P_P_O:Objectifs d'apprentissage
+CL_4_P_P_O_01:Utiliser des grandeurs quotients, avec ou sans unités.
+CL_4_P_P_O_02:Comparer deux nombres ou deux grandeurs à l'aide de leur rapport ou ratio.
+CL_4_P_P_O_03:Exprimer la proportionnalité entre deux suites de nombres par des égalités de rapports ou sous forme de ratio.
+CL_4_P_P_O_04:Déterminer une quatrième proportionnelle.
+CL_4_P_P_O_05:Calculer avec des pourcentages.
+CL_4_P_P_O_06:Rendre compte d'une augmentation ou une diminution exprimée en pourcentages au moyen d'un coefficient multiplicateur
+CL_4_P_P_O_07:Définir le coefficient multiplicateur.
+CL_4_P_P_O_08:Résoudre des problèmes de partage proportionnel.
+CL_4_P_F:Fonctions
+CL_4_P_F_O:Objectifs d'apprentissage
+CL_4_P_F_O_01:Savoir appliquer un programme de calcul à deux (plusieurs) étapes à un nombre simple puis à une variable.
+CL_4_P_F_O_02:Savoir retrouver le nombre de départ après avoir remonté un programme de calcul simple.
+CL_4_P_F_O_03:Produire une formule littérale représentant la dépendance d'une grandeur en fonction d'une autre.
+CL_4_P_F_O_04:Représenter l'expression d'une grandeur en fonction d'une autre par un graphique.
+CL_4_P_F_O_05:Comprendre la dépendance d'une grandeur en fonction d'une autre.
+CL_4_I:La pensée informatique
+CL_4_I_I:Programmation
+CL_4_I_I_O:Objectifs d'apprentissage
+CL_4_I_I_O_01:Représenter des conditions simples.
+CL_4_I_I_O_02:Écrire des instructions conditionnelles.
+CL_4_I_I_O_03:Manipuler une variable.
+CL_4_I_I_O_04:Écrire un programme simple donné pour réaliser un objectif ou résoudre un problème.
+CL_4_I_I_O_05:Modifier un programme donné pour changer son comportement.
+CL_3:Troisième
+CL_3_C:Nombres et calculs
+CL_3_C_Q:Nombres rationnels
+CL_3_C_Q_A:Automatismes
+CL_3_C_Q_A_01:Additionner, soustraire, multiplier et diviser des fractions.
+CL_3_C_Q_O:Objectifs d'apprentissage
+CL_3_C_Q_O_01:Mettre une fraction sous forme irréductible.
+CL_3_C_Q_O_02:Rendre irréductible une fraction.
+CL_3_C_Q_O_03:Résoudre des problèmes faisant appel à des fractions.
+CL_3_C_Q_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_C_Q_P_01:Notation des ensembles des entiers naturels, des entiers relatifs, des décimaux, des rationnels.
+CL_3_C_P:Puissances
+CL_3_C_P_A:Automatismes
+CL_3_C_P_A_01:Puissance comme multiplication itérée, par exemple \(3 \times 3 \times 3 \times 3 = 3^4\).
+CL_3_C_P_A_02:Multiplication de puissances d'exposant positif d'un nombre.
+CL_3_C_P_A_03:Multiplication de puissances de même exposant positif de deux nombres.
+CL_3_C_P_O:Objectifs d'apprentissage
+CL_3_C_P_O_01:Définir les puissances d'exposant négatif d'un nombre.
+CL_3_C_P_O_02:Multiplier et diviser des puissances.
+CL_3_C_P_O_03:Déterminer la notation scientifique d'un nombre.
+CL_3_C_P_O_04:Résoudre des problèmes notamment en utilisant la notation scientifique.
+CL_3_C_P_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_C_P_P_01:L'échiquier de Sissa.
+CL_3_C_P_P_02:Le papyrus de Rhind.
+CL_3_C_R:Racine carrée
+CL_3_C_R_A:Automatismes
+CL_3_C_R_A_01:Donner les carrés des nombres entiers compris entre 0 et 12.
+CL_3_C_R_O:Objectifs d'apprentissage
+CL_3_C_R_O_01:Résoudre analytiquement et graphiquement des équations de la forme \(x^2 = a\).
+CL_3_C_R_O_02:Résoudre des problèmes utilisant la racine carrée.
+CL_3_C_R_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_C_R_P_01:Notion de parabole et de faisceaux convergents vers son foyer. Lien avec les paraboles pour capter les chaines de télévision.
+CL_3_C_R_P_02:Algorithmes d'extraction de racines carrées.
+CL_3_C_M:Multiples et diviseurs
+CL_3_C_M_A:Automatismes
+CL_3_C_M_A_01:Factoriser un nombre entier positif par exemple \(60 = 2^2 x 3 x 5\).
+CL_3_C_M_A_02:Simplifier une fraction dont le numérateur et le dénominateur sont dans une même table de multiplication, par exemple
+CL_3_C_M_A_03:Trouver un dénominateur commun à deux fractions pour les additionner, les soustraire ou les comparer.
+CL_3_C_M_A_04:Appliquer les critères de divisibilité par 2, 3, 5, 9.
+CL_3_C_L:Calcul littéral et algébrique
+CL_3_C_L_A:Automatismes
+CL_3_C_L_A_01:Résoudre des équations du type \(a x = c\), \(x + b = c\), \(a x + b = c\).
+CL_3_C_L_A_02:Simplifier des expressions littérales.
+CL_3_C_L_A_03:Calculer la valeur d'une expression algébrique avec des puissances ou non.
+CL_3_C_L_A_04:Donner la nature d'une expression littérale par exemple \(3x + 2\) est une somme, \(5 (x + 4)\) est un produit.
+CL_3_C_L_A_05:Développer et factoriser une expression simple.
+CL_3_C_L_A_06:Donner l'expression générique d'un nombre pair, d'un nombre impair.
+CL_3_C_L_A_07:Prendre l'opposé d'une expression par exemple savoir que \(-(5 - 4x) = -5 + 4x\).
+CL_3_C_L_O:Objectifs d'apprentissage
+CL_3_C_L_O_01:Simplifier des expressions produits ou des rapports comportant des facteurs communs.
+CL_3_C_L_O_02:Utiliser la double distributivité pour développer et factoriser des expressions dont le facteur est apparent.
+CL_3_C_L_O_03:Résoudre analytiquement et graphiquement une inéquation du premier degré du type \(a \times b\).
+CL_3_C_L_O_04:Résoudre une équation produit nul.
+CL_3_C_L_O_05:Manipuler les trois identités remarquables pour développer et factoriser.
+CL_3_C_L_O_06:Pratiquer un raisonnement par analyse-synthèse dans le cadre d'une résolution d'équation.
+CL_3_C_L_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_C_L_P_01:Étude de l'identité de Sophie Germain.
+CL_3_G:Espace et géométrie
+CL_3_G_D:Repérage sur une droite et dans le plan
+CL_3_G_D_A:Automatismes
+CL_3_G_D_A_01:Placer sur une droite graduée un point dont l'abscisse est un nombre relatif.
+CL_3_G_D_A_02:Repérer un nombre relatif sur une droite graduée.
+CL_3_G_D_A_03:Dans le plan muni d'un repère orthogonal, lire les coordonnées d'un point donné.
+CL_3_G_D_A_04:Dans le plan muni d'un repère orthogonal, placer un point de coordonnées données.
+CL_3_G_E:Représentation de l'espace
+CL_3_G_E_A:Automatismes
+CL_3_G_E_A_01:Reconnaitre des solides (pavé droit, cube, prisme droit, cylindre, pyramide, cône).
+CL_3_G_E_A_02:Connaitre et utiliser les formules du volume d'une pyramide ou d'un cône.
+CL_3_G_E_A_03:Donner la nature d'une face d'une pyramide représentée en perspective cavalière.
+CL_3_G_E_A_04:Identifier les patrons de pyramides données (par exemple inscrites dans un cube).
+CL_3_G_E_O:Objectifs d'apprentissage
+CL_3_G_E_O_01:Définir la boule et la sphère.
+CL_3_G_E_O_02:Définir les grands cercles, le diamètre.
+CL_3_G_E_O_03:Visualiser et réaliser des sections de pavé parallèlement à une face, de cylindre parallèlement ou perpendiculairement à son axe, d'une boule.
+CL_3_G_E_O_04:Connaitre et utiliser la formule du volume d'une boule de rayon donné.
+CL_3_G_E_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_G_E_P_01:La formule du volume de la boule, trouvée au IIIe siècle avant J.-C., d'après une intuition d'Archimède comme étant 2/3 du cylindre qui contient la boule. Elle a été démontrée plus formellement par Newton au XVIIe.
+CL_3_G_E_P_02:Les cinq polyèdres réguliers de l'espace et les illustrations de Léonard de Vinci pour le traité mathématique De divina proportione de Luca Pacioli.
+CL_3_G_T:Triangles
+CL_3_G_T_A:Automatismes
+CL_3_G_T_A_01:Utiliser la propriété du triangle rectangle et de son cercle circonscrit.
+CL_3_G_T_A_02:Écrire l'égalité de Pythagore dans un triangle rectangle.
+CL_3_G_T_A_03:Utiliser la droite des milieux pour prouver que des droites sont parallèles, pour calculer une longueur, pour prouver qu'un point est le milieu d'un côté.
+CL_3_G_T_O:Objectifs d'apprentissage
+CL_3_G_T_O_01:Connaitre et appliquer le théorème de Thalès, sa réciproque, sa contraposée (configurations des triangles emboités et configuration dite du papillon).
+CL_3_G_T_O_02:Connaitre et utiliser les lignes trigonométriques dans le triangle rectangle (cosinus, sinus, tangente).
+CL_3_G_T_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_G_T_P_01:Repères historiques autour du théorème de Thalès, qui n'est pas appelé comme cela dans les autres pays.
+CL_3_G_T_P_02:Construction des polygones réguliers à la règle et au compas.
+CL_3_G_V:Translations et vecteurs
+CL_3_G_V_A:Automatismes
+CL_3_G_V_A_01:Mobiliser les connaissances sur la symétrie axiale, le demi-tour, la translation.
+CL_3_G_V_O:Objectifs d'apprentissage
+CL_3_G_V_O_01:Définir et utiliser la translation pour la définition ponctuelle avec parallélogramme.
+CL_3_G_V_O_02:Définir et utiliser les notions de vecteur, de vecteurs égaux, de vecteur nul, d'opposé d'un vecteur.
+CL_3_G_V_O_03:Définir et utiliser la somme de deux vecteurs par enchainement de deux translations.
+CL_3_G_V_O_04:Découvrir et utiliser la relation de Chasles.
+CL_3_G_V_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_G_V_P_01:Savoir qu'un hexagone est obtenu à partir de triangles équilatéraux.
+CL_3_G_V_P_02:Lien avec les fractales comme les flocons de Von Koch ou les triangles de Sierpinski.
+CL_3_S:Organisation et gestion de données et probabilités
+CL_3_S_S:Statistiques
+CL_3_S_S_A:Automatismes
+CL_3_S_S_A_01:Calculer une moyenne.
+CL_3_S_S_A_02:Donner une médiane pour une série comportant un petit nombre de valeurs.
+CL_3_S_S_A_03:Calculer l'étendue d'une série.
+CL_3_S_S_O:Objectifs d'apprentissage
+CL_3_S_S_O_01:Calculer des effectifs cumulés croissants.
+CL_3_S_S_O_02:Donner les quartiles et la médiane d'une série donnée sous forme de tableau d'effectifs ou de diagramme en barres.
+CL_3_S_S_O_03:Construire et utiliser des boites à moustache pour représenter les valeurs de position d'une série statistique.
+CL_3_S_S_O_04:Comprendre et interpréter des données statistiques.
+CL_3_S_S_O_05:Utiliser le tableur pour calculer une moyenne, une médiane et l'étendue d'une série statistique.
+CL_3_S_P:Probabilités
+CL_3_S_P_O:Objectifs d'apprentissage
+CL_3_S_P_O_01:Connaitre et savoir appliquer la relation.
+CL_3_S_P_O_02:Simuler des expériences aléatoires indépendantes.
+CL_3_S_P_O_03:Observer la stabilisation des fréquences lorsqu'on augmente le nombre de répétitions de l'expérience aléatoire, faire le lien entre fréquence et probabilité selon le nombre de répétitions.
+CL_3_S_P_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_S_P_P_01:Problème de l'erreur de D'Alembert.
+CL_3_P:Proportionnalité et fonctions
+CL_3_P_P:Proportionnalité
+CL_3_P_P_A:Automatismes
+CL_3_P_P_A_01:Partager une somme en deux parts selon un certain ratio.
+CL_3_P_P_A_02:Partager une masse en trois parts selon un certain ratio.
+CL_3_P_P_A_03:Partager une somme entre deux personnes âgées de 20 et 30 ans proportionnellement à leur âge.
+CL_3_P_P_A_04:Calculer le pourcentage d'une quantité.
+CL_3_P_P_A_05:Calculer la distance réelle entre deux villes, connaissant la distance entre ces villes sur une carte routière dont l'échelle est connue.
+CL_3_P_P_A_06:Appliquer, dans des cas simples, une augmentation ou une diminution exprimée en pourcentages, en utilisant ou non le coefficient multiplicateur.
+CL_3_P_P_O:Objectifs d'apprentissage
+CL_3_P_P_O_01:Traduire une augmentation ou une diminution en pourcentages.
+CL_3_P_P_O_02:Relier la représentation graphique d'une situation de proportionnalité avec le théorème de Thalès.
+CL_3_P_P_O_03:Connaitre et utiliser les fonctions linéaires.
+CL_3_P_F:Fonctions
+CL_3_P_F_O:Objectifs d'apprentissage
+CL_3_P_F_O_01:Utiliser les différentes représentations d'une fonction.
+CL_3_P_F_O_02:Définir et connaitre le vocabulaire image, antécédents.
+CL_3_P_F_O_03:Définir et utiliser les fonctions linéaires.
+CL_3_P_F_O_04:Résoudre graphiquement des équations et des inéquations linéaires.
+CL_3_P_F_O_05:Relier fonctions linéaires et proportionnalité.
+CL_3_P_F_O_06:Définir et utiliser les fonctions affines.
+CL_3_P_F_O_07:Déterminer graphiquement les coefficients d'une fonction affine.
+CL_3_P_F_O_08:Représenter la fonction carré.
+CL_3_P_F_P:Prolongements possibles (mises en perspective historiques et culturelles)
+CL_3_P_F_P_01:Méthode de simple fausse position (pour les problèmes du type \(y=a x\)).
+CL_3_I:La pensée informatique
+CL_3_I_I:Programmation
+CL_3_I_I_O:Objectifs d'apprentissage
+CL_3_I_I_O_01:Approfondir la notion de variables.
+CL_3_I_I_O_02:Utiliser des conditions composées.
+CL_3_I_I_O_03:Utiliser une boucle conditionnelle.
+CL_3_I_I_O_04:Structurer des programmes.
+CL_3_I_I_O_05:Écrire un programme donné pour réaliser un objectif ou résoudre un problème.

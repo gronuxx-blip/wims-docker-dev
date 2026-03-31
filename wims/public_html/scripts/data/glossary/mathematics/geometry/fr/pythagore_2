@@ -1,0 +1,56 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Théorème de Pythagore (Exemple 2)
+!set gl_renew=1
+
+!readproc data/glossary/mathematics/geometry/macro/pythagore_gen 2
+
+<style>
+/*<![CDATA[*/
+#enonce$(gl_a){order:1;}\
+#applet$(gl_a){order:2;}\
+@media screen and (max-width: 40em) {\
+#enonce$(gl_a){order:2;}\
+#applet$(gl_a){order:1;}\
+}\
+div.applet{padding-left:1.5em;}\
+details{box-shadow:none}\
+/*]]>*/
+</style>
+<div>
+  <p>Le triangle \(\mathrm{ABC}\) est rectangle en <span class="nowrap">\(\mathrm{A}\).</span><br> Une unité de longueur étant donnée, on a&nbsp;: \($(gl_enonc[1])\) et <span class="nowrap">\($(gl_enonc[2])\).</span>
+  </p>
+  <p>Calculer <span class="nowrap">\($(gl_quest)\).</span>
+  </p>
+</div>
+<div class="grid-container fluid">
+  <div class="grid-x grid-padding-x">
+    <div id="enonce$(gl_a)" class="cell2 small-12 medium-6 large-8">
+      <details>
+        <summary class="oef_indgood">Éléments de solution</summary>
+        <p>Le triangle \(\mathrm{ABC}\) est rectangle en <span class="nowrap">\(\mathrm{A}\),</span> d'après le théorème de Pythagore&nbsp;:
+        </p>
+        <p>
+        \($(gl_egal1)\)<br>
+        \($(gl_egal2)\)<br>
+        \($(gl_egal3)\)<br>
+        \($(gl_egal4)\)
+        </p>
+        <p>
+        Il y a deux nombres qui ont pour carré <span class="nowrap">\($(gl_data4[$gl_choix])\) : </span> \(-\sqrt{$(gl_data4[$gl_choix])}\) et <span class="nowrap">\(\sqrt{$(gl_data4[$gl_choix])}\).<span><br>
+        \($(gl_quest)\) étant une longueur, \($(gl_quest)\) est un nombre positif donc&nbsp:
+        </p>
+        <p>
+        \($(gl_egal5)\)<br>
+        \($(gl_egal6)\)
+        </p>
+      </details>
+    </div>
+    <div id="applet$(gl_a)" class="cell2 small-12 medium-6 large-4">
+      <div class="applet">
+        !readproc slib/geo2D/jsxgraph id$(gl_a) brd$(gl_a),[$gl_xsize x $gl_ysize,min=200px max=200px scroll center],$(gl_script$(gl_a))
+        $slib_out
+      </div>
+    </div>
+  </div>
+</div>

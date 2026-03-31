@@ -1,0 +1,15 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Développer une expression
+!set gl_level=H2 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+<strong>Développer</strong> une expression mathématique consiste à utiliser autant que possible la distributivité pour transformer une expression contenant des produits en une somme de termes.
+</p>
+</div>

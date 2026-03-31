@@ -1,0 +1,26 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=vectors,analytic_geometry,coordinates,distance,solid_geometry
+!set gl_title=Norme d'un vecteur de l'espace
+!set gl_level=H6 Générale&nbsp;Spécialité
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\overrightarrow{u}\) un vecteur de l'espace et soit \(\mathrm{A}\) et \(\mathrm{B}\) deux points de l'espace tels que <span class="nowrap">\(\overrightarrow{u}=\overrightarrow{\mathrm{AB}}\).</span><br>
+On appelle <strong>norme</strong> du vecteur \(\overrightarrow{u}\) le réel noté \(\left\||\overrightarrow{u}\right\||\) défini par <span class="nowrap">\(\left\||\overrightarrow{u}\right\||=\mathrm{AB}\).</span>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+L'espace est muni d'un repère <em>orthonormé</em>
+\(\left(\mathrm{O}\,;\overrightarrow{i},\overrightarrow{j},\overrightarrow{k}\right)\).<br>
+Pour tout vecteur \(\overrightarrow {u}\) de coordonnées
+<span class="nowrap">\(\left( \begin{array}{c}
+x \\
+y \\
+z
+\end{array} \right)\),</span> <span class="nowrap">\(\left\||\overrightarrow{v}\right\|| = \sqrt{x^2 + y^2 + z^2}\).</span>
+</div>
+

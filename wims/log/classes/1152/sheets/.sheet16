@@ -1,0 +1,55 @@
+
+:U1/mechanics/oefvector.fr
+exo=vecteur12
+10
+1
+Calcul de produit scalaire
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS4S1&cmd=new,10
+:H5/geometry/OEFbarypdtsc.fr
+exo=linearite&confparm1=1&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Calcul utilisant la bilinéarité
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS4S2&cmd=new,10
+:U1/mechanics/oefvector.fr
+exo=vecteur11
+10
+1
+Calcul de norme
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS4S2&cmd=new,10
+:H5/geometry/OEFbarypdtsc.fr
+exo=expranalplan&confparm1=1&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Vecteurs orthogonaux ?
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS4S3&cmd=new,10
+:H6/geometry/OEFpdtscalTS.fr
+exo=baseorth1
+10
+1
+Vecteur normé colinéaire ou orthogonal
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS4S3&cmd=new,10
+:H5/geometry/OEFbarypdtsc.fr
+exo=cosinus&confparm1=1&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Produit scalaire et cosinus
+
+
+
+module=H5/geometry/vecteurs.fr&block=mainS4S3&cmd=new,10

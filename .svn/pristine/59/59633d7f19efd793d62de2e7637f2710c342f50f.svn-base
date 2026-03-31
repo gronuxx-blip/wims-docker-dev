@@ -1,0 +1,78 @@
+!read adm/language lang/names.phtml
+
+!set wims_html_header=!append line <style>\
+.wims_formradio, .wims_formradio input{font-size: 80%;}\
+.tree label{font-weight: normal;display:inline;}\
+.tooltip {\
+      position:relative;\
+      cursor:help;\
+}\
+.box p{margin-top:0;}\
+.tooltip:hover::after {\
+       display: block;\
+       position: absolute;\
+       top: 1.2em;\
+       left: 2em;\
+       background: white;\
+       padding: 5px;\
+       border: 1px solid $wims_refcolor;\
+       border-left: 10px solid $wims_ref_bgcolor;\
+       content: attr(title);\
+}\
+</style>\
+<!-- CSS for dynamic tree display -->\
+<link trel="stylesheet" href="scripts/js/tree_JS/tree.css"> to $wims_html_header
+
+!!# Si les librairies Jquery sont chargées, on affiche des onglets.
+!!if $jquery_defined=yes
+    !set wims_html_header=!append line <script>\
+        /*<![CDATA[*/ jQuery(function(jq) {jq( "#classifications" ).tabs();}); /*]]>*/\
+      </script> to $wims_html_header
+!!endif
+
+!header1
+
+!read adm/title.phtml 2\
+$module_title
+  $name_alreadyindex $refdir0
+  <pre>$taxoindex</pre>
+!set tosend=!nonempty items $tosend
+!set tosend=!listuniq $tosend
+!if $compute=yes
+  !if $error!=$empty
+    <div class="wims_msg alert">
+    !read msg.phtml
+    </div>
+    !goto end
+    <p>$name_what_keyword</p>
+    !read menu.phtml
+  !else
+    !!!set sysadmin_mail=!getdef sysadmin in wimshome/public_html/bases/sys/publishcenter/wimsedu
+    $name_recap_keywords:
+    <pre>$refdir0:$tosend</pre>
+    !set wims_ref_class=wims_button
+    !set sendtaxo=$refdir0:$tosend
+    <div class="spacer">
+    $(name_addtaxo[1])
+    <a class="wims_button_help" href="mailto:wimstaxo@groupes.renater.fr?subject=[WIMS] taxonomy $refdir0&body=$sendtaxo">$(name_addtaxo[2])</a>
+    $(name_addtaxo[3]) $wims_name_or
+    !href cmd=resume $name_participate
+    .</div>
+    <div>$name_thank_you</div>
+     !!read answer.phtml
+  !endif
+!else
+  !if $tosend!=$empty
+    $name_recap_keywords: <pre>$refdir0:$tosend</pre>
+  !endif
+  !read menu.phtml
+!endif compute=yes?
+
+:end
+
+!!set wims_menu_items=!append line back,cmd=resume to $wims_menu_items
+
+!tail
+
+<!-- JS for dynamic tree display -->
+<script src="scripts/js/tree_JS/tree.js"></script>

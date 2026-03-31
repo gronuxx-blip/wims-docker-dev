@@ -1,0 +1,43 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Inverse d'un nombre non nul
+!set gl_level=H2 Cycle&nbsp;4
+:
+:
+:
+:
+</p><div class="wims_thm">
+<h4>Théorème</h4>
+<p>
+Soit \(a\) un nombre non nul, il existe un unique nombre \(b\) tel que <span class="nowrap">\(a \times b = 1\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+L'<strong>inverse</strong> d'un nombre non nul \(a\) est le nombre \(b\) qui vérifie <span class="nowrap">\(a \times b = 1\).</span><br>
+On note ce nombre <span class="nowrap">\(\dfrac{1}{a}\).</span>
+</div>
+:
+:
+</p><div class="wims_thm">
+<h4>Propriété</h4>
+<p>
+Soit \(a\) et \(b\) deux nombres non nuls.<br>
+L'inverse de \(\dfrac{a}{b}\) est <span class="nowrap">\(\dfrac{b}{a}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>
+Diviser par une fraction revient à multiplier par son inverse.
+</p>
+</div>
+
+
+

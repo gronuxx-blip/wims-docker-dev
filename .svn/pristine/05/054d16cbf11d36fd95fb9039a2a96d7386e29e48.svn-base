@@ -1,0 +1,101 @@
+
+:H5/geometry/oeftrigo.fr
+exo=trigo
+10
+1
+Calculs d'expressions du type cos(x+y)
+
+
+
+module=H6/algebra/doccomplex.fr&block=formules&cmd=new,10
+
+:H5/geometry/oeftrigo.fr
+exo=trigo1
+10
+1
+Nombre de solutions d'une équation trigonométrique
+
+
+
+module=H6/algebra/doccomplex.fr&block=trigo&cmd=new,10
+
+:H5/geometry/oeftrigo.fr
+exo=trigo3
+10
+1
+Solutions d'une équation trigonométrique
+
+
+
+module=H6/algebra/doccomplex.fr&block=trigo&cmd=new,10
+
+:H6/algebra/oefgeocomplex.fr
+exo=triangle3
+10
+1
+Triangle isocèle (1)
+
+
+
+module=H6/algebra/doccomplex.fr&block=gene&cmd=new,10
+
+:H6/algebra/oefgeocomplex.fr
+exo=triangle4
+10
+1
+Triangle rectangle isocèle (2)
+
+
+
+module=H6/algebra/doccomplex.fr&block=gene&cmd=new,10
+
+:H6/algebra/oefgeocomplex.fr
+exo=triangle2
+10
+1
+Triangle équilatéral
+
+
+
+module=H6/algebra/doccomplex.fr&block=gene&cmd=new,10
+
+:U1/algebra/graphcompineq.en
+atype=3&style=0arg&style=0mod&style=0reim&style=test&style=TestArgument&style=TestReImNiveau0&repeat=5
+10
+1
+Zones du plan complexe exprimées en termes de l'argument, le module, la partie réelle et imaginaire
+Niveau 0
+
+
+module=H6/algebra/doccomplex.fr&block=lieux&cmd=new,10,0
+
+:U1/algebra/graphcompineq.en
+atype=3&style=1arg&style=1mod&style=1reim&repeat=5
+10
+1
+Zones du plan complexe exprimées en termes de l'argument, le module, la partie réelle et imaginaire
+Niveau 1
+
+
+module=H6/algebra/doccomplex.fr&block=lieux&cmd=new,10,0
+
+:U1/algebra/graphcompineq.en
+atype=3&style=2mod&style=2reim&repeat=5
+10
+1
+Zones du plan complexe exprimées en termes de l'argument, le module, la partie réelle et imaginaire
+Niveau 2
+
+
+module=H6/algebra/doccomplex.fr&block=lieux&cmd=new,10,0
+
+:H6/algebra/oefcomplex.en
+exo=maxmod&exo=modmax
+10
+1
+Problèmes de maximum ou minimum
+
+
+
+module=H6/algebra/doccomplex.fr&block=lieux&cmd=new,10
+

@@ -1,0 +1,17 @@
+!set docsh_out=$wims_read_parm
+!set tmp_list=worksheet cmd module session lang
+!read getparm $docsh_out $tmp_list
+!set docsh_out=$wims_read_parm
+!set tmp_list=!words2items $tmp_list
+!for name in $tmp_list
+  !set get_$name=!listuniq $(get_$name)
+  !for tt in $(get_$name)
+    !set docsh_out=!replace internal $name=$tt by $empty in $docsh_out
+  !next
+  !set docsh_out=!replace internal $name=& by $empty in $docsh_out
+!next
+
+!set docsh_out=!replace internal & by , in $docsh_out
+!set docsh_out=!nonempty items $docsh_out
+!set docsh_out=!replace internal , by & in $docsh_out
+!set docsh_out=!nospace $docsh_out

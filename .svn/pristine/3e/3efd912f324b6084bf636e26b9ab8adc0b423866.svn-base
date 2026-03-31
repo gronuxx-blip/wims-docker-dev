@@ -1,0 +1,12 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Parabole
+!set gl_level=H5
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Dans un repère orthogonal du plan, la courbe représentative d'une fonction polynôme du second degré est une <strong>parabole</strong>.
+</div>

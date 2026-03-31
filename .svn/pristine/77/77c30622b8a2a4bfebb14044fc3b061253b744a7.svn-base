@@ -1,0 +1,111 @@
+Tableaux de signes
+Collection d'exercices sur la compréhension, la conception et l'utilisation d'un tableau de signes (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,analysis
+levelH4,functions,affine_function,linear_function,trinomial,equations,inequations
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la compréhension, la conception et l'utilisation d'un tableau de signes (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H5/analysis/tabsign.fr
+sublevel=2&level=1&zero=non&dblbarre=rien&score1=3
+30
+1
+Lecture d'un tableau de signes
+<p>Séries de QCM relatifs à la compréhension d'un tableau de signes.</p>
+
+
+
+quizz
+:H5/algebra/tableauxSigne.fr
+exo=methodologie&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Vérifier un tableau de signes (1)
+<p>Vérifier le tableau de signes d'une fonction produit ou quotient de fonctions affines.</p>
+
+
+
+cerveau
+:H5/algebra/tableauxSigne.fr
+exo=signeGraphique&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tableau de signes par lecture graphique
+<p>Établir graphiquement le tableau de signes d'une fonction.</p>
+
+
+
+organiser
+:H5/algebra/tableauxSigne.fr
+exo=signeBinome&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Signe d'une fonction affine
+<p>Établir le tableau de signes d'une fonction affine.</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdsigne6&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Signe du produit de deux fonctions affines
+<p>Établir le tableau de signes du produit de deux fonctions affines.</p>
+
+
+
+algebra
+:H5/algebra/tableauxSigne.fr
+exo=signeProdQuot2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Signe d'un produit ou quotient
+<p>Établir le tableau de signes d'un produit ou quotient de fonctions affines.</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdsigne4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Signe d'un produit de 2 fonctions affines (2)
+<p>Établir le tableau de signes du produit de deux fonctions affines.</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdsigne1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Signe de \(a x²+b x\)
+<p>Établir le signe de \(a x²+b x\) après factorisation.</p>
+
+
+
+algebra
+:H4/algebra/oefseconddegree.fr
+exo=sdsigne2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Signe d'une fonction
+<p>Étudier le signe d'une fonction après en avoir trouvé une forme adaptée.</p>
+
+
+
+algebra
+:H5/algebra/tableauxSigne.fr
+exo=ineqParticuliere&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Sans tableaux de signes
+<p>Établir le signe d'une fonction sans passer par un tableau de signes.</p>
+
+
+
+algebra

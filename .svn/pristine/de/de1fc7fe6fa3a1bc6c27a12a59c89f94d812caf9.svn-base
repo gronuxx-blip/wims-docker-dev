@@ -1,0 +1,307 @@
+
+:H3/geometry/affine.fr
+type=1&coeff=1
+10
+1
+Fonctions linéaires/affines et droites
+Tracer une droite donnée par un point et son coefficient directeur.
+
+À partir de la seconde
+:H5/analysis/OEFoperfonct.fr
+exo=operaff&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Opérations sur fonctions affines
+Identifier le graphe d'une composée de fonction affine.
+
+Utilisation des fonctions associées qui n'est plus au programme du lycée.
+module=H6/set/docfonction.fr&doc=1&block=parsym&job=read&cmd=new,10,0
+:H6/analysis/graphabs.en
+listype=1&repeat=1
+10
+1
+Abs graphique
+Reconnaître le graphe de |f|.
+
+
+:H5/analysis/OEFfctref1S.fr
+exo=ptecarre1
+10
+1
+Propriété de la fonction carré 1
+Graphe d'une fonction polynôme du second degré.
+
+À partir de la première
+:H4/geometry/quadchoice.en
+atype=3&level=2&repeat=1
+10
+1
+Choix quadratique
+Graphe d'une fonction polynôme du second degré.
+
+À partir de la première
+:H4/analysis/oefgrfctref.fr
+exo=chgrcarre&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Choix d'une parabole
+Reconnaître le graphe d'une fonction polynôme de degré 2.
+
+À partir de la première
+:H4/analysis/oefgrfctref.fr
+exo=assgrcarre
+10
+1
+Association de paraboles
+Reconnaître le graphe de fonctions polynômes du second degré.
+
+À partir de la première
+:H5/analysis/OEFoperfonct.fr
+exo=operpara&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Opérations sur paraboles
+Identifier le graphe de fonctions composées d'une parabole.
+
+Utilisation des fonctions associées qui n'est plus au programme du lycée.
+module=H6/set/docfonction.fr&doc=1&block=parsym&job=read&cmd=new,10,0
+:H5/analysis/OEFoperfonct.fr
+exo=qcmcarre1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+QCM1 sur fonction carré.
+Déterminer l'expression du vecteur permettant de passer d'une fonction du second degré à la fonction carré.
+
+
+:H5/analysis/OEFoperfonct.fr
+exo=qcmcarre2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+QCM2 sur fonction carré.
+Déterminer l'expression d'une fonction qui est la translation d'une fonction carré.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=chgrcube&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Choix d'une cubique
+Reconnaître le graphe d'une fonction polynôme de degré 3.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=assgrcube&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Association de cubiques
+Reconnaître le graphe de fonctions polynômes de degré 3.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=chgrsqrt&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Choix d'une demi-parabole
+Reconnaître le graphe d'une fonction racine carrée.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=assgrsqrt&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Association de demi-paraboles
+Reconnaître le graphe de fonctions racines carrées.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=chgrhyper&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Choix d'une hyperbole
+Reconnaître le graphe d'une fonction inverse.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=assgrhyper&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Association d'hyperboles
+Reconnaître le graphe de fonctions inverses.
+
+
+:H5/analysis/OEFoperfonct.fr
+exo=operhyper&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Opérations sur hyperboles
+Identifier le graphe de fonctions composées d'une fonction hyperbolique.
+
+
+:H5/analysis/OEFoperfonct.fr
+exo=qcminv1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+QCM1 sur fonction inverse.
+Déterminer l'expression du vecteur permettant de passer d'une fonction hyperbolique à la fonction inverse.
+
+
+:H5/analysis/OEFoperfonct.fr
+exo=qcminv2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+QCM2 sur fonction inverse.
+Déterminer l'expression d'une fonction qui est la translatée d'une fonction inverse.
+
+
+:H5/analysis/OEFfctref1S.fr
+exo=ptecarre2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Propriété de la fonction carré 2
+Déterminer l'axe de symétrie d'une fonction polynôme du second degré.
+
+Niveau première
+:H5/analysis/OEFfctref1S.fr
+exo=ptecarre3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Propriété de la fonction carré 3
+Déterminer le sommet du graphe d'une fonction polynôme du second degré.
+
+Niveau première
+:H4/analysis/trisecdeg.fr
+exo=extrematri
+10
+1
+Extrema d'une fonction trinôme
+Déterminer le sommet du graphe d'une fonction polynôme du second degré.
+
+
+:H5/analysis/OEFfctref1S.fr
+exo=pteinverse1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Propriété de la fonction inverse 1
+Déterminer la position du graphe d'une fonction inverse.
+
+
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=canon1
+10
+1
+Forme canonique 1
+Déterminer la forme canonique d'une fonction polynôme du second degré.
+
+
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=canon4
+10
+1
+Forme canonique 4
+Déterminer la forme canonique d'une fonction polynôme du second degré.
+
+
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=chforme3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Différentes écritures 3
+Déterminer la forme la plus adaptée d'une fonction polynôme du second degré.
+
+
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=chforme4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Différentes écritures 4
+Déterminer la forme la plus adaptée d'une fonction polynôme du second degré.
+
+
+:H6/analysis/OEFderivee.fr
+exo=form5&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Formules5 (sqrt;1/x)
+Dérivées de fonctions racines carrées et inverse.
+
+
+:H6/analysis/OEFderivee.fr
+exo=pdt1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Produit avec sqrt
+Déterminer la dérivée d'un produit avec racine carrée.
+
+
+:H6/analysis/OEFderivee.fr
+exo=tan2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Tangente à une courbe polynomiale
+Déterminer l'équation d'une tangente pour une fonction polynomiale.
+
+
+:H6/analysis/OEFderivee.fr
+exo=tan1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Tangente à une courbe polynomiale (guidé)
+Déterminer l'équation d'une tangente pour une fonction polynomiale.
+
+Niveau première
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=signetrinome1
+10
+1
+Signe d'un trinôme ; inéquations 1
+Déterminer le signe d'une fonction polynôme du second degré.
+
+
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=signetrinome2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Signe d'un trinôme ; inéquations 2
+Déterminer le signe d'une fonction polynôme du second degré.
+
+
+:H6/analysis/oefsignes.fr
+exo=trinome&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Signe d'un trinôme
+Déterminer le signe d'une fonction polynôme du second degré.
+
+Niveau première
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=vartrinome1
+10
+1
+Variation d'un trinôme du second degré 1
+Tableau de variation d'une fonction polynôme du second degré (sans dériver).
+
+
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=vartrinome3
+10
+1
+Variation d'un trinôme du second degré 3
+Tableau de variation d'une fonction polynôme du second degré (sans dériver).
+
+
+:H6/analysis/oeftablvar.fr
+exo=deg2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Variations degré 2
+Tableau de variation d'une fonction polynôme du second degré.
+
+
+:H6/analysis/oeftablvar.fr
+exo=deg2_3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Variations degré 2 ou 3
+Tableau de variation d'une fonction polynomiale de degré 2 ou 3.
+
+

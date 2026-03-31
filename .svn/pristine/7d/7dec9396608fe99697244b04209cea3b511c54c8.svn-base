@@ -1,0 +1,111 @@
+Développer - Factoriser
+Collection d'exercices sur des développements et factorisations d'expressions (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,algebra
+levelH4,factorization,literal_calculation
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur des développements et factorisations d'expressions (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H3/algebra/oefdevfact.fr
+exo=deve2&confparm2=2&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Développer (1)
+<p>Développer des expressions de la forme \((a x + b) ( c x + d) \).<br />En cas d'erreur, un exercice de remédiation est proposé en cliquant sur le bouton vert "<strong>Besoin d'aide</strong>" dans le menu de gauche. </p>
+
+
+module=H3/algebra/oefdevfact.fr&exo=deve2&confparm2=1&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1&cmd=new,10,0
+algebra
+:H4/algebra/develop.fr
+exo=dev2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Développer (2)
+<p>Développer des expressions de la forme \((a x + b ) ( c x^2 + d x + e)\)</p>
+
+
+
+algebra
+:H4/algebra/oefcalcullit.fr
+exo=dev2exp&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Développer (3)
+<p>Développer et réduire une expression plus complexe (exercice proposé en 2 étapes).</p>
+
+
+
+algebra
+:H4/algebra/oefcalcullit.fr
+exo=factorisat1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Factorisation (mode guidé)
+<p>Factoriser une expression en suivant les étapes indiquées.</p>
+
+
+
+algebra
+:H3/algebra/oefdevfact.fr
+exo=completer1&confparm2=2&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Compléter une factorisation (1)
+<p>Le facteur étant donné, terminer la factorisation de l'expression.</p>
+
+
+
+algebra
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=2&confparm2=A&confparm2=2&confparm3=1&confparm4=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Factorisation (1)
+<p>Factoriser une expression de la forme \((a x+b)(c x+d) + (a x+b)(e x+f)\)</p>
+
+
+
+algebra
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=2&confparm2=A&confparm2=1&confparm3=1&confparm4=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Factorisation (2)
+<p>Factoriser une expression de la forme \(k (a x+b)(c x+d) + \lambda (a x+b)(e x+f)\)</p>
+
+
+
+algebra
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=2&confparm2=A&confparm2=1&confparm2=3&confparm3=1&confparm4=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Factorisation (3)
+<p>Factoriser une expression de la forme \(k (a x+b)(c x+d) + \lambda x (a x+b)\)</p>
+
+
+
+algebra
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=2&confparm2=A&confparm2=1&confparm2=6&confparm3=1&confparm4=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Factorisation (4)
+<p>Factoriser une expression de la forme \(k (a x+b)(c x+d) + \lambda (a x+b)^2\)</p>
+
+
+
+algebra
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=2&confparm2=A&confparm2=1&confparm2=2&confparm2=3&confparm2=7&confparm3=2&confparm4=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Factorisation (5)
+<p>Factoriser une expression sans facteur commun apparent.</p>
+
+
+
+algebra

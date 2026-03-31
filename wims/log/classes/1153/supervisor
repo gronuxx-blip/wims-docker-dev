@@ -1,0 +1,7 @@
+!set user_firstname=EULER
+!set user_lastname=WIMS
+!set user_email=euler.wims@ac-versailles.fr
+!set user_password=*
+!set user_agreecgu=yes
+!set user_exists=yes
+

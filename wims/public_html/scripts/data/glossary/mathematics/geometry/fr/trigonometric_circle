@@ -1,0 +1,20 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Cercle trigonométrique
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Le plan est muni d'un repère orthonormé d'origine un point <span class="nowrap">\(\mathrm{O}\).</span><br>
+On appelle <strong>cercle trigonométrique</strong> le cercle de centre \(\mathrm{O}\) et de rayon 1, orienté dans le sens contraire des aiguilles d'une montre (sens anti-horaire).
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriété</h4>
+Un cercle trigonométrique a pour longueur <span class="nowrap">\(2\pi\).</span>
+
+</div>
+:

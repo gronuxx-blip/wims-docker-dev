@@ -1,0 +1,42 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Vecteurs colinéaires de l'espace
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>
+Soit \(\overrightarrow{u}\) et \(\overrightarrow{v}\) deux vecteurs de l'espace.<br>
+On dit que les vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont <b>colinéaires</b> si et seulement s'il existe un réel \(k\) tel que \(\overrightarrow{v}=k\overrightarrow{u}\) ou <span class="nowrap">\(\overrightarrow{u}=k \overrightarrow{v}\).</span>
+</p>
+</div>
+:
+:
+<div  class="wims_rem"><h4>Remarques</h4>
+<ul>
+<li>
+Le vecteur nul est colinéaire à tout vecteur de l'espace.
+</li>
+<li>
+Deux vecteurs non nuls et colinéaires ont la même direction.
+</li>
+</ul>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Théorème</h4>
+<p>Soit <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{C}\) des points de l'espace.<br>
+Les points <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{C}\) sont alignés si et seulement si les vecteurs \(\overrightarrow{\mathrm{AB}}\) et \(\overrightarrow{\mathrm{AC}}\) sont colinéaires.
+</p>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Théorème</h4>
+<p>Deux droites de l'espace de vecteurs directeurs respectifs \(\overrightarrow{u}\)
+et \(\overrightarrow{v}\) sont parallèles si et seulement si les vecteurs
+\(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont colinéaires.
+</p>
+</div>

@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Image d'un nombre par une fonction (Collège)
+!set gl_level=H3 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(f\) une fonction et soit \(x\) un nombre.<br>
+Le nombre associé à \(x\) par la fonction \(f\) est noté \(f(x)\) et se lit <span class="nowrap">« \(f\) de \(x\) ».</span><br>
+Ce nombre est appelé <strong>image</strong> de \(x\) par <span class="nowrap">\(f\).</span>
+</p>
+</div>

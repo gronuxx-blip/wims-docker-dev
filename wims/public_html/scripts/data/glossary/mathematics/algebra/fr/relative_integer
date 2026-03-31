@@ -1,0 +1,17 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=gl_relative_number
+!set gl_title=Nombre entier relatif
+!set gl_level=H1 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>On considère une droite graduée d'origine un point \(\mathrm{O}\) orientée de gauche à droite.<br>
+On appelle <strong> nombre entier relatif</strong> toute abscisse d'un point de cette droite situé à une distance entière de l'origine <span class ="nowrap">\(\mathrm{O}\).</span>
+</div>
+<div class="wims_rem"><h4>Remarque</h4>
+<p>Les nombres entiers relatifs associés aux points situés à droite de \(\mathrm{O}\) sont dits positifs, ceux situés à gauche sont dits négatifs.
+</p>
+</div>

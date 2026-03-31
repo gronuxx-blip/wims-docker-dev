@@ -1,0 +1,48 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=plane_equation,vectors,normal_vector,solid_geometry
+!set gl_title=Vecteur normal à un plan
+!set gl_level=H6 Générale&nbsp;Spécialité
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>Soit \(\mathcal{P}\) un plan de l'espace.<br>
+On appelle <strong>vecteur normal</strong> à \(\mathcal{P}\) tout vecteur directeur d'une droite perpendiculaire à <span class="nowrap">\(\mathcal{P}\).</span></p>
+</div>
+<div  class="wims_rem"><h4>Remarque</h4>
+<p>Tout vecteur non nul colinéaire à un vecteur normal d'un plan est également un vecteur normal de ce plan.</p>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Théorème</h4>
+<p>Soit \(\mathrm{A}\) un point et \(\overrightarrow{n}\) un vecteur non nul de l'espace.<br>
+Le plan \(\mathcal{P}\) passant par \(\mathrm{A}\) et de vecteur normal \(\overrightarrow{n}\) est l'ensemble des points \(\mathrm{M}\) de l'espace tels que les vecteurs \(\overrightarrow{\mathrm{AM}}\) et \(\overrightarrow{n}\) soient orthogonaux.</p>
+</div>
+:mathematics/geometry/fr/plane_normal_vector_1
+:
+<div  class="wims_thm"><h4>Propriété</h4>
+<p>Deux plans de l'espace de vecteurs normaux respectifs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont parallèles si et seulement si les vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont colinéaires.</p>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Propriété</h4>
+<p>Deux plans de l'espace de vecteurs normaux respectifs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont perpendiculaires si et seulement si les vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont orthogonaux.</p>
+</div>
+:
+:
+<div  class="wims_thm"><h4>Théorème</h4>
+<p>L'espace est muni d'un repère orthonormé.<br>
+Soit <span class="nowrap">\(a\),</span> <span class="nowrap">\(b\),</span> \(c\) et \(d\) des réels tels que <span class="nowrap">\((a\,,b\,,c) \ne (0\,,0\,,0)\).</span><br>
+Si \(a x + b y + c z + d=0\) est une équation cartésienne du plan \(\mathcal{P}\) alors le vecteur de coordonnées \(\begin{pmatrix}a\\b\\c\end{pmatrix}\) est un vecteur normal au plan <span class="nowrap">\(\mathcal{P}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+<p>L'espace est muni d'un repère orthonormé.<br>
+Soit <span class="nowrap">\(a\),</span> <span class="nowrap">\(b\),</span> \(c\) et \(d\) des réels tels que <span class="nowrap">\((a\,,b\,,c) \ne (0\,,0\,,0)\).</span><br>
+Si \(\mathcal{P}\) est un plan dont un vecteur normal a pour coordonnées \(\begin{pmatrix}a\\b\\c\end{pmatrix}\) alors \(\mathcal{P}\) a une équation cartésienne de la forme <span class="nowrap">\(a x + b y + c z + d=0\).</span>
+</p>
+</div>

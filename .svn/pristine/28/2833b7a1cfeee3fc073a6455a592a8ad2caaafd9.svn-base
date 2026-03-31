@@ -1,0 +1,116 @@
+Calculer des probabilités
+Collection d'exercices sur des calculs de probabilités et dénombrements à l'aide de tableaux et d'arbres (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,probability
+levelH4,probability_distribution,events
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur des calculs de probabilités et dénombrements à l'aide de tableaux et d'arbres (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H3/probability/oefstatproba.fr
+exo=dailly1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équiprobabilité - Calculs simples
+Associer chaque événement à sa probabilité.
+
+
+:H3/probability/oefstatproba.fr
+exo=dailly2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Comparer deux situations
+<p>Comparer la probabilité d'un même événement dans deux univers différents.</p>
+
+
+:H5/probability/OEFevalwimsproba.fr
+exo=interunion0&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Probabilité de l'intersection et de la réunion
+<p>Différents calculs autour de la relation \(P(A \cup B) + P(A \cap B) = P(A) + P(B)\)</p>
+
+
+:H5/probability/OEFproba1S.fr
+exo=proba1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Événements incompatibles
+<p>Différents calculs autour de la relation \(P(A \cup B) + P(A \cap B) = P(A) + P(B)\) dans le cas où \(A\) et \(B\) sont incompatibles.</p>
+
+
+:H5/probability/oefprobaLP.fr
+exo=sport
+30
+1
+À partir d'un tableau croisé (1)
+<p>Calculer des probabilités à partir d'un tableau croisé fourni (exercice à étapes).</p>
+
+
+:H5/probability/oefprobaLP.fr
+exo=detecteurs&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+À partir d'un tableau croisé (2)
+<p>Calculer des probabilités à partir d'un tableau croisé à remplir (exercice à étapes).</p>
+
+
+:H5/probability/OEFevalwimsproba.fr
+exo=interunion1
+30
+1
+À partir d'un tableau croisé (3)
+<p>Calculer des probabilités dans un cas d'équiprobabilité à partir d'un tableau croisé.</p>
+
+
+:H5/probability/OEFevalwimsproba.fr
+exo=interunion4
+30
+1
+À partir d'une loi de probabilité (1)
+<p>Calculer des probabilités d'événements à partir d'une loi de probabilité donnée.</p>
+
+
+:H5/probability/OEFevalwimsproba.fr
+exo=interunion5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+À partir d'une loi de probabilité (2)
+<p>Calculer des probabilités dans un cas d'équiprobabilité à partir d'un tableau croisé.</p>
+
+
+:H5/probability/OEFevalwimsproba.fr
+exo=loi2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Déterminer une loi de probabilité (1)
+<p>Déterminer une loi de probabilité (répartition des élèves qui suivent une matière dans une classe).</p>
+
+
+:H5/probability/OEFevalwimsproba.fr
+exo=loi3
+30
+1
+Déterminer une loi de probabilité (2)
+<p>Déterminer une loi de probabilité (feu tricolore).</p>
+
+
+:H5/probability/OEFevalwimsproba.fr
+exo=loi5
+30
+1
+Déterminer une loi de probabilité (3)
+<p>Déterminer une loi de probabilité (somme des faces de deux dés tétraèdriques).</p>
+
+
+:H5/probability/OEFevalwimsproba.fr
+exo=loi4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Déterminer une loi de probabilité (4)
+<p>Déterminer une loi de probabilité (roue de loterie).</p>
+
+
+

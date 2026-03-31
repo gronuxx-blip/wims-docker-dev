@@ -1,0 +1,34 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=triangles
+!set gl_title=Théorème de Pythagore
+!set gl_level=H2 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_thm">
+<h4>Théorème de Pythagore</h4>
+Dans un triangle rectangle, le carré de la longueur de l'hypoténuse est égal à
+la somme des carrés des longueurs des côtés de l'angle droit.<br>
+Si un triangle \(\mathrm{ABC}\) est rectangle en \(\mathrm{A}\) alors <span class="nowrap">
+\(\mathrm{BC}^2=\mathrm{AB}^2 + \mathrm{AC}^2\).</span>
+</div>
+:mathematics/geometry/fr/pythagore_1
+:
+<div class="wims_rem"><h4>Remarque</h4>
+Le théorème de Pythagore permet de calculer la longueur d'un côté d'un triangle rectangle connaissant les deux autres.
+</div>
+:mathematics/geometry/fr/pythagore_2
+:
+<div class="wims_rem"><h4>Remarque</h4>
+Le théorème de Pythagore permet de démontrer qu'un triangle n'est pas rectangle en un de ses sommets.
+</div>
+:mathematics/geometry/fr/pythagore_3
+:
+<div class="wims_thm">
+<h4>Réciproque du théorème de Pythagore</h4>
+Soit \(\mathrm{ABC}\) un triangle.<br>
+Si \(\mathrm{BC}^2=\mathrm{AB}^2 + \mathrm{AC}^2\) alors le triangle  \(\mathrm{ABC}\) est rectangle en  <span class="nowrap">\(\mathrm{A}\).</span>
+</div>
+:mathematics/geometry/fr/pythagore_4

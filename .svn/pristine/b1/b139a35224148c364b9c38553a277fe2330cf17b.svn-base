@@ -1,0 +1,18 @@
+!set gl_type=dynamic
+!set gl_author=Bernadette, Perrin-Riou
+!set gl_title=Puissance d'une matrice (exemple)
+
+!readproc data/glossary/mathematics/algebra/macro/matrix_operation
+
+
+Soit \(A\) la matrice carrée définie par <span class="nowrap">\(A = [$gl_A4]\).</span>
+<br><span class="nowrap">\(A^{$gl_p$} =\) \([$gl_Ap]\).</span>
+
+
+!if $gl_n!=$gl_m
+<div><span class="wims_warning">
+  $wims_name_warning&nbsp;:</span>
+  On ne peut calculer aucune puissance de la matrice
+  \([$gl_A1]\) car elle n'est pas carrée.
+</div>
+!endif

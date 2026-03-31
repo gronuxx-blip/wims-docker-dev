@@ -1,0 +1,54 @@
+{
+  "name": "wims",
+  "version": "4.23.0",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "asciimathml": "asciimath/asciimathml",
+    "chart.js": "^4.3.0",
+    "codemirror": "^5.65.13",
+    "foundation-sites": "^6.8.1",
+    "grunt": "^1.4.1",
+    "grunt-contrib-copy": ">=1.0.0",
+    "grunt-contrib-cssmin": ">=4.0.0",
+    "grunt-contrib-uglify": ">=5.0.1",
+    "grunt-eslint": "^24.0.0",
+    "grunt-rsync": ">=3.0.0",
+    "mathjax": ">=3.2.0",
+    "skulpt": "skulpt/skulpt-dist#1.2.0"
+  },
+  "description": "Web Interactive Multipurpose Server",
+  "keywords": [
+    "Maths",
+    "education",
+    "Server",
+    "exercice"
+  ],
+  "author": "WIMS EDU Community - http://wimsedu.info",
+  "dependencies": {
+    "@accessible360/accessible-slick": "^1.0.1",
+    "jQuery-ui-Slider-Pips": "simeydotme/jQuery-ui-Slider-Pips#1.11.5",
+    "jquery": "~3.6.0",
+    "jquery-hoverintent": "~1.10.2",
+    "jquery-ui": "~1.13.2",
+    "jquery-ui-dist": "~1.13.2",
+    "jsxgraph": "jsxgraph/jsxgraph#1.11.1",
+    "marked": "^5.1.0",
+    "mathlive": "^0.100.0",
+    "normalize.css": ">=8.0.1",
+    "tinymce": "^6.5.0",
+    "what-input": "~5.2.12"
+  },
+  "engines": {
+    "yarn": ">= 1.22.0"
+  },
+  "scripts": {
+    "cleanup": "yarn cache clean",
+    "copy": "yarn run cp_tinyMCE && yarn run cp_jsxgraph && yarn run cp_skulpt && yarn run cp_codemirror && yarn run cp_mathlive",
+    "cp_tinyMCE": "mkdir -p ../../scripts/js/external/tinymce/{plugins,themes/silver,icons/default} && cp -Rf ./node_modules/tinymce/{tinymce.min.js,*.txt,*.md,skins,models} ../../scripts/js/external/tinymce/ && cp -Rf ./node_modules/tinymce/plugins/{code,fullscreen,help,link,lists,table} ../../scripts/js/external/tinymce/plugins/ && cp -Rf ./node_modules/tinymce/themes/silver/*.min.js ../../scripts/js/external/tinymce/themes/silver/ && cp -f ./node_modules/tinymce/icons/default/*.min.js ../../scripts/js/external/tinymce/icons/default/",
+    "cp_jsxgraph": "mkdir -p ../../scripts/js/jsxgraph/themes && cp -Rf ./node_modules/jsxgraph/distrib/{jsxgraphcore.js,jsxgraph.css,geo*.js} ../../scripts/js/jsxgraph/ && cp -Rf ./node_modules/jsxgraph/distrib/themes/*.js ../../scripts/js/jsxgraph/themes/ && cp -Rf ./node_modules/jsxgraph/README.md ../../scripts/js/jsxgraph/",
+    "cp_mathlive": "mkdir -p ../../scripts/js/mathlive && cp -Rf ./node_modules/mathlive/dist/* ../../scripts/js/external/mathlive/ && cp ./node_modules/mathlive/README.md ../../scripts/js/external/mathlive/",
+    "cp_codemirror": "mkdir -p ../../scripts/js/external/codemirror/{theme,mode/python,addon/edit,addon/selection,addon/search} && cp -Rf ./node_modules/codemirror/lib/* ../../scripts/js/external/codemirror/ && cp -Rf ./node_modules/codemirror/theme/{ambiance,neat,zenburn,3024-*,base16-*,the-matrix,eclipse,liquibyte,rubyblue}* ../../scripts/js/external/codemirror/theme/ && cp -Rf ./node_modules/codemirror/mode/python ../../scripts/js/external/codemirror/mode/ && cp -Rf ./node_modules/codemirror/addon/edit/matchbrackets.js ../../scripts/js/external/codemirror/addon/edit/ && cp -Rf ./node_modules/codemirror/addon/display/fullscreen.* ../../scripts/js/external/codemirror/addon/display/ && cp -Rf ./node_modules/codemirror/addon/selection/mark-selection.js ../../scripts/js/external/codemirror/addon/selection/ && cp -Rf ./node_modules/codemirror/addon/search/searchcursor.js ../../scripts/js/external/codemirror/addon/search/",
+    "cp_skulpt": "mkdir -p ../../scripts/js/external/skulpt && cp -Rf ./node_modules/skulpt/*.js ../../scripts/js/external/skulpt/",
+    "build": "yarn run cleanup && yarn run copy"
+  }
+}

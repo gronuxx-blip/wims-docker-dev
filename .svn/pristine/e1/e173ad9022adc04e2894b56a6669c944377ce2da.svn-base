@@ -1,0 +1,112 @@
+!set wims_module_log=error: $error
+!read adm/class/classname.phtml $description\
+$institution
+
+!if bad_optioncourse=$error
+  Vous devez d'abord être inscrit à la classe qui contient ce cours.
+  !exit
+!endif
+!if bad_classtype=$error
+  L'inscription de participant n'est pas autorisée dans cette zone.
+  !exit
+!endif
+
+!if no_class=$error
+  La classe que vous avez choisie ne semble pas exister&nbsp;!
+  Si ce n'est pas un bug  du logiciel, alors la classe a expiré ou vous êtes en train de jouer avec
+  le site (dans ce cas, sachez que toutes vos activités sont enregistrées).
+  !exit
+!endif
+
+!if noclass=$error
+  Aucune classe d'inscription n'est précisée&nbsp;!
+  Si vous êtes en train de jouer avec le site, sachez que toutes vos activités sont enregistrées.
+  !exit
+!endif
+
+!if complete=$error
+  La classe que vous avez choisie est complète.
+  Il n'y a plus de place disponible pour vous. Désolé.
+  !exit
+!endif
+
+!if no_real=$error
+  Vous n'avez pas donné votre nom et prénom.
+  !exit
+!endif
+
+!if login_size=$error
+  L'identifiant est trop
+  !if $n<4
+    court.
+  !else
+    long.
+  !endif
+  Il doit contenir entre 4 et 16 caractères.
+  !exit
+!endif
+
+!if pass_size=$error
+  Le mot de passe est trop
+  !if $n<4
+    court.
+  !else
+    long.
+  !endif
+  Il doit contenir entre 4 et 16 caractères.
+  !exit
+!endif
+
+!if bad_classpass=$error
+  Le mot de passe pour la classe $classname n'est pas correct.
+  Vous n'avez donc pas le droit de vous inscrire dans cette classe.
+  Désolé.
+  !exit
+!endif
+
+!if login_double=$error
+  L'identifiant <span class="tt wims_login">$login $login_ext</span>
+  est déjà en utilisation dans la classe
+  $classname.
+  Veuillez vérifier si vous ne vous êtes pas déjà inscrit&nbsp;; sinon, choisissez un autre identifiant.
+  !exit
+!endif
+
+!if login_empty=$error
+  L'identifiant n'a pu être créé car les données sont vides.
+  Vérifiez les paramètres d'authentification ou l'identifiant externe.
+  !exit
+!endif
+
+!if pass_error=$error
+  Le mot de passe retapé ne correspond pas au premier.
+  Votre enregistrement n'est donc pas pris en compte ; vous pouvez réessayer.
+  !exit
+!endif
+
+!if site_complete=$error
+  Le nombre d'utilisateurs inscrits a atteint la limite autorisée par
+  ce site ($wims_user_limit).
+  Le service d'inscription est donc fermé, désolé.
+  <p>Vous pouvez
+  !mailurl $wims_site_manager écrire au gestionnaire du site\
+site user limit
+  pour lui demander d'augmenter cette limite ou vous
+  !href $ connecter à wims en tant que visiteur
+  .</p>
+  !exit
+!endif
+
+!if internal_total=$error
+  Erreur interne du logiciel&nbsp;: échec lors du calcul du nombre d'utilisateurs
+  inscrits.
+  !exit
+!endif
+
+!if no_cgu=$error
+  Si vous n'acceptez pas les conditions générales d'utilisation,
+  vous ne pouvez pas vous inscrire.
+  !exit
+!endif
+
+!msg $error

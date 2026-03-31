@@ -1,0 +1,35 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Norme d'un vecteur (produit scalaire)
+!set gl_level=H5
+:
+:
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Soit \(\overrightarrow{u}\) un vecteur&nbsp;:<br>
+
+<div class="wimscenter">
+\(\left\||\overrightarrow{u}\right\||=\sqrt{\overrightarrow{u} \cdot \overrightarrow{u}}\,\)
+</div>
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriétés</h4>
+Soit \(\overrightarrow{u}\) et \(\overrightarrow{v}\) deux vecteurs. On a les égalités suivantes&nbsp;:
+<ul class="unbreakable">
+<li>
+\(\left\||\overrightarrow{u}+
+\overrightarrow{u}\right\||^2=\left\||\overrightarrow{v}\right\||^2+2\overrightarrow{u} \cdot \overrightarrow{v}+\left\||\overrightarrow{v}\right\||^2\)&nbsp;;
+</li>
+<li>\(\left\||\overrightarrow{u}-
+\overrightarrow{v}\right\||^2=\left\||\overrightarrow{u}\right\||^2-2\overrightarrow{u} \cdot \overrightarrow{v}+\left\||\overrightarrow{v}\right\||^2\)&nbsp;;
+</li>
+<li>
+\(\left\||\overrightarrow{u}\right\||^2-\left\||\overrightarrow{v}\right\||^2=\left(\overrightarrow{u}- \overrightarrow{v}\right)\cdot \left(\overrightarrow{u} + \overrightarrow{v}\right)\).
+</li>
+</ul>
+
+</div>
+

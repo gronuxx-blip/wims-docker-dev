@@ -1,0 +1,19 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=triangles,median_line
+!set gl_title=Centre de gravité d'un triangle
+!set gl_level=H5 Générale
+:
+:
+:
+:
+<div class="wims_thm"><h4>Propriété</h4>
+Soit <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{C}\) trois points non alignés.<br>
+Les trois médianes du triangle \(\mathrm{ABC}\) sont concourantes.</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Le <strong>centre de gravité</strong> d'un triangle est le point de concours de ses trois médianes.
+
+</div>
+:mathematics/geometry/fr/gravity_center_1

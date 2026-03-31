@@ -1,0 +1,15 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Antécédent d'un nombre par une fonction (Collège)
+!set gl_level=H3 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(f\) une fonction et \(y\) un nombre.<br>
+On appelle <strong>antécédent</strong> de \(y\) par \(f\) tout nombre \(x\) tel que \(f(x)=y\).
+</p>
+</div>

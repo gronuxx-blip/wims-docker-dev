@@ -1,0 +1,52 @@
+Vocabulaire des probabilités
+Collection d'exercices sur événements, événements contraires, événements incompatibles, réunion et intersection d'événements (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,probability
+levelH4,events
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur événements, événements contraires, événements incompatibles, réunion et intersection d'événements (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H5/probability/OEFevalwimsproba.fr
+exo=vocab2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Description ensembliste d'événéments (1)
+<p>Décrire à l'aide d'un ensemble chaque événement donné.</p>
+
+<p>Décrire de façon ensembliste des événements.</p> <p>&nbsp;</p>
+:H5/probability/OEFevalwimsproba.fr
+exo=vocab1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Description ensembliste d'événéments (2)
+<p>Décrire à l'aide d'un ensemble chaque événement donné. Reconnaître les événements élémentaires.</p>
+
+<p>Décrire de façon ensembliste des événements. Notion d'univers et d'événements élémentaires.</p>
+:H5/probability/OEFevalwimsproba.fr
+exo=vocab3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Description ensembliste de réunions et intersections d'événéments
+<p>Décrire à l'aide d'ensembles des réunions et intersections d'événements.</p>
+
+<p>Décrire de façon ensembliste des réunions et intersections d'événements définis par des phrases.</p>
+:H5/probability/OEFevalwimsproba.fr
+exo=vocab4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Description d'événements contraires à l'aide de phrases
+<p>Décrire à l'aide d'une phrase l'événement contraire de chaque événement donné.&nbsp;</p>
+
+<p>Déplacer des étiquettes pour décrire à l'aide d'une phrase l'événement contraire de chaque événement donné.&nbsp;</p>
+:H5/probability/OEFevalwimsproba.fr
+exo=vocab5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Événements contraires, incompatibles
+<p>Reconnaître des événements contraires, des événements incompatibles.</p>
+
+
+

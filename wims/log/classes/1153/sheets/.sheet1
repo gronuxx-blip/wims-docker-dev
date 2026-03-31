@@ -1,0 +1,101 @@
+Ensembles de nombres
+Collection d'exercices sur l'ensemble des nombres réels, des rationnels et des nombres décimaux (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics
+levelH4,number_writing,decimals,rational_number,real_number,number,integers
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur l'ensemble des nombres réels, des rationnels et des nombres décimaux (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/oefnombres.fr
+exo=ecrdec1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nature d'une écriture décimale
+<p>QCM sur la nature de l'écriture décimale d'un nombre.</p>
+
+
+
+quizz
+:H3/arithmetic/oefarith.fr
+exo=quizznbre&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nature d'un nombre (1)
+<p>Collection d'exercices sur la nature d'un nombre donné.</p>
+
+
+
+quizz
+:H4/algebra/oefnombres.fr
+exo=nature&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+À quels ensembles appartient un nombre (1)
+<p>Déterminer tous les ensembles auxquels appartient un nombre donné.</p>
+
+
+
+quizz
+:H3/arithmetic/oefarith.fr
+exo=quizznbre2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+À quels ensembles appartient un nombre (2)
+<p>Déterminer tous les ensembles auxquels appartient un nombre donné.</p>
+
+
+
+quizz
+:H4/number/OEFevalwimsnumber.fr
+exo=nature1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nature d'un nombre (2)
+
+
+
+
+quizz
+:H4/number/OEFevalwimsnumber.fr
+exo=nature2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nature d'un nombre (3)
+
+
+
+
+quizz
+:H4/number/OEFevalwimsnumber.fr
+exo=nature3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nature d'un nombre (4)
+
+
+
+
+quizz
+:H4/number/OEFevalwimsnumber.fr
+exo=nature4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nature d'un nombre (5)
+
+
+
+
+quizz
+:H4/number/OEFevalwimsnumber.fr
+exo=nature5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nature d'un nombre (6)
+
+
+
+
+quizz

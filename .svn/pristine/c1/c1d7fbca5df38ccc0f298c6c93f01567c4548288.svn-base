@@ -1,0 +1,52 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=barycenter,vectors,analytic_geometry
+!set gl_title=Barycentre d'un système de points pondérés
+!set gl_level=H6 Générale&nbsp;Spécialité&nbsp;(Approfondissement)
+:
+:
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Soit <span class="nowrap">\(n \in \mathbb{N}^*\),</span> \(\mathrm{A}_1, \mathrm{A}_2, \cdots,\mathrm{A}_n\) des points de l'espace et \(a_1, a_2 ,\cdots,a_n\) des réels tels que
+<span class="nowrap">\(\displaystyle{\sum_{i=1}^n a_i\neq 0}\).</span>
+<br>
+Il existe un unique point \(\mathrm{G}\) tel que
+<div class="wimscenter">
+ \(\displaystyle{\sum_{i=1}^n a_i\overrightarrow{\mathrm{G A}_i} =\overrightarrow{0}}\)
+</div>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit <span class="nowrap">\(n \in  \mathbb{N}^*\),</span> \(\mathrm{A}_1, \mathrm{A}_2,\cdots, \mathrm{A}_n\) des points de l'espace et \(a_1, a_2 ,\cdots,a_n\) des réels tels que
+<span class="nowrap">\(\displaystyle{\sum_{i=1}^n a_i\neq 0}\).</span>
+<br>
+Soit \(\mathrm{G}\) le point tel que <div class="wimscenter">
+ \(\displaystyle{\sum_{i=1}^n a_i\overrightarrow{\mathrm{GA}_i} =\overrightarrow{0}}\)
+</div>
+Le point \(\mathrm{G}\) est appelé <strong>barycentre</strong> du système de points
+pondérés <span class="nowrap">\(\{(\mathrm{A}_i, a_i) \}_{1\leq i\leq n} \).
+</span>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+  Soit \(n \in  \mathbb{N}^*\), \(\mathrm{A}_1, \mathrm{A}_2, \cdots, \mathrm{A}_n\) des points de l'espace,
+  \(a_1, a_2,\cdots,a_n \) des réels tels que
+  \(\displaystyle{\sum_{i=1}^n a_i}\neq 0\) et \(\mathrm{G}\) le barycentre du système de points pondérés
+ <span class="nowrap">\(\{(\mathrm{A}_i, a_i) \}_{1\leq i\leq n} \).</span><br>
+Pour tout point \(\mathrm{M}\) de l'espace,
+  <div class="wimscenter">
+  \(\displaystyle{\sum_{i=1}^n a_i\overrightarrow{\mathrm{MA}_i}}=
+  \left(\sum_{i=1}^n a_i\right)\overrightarrow{\mathrm{MG}}\)
+  </div>
+</div>
+:mathematics/geometry/fr/barycenter_1
+:
+<div class="wims_thm"><h4>Théorème</h4>
+On ne change pas le barycentre de \(n\) points pondérés lorsqu'on remplace \(p\) de ces points par leur barycentre affecté de la somme des coefficients des \(p\) points considérés.
+</div>
+:mathematics/geometry/fr/barycenter_2

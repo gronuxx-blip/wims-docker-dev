@@ -1,0 +1,61 @@
+Fonction cube
+Collection d'exercices sur la fonction cube&nbsp;: images, antécédents, résolutions d'équations et d'inéquations en utilisant les variations (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,analysis
+levelH4,real_function,functions,image,preimage,curves,function_variation,extremum,reference_function,equations,inequations
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la fonction cube&nbsp;: images, antécédents, résolutions d'équations et d'inéquations en utilisant les variations (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/oeffctref.fr
+exo=cubecompar&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Comparaisons
+<p>Comparer un nombre réel, son carré et son cube.</p>
+
+
+
+cerveau
+:H4/algebra/oeffctref.fr
+exo=cubequ1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(x^3=a\)
+<p>Résoudre une équation de la forme \(x^3=a\) où \(a\) est un nombre réel.</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=cubequ2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(a x^3+b=c\)
+<p>Résoudre une équation de la forme \(a x^3+b=c\).</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=cubineq1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Inéquation \( x^3 \leqslant a\) ou \( x^3 \geqslant a \)
+<p>Résoudre une inéquation de la forme \( x^3 \leqslant a\) ou \( x^3 \geqslant a\).</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=cubineq2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Inéquation \(a x^3 +b \leqslant c\) ou \(a x^3 +b \geqslant c\)
+<p>Résoudre une inéquation de la forme \(a x^3 +b \leqslant c\) ou \(a x^3 +b \geqslant c\).</p>
+
+
+
+algebra

@@ -1,0 +1,36 @@
+/**** css for glossary ****/
+
+.wims_defn h4,
+.wims_thm h4,
+.wims_rem h4,
+.wims_etym h4,
+.wims_prems h4{
+  font-weight : bold;
+  color : black;
+  margin-top:0.7em;
+  margin-bottom:0.7em;
+}
+div.wims_defn,
+div.wims_thm,
+div.wims_rem,
+div.wims_etym,
+div.wims_prems{
+  padding:0.1em 0.5em 0.5em 0.5em;
+  margin-bottom:0.3em;
+  border-radius: 5px;
+}
+div.wims_defn{
+  background-color: #fff4e0;
+}
+div.wims_thm{
+  background-color: #def5ff;
+}
+div.wims_rem{
+  background-color: #e9f8ee;
+}
+div.wims_etym{
+  background-color: #f0f0f0;
+}
+div.wims_prems{
+  background-color:#f0f0f0;
+}

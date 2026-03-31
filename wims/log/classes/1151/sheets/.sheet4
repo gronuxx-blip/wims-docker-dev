@@ -1,0 +1,94 @@
+
+:H5/analysis/OEFevalwimsfctg1S.fr
+exo=tabvar4
+10
+1
+Tableau de variations
+<strong>QCM</strong> à partir d'un <strong>tableau de variation</strong>
+
+
+:H4/math/quizzautomat.fr
+exo=fct3&qnum=1&scoredelay=90,120&seedrepeat=0&qcmlevel=1
+10
+1
+Signe d'un polynôme
+<strong><em>Déterminer</em> graphiquement</strong> le signe d'un polynôme de degré 2 ou 3
+
+Temps limité
+
+chrono
+:H6/analysis/oefsignes.fr
+exo=trinome&qnum=1&qcmlevel=3&scoredelay=
+10
+1
+Signe d'un polynôme de degré 2
+<em>Déterminer </em>le <strong>nombre de solutions</strong> de f(x)=0 en <em>déduire</em> le<strong> signe</strong> du polynôme.
+
+
+:H5/analysis/oefderivee.fr
+exo=tangente5
+10
+1
+Exploiter le tracé d'une tangente
+<strong>Détermination graphique</strong> : ordonnée d'un point, nombre dérivé en ce point
+
+
+:H6/analysis/quizder.en
+exo=poly&qnum=1&scoredelay=60,120&seedrepeat=0&qcmlevel=1
+10
+1
+Dérivées polynomiales
+<strong>Dériver</strong> une fonction polynôme.
+
+Temps limité
+
+chrono
+:H5/analysis/derivation1ere.fr
+exo=deriverPolys&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Calculs de dérivées de fonctions polynômes
+<strong>Dériver</strong> trois fonctions polynômes.
+
+
+:H5/analysis/oefderivLP.fr
+exo=derivpol&confparm1=4&confparm2=1&confparm2=2&confparm2=3&confparm3=x&confparm4=&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Dérivée(s) de polynôme(s)
+<strong>Dériver</strong> 4 fonctions polynômes.
+
+fonctions polynomes de degré 1 à 3
+:H5/analysis/oefderivLP.fr
+exo=derivpol&confparm1=4&confparm2=1&confparm2=2&confparm2=3&confparm3=t&confparm4=&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Dérivée(s) de polynôme(s)
+<strong>Dériver</strong> 4 fonctions polynômes.
+
+4 fonctions à dériver. Variable t ; Degré du polynôme pouvant aller jusqu'à 3
+:H6/analysis/oeftablvar.fr
+exo=deg2&qnum=1&qcmlevel=3&scoredelay=&intro_qcmpresent=4&intro_presentsol=1&intro_check=1&intro_check=2&intro_check=3&intro_check=4&intro_expert=yes
+10
+1
+Variations degré 2
+<strong>Calculer</strong> la dérivée d'une fonction et <strong>construire</strong> le tableau de variations de la fonction.
+
+
+:H6/analysis/oeftablvar.fr
+exo=deg2_3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Variations degré 2 ou 3
+<strong>Calculer</strong> la dérivée d'une fonction et <strong>construire</strong> le tableau de variations de la fonction
+
+Polynôme de degré 2 ou 3
+:U1/analysis/graphder.en
+repeat=1&asktype=1&present=3&list=3
+10
+1
+Dérivée graphique
+<strong>Associer</strong> la représentation graphique correcte de la dérivée au graphe de la fonction.
+
+
+

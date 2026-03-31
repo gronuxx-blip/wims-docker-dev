@@ -1,0 +1,32 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Proportion
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+Soit \(E\) une population d'effectif \(N\) non nul et \(A\) une sous population de \(E\) d'effectif <span class="nowrap">\(m\).</span><br>
+La <strong>proportion</strong> des éléments de \(A\) parmi les éléments de \(E\) est le nombre <span class="nowrap">\(\dfrac{m}{N}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>La <em>proportion en pourcentage</em> s'obtient en multipliant par 100 la proportion.
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>
+Soit <span class="nowrap">\(A\),</span> \(B\) et \(C\) trois populations telles que la proportion des éléments de \(A\) parmi les éléments de \(B\) est \(p\) et la proportion des éléments de \(B\) parmi les éléments de \(C\) est <span class="nowrap">\(q\).</span><br>
+Alors la <em>proportion de proportion</em> des éléments de \(A\) parmi les éléments de \(C\) est égale au nombre <span class="nowrap">\(p\times q\).</span>
+</p>
+</div>

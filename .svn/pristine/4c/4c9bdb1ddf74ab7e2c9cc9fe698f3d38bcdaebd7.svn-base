@@ -1,0 +1,55 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Angles associés 
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+On appelle <strong>angles associés</strong> des angles&nbsp;: 
+<ul>
+<li>
+dont la somme des mesures est nulle (à \(2\pi\) près)&nbsp;; on dit qu'ils sont <i>opposés</i>.
+</li>
+<li>
+dont la somme des mesures vaut \({\pi}\)  (à \(2\pi\) près)&nbsp;; on dit qu'ils sont <i>supplémentaires</i>.
+</li>
+<li>
+dont la différence des mesures vaut \({\pi}\)  (à \(2\pi\) près)&nbsp;; on dit qu'ils sont <i>antisupplémentaires</i>.
+</li>
+<li>
+dont la somme des mesures vaut \(\dfrac{\pi}{2}\)  (à \({\pi}\) près)&nbsp;; on dit qu'ils sont <i>complémentaires</i>.
+</li>
+<li>
+dont la différence des mesures vaut \(\dfrac{\pi}{2}\)  (à \({\pi}\) près)&nbsp;; on dit qu'ils sont <i>anticomplémentaires</i>.
+</li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriétés</h4>
+Pour tout réel \({\theta}\), on a&nbsp;:
+
+<ul>
+<li>
+ \(\cos(-\theta)=\cos(\theta)\) et <span class="nowrap">\(\sin(-\theta)=-\sin(\theta)\) ;</span>
+</li>
+<li>
+ \(\cos(\pi-\theta)=-\cos(\theta)\) et <span class="nowrap">\(\sin(\pi-\theta)=\sin(\theta)\) ;</span>
+</li>
+<li>
+ \(\cos(\pi+\theta)=-\cos(\theta)\) et <span class="nowrap">\(\sin(\pi+\theta)=-\sin(\theta)\) ;</span>
+</li>
+<li>
+ \(\cos\left(\dfrac{\pi}{2}-\theta\right)=\sin(\theta)\) et <span class="nowrap">\(\sin\left(\dfrac{\pi}{2}-\theta\right)=\cos(\theta)\) ;</span>
+</li>
+<li>
+ \(\cos\left(\dfrac{\pi}{2}+\theta\right)=-\sin(\theta)\) et <span class="nowrap">\(\sin\left(\dfrac{\pi}{2}+\theta\right)=\cos(\theta)\).</span>
+</li>
+</ul>
+
+</div>

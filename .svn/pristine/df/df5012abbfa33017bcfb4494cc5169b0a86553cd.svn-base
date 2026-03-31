@@ -1,0 +1,24 @@
+slib_lang_exists_tmp=yes
+
+slib_title=Dessin d'arbre
+slib_parms=3\
+,Représentation de l'arbre G\
+,Texte :  [[texte pour les sommets],[texte pour les arêtes]]\
+raw, Option : <span class="tt">middle</span>, <span class="tt">point</span>, <span class="tt">raw</span>, <span class="tt">url</span>, <span class="tt">html</span>
+
+slib_out= Dessin d'une représentation arborescente d'un arbre, matrice du graphe\
+(une ligne par sommet, y compris les feuilles), matrice des coordonnées des sommets,\
+matrice des coordonnées des étiquettes des arêtes,\
+option : middle, point
+slib_comment=L'arbre est représenté ainsi : G est une matrice entourée de crochets.\
+C'est une matrice d'entiers entre 1 et le nombre de sommets, 1 étant la racine.\
+Dans chaque ligne, le premier élément est le père, les autres sont ses fils.\
+Aucune vérification n'est faite.<br>\
+Les textes pour les sommets et les arêtes sont des listes, dont les éléments\
+seront placés aux sommets et sur les arêtes: le n-ième élément de la liste d'arêtes\
+est placé sur l'arête qui arrive au sommet n.\
+L'option <span class="tt">middle</span> trace un cercle sur les arêtes\
+et l'option <span class="tt">point</span> trace un cercle aux sommets.<br> \
+Le premier élément du résultat est : par défaut le code flydraw du dessin ; \
+l'adresse de l'image générée si l'option est <span class="tt">url</span> ; \
+l'image, y compris le code HTML pour l'insérer si l'option est <span class="tt">html</span>.

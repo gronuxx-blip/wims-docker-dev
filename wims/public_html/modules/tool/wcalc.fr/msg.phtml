@@ -1,0 +1,47 @@
+!set wims_module_log=$operation error: $error
+
+<span class="wims_warning">$wims_name_warning</span>
+!goto $error
+
+:bad_formula
+ Vos données contiennent des erreurs ou sont incompatibles avec l'opération
+ <em>$operation</em>. Veuillez vérifier votre requête.
+!goto end
+
+:bad_option
+ Votre requête contient une option non valable. Veuillez la vérifier.
+!goto end
+
+:bad_range
+ Vous avez des plages de variable non valables. Veuillez corriger.
+!goto end
+
+:empty_data
+ Veuillez compléter les données pour votre requête de calcul.
+!goto end
+
+:fail
+ Désolé, Wcalc ne peut pas effectuer le calcul que vous avez demandé. Veuillez
+ vérifier vos données.
+!goto end
+
+:incompatible_sides
+ Il n'y a pas de triangle avec des côtés $formula.
+!goto end
+
+:not_square_matrix
+ Veuillez entrer une matrice carrée pour le calcul de
+ <span class="wims_warning">$operation</span>.
+!goto end
+
+:solve_fail
+ Aucune solution n'est trouvée.
+!goto end
+
+:unknown_operation
+ L'opération <span class="wims_warning">$operation</span> n'est pas (encore)
+ comprise par cette calculatrice. Désolé.
+!goto end
+
+:end
+

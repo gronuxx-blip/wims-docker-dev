@@ -1,0 +1,39 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Fonction logarithme népérien
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>On appelle <strong>fonction logarithme népérien</strong> la fonction, notée \(\mathrm{ln}\), qui à tout réel \(x\) de l'intervalle \(\rbrack 0 ; +\infty \lbrack \) associe l'unique solution réelle de l'équation <span class="nowrap">\(\mathrm{exp}(y)=x\).</span> On note alors cette solution <span class="nowrap">\(\mathrm{ln}(x)\).</span></p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>La fonction logarithme népérien est dérivable sur l'intervalle \(\rbrack 0 ; +\infty \lbrack \) et 
+pour tout réel \(x\) de l'intervalle <span class="nowrap">\(\rbrack 0 ; +\infty \lbrack \),</span> <span class="nowrap">\(\mathrm{ln}^{'}(x)=\dfrac{1}{x}\).</span></p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (variations)</h4>
+<p>La fonction logarithme népérien est strictement croissante sur <span class="nowrap">\(\rbrack 0 ; +\infty \lbrack \) et s'annule en 1.</span></p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (signe)</h4>
+<p>La fonction logarithme népérien est :
+<ul>
+<li>strictement négative sur <span class="nowrap">\(\rbrack 0 ; 1 \lbrack \) ;</span>
+<li>et strictement positive sur <span class="nowrap">\(\rbrack 1 ; +\infty \lbrack \).</span>
+</li>
+</ul></p>
+</div>
+
+

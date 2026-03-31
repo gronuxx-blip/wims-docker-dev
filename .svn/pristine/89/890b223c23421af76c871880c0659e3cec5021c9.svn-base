@@ -1,0 +1,17 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=trigonometry,triangles
+!set gl_title=Cosinus d'un angle aigu
+!set gl_level=H3 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn">
+ <h4>Définition</h4>
+Soit \(\mathrm{ABC}\) un triangle rectangle en <span class="nowrap">\(\mathrm{A}\).</span><br>
+Le <strong>cosinus</strong> de l'angle <span class="nowrap">\(\widehat{\mathrm{ABC}}\),</span> noté <span class="nowrap"> \(\cos\left(\widehat{\mathrm{ABC}}\right)\),</span> est défini par <span class="nowrap">
+\(\cos\left(\widehat{\mathrm{ABC}}\right) = \frac{\text{longueur du côté adjacent à l'angle}\; \widehat{\mathrm{ABC}}}{\text{longueur de l'hypoténuse}}\)
+</span> 
+<span class="nowrap"> soit  \(\cos\left(\widehat{\mathrm{ABC}}\right) = \frac{\mathrm{AB}}{\mathrm{CB}}\).</span>
+</div>

@@ -1,0 +1,402 @@
+!! this file is an annex for anstype litexp (or other)
+!! some debugging information is stored in variable debuginfo, may be erased in a few months after 2024.05.01
+!! see documentation at end of file
+
+debuginfo=Analyse de $wims_read_parm
+!if factorcontent notwordof $(replyoption$i)
+  debuginfo=$debuginfo sans factorcontent
+!else
+  debuginfo=$debuginfo avec factorcontent
+!endif
+allowedchar=!text mark (,),*,^,-,+,0,1,2,3,4,5,6,7,8,9,a,b,c,d,f,g,h,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,F,G,H,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z in $wims_read_parm
+!! due to rawmath, only x,y,z are accepted letters
+!!allowedchar=!text mark (,),*,^,-,+,0,1,2,3,4,5,6,7,8,9,x,y,z,X,Y,Z in $wims_read_parm
+badpositions=!positionof char 0 in $allowedchar
+!if $badpositions!=$empty
+  badposition=!item 1 of $badpositions
+  badchar=!char $badposition of $wims_read_parm
+  wrong=badform usebadchar $badchar
+!endif
+debuginfo=$debuginfo $wrong
+pg=!char 1 of ()
+pd=!char 2 of ()
+!!********** wims_read_parm is rawmath-formated user's answer
+nb=!charcnt $wims_read_parm
+!distribute item 0,1,0 into par,flag,par2
+!reset factor lfactors exp content lcontent flagpard
+operand=!exec maxima op($wims_read_parm)
+wrp=!replace - by +2* in $wims_read_parm
+!!********** partly avoid maxima's evaluation before op (^^ not simplified)
+wrp=!replace internal * by ^^ in $wrp
+operand=!exec maxima op($wrp)
+operand=!replace internal ^^ by * in $operand
+debuginfo=$debuginfo operande=$operand
+k=1
+!!********** read string until end or error
+!while ($k<=$nb and $wrong=$empty) or $factor!=$empty   
+  c=!char $k of $wims_read_parm
+  cc=!char $[$k+1] of $wims_read_parm
+  debuginfo=$debuginfo\
+  $c
+!!********* condition to decide that the end of the factor is attained
+  !if  $k>$nb or ($c=* and $par=0 and ($pg isin $wims_read_parm or $operand!="+"))
+	  debuginfo=$debuginfo factor=$factor, exp=$exp	  
+    !if $factor!=$empty
+      !if $mpar2>0
+        wrong=badform fparenthesis $factor
+        !break
+      !else
+!!********* test to decide if factor contains a variable (NaN), then factorize it via pari (gets only polynomial factors, not the content,  ex : 2x^2-2  --> factor= x+1,1 ; x-1,1  )
+        !if $[$factor*1]=NaN
+  	  debuginfo=$debuginfo il contient une variable,
+!!********* The old line about content is now useless because we test below that factor is irreducible (hence without content)
+!!********* if factor is a power, remove the power (use maxima op, hence first remove - sign, replace temporarily by unused letter e)
+          Nfactor=!replace - by +e in $factor
+          foperand=!exec maxima op($Nfactor)
+	  !if $foperand="^"
+	    factor=!exec maxima part($Nfactor,1)
+	    factor=!replace +e by - in $factor
+	    factor=!replace e by - in $factor
+	    exp=!exec maxima part($Nfactor,2)
+	    exp=!replace +e by - in $exp
+	    exp=!replace e by - in $exp
+	  debuginfo=$debuginfo (factor=$factor, exp=$exp) 
+	  !endif
+          t1=!exec pari factor($factor)
+	  debuginfo=$debuginfo pari donne la factorisation $t1
+!!********* The old line "!replace internal -1,1; by $empty" is removed, because useless (since pari gives only non constant factors, hence never (-1)^1), and even inappropriate if factorization is x-1,1.
+          tt1=!rowcnt $t1
+!!********* Check that current factor is irreducible (equal up to sign to unique factor of its pari-factorization). Content check is useless.
+          prime=!item 1 of $t1
+	  exp=!item 2 of $t1
+	  isirred=!exec maxima expand((($prime)-($factor))*(($prime)+$factor))
+          debuginfo=$debuginfo  $factor prime=$prime isirred=$isirred 
+          !if $tt1!=1 or $isirred!=0
+            wrong=badform notcomplete $factor
+	    debuginfo=$debuginfo  notcomplete 
+          !else
+!!********* If current factor not correctly expanded, this is reported in variable wrong by file expandpolynome.
+            !read oef/analyse/expandpolynome $factor
+	    debuginfo=$debuginfo  on teste via expandpolynome
+          !endif
+!!********* send error if current factor is already in list, add it otherwise
+          !if $prime isitemof $lfactors
+            wrong=badform multifactor $prime
+          !else
+            lfactors=!append item $prime to $lfactors
+          !endif
+        !else
+	    debuginfo=$debuginfo  il est numérique
+          !if factorcontent notwordof $(replyoption$i)
+!!********* When no option factorcontent, check that the current numerical factor is the first one (only one is allowed), and not equal to 1
+            !if $content!=$empty
+              wrong=badform twofactorcst $content $factor
+            !endif
+	      !default exp=1
+            !if $[($factor)^$exp]=1 and  $[$$wims_read_parm]!=1
+  	      wrong=badform uselessfactor
+	      !break
+	    !endif
+            content=$factor
+          !else
+!!********* When option factorcontent, we check that the current numerical factor has only one prime factor (apart sign)
+            tmp=!exec pari factor($factor)
+            tmp=!replace internal -1,1; by $empty in $tmp
+            tt1=!rowcnt $tmp
+            !if $tt1!=1
+              wrong=badform factorcontent $factor
+	    !else
+	      !default exp=1
+              debuginfo=$debuginfo factor^exp= $factor^$exp=$[($factor)^$exp]
+	      !if $[($factor)^$exp]=1 and  $[$$wims_read_parm]!=1
+	        wrong=badform uselessfactor
+		!break
+	      !endif
+	      premier=!item 1 of $tmp
+	      !if $premier=matrix(0,2)
+	        premier=1
+	      !endif
+	      premierf=!replace \^.* by in $factor
+	      !if ($premier!=$premierf) and (-$premier!=$premierf)
+                debuginfo=$debuginfo premier=$premier, premierf=$premierf
+                wrong=badform factorcontent $factor
+              !endif
+	      !if $premier isitemof $lcontent
+                wrong=badform multifactor $premier
+              !else
+                lcontent=!append item $premier to $lcontent
+              !endif
+              debuginfo=$debuginfo tmp=$tmp lcontent=$lcontent
+            !endif
+          !endif
+        !endif
+        !reset factor exp flagpard
+        mpar2=0
+      !endif
+    !endif
+    flag=1
+  !else
+    debuginfo=$debuginfo factor=$factor   exp=$exp  par=$par  par2=$par2  mpar2=$mpar2 wrong=$wrong c=$c
+!!********** condition on  pg because x-1 or 2x-1 alone is a correct factorization.
+    !if $c isin +- and $par=0 and $factor!=$empty and  $pg isin $wims_read_parm
+      debuginfo=$debuginfo notfactorised $k
+      wrong=badform notfactorised $k
+      factor=
+    !else
+      !if $c notin ()
+        !if $c=^
+          exp=0
+          flagexp=1
+          !if $flagpard=$empty
+            factor=$factor$c
+	  !endif
+        !else
+          !if $exp=$empty
+            debuginfo=$debuginfo ajout de $c  
+            factor=$factor$c
+          !else
+	    !if ($c isin 0123456789)
+	      !if ($flagexp=1)
+                exp=$exp$c
+	      !endif
+	    !else
+	      flagexp=0
+	    !endif
+!!********** we continue the construction of current factor
+            !if $flagpard=$empty or $operand="+"
+              debuginfo=$debuginfo encore ajout de $c  
+              factor=$factor$c
+            !endif
+          !endif
+        !endif
+      !else
+        !if $c=$pg
+          !if $flag=0 or $par>0
+            !increase par2
+            mpar2=$par2
+          !endif
+          !if (($par>0 or $par2>0) and $exp=$empty) or $operand="+"
+            debuginfo=$debuginfo on ajoute $c  
+            factor=$factor$c
+          !endif
+          !increase par
+          flag=1
+        !else
+	  debuginfo=$debuginfo pardroite
+	  flagpard=1
+	  !if $mpar2>0
+	    mpar2=$[$mpar2-1]
+	    par2=$[$par2-1]
+	  !endif
+	    par=$[$par-1]
+          !if (($par>0 or $par2>0) and $exp=$empty) or $operand="+"
+            factor=$factor$c
+          !endif
+          debuginfo=$debuginfo envoi pour test de $factor
+          !if $par2>0
+            par2=$[$par2-1]
+          !endif
+          flag=0
+        !endif
+      !endif
+    !endif
+  !endif
+  !increase k
+  debuginfo=$debuginfo\
+  endwhile $c $k/$nb, wrong=$wrong, factor=$factor
+!endwhile
+
+!exit
+
+
+!if $wrong!=$empty
+!!debug $debuginfo\
+  sortie avec wrong=$wrong
+!endif
+
+
+
+Nothing is read by wims after this point, it is just here for information
+To debug this file, put the !exit command 5 lines below.
+
+Documentation
+-------------
+
+This file checks whether wims_read_parm is a factorized polynomial of Z[X] (or any variable except e,E,i,I),
+each factor being simplified as described in file expandpolynome of this directory.
+It assumes that wims_read_parm has been formated by the rawmath function (as is done in the file litexp),
+so is presented with * between factors and without spaces.
+
+errors checked (for factor):
+- notcomplete : a factor is not completely factorised
+- multifactor : a factor is repeated instead of using power
+- twofactorcst : the constant factor is not unique (when no option factorcontent)
+- factorcontent : content of the polynome is not factorized (when option factorcontent)
+- notfactorised : expression is not a product
+- usebadchar : forbidden characters used in polynomial (like /.eEiI) the letters e,E,i,I have a numerical value when wims calls pari
+- uselessfactor : factor has value 1 (not always checked)
+- fparenthesis  : factor contains a parenthesis
+
+some variables :
+par is number of not yet closed left parenthesis when scanning the expression
+mpar2 is maximal number of parentheses attained in the factor (should be 0 if simplified)
+lfactors is current list of non constant irreducible factors
+content is empty until some constant factor is found (used when no option factorcontent)
+lcontent is current list of constant prime factors (used when option factorcontent)
+exp is the exponent (number following ^)
+flagpard used to decide whether exp is part of factor itself.
+allowedchar is the list of allowed characters in the expression.
+            e,E,i,I should be forbidden because they have numerical value in pari factorization.
+	    Letters other than x,y,z are considered as function names by rawmath when in front of a left parenthesis. Hence x(x+1) and (u-1)(u+1) are ok as polynomials, but not u(u+1).
+	    Since some exercises (H2/algebra/OEFevalwimslitt.fr) already use letter b, all letters except e,i are allowed, but the documentation should mention this behavior :
+	    it is not safe to use letters other than x,y,z in the good answer if it is not given in machine-understandable format.
+	    We could change this behavior via a new option (strictvar, to limit variable names to x,y,z).
+	    Users might be tempted t use / or .  because they are common (ex : 15.0/3*x^2) but fthey are forbidden because too difficult to treat in this file.
+
+How does it work?
+- We first check there are only allowed characters in the expression
+- Then we read the string character by character, to find the factors. Because the input comes from rawmath, the factors are separated by a *.
+  Hence the general idea is that a factor ends when it is followed by a *, except if we are inside a pair of parentheses : 2 is a factor in 2*(x+1) but not in 3*(2*x+1)
+  But this is not always correct : 2 is not a factor in 2*x+1 or 2*(x+1)*(x+2)-1. In general it is not possible to be sure that a factor ends before we read the entire expression (and write it as a tree).
+  This is why we use the maxima "op" operator (which does the tree job), to know if the entire expression is a sum or a product. If it is a sum, the only factor is the entire expression.
+  We have to cheat to use op because maxima evaluate op's argument : (-1)*(x-1) is a sum.
+  If it is a product, we apply the general idea above. 
+- Once we have found a factor, we treat separately the cases of a nonconstant or constant factor : 
+  - for nonconstant factor (NaN), check that it is irreducible (equal up to sign to unique factor of its pari-factorization), correctly expanded (using file expandpolynome) and new (not in lfactors).
+  - for constant factor, separate in 2 cases depending on option factorcontent :
+    - without option factorcontent check that it is new and not of value 1.
+    - with option factorcontent check that it is primary, power of a new prime, and not of value 1.
+- As soon as some error is found, it is stored in the variable wrong and we exit
+
+
+
+
+To check this file, try the following exercise, with 6*(x-1)*(x+1) replaced by any other polynomial in machine understandable format.
+You may try natural format (like 6(x-1)(x+1)) for user's answer
+
+\text{P=6*(x-1)*(x+1)}
+\statement{Factorize P=\P}
+\answer{without option factorcontent }{\P}{type= litexp}{option=polfactor}
+\answer{with option factorcontent}{\P}{type= litexp}{option=polfactor,factorcontent}
+
+
+We comment here some examples for P, depending on option factorcontent (yes,no,any)
+
+
+Correctly accepted :
+
+P                    factorcontent         remarks
+1                    any
+-2                   any
+-x                   any
+-2x                  any
+8x                   no
+2^3x                 yes
+-8x                  no
+-2^3x                yes
+x^3                  any
+-x^3                 any
+x^(3)                any
+2(x-1)               any
+(x-1)2               any
+(x-1)^2              any
+-(x-1)^2             any
+x^2+1                any                   bug in original : blocked
+x^2+x+1              any                   bug in original : blocked
+2x(1-x)(x+1)         any
+y(y+1)               any
+a-1                  any                   bug in original : blocked
+-1(1-a)              any
+-(1-a)               any
+-(x-1)               any
+
+
+
+Correctly blocked :
+
+P                             factorcontent    reason                       remarks
+4-2                           yes              factorcontent 4-2
+8x                            yes              factorcontent 8              bug in original : accepted
+2*2*2*x                       no               twofactorcst 2 2
+2*2*2*x                       yes              multifactor 2                bug in original : accepted
+-2*2                          no               twofactorcst -2 2
+-2*2                          yes              multifactor 2                bug in original : accepted
+2^3 2^2x                      no               twofactorcst 2^3 2^2
+2^3 2^2x                      yes              multifactor 2                bug in original : accepted
+(-1)(x-1)(x+1)(-1)            no               twofactorcst -1 -1
+(-1)(x-1)(x+1)(-1)            yes              multifactor -1               bug in original : accepted
+(-1)(x-1)(x+1)((-1))          no               twofactorcst -1 (-1)
+(-1)(x-1)(x+1)((-1))          yes              multifactor -1
+(x^2-1)                       any              notcomplete (x^2-1)          bug in original : accepted
+x^2-1, -2x(x^2-1)             any              notcomplete x^2-1            bug in original : bad reasons
+2.0*x                         any              usebadchar .                 different reason  in original (accepted if no)
+2?0*x                         any              usebadchar ?                 exercise error in original
+2/1*x                         any              usebadchar /                 usedivide in original
+2*x-1*1                       any              notreduced termenumsimp -1*1
+2x(1-x)2(x+1)                 no               twofactorcst 2 2
+2x(1-x)2(x+1)                 yes              multifactor 2                bug in original : accepted 
+2x(1-x)1(x+1)                 any              uselessfactor                
+(-1)^2(x-1)(x+1)              any              uselessfactor                accepted in original
+2*x*3^0                       any              uselessfactor
+x^2+2x+1                      any              notcomplete x^2+2*x+1        bad reason in original
+x(x^2+2x+1)                   any              notcomplete x^2+2*x+1        bad reason in original
+2(x+1)-1                      any              notfactorised 8
+(x+1)x(x+1)                   any              multifactor x+1
+(x+1)(-1-x)                   any              multifactor x+1
+-2(1-x)(x^2+x+1-x^2)x         any              notreduced termesamepower x^2,-x^2    bad reason in original
+(x+1)^3*(x+1)^(-1)            any              multifactor x+1              different reason in original
+-14y(-11y+15)+2y(-11y+15)     no               notfactorised 17
+6x(x-1)+1                     no               notfactorised 10
+6x(x-1)+1                     yes              factorcontent 6
+2*(1+(x+1))                   any              notreduced parenthesis
+
+
+Correctly blocked, but for bad reason (bug) :
+P                             factorcontent    reason                            remarks
+(x-1)*1                       any              notreduced parenthesis
+x^(2x+1)                      any              notcomplete x^2*x+1               P is not a polynomial, factor is wrong
+x^2*x+1                       any              notcomplete x^2*x+1               bad reason in original
+3^(2+1)                       yes              factorcontent 3^2+1               factor is wrong. Accepted in original
+-14y(-11y+15)+2y(-11y+15)     yes              factorcontent -14                 
+
+
+
+Wrongly accepted (bug):
+
+P                    factorcontent
+
+
+Wrongly blocked (bug):
+
+P                    factorcontent    reason                     remarks
+
+
+
+Accepted, but not sure it is what we want
+
+P                    factorcontent        remarks
+2^3x                 no                   the constant factor is not computed, but still accepted.
+(-1)^3x              any                  correct but not simplest form
+3^(2+1)              no                   constant not completely computed
+4-2                  no                   constant not completely computed. Blocked in original
+2^(1+0)              any
+3^(7+7)x             no                   clearly not simplest form
+(2)                  any                  compare with (x+1) which is blocked
+(x)                  any                  compare with (x+1) which is blocked
+b^(3-3)*(a-1)        any                  the letter b is not in the good answer.
+(b-1)^(3-3)*(a-1)    any                  blocked in original
+
+		     
+Blocked, but not sure it is what we want
+
+P                    factorcontent        reason                     remarks
+(x+1)                any                  notreduced parenthesis     accepted in original (better?)
+
+
+
+Yet to be tested
+P                    factorcontent        reason                     remarks
+
+
+known bugs :
+

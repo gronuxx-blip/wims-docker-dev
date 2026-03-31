@@ -1,0 +1,72 @@
+!if $wims_read_parm!=$empty
+  !goto $wims_read_parm
+!endif
+
+:linksh
+<h2 id="general">
+Lier un document à des feuilles d'exercices
+</h2>
+<p>
+Si un participant travaille sur un exercice du document qui est aussi
+dans une des feuilles de la classe avec les mêmes paramètres, alors son score
+pourra être enregistré dans le cas où le document est lié à une feuille dans lequel
+se trouve cet exercice.
+</p>
+<h3> Les différentes possibilités</h3>
+<p>
+Par défaut, le document n'est pas lié à une feuille (choix "$name_noone").
+</p><p>
+Si au moment de l'insertion du document dans la classe, vous demandez
+que la feuille contenant les exercices du document soit créé,
+ce document sera lié à la feuille créée et uniquement à celle-là
+(il est possible de modifier ce choix ensuite).
+</p><p>
+En sélectionnant le choix "$name_automatic", si un participant travaille
+sur un exercice du document qui est aussi dans une des feuilles de la classe
+(avec les mêmes paramètres), alors son score sera enregistré comme s'il avait
+travaillé sur la première feuille dans laquelle apparaît cet exercice.
+</p>
+<h3>Remarques</h3>
+<p>Si vous voulez que les scores obtenus sur un exercice,
+qui est à la fois dans la feuille et dans le document, soient enregistrés, il faut
+ que les paramètres de l'exercice soient exactement les mêmes
+dans la feuille et dans le document (les paramètres concernés sont ceux
+ que l'on fixe dans l'introduction d'un module avant de faire apparaitre
+ l'énoncé de l'exercice ainsi que le nombre d'essais comptabilisés).
+ </p><p> Visuellement,
+ ces exercices sont distingués des autres par la présence du symbole &#x270E; devant le lien
+ de l'exercice (un élève ne voit pas ce symbole pour des exercices d'une feuille en préparation
+ contrairement à l'enseignant ; lorsqu'il passera la souris sur ce symbole, il aura des
+ informations sur la feuille dans lequel se trouve cet exercice et sur la notation
+ de cet exercice).
+ </p><p>
+ Rappelons que les scores obtenus sur ces exercices ne compteront dans la note de la feuille
+ que si celle-ci est active et que si l'enregistrement des notes est ouvert sur celle-ci.
+</p>
+!exit
+
+:autogenerate
+<h2 id="statut">
+Création automatique de la feuille d'exercices d'un document
+</h2>
+<p>
+Cette fonctionnalité permet de créer une nouvelle feuille d'exercices
+contenant la liste de tous les exercices du document.
+</p><p>
+Cette feuille est automatiquement rajoutée à votre classe ; la liaison entre
+ce document et la feuille est automatiquement installée.
+</p><p>
+Cette fonctionnalité ne peut être utilisée qu'une seule fois.
+Si vous souhaitez créer une copie de la feuille une nouvelle fois,
+vous devez utiliser les outils de duplication des feuilles d'exercices.
+</p><p>
+Vous pouvez ensuite modifier les paramètres d'utilisation de la feuille,
+ou éventuellement supprimer des séries d'exercices et modifier le barême,
+en utilisant l'interface habituelle de gestion des feuilles d'exercices
+à partir de la page d'accueil de la classe.
+</p>
+!exit
+
+:nohelp
+Pas d'aide sur ce sujet.
+!exit

@@ -1,0 +1,81 @@
+!! decide if right is open or not for the user according to the file .E$exam .S$seq .$sheet or .F$freework
+!! wims_read_parm : file name
+!! output : output=yes output=no
+!!          condition= the condition string
+!!          accessstart= starting access date, if not empty
+!!          accessend= ending access date, if not empty
+
+data_=!record 0 of wimshome/log/classes/$wims_class/.$wims_read_parm
+cle_=!word 1 of $data_
+!! process for technical variable definition (replace data_ by value decide by the technical variable)
+!if \ isin $cle_
+  idtechvar_=!line 1 of $data_
+  idtechvar_=!char 2 to -1 of $idtechvar_
+  !readproc adm/class/userdef ,$wims_class,$wims_user
+  val_=!defof user_techvar_$(idtechvar_) in $userdef
+  !default val_=EMPTY
+  !reset data_
+  data_=!defof techvar_$val_ in wimshome/log/classes/$wims_class/.$wims_read_parm
+  !default data_=none
+  sequence_withtechvar=1
+!endif
+!! end process technical variable
+
+condition=$data_
+!! check condition
+output=yes
+!! for display of sequence in case of supervisor condition without technical variable are used 
+!! (so supervisor can see real page of user)
+!if $wims_user=supervisor and (S notin $wims_read_parm or \ isin $cle_)
+  !exit
+!endif
+
+!if $condition=none
+  output=no
+  !exit
+!endif
+!if $condition!=$empty
+  data_=!words2items $condition
+  symb_=<,>
+  !reset IP_,accessend,accessstart
+  !for l_ in $data_
+    !set c_=!char 1 of $l_
+    !if $(symb_[1])=$c_
+      accessend=!char 2 to -1 of $l_
+      accessend=!text select char 0123456789 in $accessend
+    !else
+      !if $(symb_[2])=$c_
+        accessstart=!char 2 to -1 of $l_
+        accessstart=!text select char 0123456789 in $accessstart
+      !else
+        IP_=!text select 0123456789.  in $l_
+      !endif
+    !endif
+  !next l_
+  !! ------ test for IP
+  !! use function checkhost
+  !if $IP_!=$empty_
+    nb_=!charcnt $IP_
+    test_=!checkhost $IP_
+    !if $test_!=1
+      output=no
+      !exit
+    !endif
+  !endif
+  now_=!text select char 0123456789 in $wims_now
+  now_=!char 1 to 12 of $now_
+  !! ----- test for expiration
+  !if $accessend!=$empty
+    !if $now_>$accessend
+      output=no
+      !exit
+    !endif
+  !endif
+  !! ----- test for begin
+  !if $accessstart!=$empty
+    !if $now_<$accessstart
+      output=no
+      !exit
+    !endif
+  !endif
+!endif

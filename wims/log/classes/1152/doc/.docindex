@@ -1,0 +1,68 @@
+:H5/algebra/docequationdeg2.fr
+block=main
+Trinôme du second degré
+résumé sur la méthode de résolution, l'interprétation graphique, l'étude du signe.
+1
+0
+:U1/logic/doclogic.fr
+block=main
+DOC Raisonnements
+une introduction à la logique et aux raisonnements.
+1
+0
+:H5/geometry/vecteurs.fr
+block=main
+Vecteurs du plan
+résumé accompagné d'exercices sur les vecteurs en géométrie plane.
+1
+0
+:U1/geometry/DroitesPlans.fr
+block=main
+Droites et plans (géométrie analytique)
+cours : equations cartésiennes, représentation paramétrique, échelonnement d'un système linéaire.
+1
+0
+:H6/algebra/docintrocomplex.fr
+block=main
+Nombres complexes (introduction)
+document définissant les nombres complexes, leurs différentes formes et les opérations élémentaires.
+1
+0
+:H6/set/docset.fr
+block=main
+Doc Ensembles
+cours introductif à la théorie des ensembles.
+1
+0
+:U1/geometry/docsimilitudes.fr
+block=main
+Géométrie du plan complexe
+cours sur les isométries et similitudes.
+1
+0
+:H6/set/docfonction.fr
+block=main
+Doc Fonctions, applications
+cours d'introduction aux notions de fonctions et d'applications.
+1
+0
+:U1/algebra/doccomplex.fr
+doc=1&block=main&job=read
+Nombres complexes (équations)
+cours sur les nombres complexes du point de vue algébrique.
+1
+24
+24
+:H6/algebra/doccomplex.fr
+doc=1&block=main&job=read
+Nombres complexes (trigonométrie et géométrie)
+cours : forme exponentielle, formules de Moivre et d'Euler, linéarisation, géométrie.
+1
+25
+25
+:U1/analysis/docinegalites1.fr
+doc=1&block=main&job=read
+DOC Inégalités, intervalles, inéquations
+cours de remise à niveau sur le traitement des inégalités (Lycée-Université).
+1
+0

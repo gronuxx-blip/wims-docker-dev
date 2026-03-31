@@ -1,0 +1,13 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Discriminant (exemple)
+
+!readproc data/glossary/mathematics/algebra/macro/seconddegre
+
+
+<div>Soit \(f\) la fonction définie pour tout réel \(x\) par <span class="nowrap">\(f(x)=$gl_expr \).</span></div>
+<div>
+Le discriminant \(\increment\)  de  cette fonction polynôme du second degré est&nbsp;
+\(\increment = $gl_itemb ^2 - 4\times $gl_itema \times $gl_itemc\) soit
+ <span class="nowrap">\(\increment = $gl_delta\).</span>
+</div>

@@ -1,0 +1,58 @@
+
+:H4/analysis/oeffonctgen.fr
+exo=extremvar1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Extremum et tableau des variations
+Déterminer les extrema d'une fonction donnée par son tableau de variation.
+
+À partir de la seconde
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=tbvarextr1
+10
+1
+Tableau de variations et extremum 1
+Déterminer les extrema d'une fonction donnée par son tableau de variation.
+
+À partir de la seconde
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=tbvarextr2
+10
+1
+Tableau de variations et extremum 2
+Déterminer les extrema d'une fonction donnée par son tableau de variation.
+
+À partir de la seconde
+:H4/analysis/oeffonctgen.fr
+exo=extremgr&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fonctions - Extremum graphique
+Déterminer les extrema d'une fonction donnée par son graphe.
+
+
+:H4/analysis/oeffonctgen.fr
+exo=sensvargr&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Lecture graphique du sens de variation
+Déterminer le sens de variation d'une fonction donnée par son graphe.
+
+À partir de la seconde
+:H4/analysis/oeffonctgen.fr
+exo=sensvartb&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Sens et tableau des variations
+Déterminer le sens de variation d'une fonction donnée par son tableau de variation.
+
+À partir de la seconde
+:H4/analysis/oeffonctgen.fr
+exo=signgraph&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Signe graphiquement
+Déterminer le signe d'une fonction donnée par son graphe.
+
+À partir de la seconde
+

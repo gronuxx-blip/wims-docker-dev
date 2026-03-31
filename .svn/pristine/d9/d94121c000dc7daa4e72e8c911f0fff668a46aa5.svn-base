@@ -1,0 +1,31 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=isometries,vectors
+!set gl_title=Rotation du plan
+:
+:
+:
+:
+Le plan est muni d'un repère orthonormé direct <span class="nowrap">\(\left(\mathrm{O}\,;\overrightarrow{i},\,\overrightarrow{j}\right)\).</span>
+<div class="wims_defn spacer">
+<h4>Définition</h4>
+On appelle rotation de centre \(\mathrm{O}\) et d'angle \(\displaystyle{\theta}\)
+l'application du plan dans lui-même qui fixe \(\mathrm{O}\) et qui
+à tout point \(\mathrm{M}\) distinct de \(\mathrm{O}\) associe le point \(\mathrm{M}^{'}\) tel que&nbsp;:
+  <ul><li>
+    \(\mathrm{OM}=\mathrm{OM}^{'}\)
+    </li><li>
+    \((\overrightarrow{\mathrm{OM}},\overrightarrow{\mathrm{OM}^{'}})=\theta \; [2\pi]\)
+  </li></ul>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+Toute rotation \(r\) conserve les distances&nbsp;:
+si \(r(\mathrm{A})=\mathrm{A}^{'}\) et si <span class="nowrap">\(r(\mathrm{B})=\mathrm{B}^{'}\),</span> alors <span class="nowrap">
+\(\mathrm{A}^{'}\mathrm{B}^{'}=\mathrm{AB}\).</span>
+
+</div>
+:
+:

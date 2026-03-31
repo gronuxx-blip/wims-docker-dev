@@ -1,0 +1,13 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Base orthogonale du plan
+!set gl_level=H5
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\left(\overrightarrow{u}\,,\overrightarrow{v}\right)\) une base du plan.<br>
+Cette base est <strong>orthogonale</strong> lorsque les vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont  orthogonaux.
+</div>

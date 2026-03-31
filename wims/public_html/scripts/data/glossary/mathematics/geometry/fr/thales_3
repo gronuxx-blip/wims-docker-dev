@@ -1,0 +1,60 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Théorème de Thalès (Exemple 2)
+!set gl_renew=1
+
+!readproc data/glossary/mathematics/geometry/macro/thales_gen 3
+<style>
+/*<![CDATA[*/
+#enonce$(gl_a){order:1;}
+#applet$(gl_a){order:2;}
+
+@media screen and (max-width: 40em) {
+#enonce$(gl_a){order:2;}
+#applet$(gl_a){order:1;}
+
+}
+div.applet{padding-left:1.5em;}
+details{box-shadow:none}
+/*]]>*/
+</style>
+
+<div>
+  <p>Les droites \((\mathrm{BM})\) et \((\mathrm{CN})\) sont sécantes en <span class="nowrap">\(\mathrm{A}\).</span><br> Une unité de longueur étant donnée, on a&nbsp;: <span class="nowrap">\($gl_quest1\).</span>
+  </p>
+  <p>
+  Démontrer que les droites \((\mathrm{BC})\) et \((\mathrm{MN})\) ne sont pas parallèles.
+  </p>
+</div>
+
+<div class="grid-container fluid">
+  <div class="grid-x grid-padding-x">
+    <div id="enonce$(gl_a)" class="cell2 small-12 medium-6 large-6">
+
+      <details>
+        <summary class="oef_indgood">Éléments de solution</summary>
+        <div>
+        Avec les données de l'énoncé, on a&nbsp;:
+        <ul class="wims_nopuce">
+          <li>\($(gl_frac1[1]) = $(gl_frac2[1;]) \) soit \($(gl_frac1[1]) = $gl_rapAf1 \)</li>
+          <li>\($(gl_frac1[2]) = $(gl_frac2[2;]) \) soit \($(gl_frac1[2]) = $gl_rapAf2 \)</li>
+          <li>Donc <span class="nowrap">\($(gl_frac1[1]) \neq $(gl_frac1[2])\).</span></li>
+        </ul>
+        </div>
+        <div class="spacer">
+        Les droites \((\mathrm{BM})\) et \((\mathrm{CN})\) sont sécantes en <span class="nowrap">\(\mathrm{A}\).</span><br>
+        Si les droites \((\mathrm{BC})\) et \((\mathrm{MN})\) étaient parallèles, d'après le théorème de Thalès, on aurait <span class="nowrap">\($(gl_frac1[1]) = $(gl_frac1[2])\).</span>
+        </div>
+        <div class="spacer">
+        Puisque \($(gl_frac1[1]) \neq $(gl_frac1[2])\), on en déduit que les droites \((\mathrm{BC})\) et \((\mathrm{MN})\) ne sont pas parallèles.
+        </div>
+      </details>
+    </div>
+    <div id="applet$(gl_a)" class="cell2 small-12 medium-6 large-6">
+      <div class="applet">
+        !readproc slib/geo2D/jsxgraph id$(gl_a) brd$(gl_a),[$gl_xsize x $gl_ysize,min=250px max=350px scroll center],$(gl_script$(gl_a))
+        $slib_out
+      </div>
+    </div>
+  </div>
+</div>

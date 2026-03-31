@@ -1,0 +1,22 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=triangles,median_line
+!set gl_title=Médiane d'un triangle
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>Soit \(\mathrm{ABC}\) un triangle.<br>
+La <strong>médiane</strong> issue de \(\mathrm{A}\) du triangle \(\mathrm{ABC}\) est la droite passant par
+le sommet \(\mathrm{A}\) et le milieu du côté opposé <span class="nowrap">\([\mathrm{BC}]\).</span></div>
+:mathematics/geometry/fr/median_line_1
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Les trois médianes d'un triangle sont concourantes.</div>
+:mathematics/geometry/fr/median_line_2
+:
+<div class="wims_rem">
+En certaines circonstances, le mot <em>médiane</em> peut désigner le segment
+dont les extrémités sont un sommet d'un triangle et le milieu du côté
+opposé&nbsp;; il peut aussi désigner la longueur de ce segment.
+</div>

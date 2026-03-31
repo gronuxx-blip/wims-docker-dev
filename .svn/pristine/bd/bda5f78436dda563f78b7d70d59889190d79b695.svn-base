@@ -1,0 +1,42 @@
+
+:U1/logic/propquant.fr
+exo=q1ineq&exo=q1par&qnum=3&scoredelay=&qcmlevel=3
+10
+1
+Proposition vraie ou fausse ?
+un quantificateur
+:U1/logic/propquant.fr
+exo=q1dist&exo=q1div&exo=q1mult&qnum=3&scoredelay=&qcmlevel=3
+10
+1
+Proposition vraie ou fausse ?
+un quantificateur
+:U1/logic/propquant.fr
+exo=q1ndiv&exo=q1nmult&qnum=3&scoredelay=&qcmlevel=3
+10
+1
+Proposition vraie ou fausse ?
+un quantificateur et une négation
+:U1/logic/propquant.fr
+exo=q1op1multineq&exo=q1op1parineq&qnum=3&scoredelay=&qcmlevel=3
+10
+1
+Proposition vraie ou fausse ?
+un quantificateur et un opérateur "et" ou "ou"
+:U1/logic/negation.fr
+exo=q1app&exo=q1par&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Négation (I)
+
+:U1/logic/negation.fr
+exo=q1ineq&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Négation (II)
+
+:U1/logic/negation.fr
+exo=q1fonctions&exo=q1suites&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Négation (III)

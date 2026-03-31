@@ -1,0 +1,18 @@
+slib_lang_exists_tmp=yes
+
+slib_title=Trace un repère
+slib_parms=12\
+400,taille horizontale du dessin \
+400,taille verticale du dessin\
+20,la marge autour du repère\
+-5,abscisse minimale\
+5,abscisse maximale\
+-5,ordonnée minimale\
+5,ordonnée maximale\
+1,finesse de la grille en abscisses\
+1,finesse de la grille en ordonnées\
+black,couleur des axes\
+grey,couleur de la grille de graduation\
+[vide],un mot clé : peut être vide (dans ce cas le slib renvoie le code pour la fonction draw), ou "url" (dans ce cas l'image du reprère est générée et le slib renvoie l'url de cette image), ou "html" (dans ce cas le slib renvoie le code html d'affichage de l'image).
+
+slib_out=plusieurs lignes <ol><li>Les coordonnées de l'origine du repère dans le dessin</li><li>L'échelle en abscisse et en ordonnée</li><li>troisième et les suivantes : les données pour insdraw</li></ol>

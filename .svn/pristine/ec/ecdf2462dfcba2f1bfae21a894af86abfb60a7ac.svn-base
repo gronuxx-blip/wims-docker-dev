@@ -1,0 +1,74 @@
+!! About window for a public sheet
+
+!if $sh=
+  !goto exit
+!else
+  !goto about
+!endif
+
+:about
+!set data_dir=wimshome/public_html/bases/sheet
+!set shinfo=!record 0 of $data_dir/$sh.def
+!if $shinfo=
+  !exit
+!endif
+!set sheetlink=$wims_ref_name?module=adm/sheet&sh=$sh
+!read lang/names.$lang
+!set embedabble_height= 600
+!set embedabble_width= 100%
+!set about_author=!line 8 of $shinfo
+!distribute items $about_author into about_firstname,about_lastname
+!set about_firstname=!trim $about_firstname
+!set about_lastname=!trim $about_lastname
+!set about_author=$about_firstname $about_lastname
+!set about_title=!line 1 of $shinfo
+!set about_keywords=!line 6 of $shinfo
+!set about_keywords=!replace internal word no by in $about_keywords
+!set about_keywords=!nonempty items $about_keywords
+!set about_level=!line 5 of $shinfo
+!read ./tabletheme
+!reset table_center
+$table_header
+  <tbody>
+  	$table_tr
+	  <th>$wims_name_title</th>
+	  <td>$about_title</td>
+    </tr>
+    !if $about_author != $empty
+	  $table_tr
+		<th>$wims_name_author</th>
+		<td>$about_author</td>
+		</tr>
+    !if $about_level != $empty
+	  $table_tr
+		<th>$wims_name_level</th>
+		<td>
+		!set levelcnt=!itemcnt $about_level
+	    !for ll=1 to $levelcnt
+	      !set level__=!words2items $(about_level[$ll])
+	      !read adm/levelname.phtml
+	      $(name_wims_level_$(level__[1])) $(level__[2..-1])
+	      !if $ll<$levelcnt
+	        ;
+	      !endif
+	    !next
+		  </td></tr>
+	  !endif
+    !if $about_keywords!=$empty
+      $table_tr
+        <th>$wims_name_Keywords</th>
+        <td>$about_keywords</td>
+      </tr>
+    !endif
+    $table_tr
+      <th>$wims_name_permalink</th>
+      <td>
+      !!$wims_name_permalink_desc
+        <p>$sheetlink</p>
+      </td>
+    </tr>
+    $table_tr
+  </tbody>
+$table_end
+
+:exit

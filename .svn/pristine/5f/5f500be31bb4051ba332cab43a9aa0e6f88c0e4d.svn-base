@@ -1,0 +1,29 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Coordonnées d'un point du plan (collège)
+!set gl_level=H1 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définitions</h4>
+Un <strong>repère orthogonal</strong> du plan est défini par un point \(\mathrm{O}\) et par deux droites graduées perpendiculaires de même origine le point <span class="nowrap">\(\mathrm{O}\).</span><br>
+Le point \(\mathrm{O}\) est appelé origine du repère.<br>
+L'une des deux droites est appelée <strong>axe des abscisses</strong>, l'autre, <strong>axe des ordonnées</strong>.
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarque</h4>
+L'axe des abscisses est généralement représenté horizontalement et orienté de gauche à droite, l'axe des ordonnées est alors représenté verticalement et orienté de bas en haut.
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit un repère du plan d'origine un point <span class="nowrap">\(\mathrm{O}\).</span><br>
+Soit un point \(\mathrm{M}\) du plan.<br>
+La droite parallèle à l'axe des ordonnées passant \(\mathrm{M}\) coupe l'axe des abscisses en un point \(\mathrm{H}\) repéré par un nombre \(x\) sur cet axe&nbsp;; la droite parallèle à l'axe des abscisses passant \(\mathrm{M}\) coupe l'axe des ordonnées en un point \(\mathrm{K}\) repéré par un nombre \(y\) sur cet axe.<br>
+Le couple \(\left(x\,;y\right)\) est appelé couple de <strong>coordonnées</strong> du point <span class="nowrap">\(\mathrm{M}\).</span><br>
+Le nombre \(x\) est appelé <strong>abscisse</strong> du point <span class="nowrap">\(\mathrm{M}\).</span><br>
+Le nombre \(y\) est appelé <strong>ordonnée</strong> du point <span class="nowrap">\(\mathrm{M}\).</span><br>
+</div>

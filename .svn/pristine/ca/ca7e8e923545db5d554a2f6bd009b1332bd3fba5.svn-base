@@ -1,0 +1,33 @@
+!set lang_exists=yes
+
+!set wims_name_glosscheck=Vérifier le glossaire
+
+!set name_choose=Choisissez le glossaire&nbsp;
+!set name_title=Insertion dans un glossaire
+
+!set wims_name_addglossary=Insérer dans un glossaire
+!set name_insert=Vous voulez insérer la glose
+!set name_parm=avec les paramètres d'initialisation
+
+!set name_endadd=!nosubst La ressource <span class="wims_mod_title">$title</span>\
+  a été insérée avec succès dans le glossaire
+!set name_endmod=!nosubst Modification du glossaire $gl\
+  (<span class="wims_mod_title">$title</span>) faite
+
+!set name_endmod2=!nosubst La ressource <span class="wims_mod_title">$title</span>\
+  n'a pas pu être insérée car elle existait déjà.
+
+!set name_orderchange=Changer l'ordre des gloses
+
+!set name_newglostitle=Titre du nouveau glossaire
+!set name_newglos=Nouveau glossaire
+!set name_titleglose=Titre de la glose
+
+!set name_helpglo=!nosubst Pour ajouter une autre glose, cliquez sur le lien\
+  <span class="text_icon newglose">$wims_name_newglose.</span><br>\
+  Lorsque le texte de la glose est composé de différents encadrés,\
+  il est possible de ne faire afficher que certains de ces encadrés et d'en modifier l'ordre&nbsp;;\
+  pour cela, à la fin de l'adresse de la glose apparaissant dans la 3<sup>e</sup> colonne du tableau ci-dessus, \
+  modifiez <span class="tt">liste</span> de <span class="tt">|content=[liste]</span> \
+  (les items pairs de la liste correspondent aux exemples dynamiques).
+

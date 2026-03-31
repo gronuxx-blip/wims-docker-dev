@@ -1,0 +1,26 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=4\
+ ,n\
+ ,a\
+ ,b\
+ ,m
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_example=10, 3,7,11
+slib_require=pari
+!exit
+
+:proc
+slib_out=
+
+!distribute item $wims_read_parm into slib_n,slib_a,slib_b,slib_m
+slib_A=!randint $slib_m
+
+slib_out=!exec pari {L=vector($slib_n);A=$slib_A;\
+for(k=1,$slib_n,A=lift(Mod($slib_a*A+$slib_b,$slib_m));\
+L[k]=A);printf("%.5f",L);}
+
+slib_out =!trim $slib_out

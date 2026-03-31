@@ -1,0 +1,24 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=rational,number
+!set gl_title=Nombre rationnel
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Un nombre \(r\) est un <strong>nombre rationnel </strong>lorsqu'il existe un entier relatif \(a\) et un entier relatif non nul \(b\) tel que \(r\) puisse s'écrire <span class="nowrap">\(r=\dfrac{a}{b}\).</span>
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarques</h4>
+<ul>
+<li>
+Les entiers relatifs et les nombres décimaux sont des nombres rationnels&nbsp;;
+</li>
+<li>
+il existe des nombres réels qui ne sont pas des nombres rationnels. Par exemple \(\sqrt{2}\) et \({\pi}\) ne sont pas des nombres rationnels, on dit qu'ils sont <em>irrationnels</em>.
+</ul>
+</div>
+:

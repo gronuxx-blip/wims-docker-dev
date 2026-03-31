@@ -1,0 +1,33 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=homothety,vectors
+!set gl_title=Homothétie
+!set gl_level=H4 (Approfondissement), H6 STI2D&nbsp;Spécialité
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\mathrm{I}\) un point du plan ou de l'espace et \(k\) un nombre réel non nul.
+L'<strong>homothétie</strong> de centre \(\mathrm{I}\) et de rapport \(k\) est la
+transformation (du plan ou de l'espace) par laquelle tout point \(\mathrm{M}\) a pour image
+le point \(\mathrm{M}^{'}\) tel que <span class="nowrap">
+\(\overrightarrow{\mathrm{IM}^{'}} = k \overrightarrow{\mathrm{IM}}\).</span>
+</div>
+:
+:
+ <div class="wims_rem">
+ <h4>Cas particuliers</h4>
+<ul>
+<li>Une homothétie de rapport \(1\) est l'identité, tout point est invariant.</li>
+<li>Une homothétie de rapport \(-1\) est une symétrie centrale.</li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Si \(h\) est une homothétie de rapport \(k\) et si
+\(\mathrm{M},\mathrm{N}, \mathrm{M}^{'}, \mathrm{N}^{'}\) sont quatre points du plan ou de l'espace tels que \(h(\mathrm{M})=\mathrm{M}^{'}\) et <span class="nowrap">\(h(\mathrm{N})=\mathrm{N}^{'}\),</span> alors <span class="nowrap">\(\overrightarrow{\mathrm{M}^{'} \mathrm{N}^{'}}=k \overrightarrow{\mathrm{MN}}\).</span>
+</div>
+
+:mathematics/geometry/fr/homothety_1

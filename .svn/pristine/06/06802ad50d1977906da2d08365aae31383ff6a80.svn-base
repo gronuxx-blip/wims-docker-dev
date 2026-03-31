@@ -1,0 +1,114 @@
+
+:H6/probability/OEFprobaTS.fr
+exo=nbapp&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dénombrement
+Nombre d'éléments d'un produit cartésien ou nombre de p-uplets d'éléments distincts d'un ensemble à n éléments.
+
+
+:H6/probability/OEFprobaTS.fr
+exo=cnp3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Simplification avec factorielle
+Simplifier une expression avec des factorielles.
+
+
+:H6/probability/OEFprobaTS.fr
+exo=cnp1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Coefficients binomiaux 1
+Calcul d'un coefficient binomial.
+
+
+
+:H6/probability/OEFprobaTS.fr
+exo=cnp2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Coefficients binomiaux 2
+Utiliser la définition de coefficient binomial.
+
+
+:H6/probability/OEFprobaTS.fr
+exo=calcden1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dénombrement 1
+Nombre de permutations d'un ensemble fini.
+
+
+:H6/probability/OEFprobaTS.fr
+exo=calcden2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dénombrement 2
+Nombre de permutations d'un ensemble fini.
+
+
+:H6/probability/OEFprobaTS.fr
+exo=calcden3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dénombrement 3
+Nombre de permutations et de combinaisons.
+
+
+:H6/probability/OEFprobaTS.fr
+exo=calcden4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dénombrement 4
+Nombre de permutations et de combinaisons.
+
+
+:H6/probability/OEFprobaTS.fr
+exo=calcden5&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de dénombrement 5
+Nombre de permutations et de combinaisons.
+
+
+:H6/probability/OEFprobaTS.fr
+exo=tirages&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Tirage et dénombrement
+Faire le lien entre le tirage dans une urne et le dénombrement.
+
+
+:H6/set/oefsetop.fr
+exo=union_et_intersection
+10
+1
+Union et intersection
+Union et intersection de deux ensembles.
+
+
+:H6/set/oefsetop.fr
+exo=produit_cartesien1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Produit cartésien
+Produit cartésien de deux ensembles.
+
+
+:H6/set/oefsetop.fr
+exo=produit_cartesien2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Produit cartésien bis
+Produit cartésien de deux ensembles.
+
+
+:H6/set/oefsetop.fr
+exo=produit_cartesien3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Produit cartésien de trois ensembles
+Produit cartésien de trois ensembles.
+
+

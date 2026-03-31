@@ -1,0 +1,42 @@
+!set lang_exists=yes
+
+!read adm/lang/sheetexam.phtml.$modu_lang
+!set name_from=à partir du
+!set name_student1=!nosubst Vous pouvez travailler sur cette feuille. Les notes seront prises en compte $fromdate jusqu'au $expday $expmon $expyear.
+!set name_student2=Cette feuille a expiré. Vous pouvez\
+  encore y travailler mais vos notes ne seront plus prises en compte.
+!set name_student3=Vous n'êtes pas autorisé à consulter le contenu de cette feuille pour\
+  l'instant. Veuillez contacter votre enseignant.
+!set name_student5=Pour l'instant, votre enseignant a suspendu l'enregistrement des notes\
+  sur cette feuille, mais vous pouvez continuer à travailler.
+
+!set name_score=!nosubst $[$got] des $[$require] points requis, qualité
+!set name_score2=!nosubst $[$require] points requis
+
+!set name_scoreopen=L'enregistrement des notes est ouvert.
+!set name_scoreclose=L'enregistrement des notes est fermé.
+!set name_scoreclosesup=L'arrêt de l'enregistrement de la notation n'est pas autorisé par votre enseignant.
+
+!set name_textsource=Voici le fichier source de cette feuille. Vous pouvez l'importer \
+  dans votre classe en utilisant un copier-coller.
+!set name_answer_i=Réponse à l'exercice
+
+!set name_title=!nosubst $wims_name_sheet $wims_name_number$sh
+!set name_exo=!defof name_exo in wimshome/public_html/scripts/oef/$modu_lang/names.proc
+!set name_noprint=!defof name_noprint in oef/$modu_lang/names.proc
+!set name_answers=!defof name_answers in oef/$modu_lang/names.proc
+
+!distribute items niveau approximatif,durée \
+into name_level,name_duration
+
+!set name_skillbullet=Compétence(s) du livret concernée(s)
+!set name_indivsupervisor=Cette feuille est individualisée à l'aide d'une variable technique.\
+ Vous pouvez voir les différentes formes de la feuille en fonction des valeurs possibles de la variable en utilisant le menu déroulant ci-dessous.
+!set name_choosevalue=Valeur affichée
+!set name_novalue=Sans valeur
+!set name_msgusergroup=!nosubst Cette feuille dépend de votre groupe de travail. Vous êtes dans le groupe $uservartechvalue.
+!set name_msgusergroupempty=!nosubst Cette feuille dépend de votre groupe de travail. Vous n'êtes dans aucun groupe.
+
+!distribute items Nom,Prénom,Classe into name_lastname,name_firstname,name_class
+!set wims_name_latexuser=Version latex individualisée
+!set wims_name_printlatex=Version latex
