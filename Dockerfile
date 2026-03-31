@@ -2,7 +2,6 @@ FROM debian:12
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get -y --no-install-recommends install \
-    subversion \
     apache2 \
     make \
     g++ \
@@ -32,11 +31,10 @@ RUN adduser --disabled-password --gecos '' wims
 USER wims
 WORKDIR /home/wims
 
-RUN svn checkout \
-    https://subversion.renater.fr/anonscm/svn/wimsdev/trunk \
-    wims
+# Les sources sont à la racine du dépôt
+COPY --chown=wims:wims . /home/wims/wims/
 
-RUN cd wims && yes "" | ./compile --mathjax --jmol --modules --geogebra
+RUN cd /home/wims/wims && yes "" | ./compile --mathjax --jmol --modules --geogebra
 
 USER root
 RUN a2enmod cgid && a2enmod remoteip
