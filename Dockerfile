@@ -31,10 +31,11 @@ RUN adduser --disabled-password --gecos '' wims
 USER wims
 WORKDIR /home/wims
 
-# Les sources sont à la racine du dépôt
-COPY --chown=wims:wims . /home/wims/wims/
+# Les sources sont dans le dossier wims/
+COPY --chown=wims:wims wims/ /home/wims/wims/
 
-RUN cd /home/wims/wims && yes "" | ./compile --mathjax --jmol --modules --geogebra
+RUN chmod +x /home/wims/wims/compile && \
+    cd /home/wims/wims && yes "" | ./compile --mathjax --jmol --modules --geogebra
 
 USER root
 RUN a2enmod cgid && a2enmod remoteip
