@@ -1,0 +1,29 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=probability,events
+!set gl_title=Événements contraires
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \({\Omega}\) l'univers associé à une expérience aléatoire et \( \mathrm{A} \) un
+événement de cet univers.<br>
+L'<strong>événement contraire</strong> de <span class="nowrap">\( \mathrm{A}\),</span> noté
+<span class="nowrap">\(\overline{\mathrm{A}}\),</span> est l'ensemble
+de toutes les issues de l'univers \({\Omega}\) n'appartenant pas à
+<span class="nowrap">\(\mathrm{A}\).</span>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriétés</h4>
+Pour tout événement <span class="nowrap">\( \mathrm{A} \) :</span>
+<ul><li>Les événements \(\mathrm{A}\) et \(\overline{\mathrm{A}}\) sont
+incompatibles&nbsp;: <span class="nowrap">\(\mathrm{A} \cap \overline{\mathrm{A}} = \emptyset\) ;</span>
+    </li><li><span class="nowrap">\( \mathrm{A} \cup \overline{\mathrm{A}} = {\Omega}\).</span>
+    </li>
+</ul>
+</div>

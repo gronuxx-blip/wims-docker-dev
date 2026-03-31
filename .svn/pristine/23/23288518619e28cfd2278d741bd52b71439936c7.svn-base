@@ -1,0 +1,78 @@
+Hyperbolic geometry
+:hypsegments
+hypsegments black,0,0.7,0.3,0.4,-0.5,-0.5,0.5,0.5
+:hypsegments rotation (use moebius instead)
+hypsegments black,0,0.7,0.3,0.4,-0.5,-0.5,0.5,0.5
+rotate 90
+hypsegments blue,0,0.7,0.3,0.4,-0.5,-0.5,0.5,0.5
+:hyplines
+hyplines black,-0.5,-0.5,0.5,0.5,0,0.7,0.3,0.4
+crosshairs black,0,0.7,0.3,0.4,-0.5,-0.5,0.5,0.5
+:hyplines rotation use moebius instead
+hyplines black,-0.5,-0.5,0.5,0.5,0,0.7,0.3,0.4
+crosshairs black,0,0.7,0.3,0.4,-0.5,-0.5,0.5,0.5
+rotate 90
+hyplines blue,-0.5,-0.5,0.5,0.5,0,0.7,0.3,0.4
+crosshairs blue,0,0.7,0.3,0.4,-0.5,-0.5,0.5,0.5
+:hyppolygon
+hyppolygon blue,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+:hyppolygon moebius
+hyppolygon blue,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+moebius 0,0, 45
+hyppolygon red,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+:fhyppolygon without opacity
+fhyppolygon blue,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+:hyppolygon with fill with opacity
+opacity 255,255
+filled
+hyppolygon blue,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+:fhyppolygon with opacity
+opacity 255,255
+fhyppolygon blue,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+:hyppolygon with filltoborder
+opacity 255,255
+hyppolygon blue,-0.5,-0.5,0.5,0,0.5,0.5,0,0.5
+filltoborder 0.2,0.1,blue,green
+:hypcircles
+hypcircles blue,0,0.7,0.3,0,0.7,0.5,0,0.7,0.8,0,0.7,0.9
+hypcircles red,0,0,0.3,0,0,0.5,0,0,0.8,0,0,0.9
+fhypcircles blue,0.5,-0.5,0.4
+:hypcircles mobius rotate
+hypcircles blue,0,0.7,0.3,0,0.7,0.5,0,0.7,0.8,0,0.7,0.9
+hypcircles red,0,0,0.3,0,0,0.5,0,0,0.8,0,0,0.9
+fhypcircles blue,0.5,-0.5,0.4
+moebius 0,0,90
+hypcircles green,0,0.7,0.3,0,0.7,0.5,0,0.7,0.8,0,0.7,0.9
+hypcircles orange,0,0,0.3,0,0,0.5,0,0,0.8,0,0,0.9
+fhypcircles black,0.5,-0.5,0.4
+:hyprays
+hyprays blue,0,0,0.2,0.4,-0.4,0.2
+hyprays red,-0.5,-0.5,-0.8,0,-0.8,0.3,0.8,0.3
+:hyprays rotation 45 (use moebius instead)
+hyprays blue,0,0,0.2,0.4,-0.4,0.2
+hyprays red,-0.5,-0.5,-0.8,0,-0.8,0.3,0.8,0.3
+rotate 45
+hyprays green,0,0,0.2,0.4,-0.4,0.2
+hyprays orange,-0.5,-0.5,-0.8,0,-0.8,0.3,0.8,0.3
+:hyprays moebius 45
+hyprays blue,0,0,0.2,0.4,-0.4,0.2
+hyprays red,-0.5,-0.5,-0.8,0,-0.8,0.3,0.8,0.3
+moebius 0,0,45
+hyprays green,0,0,0.2,0.4,-0.4,0.2
+hyprays orange,-0.5,-0.5,-0.8,0,-0.8,0.3,0.8,0.3
+:hyppolygon moebius 0,0,90
+hyppolygon black,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+moebius 0,0,90
+hyppolygon red,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+killmoebius
+:filled hyppolygons: don't take an already used color
+fhyppolygon black,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+moebius 0,0,45
+fhyppolygon red,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+:filled hyppolygons:
+circles black,0,0,1
+fhyppolygon blue,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+moebius 0,0,45
+fhyppolygon red,0,0.7,0.3,0.4,-0.5,-0.5,-0.5,0.5
+
+:fine:fine

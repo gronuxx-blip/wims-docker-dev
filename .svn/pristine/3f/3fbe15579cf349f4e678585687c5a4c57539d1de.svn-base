@@ -1,0 +1,9 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Théorème de Pythagore (illustration)
+!set gl_renew=0
+
+!readproc data/glossary/mathematics/geometry/macro/pythagore_gen 1
+
+!readproc slib/geo2D/jsxgraph id$(gl_a) brd$(gl_a),[$gl_xsize x $gl_ysize,min=200px max=200px scroll center],$(gl_script$(gl_a))
+      $slib_out

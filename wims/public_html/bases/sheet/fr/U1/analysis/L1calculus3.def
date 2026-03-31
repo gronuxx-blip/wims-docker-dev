@@ -1,0 +1,77 @@
+Dérivabilité
+Les exercices concernent tous la dérivabilité et le théorème des accroissements finis.
+90 2009
+3
+U1
+mathematics, analysis
+levelU1,postbac,functions,derivative
+Jean-Christophe Léger
+jean-christophe.leger@math.u-psud.fr
+niveau Postbac
+
+:U1/analysis/graphder.en
+repeat=1&asktype=1,2&present=4&list=6
+30
+1
+Dérivée graphique
+Reconnaître le graphe de la dérivée d'une fonction.
+:U1/analysis/oefderiv.fr
+exo=contder&exo=Contabs&qnum=2&qcmlevel=3&scoredelay=
+30
+1
+Dérivabilité et continuité de la dérivée
+Un QCM portant sur des questions élémentaires liées à la dérivation.
+:H6/analysis/quizder.en
+exo=formulas&qnum=1&qcmlevel=5&scoredelay=
+30
+1
+Formules de dérivation
+Vrai ou faux ?
+:H6/analysis/oefderiv.fr
+exo=rat&exo=rat2&exo=trigo&exo=trigo2&exo=poly2&qnum=3&qcmlevel=3&scoredelay=
+30
+1
+Calculs de dérivées
+Dérivées de fractions rationnelles, fonctions trigonométriques et polynômes.
+:U1/analysis/joint.en
+order=2&fundif=1&tolerance=0.005
+30
+1
+Fonctions à paramètres
+Paramétrer une fonction pour qu'elle soit dérivable d'ordre demandé.
+:U1/analysis/joint2.en
+order=4&fundif=2&tolerance=0.0005
+30
+1
+Joint II
+Paramétrer une fonction pour qu'elle soit continue ou dérivable sur 2 points.
+:H6/analysis/oefderiv.fr
+exo=circle&exo=rectangle1&exo=tower&exo=righttriangle&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Calculs de vitesses
+Plusieurs exemples géométriques.
+:H6/analysis/oefderiv.fr
+exo=signenombre&qnum=1&qcmlevel=3&scoredelay=
+30
+1
+Signe d'un nombre
+Raisonnement utilisant une dérivée.
+:U1/analysis/minmax.en
+ask_type=-01prod2sum&ask_type=-01sum2prod&ask_type=-20axecut
+30
+1
+Minimum-maximum
+Détermination d'extrema d'une fonction.
+:U1/analysis/minmax.en
+ask_type=-30price&ask_type=-30transp
+30
+1
+Optimisation
+Quelques exemples "économiques".
+:U1/analysis/limder.en
+level=2
+30
+1
+Dérivée bornée
+Estimer les bornes d'une fonction à partir d'informations sur sa dérivée.

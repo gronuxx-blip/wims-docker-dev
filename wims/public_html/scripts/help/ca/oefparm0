@@ -1,0 +1,24 @@
+
+:Liste de types de variables
+:Type,Exemple,Signification
+:real
+\real{x=9.1^9+6^8}
+\x est un nombre réel arrondi à 8 chiffres significatifs. Pour plus de précision, utiliser pari ou maxima avec le type text : \text{a=pari(9.1^9+6^8)}
+:complex
+\complex{z=(1+2*i)^3}
+\z est le nombre complexe z=(1+2*i)^3
+:text
+\text{a=1 2  3}
+\a est le texte donné sans aucune transformation
+:integer
+\integer{n=3*exp(\a)}
+\n est l'entier le plus proche de 3*e<sup>\a</sup> (il dépend de la valeur de \a et est calculé d'abord comme real, donc avec 8 chiffres significatifs seulement)
+:rational
+\rational{x=2*5/6}
+\x est le nombre rationnel (exact) 5/3
+:function
+\function{f=2*x^2}
+la fonction 2 x^2
+:matrix
+\matrix{m=1,2,3<br>4,5,6<br>7,8,9}
+\m est la matrice de 3 lignes et 3 colonnes. <br>\m[ 2..-1;] renvoie les lignes de \m de 2 à la dernière (à ne pas utiliser directement dans un environnement mathématique); <br>\m[;2,3] renvoie les colonnes 2 et 3 de \m.

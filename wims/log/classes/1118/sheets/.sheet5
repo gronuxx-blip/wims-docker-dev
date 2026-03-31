@@ -1,0 +1,82 @@
+Inéquations
+
+??,2013
+2
+H5
+mathematics,
+levelH5,level1
+Régine, Mangeard
+regine@mangeard.fr
+
+:E6/number/orderange.en
+exo=posfrac1&qnum=2&qcmlevel=3&scoredelay=&confparm1=4&confparm2=1
+10
+1
+Fractions de même dénominateur
+ranger les nombres selon leur ordre de grandeur.
+:E6/number/orderange.en
+exo=posfrac2&qnum=2&qcmlevel=3&scoredelay=&confparm1=4&confparm2=1
+10
+1
+fractions de même numérateur
+ranger les nombres selon leur ordre de grandeur.
+:E6/number/orderange.en
+exo=posfrac3&qnum=2&qcmlevel=3&scoredelay=&confparm1=4&confparm2=1
+10
+1
+fractions positives I
+ranger les nombres selon leur ordre de grandeur.
+:E6/number/orderange.en
+exo=posfrac4&qnum=2&qcmlevel=3&scoredelay=&confparm1=4&confparm2=1
+10
+1
+fractions positives II
+ranger les nombres selon leur ordre de grandeur.
+:E6/number/orderange.en
+exo=posfrac5&qnum=1&qcmlevel=3&scoredelay=&confparm1=4&confparm2=1
+10
+1
+fractions III
+ranger les nombres selon leur ordre de grandeur.
+:H4/analysis/dedineq0.en
+exo=invx&qcmlevel=3&Askcontext=0&Askresult=0
+10
+1
+Inverse I
+exercices de déduction interactive sur les inégalités, déductions de base.
+:H4/analysis/dedineq0.en
+exo=invx2&qcmlevel=3&Askcontext=0&Askresult=0
+10
+1
+inverse II
+exercices de déduction interactive sur les inégalités, déductions de base.
+:H4/analysis/dedineq0.en
+exo=deg1&qcmlevel=3&Askcontext=0&Askresult=0
+30
+1
+inéquations de degré 1
+exercices de déduction interactive sur les inégalités, déductions de base.
+:H4/analysis/ineqzone.en
+wlevel=1&slevel=2&repeat=2
+10
+1
+Zone d'inégalité
+déterminer une inégalité pour des variables dans une zone donnée.
+:H4/analysis/ineqzone.en
+wlevel=2&slevel=2&repeat=2
+10
+1
+Zone d'inégalité II
+déterminer une inégalité pour des variables dans une zone donnée.
+:H6/analysis/scenarineq.fr
+exo=abs1&style=1&level=2
+30
+1
+Scénario d'inégalités avec valeur absolue
+déceler des erreurs dans un raisonnement sur les inégalités.
+:H6/analysis/scenarineq.fr
+exo=abs2&style=1&level=2
+20
+1
+Scénario d'inégalités avec 2 valeurs absolues
+déceler des erreurs dans un raisonnement sur les inégalités.

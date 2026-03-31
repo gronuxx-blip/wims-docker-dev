@@ -1,0 +1,29 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Produit scalaire dans l'espace
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><H4>Définition</H4>
+Soit \(\overrightarrow{u}\) et \(\overrightarrow{v}\) deux vecteurs de l'espace et soit <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{C}\) des points de l'espace tels que \(\overrightarrow{\mathrm{AB}}=\overrightarrow{u}\) et <span class="nowrap">\(\overrightarrow{\mathrm{AC}}=\overrightarrow{v}\).</span> <br>
+Le <strong>produit scalaire</strong> du vecteur \(\overrightarrow{u}\) par le vecteur \(\overrightarrow{v}\) est le <em>réel</em> noté \(\overrightarrow{u}\cdot\overrightarrow{v}\) défini par :
+<ul>
+<li> \(\overrightarrow{u}\cdot\overrightarrow{v}=\mathrm{AB} \times \mathrm{AC} \times \cos{\left(\widehat{\mathrm{BAC}}\right)}\) si les vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont des vecteurs non nuls&nbsp;;
+</li>
+<li>
+ \(\overrightarrow{u}\cdot\overrightarrow{v}=0\) si \(\overrightarrow{u}\) ou \(\overrightarrow{v}\) est le vecteur nul.
+</li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm"><H4>Théorème</H4>
+L'espace est muni d'une base orthonormée. <br>
+Soit \(\overrightarrow{u}\) et \(\overrightarrow{v}\) deux vecteurs de l'espace de coordonnées respectives \((x\,;y\,;z)\) et \((x^{'}\,;y^{'}\,;z^{'})\) dans cette base. On a alors&nbsp;:
+<div class="wimscenter">
+\(\overrightarrow{u}\cdot\overrightarrow{v}=x x^{'} + y y^{'} + z z^{'}\)
+</div>
+</div>

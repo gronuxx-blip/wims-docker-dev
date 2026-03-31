@@ -1,0 +1,162 @@
+
+:H3/algebra/gensuitefig.fr
+exo=slinguide&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Suites linéaires (guidé)
+Trouver l'expression d'une suite. Application à la géométrie.
+
+
+:H3/algebra/gensuitefig.fr
+exo=slin&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Suites linéaires
+Trouver l'expression d'une suite. Application à la géométrie.
+
+
+:H3/algebra/gensuitefig.fr
+exo=squadguide&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Suites quadratiques (guidé)
+Trouver l'expression d'une suite. Application à la géométrie.
+
+
+:H3/algebra/gensuitefig.fr
+exo=squad&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Suites quadratiques
+Trouver l'expression d'une suite. Application à la géométrie.
+
+
+:H6/analysis/numericseq.fr
+exo=calctersuite4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calculer des termes d'une suite 4
+Calcul des termes d'une suite explicite.
+
+
+:H4/algebra/oefsuites1S.fr
+exo=calcultermeA&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de termes de suites A
+Calcul des termes d'une suite récurrente.
+
+
+:H6/analysis/numericseq.fr
+exo=calctersuite1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Calculer des termes d'une suite 1
+Calcul des termes d'une suite récurrente.
+
+
+:H6/analysis/numericseq.fr
+exo=calctersuite2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calculer des termes d'une suite 2
+Calcul des termes d'une suite récurrente.
+
+
+:H6/analysis/numericseq.fr
+exo=calctersuite3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calculer des termes d'une suite 3
+Calcul des termes d'une suite récurrente.
+
+
+:H5/analysis/oefseq.fr
+exo=termeprec&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Terme précédent
+Calcul d'un terme d'une suite récurrente.
+
+
+:H5/analysis/oefseq.fr
+exo=calc2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Terme général s'exprimant en fonction de Un et n
+Calcul des termes d'une suite.
+
+
+:H5/analysis/suites.fr
+exo=suites_rel_rec_par&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Récurrence particulière
+Calcul des termes d'une suite.
+
+
+:H5/analysis/suites.fr
+exo=suites_rel_rec1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Utilisation d'une relation de récurrence
+Calcul d'un terme d'une suite récurrente dépendant d'un paramètre.
+
+
+:H5/analysis/suites.fr
+exo=Gnrationdunesu&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Génération d'une suite récurrente
+Calcul d'un terme d'une suite récurrente définie par une fonction.
+
+Bien pour la compréhension du rang
+
+:H5/analysis/oefseq.fr
+exo=calc3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Suite récurrente linéaire d'ordre 2
+Calcul des termes d'une suite récurrente d'ordre deux.
+
+
+:H5/analysis/suites.fr
+exo=suites_rel_rec_dble&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Récurrence double
+Calcul des termes d'une suite récurrente d'ordre deux.
+
+
+:H4/algebra/oefsuites1S.fr
+exo=calcultermeB&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de termes de suites B
+Expression d'un terme en fonction de n.
+
+
+:H4/algebra/oefsuites1S.fr
+exo=sensvarsuite&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Sens de variation de suites A
+Sens de variation.
+
+Bien pour l'étude du sens de variation avec variation de fonction
+:H4/algebra/oefsuites1S.fr
+exo=bornesuite&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Suites bornées à étape
+Majoration, minoration.
+
+Très bien pour penser sens de variation et limites
+:H6/algebra/OEFSuitesTS.fr
+exo=recur1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Raisonnement par récurrence
+Écrire les étapes d'un raisonnement par récurrence portant sur une suite.
+
+

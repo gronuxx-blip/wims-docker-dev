@@ -1,0 +1,24 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Loi d'une variable aléatoire discrète
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+Soit \(n\) un entier naturel non nul et soit \({\Omega}\) l'univers associé à une expérience aléatoire.<br>
+Soit \(X\) une variable aléatoire définie sur \({\Omega}\) prenant pour valeurs <span class="nowrap">\(x_1,x_2,\ldots,x_n\).</span><br>
+La <strong>loi de probabilité</strong> de la variable aléatoire \(X\) est définie par les probabilités <span class="nowrap">\(\mathbf{P}\left(X = x_1\right), \mathbf{P}\left(X = x_2\right),\dots, \mathbf{P}\left(X = x_n\right)\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>On peut définir la loi de probabilité d'une variable aléatoire par une formule explicite ou par un tableau.</p>
+</div>
+

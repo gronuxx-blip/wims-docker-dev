@@ -1,0 +1,28 @@
+<b>Conjunto finito.</b> (names: <span class="tt">set</span>, <span class="tt">fset</span> et <span class="tt">aset</span>)<br>
+ Es una lista de elementos (textuales) separados por comas,
+ donde el orden no es importante.
+C'est une liste d'éléments séparés par des virgules dont l'ordre n'a pas d'importance.
+Les espaces au début et à la fin des items ne sont pas pris en compte comme toujours
+dans les items.
+<p>
+  Si le mot <span class="tt wims_code_words">repeat</span>
+  est présent dans l'option, les répétitions des éléments sont
+  demandées comme dans la bonne réponse; sinon, la réponse est considérée comme partiellement bonne.
+</p><p>
+  Si le mot <span class="tt wims_code_words">nospace</span>
+  est présent dans l'option, les espaces à l'intérieur des items ne sont
+  pas pris en compte.
+</p><p>
+  <span class="tt">set</span> : No se hace ninguna evaluación de los elementos antes de la comparación
+  (por tanto 2 y 1+1 no son el mismo elemento).
+</p><p>
+  <span class="tt">fset</span> : Como el <em>conjunto finito</em>, pero los elementos son evaluados
+ como <em>expresiones formales</em>.
+</p><p>
+ <span class="tt">aset</span> : Como el <em>conjunto finito</em>, pero los elementos son evaluados
+ como <em>expresiones aproximativas</em>.
+</p><p>
+  Il est possible de présenter un champ pour chaque objet de l'ensemble en mettant
+  le mot <span class="tt wims_code_words">distinct_inputs</span> dans l'option.
+  Dans ce cas, l'option  <span class="tt wims_code_words">repeat</span> est automatiquement activée.
+</p>

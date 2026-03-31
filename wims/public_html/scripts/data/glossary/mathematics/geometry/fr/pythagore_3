@@ -1,0 +1,58 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Théorème de Pythagore (Exemple 3)
+!set gl_renew=1
+
+!readproc data/glossary/mathematics/geometry/macro/pythagore_gen 3
+
+<style>
+/*<![CDATA[*/
+#enonce$(gl_a){order:1;}\
+#applet$(gl_a){order:2;}\
+@media screen and (max-width: 40em) {\
+#enonce$(gl_a){order:2;}\
+#applet$(gl_a){order:1;}\
+}\
+div.applet{padding-left:1.5em;}\
+details{box-shadow:none}\
+/*]]>*/
+</style>
+<div>
+  <p>Soit \(\mathrm{ABC}\) un triangle.<br> Une unité de longueur étant donnée, on a&nbsp;: <span class="nowrap">\($(gl_enonc[1])\)&nbsp;;</span> \($(gl_enonc[2])\) et <span class="nowrap">\($(gl_enonc[3])\).</span>
+  </p>
+  <p>
+  Démontrer que le triangle \(\mathrm{ABC}\) n'est pas rectangle.
+  </p>
+</div>
+<div class="grid-container fluid">
+  <div class="grid-x grid-padding-x">
+    <div id="enonce$(gl_a)" class="cell2 small-12 medium-6 large-8">
+
+      <details>
+        <summary class="oef_indgood">Éléments de solution</summary>
+        <p>\([$(gl_data1[3])]\) est le côté le plus long du triangle <span class="nowrap">\(\mathrm{ABC}\).</span>
+        </p>
+        <ul>
+          <li>\($(gl_data1[3])^{2}=$(gl_data2[3])^{2}\) <br>
+            \($(gl_data1[3])^{2}=$(gl_data4[3])\)
+          </li>
+          <li>\($(gl_data1[1])^{2}+$(gl_data1[2])^{2}=$(gl_data2[1])^{2}+$(gl_data2[2])^{2}\) <br>
+            \($(gl_data1[1])^{2}+$(gl_data1[2])^{2}=$(gl_data4[1])+$(gl_data4[2])\) <br>
+            \($(gl_data1[1])^{2}+$(gl_data1[2])^{2}=$[$(gl_data4[1])+$(gl_data4[2])] \)
+          </li>
+        </ul>
+        <p>D'où <span>\($(gl_data1[3])^{2} \neq $(gl_data1[1])^{2}+$(gl_data1[2])^{2}\).</span>
+        </p>
+        <p>\([$(gl_data1[3])]\) étant le côté le plus long du triangle <span class="nowrap">\(\mathrm{ABC}\),</span> si \(\mathrm{ABC}\) était rectangle, il le serait en \(\mathrm{A}\) et d'après le théorème de Pythagore, on aurait <span>\($(gl_data1[3])^{2} = $(gl_data1[1])^{2}+$(gl_data1[2])^{2}\).</span></p>
+        <p>Puisque <span>\($(gl_data1[3])^{2} \neq $(gl_data1[1])^{2}+$(gl_data1[2])^{2}\),</span> on en déduit que le triangle \(\mathrm{ABC}\) n'est pas rectangle.
+        </p>
+      </details>
+    </div>
+    <div id="applet$(gl_a)" class="cell2 small-12 medium-6 large-4">
+      <div class="applet">
+        !readproc slib/geo2D/jsxgraph id$(gl_a) brd$(gl_a),[$gl_xsize x $gl_ysize,min=200px max=200px scroll center],$(gl_script$(gl_a))
+        $slib_out
+      </div>
+    </div>
+  </div>
+</div>

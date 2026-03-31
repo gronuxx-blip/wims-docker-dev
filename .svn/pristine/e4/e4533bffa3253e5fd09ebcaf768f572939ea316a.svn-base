@@ -1,0 +1,8 @@
+slib_lang_exists_tmp=yes
+
+slib_title=Densité de probabilité de la loi géometrique sur N*
+
+slib_out=Valeurs en <span class="tt">data</span> de la densité de probabilité de \
+  la loi géometrique sur N* de paramètre <span class="tt">p</span>.
+slib_comment=<span class="tt">data</span> peut être une liste de réels entre crochets.\
+Si X suit cette loi, P(X=k)=p(1-p)^(k-1) pour tout entier strictement positif k.

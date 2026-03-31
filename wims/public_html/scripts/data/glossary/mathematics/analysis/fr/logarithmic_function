@@ -1,0 +1,36 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=function, logarithm
+!set gl_title=Fonctions logarithmes
+!set gl_level=H6 Technologique
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \(a\) un réel strictement positif différent de 1.<br>
+La fonction <strong>logarithme de base </strong><span class="nowrap">\(a\),</span> notée <span class="nowrap">\( \log_a\),</span> est la fonction définie pour tout réel \( x \in \rbrack0 ; +\infty \lbrack \) par <span class="nowrap">\( \log_a(x) = \dfrac{\ln(x)}{\ln(a)} \).</span>
+</div>
+:
+:
+<div class="wims_defn">
+ <h4>Définition</h4>
+On appelle fonction <strong>logarithme décimale</strong> la fonction notée \(\log\) définie sur \(\rbrack 0 ; +\infty \lbrack \) telle que, pour tout réel <span class="nowrap">\(x\in\rbrack0; +\infty \lbrack \) :</span> 
+<p><center>\( \log(x) = \dfrac{\ln(x)}{\ln(10)} \)</center></p>
+ </div>
+:
+:
+<div class="wims_defn">
+ <h4>Définition</h4>
+ On appelle fonction <strong>logarithme binaire</strong> la fonction notée \(\log_2\) définie sur \(\rbrack0;+\infty \lbrack \) telle que, pour tout réel <span class="nowrap">\(x\in \rbrack0; +\infty\lbrack\) :</span> 
+<p><center>\( \log_2(x) = \dfrac{\ln(x)}{\ln(2)} \)</center></p>
+ </div>
+:
+:
+<div class="wims_rem">
+<h4>Remarques</h4>
+La fonction logarithme népérien est la fonction logarithme de base <span class="nowrap">\(\mathrm{e}\),</span> la fonction logarithme décimale est la fonction logarithme de base 10 et la fonction logarithme binaire est la fonction logarithme de base 2.
+</div>
+
+

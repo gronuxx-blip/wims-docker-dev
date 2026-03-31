@@ -1,0 +1,31 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=3\
+,[data]\
+5,n\
+0.5,p
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_example=[0.2,0.4,0.6],5,0.5
+slib_require=pari
+!exit
+
+:proc
+!distribute item $wims_read_parm into slib_data,slib_n,slib_p
+!default slib_n= 5
+!default slib_p=0.5
+!if $slib_p>=1 or $slib_p<=0
+  slib_out=0
+  !exit
+!endif
+slib_out=
+slib_data=!declosing $slib_data
+!readproc slib/stat/commun stat
+!for slib_x in $(slib_data)
+  slib_res=!exec pari statnegbininv($slib_n,$slib_p,$slib_x)+($slib_n)
+  slib_out=!append item $slib_res to $slib_out
+!next
+slib_out=!trim $slib_out

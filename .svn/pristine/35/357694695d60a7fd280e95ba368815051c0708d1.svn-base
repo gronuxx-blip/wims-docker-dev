@@ -1,0 +1,8 @@
+slib_lang_exists_tmp=yes
+
+slib_title=Fonction de répartition de la loi de Cauchy
+
+slib_out=Valeurs en <span class="tt">data</span> de la fonction de répartition de la loi de Cauchy \
+de paramètres <span class="tt">lambda</span> et <span class="tt">sigma</span>.
+slib_comment=<span class="tt">data</span> peut être une liste d'entiers entre crochets.\
+La densité en x est (pi*sigma)^(-1)*(1+(x-lambda)/sigma)^(-2).

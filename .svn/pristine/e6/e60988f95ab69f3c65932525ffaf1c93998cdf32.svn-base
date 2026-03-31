@@ -1,0 +1,21 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=matrix,linear_algebra
+!set gl_title=Somme de deux matrices
+!set gl_level=H6 Générale&nbsp;Experte
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+  Soit \(n\) et \(m\) deux entiers naturels non nuls et <span class="nowrap">\(A = (a_{i,j})\),</span>
+   \(B = (b_{i,j})\) deux matrices de format
+   <span class="nowrap">\(n \times m\).</span>
+  <br>
+La somme des matrices \(A\) et <span class="nowrap">\(B\),</span> notée <span class="nowrap">\(A+B\),</span> est la matrice de format \(n \times m\)  dont les coefficients sont définis,  pour tous entiers naturels \(i\) et \(j\) vérifiant \(1 \leqslant i \leqslant n \) et <span class="nowrap">\(1 \leqslant j \leqslant m \),</span> par&nbsp;:
+ <div class="wimscenter">
+\(c_{i,j}=a_{i,j} + b_{i,j}\)
+ </div>
+</div>
+:mathematics/algebra/fr/matrix_sum_1

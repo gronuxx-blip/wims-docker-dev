@@ -1,0 +1,18 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Écart type d'une variable aléatoire
+!set gl_level=H5 Générale
+:
+:
+:
+:
+<div class="wims_defn">
+<H4>Définition&nbsp;:</H4>
+Soit \(X\) une <strong>variable aléatoire</strong> réelle définie sur un univers fini <span class="nowrap">\({\Omega}\).</span><br>
+On note \(\mathbf{V}(X)\) sa variance. Son <strong>écart type</strong> est le réel \(\mathbf{\sigma}(X)\) défini par&nbsp;:
+<div class="wimscenter">
+\(\mathbf{\sigma}(X) = \sqrt{\mathbf{V}(X)}\)
+</div>
+</div>
+

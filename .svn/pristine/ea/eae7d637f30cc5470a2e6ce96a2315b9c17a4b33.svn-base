@@ -1,0 +1,24 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=volume,cube,measurement,solid_geometry,3_shape
+!set gl_title=Volume d'un cube
+!set gl_level=E6 Cycle&nbsp;3
+:
+:
+:
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+<div>
+<em>Une unité de longueur étant donnée dans l'espace, on considère l'unité de volume associée.</em>
+</div>
+<div class="spacer">
+Soit un cube d'arête de longueur <span class="nowrap">\(a\).</span>
+</div>
+Le volume \(V\) de ce cube est :
+<div class="wimscenter">
+\(V=a\times a \times a\) <br>
+\(V=a^3\)
+</div>
+</div>
+:mathematics/geometry/fr/cube_vol_1

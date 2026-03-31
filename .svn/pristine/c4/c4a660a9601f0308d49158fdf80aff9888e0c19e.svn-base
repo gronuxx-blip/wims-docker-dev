@@ -1,0 +1,37 @@
+
+:H6/set/oefsetop.fr
+exo=union_et_intersection&confparm1=3&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Union et intersection
+
+:H6/set/oefsetop.fr
+exo=differences&confparm1=3&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Différences
+
+:H6/set/oefsetop.fr
+exo=complementaire&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Complémentaire
+
+:H6/set/oefsetop.fr
+exo=operations_combinees1&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Opérations combinées 1
+
+:H6/set/oefsetop.fr
+exo=operations_combinees2&confparm1=3&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Opérations combinées 2
+
+:H6/set/graphset.en
+atype=3&style=i1&style=ui1&style=uc1&style=uc2&style=uc3&style=ic1&style=ic2&style=ic3&style=uic1&style=uic2&style=uic3&style=uic4&repeat=3
+10
+1
+Interprétation par des diagrammes
+

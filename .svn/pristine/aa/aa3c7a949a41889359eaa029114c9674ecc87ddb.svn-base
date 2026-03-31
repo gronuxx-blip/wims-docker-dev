@@ -1,0 +1,62 @@
+
+:H4/algebra/valabs.fr
+exo=descrinterv&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Description d'un intervalle en termes de distance
+
+:H4/algebra/valabs.fr
+exo=encadva1&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Encadrement de \({|x|}\)
+
+:H4/algebra/valabs.fr
+exo=encadva2&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Encadrement de \({|a x+b|}\)
+
+:H4/algebra/valabs.fr
+exo=eqva1&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Équations du type \({|a x+b|} = c\)
+
+:H4/algebra/valabs.fr
+exo=eqva2&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Équations du type \({|a x+b|} = c x+d\)
+
+:H4/algebra/valabs.fr
+exo=eqva3&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Équations du type \({|a x+b|} = {|c x+d|}\)
+
+:H4/algebra/valabs.fr
+exo=ineqva2interv&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Inéquations du type \({|a x+b|}\geq c\) (intervalles)
+
+:H4/algebra/valabs.fr
+exo=ineqva2ineg&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Inéquations du type \({|a x+b|}\geq c\) (inégalités)
+
+:H4/algebra/valabs.fr
+exo=ineqva1interv&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Inéquations du type \({|a x+b|}\leq c\) (intervalles)
+
+:H4/algebra/valabs.fr
+exo=ineqva1ineg&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Inéquations du type \({|a x+b|}\leq c\) (inégalités)
+
+

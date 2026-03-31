@@ -1,0 +1,28 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=area,measurement
+!set gl_title=Aire d'un trapèze
+!set gl_level=
+:
+:
+:
+:
+<div class="wims_prems">
+<h4>Première approche</h4>
+L'aire d'un trapèze peut être obtenue à partir d'aires de triangles et/ou rectangles.
+</div>
+:mathematics/geometry/fr/trapeze_area_1
+:<div class="wims_thm">
+<h4>Théorème</h4>
+<em>Une unité de longueur étant donnée dans le plan, on considère l'unité d'aire associée.</em>
+<br class="spacer">
+L'aire d'un trapèze est égale au produit de la moitié de la somme des longueurs de sa grande base et de sa petite base par sa hauteur.
+<br class="spacer">
+Autrement dit :<br>
+Si \(B\) désigne la longueur de la grande base du trapèze, \(b\) la longueur de sa petite base,  \(h\) sa hauteur et \(A\) l'aire de ce trapèze, alors&nbsp;:<br>
+<div class ="wimscenter">
+\(A=\dfrac{B+b}{2} \times h\)
+</div>
+</div>
+
+:mathematics/geometry/fr/trapeze_area_2

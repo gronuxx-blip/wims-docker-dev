@@ -1,0 +1,30 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=squareroot
+!set gl_title=Racine carrée (collège)
+!set gl_level=H3
+:
+:
+:
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+Soit \(a\) un nombre positif.<br>
+Il existe un unique nombre positif \(r\) tel que <span class="nowrap">\(r^2=a\).</span>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \(a\) un nombre positif.<br>
+L'unique nombre positif \(r\) tel que \(r^2=a\) est appelé <strong>racine carrée
+</strong> de \(a\) et noté <span class="nowrap">\(\sqrt{a}\).</span>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Théorème </h4>
+Soit \(a\) un nombre strictement positif.<br>
+L'équation \(x^2=a\) admet deux solutions distinctes&nbsp;:
+\(-\sqrt{a}\) et  <span class="nowrap">\(\sqrt{a}\).</span>
+</div>

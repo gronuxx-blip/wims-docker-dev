@@ -1,0 +1,15 @@
+any:job job2 doc block foldin foldout noedit\
+  authoring help_subject seq name
+any:parm[20]
+
+reply:readcntadv rEg preview abandon\
+  Keyw Titb Prev Next Upbl Dat1 Dat2\
+  currcont\
+  titr authorr emailr descr headerr\
+  wims_deposit
+
+reply:copyrightr coder coder1 coder2\
+  docopenr dlangr edtype addtype
+
+deny:foldlist jobsave readhist readcnt saveb\
+  filelink sheetdata filelist wksheet get_wksheet

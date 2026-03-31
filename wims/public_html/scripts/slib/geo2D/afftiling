@@ -1,0 +1,152 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+slib_title=Pavage affine par des triangles
+slib_author=Bernadette, Perrin-Riou
+slib_parms=3\
+,[p,q,r]\
+10,eps\
+size=600 color=[black,white] option (mots) : size= color=[] html/url
+
+slib_out=dessin du pavage affine par des triangles ou code ou url selon les cas
+
+slib_comment=Les angles du triangle de base sont 2pi/p,2pi/q,2pi/r avec 1/p+1/q+1/r=1/2.\
+  Le pavage (qui est théoriquement infini) est limité ... \
+  Cependant, le nombre de polygones dessinés est limité à 400 et même plus dans le cas de canvasdraw.\
+  Si eps est un entier, seules les esp premières tuiles sont dessinées.
+
+slib_example=[3,3,3,3,3,3],0.001,size=400 color=black html type=3\
+[4,4,4,4],0.001,size=400 color=black html type=3\
+[3,4,6,4],0.001,size=400 color=black html type=3\
+[3,6,3,6],0.001,size=400 color=[black,red] html type=3\
+[3,4,6,4],0.01,size=400 color=black html type=1\
+[3,4,6,4],0.001,size=400 color=black html type=3\
+[3,4,6,4],0.001,size=400 color=black html type=1\
+[3,4,6,4],0.01,size=400 color=black html type=2\
+[4,6,12],0.01,size=400 color=black html type=1\
+[4,6,12],0.01,size=400 color=black html type=2\
+[4,6,12],0.01,size=400 color=[black,red] html type=3\
+[3,4,6,4],0.01,size=400 color=black html type=3\
+[3,4,6,4],0.01,size=400 color=black html type=3\
+[4,8,8],0.01,size=400 color=black html type=3\
+[3,3,3,3,3,3],5,size=400 color=black html type=3
+
+!exit
+:proc
+
+!reset slib_Test slib_type slib_type0 slib_bound slib_cnt slib_size slib_color slib_dessin slib_dessin1 slib_dessin2 slib_dessin3 slib_depl slib_fill slib_dual
+!distribute items $wims_read_parm into slib_data,slib_bound,slib_option
+!set slib_gpprog=afftiling
+!if $slib_bound<0.01
+  !!reset slib_bound
+!endif
+!set wims_multiexec=$wims_multiexec pari
+!default slib_bound=0.01
+!set slib_size=!getopt size in $slib_option
+!default slib_size=600
+!set slib_color=!getopt color in $slib_option
+!set slib_color=!declosing $slib_color
+!set slib_type=!getopt type in $slib_option
+!default slib_color=black
+!set slib_color=$slib_color,$(slib_color[1])
+!set slib_color=$(slib_color[1,2])
+!set slib_fill=!getopt fill in $slib_option
+!set slib_fill=!declosing $slib_fill
+!set slib_depl=!getopt depl in $slib_option
+!default slib_depl=0
+!default slib_type=1
+!if canvasdraw iswordof $slib_option
+  !set slib_cnt=100
+  !if $slib_bound>1
+    !set slib_cnt=$slib_bound
+  !else
+    !if $slib_type=3
+      !set slib_cnt=$[$slib_cnt/2]
+    !endif
+  !endif
+!else
+  !set slib_cnt=100
+!endif
+!set slib_pqr=!declosing $slib_data
+!set slib_pqr=!exec pari [$slib_pqr]
+!if regular notin $slib_option
+  !set slib_n=!itemcnt $slib_pqr
+  !set slib_testexist=!exec pari a=[$slib_pqr];test=vecsum(vector($slib_n,i,1/a[i]))!=($slib_n-2)/2;if(a[1]%2==1, test+=a[$slib_n]!=a[2]);a=concat(a,a[1]);for(i=2,$slib_n,if(a[i]%2==1,test+=a[i-1]!=a[i+1])); test
+  !if $slib_testexist>0
+    !set slib_out=error $slib_testexist>0
+    !exit
+  !endif
+!endif
+!if regular isin $slib_option
+  !if $[1/$(slib_pqr[1])+1/$(slib_pqr[2])]!=1/2
+    slib_out=Error regular
+    !exit
+  !endif
+  !set slib_pqr=!makelist $(slib_pqr[2]) for x=1 to $(slib_pqr[1])
+!endif
+!set slib_testint=!exec pari t=[$slib_pqr]; t-round(t)==0
+!if $slib_testint!=1
+  slib_out=Error integers
+  !exit
+!endif
+!!if $(slib_header_$slib_gpprog)=
+  !readproc gp/$slib_gpprog.gp
+  !set slib_tiling=!exec pari tikz=0;$(slib_header_$slib_gpprog);
+!!endif
+slib_depl:0 pas au centre
+1 au centre
+!default slib_type=1
+1-> 1,2
+2-> 3,4
+3- > le faire en deux fois.
+!set slib_type0=$slib_type
+!if $slib_type=3
+  !set slib_type0=1,2
+!else
+  !set slib_type0=$slib_type
+!endif
+!set slib_tiling=!exec pari wwww=wims_catalan([$slib_pqr],$slib_bound,$slib_depl,$(slib_type0[1]));default(realprecision,3);wwww
+!set slib_data=!trim $(slib_tiling[2*$(slib_type0[1])-1,2*$(slib_type0[1])])
+!if $(slib_type0[1])=1
+  !if fill iswordof $slib_option
+    !set slib_pol=fpolygon
+    !default slib_color=black,white
+  !else
+    !set slib_pol=polygon
+    !set slib_col=$(slib_color[1])
+  !endif
+!else
+  !set slib_pol=rays
+  !set slib_col=$(slib_color[1])
+!endif
+!readproc slib/geo2D/offtiling
+!if $slib_type=3
+  !set slib_type0=2
+  !set slib_tiling=!exec pari wwww=wims_catalan([$slib_pqr],$slib_bound,$slib_depl,$(slib_type0));default(realprecision,3);wwww
+  !set slib_data=!trim $(slib_tiling[2*$(slib_type0)-1,2*$(slib_type0)])
+  !set slib_pol=rays
+  !set slib_col=$(slib_color[2])
+  !readproc slib/geo2D/offtiling
+!endif
+!set slib_out=xrange $slib_range\
+yrange $slib_range\
+$slib_dessin\
+$slib_dessin1\
+$slib_dessin2\
+$slib_dessin3
+
+!if url iswordof $slib_option or html iswordof $slib_option
+  !set insdraw_size=$slib_size,$slib_size
+  !insdraw $slib_out
+  !set slib_out=$ins_url
+  !if html iswordof $slib_option
+    !if alt iswordof $slib_option
+      !set slib_alt=[$slib_pqr]
+    !else
+      !reset slib_alt
+    !endif
+    !set slib_out=<img src="$ins_url" alt="$slib_alt">
+  !else
+    !set slib_out=$slib_out,$insdraw_size
+  !endif
+!endif

@@ -1,0 +1,115 @@
+type=classify
+textarea="data1 data2 distract"
+iEdit="legend enonce question"
+
+:Classer les objets dans un diagramme de Venn
+
+On présente une liste d'objets et deux propriétés
+  et il faut les classer selon leurs propriétés
+<p>
+Pour construire un exercice avec ce modèle, il suffit d'entrer les deux listes
+et leurs propriétés.
+</p>
+<p> Attention, les deux listes doivent avoir une intersection.
+Il peut être nécessaire d'utiliser un peu plus de programmation
+pour générer les deux listes ainsi que la liste des distracteurs.
+</p>
+<p class="wims_credits">Auteur du modèle : <a href="mailto:qualite@wimsedu.info">Bernadette Perrin-Riou</a></p>
+
+:%%%%%%%%%%%%%%%%%      ATTENTION      %%%%%%%%%%%%%%%%%%%%
+
+Enlevez l'en-tête ci-dessus si vous détruisez les balises pour le modèle !
+(Ce sont les lignes qui commencent par un ':'.)
+Sinon l'exercice risque de ne pas pouvoir repasser sous Createxo.
+
+:%%%%%%%% Paramètres d'exemples à redéfinir %%%%%%%%%%%%%%%%%
+
+:\title{Classer dans un diagramme de Venn}
+:\author{Bernadette, Perrin-Riou}
+:\email{bernadette.m.riou@orange.fr}
+:\credits{}
+:Première liste
+\text{data1=toto,tata,tutu,titi,tota}
+:Deuxième liste (elle doit avoir une intersection avec la première liste)
+\text{data2=toto,momo,roro,popo}
+:Distracteur
+\text{distract=pupu,pipi,papa}
+:Enoncé
+\text{enonce= Le disque de droite contient les mots avec un o.,
+ Le disque de gauche les mots avec un t.}
+:Question
+\text{question=Placer les mots à leur place.}
+: Option exemple
+\text{option1=item(1,0 sans exemple,
+	1 avec exemple)}
+: Option distracteur
+\text{option2=item(1,0 sans distracteur,
+	1 avec distracteur)}
+:légende dans le dessin
+\text{legend=t,o}
+
+:%%%%%%%%%%%%%% Rien à modifier avant l'énoncé %%%%%%%%%%%%%%%%
+\text{option=wims(word 1 of \option1),wims(word 1 of \option2)}
+
+\text{list1=\data1}
+\text{list2=\data2}
+\text{inter=wims(listintersect \list1 and \list2)}
+\text{list1=wims(listcomplement \inter in \list1)}
+\text{list2=wims(listcomplement \inter in \list2)}
+\integer{cnt=items(\inter)}
+\integer{cnt1=items(\list1)}
+\integer{cnt2=items(\list2)}
+\if{\option[2]=1}{
+  \text{distract=wims(listcomplement \inter in \distract)}
+  \text{distract=wims(listcomplement \list1 in \distract)}
+  \text{distract=wims(listcomplement \list2 in \distract)}
+  \text{distract=\distract[1,2]}
+}
+\if{\cnt>1}{\text{inter=shuffle(\inter)}}
+\if{\cnt1>1}{\text{list1=shuffle(\list1)}}
+\if{\cnt2>1}{\text{list2=shuffle(\list2)}}
+\text{l=\legend}
+\text{ll=\l}
+\text{dessin=}
+\if{\option[1]=1}{
+  \matrix{dessin=text black,-2.1,0.5,giant,\list1[1]
+text black,-0.4,0.5,giant,\inter[1]
+text black,1,0.5,giant,\list2[1]}
+}
+\text{rep1=\list1[-1]}
+\text{rep2=\inter[-1]}
+\text{rep3=\list2[-1]}
+\text{rep=\rep1,\rep2,\rep3}
+
+\text{cercles=xrange -3.1,3.1
+yrange -1.1,1.1
+text black,-1,0.8,large,\l[1]
+circles black,-1,0,2
+text black,1,0.8,large,\l[2]
+circles black,1,0,2}
+\if{\option[1]=1}{
+  \text{cercles=\cercles
+\dessin}
+}
+\text{cercles=draw(550,550
+\cercles)}
+\matrix{specialreply=reply 1,60x200
+reply 2,180x200
+reply 3,300x200}
+
+:%%%%%%%%%%%%% Maintenant l'énoncé en code html. %%%%%%%%%%%%%%%%%%%%
+
+\statement{
+  \enonce
+  <div class="wims_question">\question
+    <div class="wimscenter">
+  \special{imagefill \cercles,450x450,80x40
+  \specialreply
+  }
+    </div></div>
+}
+:%%%%%%%%%%%%% Rien à modifier ci-après. %%%%%%%%%%%%%%%%%5
+
+\answer{}{\rep[1];\distract}{type=dragfill}{option=shuffle}
+\answer{}{\rep[2]}{type=dragfill}
+\answer{}{\rep[3]}{type=dragfill}

@@ -1,0 +1,61 @@
+Modéliser un problème
+Collection d'exercices sur des cas simples de relations entre variables et de modélisation de problèmes géométriques par des équations (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,algebra,geometry
+levelH4,pbsolving,equations,modelling
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur des cas simples de relations entre variables et de modélisation de problèmes géométriques par des équations (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/math/quizzautomat.fr
+exo=form1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Appliquer une formule
+<p>Évaluer une grandeur à partir d'une formule donnée.</p>
+
+
+
+algebra
+:H4/math/quizzautomat.fr
+exo=lit1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Isoler une variable
+<p>Une relation entre variables étant donnée, exprimer une variable en fonction des autres.</p>
+
+
+
+organiser
+:H2/algebra/oefcamot.fr
+exo=utilx&confparm1=1&confparm2=5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Modéliser un problème par une équation (1)
+<p>Modéliser un problème de géométrie (longueurs) par une équation.</p>
+
+
+
+cerveau
+:H3/algebra/OEFevalwimslitt.fr
+exo=formule2&exo=formule4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Modéliser un problème par une équation (2)
+<p>Modéliser un problème de géométrie (périmètres et aires) par une équation.</p>
+
+
+
+cerveau
+:H2/algebra/oefcamot.fr
+exo=airex&confparm1=1&confparm2=5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Modéliser un problème par une équation (3)
+<p>Modéliser un problème de géométrie (aires) par une équation.</p>
+
+
+
+cerveau

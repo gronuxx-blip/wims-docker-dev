@@ -1,0 +1,36 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Pourcentage d'évolution
+!set gl_level=H3 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(p\) un nombre positif.<br>
+Augmenter une grandeur de \(p\;\%\) revient à la multiplier par <span class="nowrap">\(1 + \dfrac{p}{100}\).</span><br>
+Diminuer une grandeur de \(p\;\%\) revient à la multiplier par <span class="nowrap">\(1 - \dfrac{p}{100}\).</span><br>
+On dit alors que le <strong>pourcentage d'évolution</strong> est de <span class="nowrap">\(p\;\%\).</span><br>
+Dans chaque cas, le nombre par lequel on multiplie la grandeur est appelé <strong>coefficient multiplicateur</strong>.
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>Lorsqu'une grandeur varie d'une valeur non nulle \(A\) à une valeur <span class="nowrap">\(B\)</span>, le coefficient multiplicateur est <span class="nowrap">\(C_M = \dfrac{B}{A}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<ul>
+<li> Lorsque l'évolution est une augmentation de coefficient multiplicateur <span class="nowrap">\(C_M \),</span> le pourcentage d'évolution est <span class="nowrap">\(p = (C_M - 1)\times100\).</span>
+</li>
+<li> Lorsque l'évolution est une diminution de coefficient multiplicateur <span class="nowrap">\(C_M \),</span> le pourcentage d'évolution est <span class="nowrap">\(p = (1 - C_M)\times100\).</span>
+</li>
+</ul>
+</div>

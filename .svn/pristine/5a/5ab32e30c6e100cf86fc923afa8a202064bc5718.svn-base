@@ -1,0 +1,31 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=volume,measurement,solid_geometry,3_shape
+!set gl_title=Boule
+!set gl_level=H3 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \(\mathrm{O}\) un point de l'espace et soit \(\mathrm{R}\) un nombre
+strictement positif.<br>
+La <strong>boule</strong> de centre \(\mathrm{O}\) et de rayon \(\mathrm{R}\)
+est l'ensemble des points \(\mathrm{M}\) de l'espace tels que
+<span class="nowrap">\(\mathrm{OM} \leqslant \mathrm{R}\).</span>
+</div>
+:mathematics/geometry/fr/ball_1
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<em>Une unité de longueur étant donnée dans l'espace, on considère l'unité de volume associée.</em><br class="spacer">
+Le volume d'une boule est égal aux quatre tiers du produit du rayon de la boule au cube par  \(\pi\).<br class="spacer">
+Autrement dit :<br>
+Si \(R\) désigne le rayon de la boule et \(V\) le volume de cette boule, alors&nbsp;:<br>
+<div class="wimscenter">
+\(V= \dfrac {4} {3} \times \pi\times R  \times R \times R  \)<br>
+\(V=\dfrac{4}{3} \pi R^3\)
+
+</div>
+</div>

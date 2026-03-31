@@ -1,0 +1,70 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+slib_title=Polygone tangentiel
+slib_author=Bernadette, Perrin-Riou
+slib_parms=3\
+,vecteur des angles\
+0.01,eps\
+size=600 color=[black,white] depl=[1,0,0] option (mots) : size= color=[] html/url depl= depl0
+
+fill depl= type= alt
+
+slib_out=dessin d'un polygone hyperbolique tangentiel ou code ou url selon les cas \
+  associé à la suite des angles internes.
+
+slib_comment=in progress
+
+slib_example=[2*Pi/8,2*Pi/8,2*Pi/10,2*Pi/10,2*Pi/10,2*Pi/12,2*Pi/5],html color=blue\
+[2*Pi/8,2*Pi/8,2*Pi/10,2*Pi/10,2*Pi/10,2*Pi/12,2*Pi/5],html depl=[cos(Pi/4)+I*sin(Pi/4),0,0]\
+[2*Pi/8,2*Pi/8,2*Pi/10,2*Pi/10,2*Pi/10,2*Pi/12,2*Pi/5],html depl=[1,0.5,1]\
+[2*Pi/8,2*Pi/8,2*Pi/10,2*Pi/10,2*Pi/10,2*Pi/12,2*Pi/5],html depl0
+!exit
+:proc
+
+!reset slib_hyppolygon,slib_Test slib_type slib_bound slib_size slib_color slib_dessin slib_dessin1 slib_dessin2 slib_dessin3 slib_depl slib_fill
+!distribute items $wims_read_parm into slib_data,slib_option
+!set slib_depl=!getopt depl in $slib_option
+!set slib_size=!getopt size in $slib_option
+slib_color=!getopt color in $slib_option
+!default slib_color=black
+!set slib_size=!declosing $slib_size
+!set slib_gpprog=hyppolygon
+!set wims_multiexec=$wims_multiexec pari
+!reset slib_header_hyptiling
+!if $(slib_header_$slib_gpprog)=
+  !readproc gp/$slib_gpprog.gp
+  !set slib_hyppolygon=!exec pari tikz=0;$(slib_header_$slib_gpprog);
+!endif
+!default slib_depl=1,0,0
+!set slib_hyppolygon=!exec pari wwww=apply(x->mob([$slib_depl],x),tangentiel($slib_data,1));default(realprecision,3);wwww
+!if depl0 iswordof $slib_option
+  !set slib_hyppolygon=!exec pari premier=wwww[1]; wwww=apply(x->mob([1,-premier,0],x),wwww);wwww
+!endif
+!set slib_hyppolygon=!exec pari wwww=vector(#wwww,i,[real(wwww[i]),imag(wwww[i])]);concat(wwww)
+!if raw iswordof $slib_option
+  !set slib_out=$slib_hyppolygon
+  !exit
+!endif
+!default slib_size=300,300
+slib_dessin=xrange -1,1\
+yrange -1,1\
+circles black, 0,0,1\
+hyppolygon $slib_color,$slib_hyppolygon
+!if url iswordof $slib_option or html iswordof $slib_option
+  !set insdraw_size=$slib_size,$slib_size
+  !insdraw $slib_dessin
+  !set slib_out=$ins_url
+  !if html iswordof $slib_option
+    !if alt iswordof $slib_option
+      !set slib_alt=[$slib_pqr]
+    !else
+      !reset slib_alt
+    !endif
+    !set slib_out=<img src="$ins_url" alt="$slib_alt">
+  !else
+    !set slib_out=$slib_out,$insdraw_size
+  !endif
+!endif
+slib_out=!exec canvasdraw size $slib_size,$slib_size\
+$slib_dessin

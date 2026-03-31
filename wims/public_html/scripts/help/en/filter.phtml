@@ -1,0 +1,28 @@
+!readproc adm/vfilter/listvarfilter.proc
+!if $tv_listtechvar=$empty
+	No technical variable define.
+	<br>
+	You can define technical variables:
+	<ul>
+		<li>use the link to the spreadsheet (not available for the moment)</li>
+		<li>do this directly in the attributes of the participants' accounts</li>
+		<li>via a non anonymous questionnaire (not available for the moment)</li>
+    <li>en utilisant le gestionnaire de variables techniques</li>
+	</ul>
+	(check the help pages for further instructions).
+!else
+	List of available technical variables :
+	!read adm/vfilter/listvar.phtml
+	You can filter participants according to these variables. All the conditions
+	on the same line should be met and in case of several lines at least one condition
+	per line should be fullfilled.
+	<div>For example,
+	<pre>
+	group=1 language=2
+	group=3
+	</pre>
+	will select students belonging to group 1 and in language 1
+	or to group 3.
+	</div>
+!endif
+

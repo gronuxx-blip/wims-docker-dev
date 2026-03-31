@@ -1,0 +1,74 @@
+
+:H6/analysis/OEFCalcLimLnExp.fr
+exo=qcmref&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limites de référence (QUIZZ)
+Limites de fonctions usuelles.
+
+TB pour vérifier la connaissance des limites données ds le cours
+:H6/analysis/OEFexpolimTS.fr
+exo=limites1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite avec exponentielle 1
+Limite d'une fonction exponentielle.
+
+TB car donne les étapes pour limite de fonction composée avec exp.
+:H6/analysis/OEFCalcLimLnExp.fr
+exo=calcexp&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite de u(x)*exp(kx)
+Limite avec exp par étapes.
+
+Tb, guidé mais juste ce qu'il faut pour réfléchir sur opérations sur limites ou croissances comparées.
+:H6/analysis/OEFCalcLimLnExp.fr
+exo=compoexp&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite de k.exp(ax+b) ou k/exp(ax+b)
+Limite avec exp par étapes.
+
+
+:H6/analysis/OEFCalcLimLnExp.fr
+exo=indformwithexp&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Formes indéterminées avec exponentielle
+Limites avec une fonction exp par étapes.
+
+
+:H6/analysis/OEFCalcLimLnExp.fr
+exo=indeterminateForm&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Formes indéterminées avec ln ou exp
+Limite avec exp ou ln par étapes.
+
+
+:H6/analysis/OEFCalcLimLnExp.fr
+exo=calcln&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite de u(x)*ln(kx)
+Limite avec ln par étapes.
+
+Bien pour réfléchir aux éventuelles FI
+:H6/analysis/OEFCalcLimLnExp.fr
+exo=compln&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite de k.ln(ax+b) ou k/ln(ax+b)
+Limite avec ln par étapes.
+
+
+:H6/analysis/OEFCalcLimLnExp.fr
+exo=indformwithln&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Formes indéterminées avec logarithme
+Limite avec ln par étapes.
+
+
+

@@ -1,0 +1,33 @@
+!! Default Modtool File descriptions. You can overwrite them in your own module by putting a "filedesc" file at module root.
+!! nb : all non alpha chars must be replaced by _
+
+Dataindex=<small>(Généré automatiquement) - Liste les fichiers de données</small>
+NEWS=Compte-rendu des versions et des modifications du module (à compléter à chaque republication du module).
+
+README=Comment mettre des exercices OEF dans un module
+content_html=<small>Généré automatiquement</small>
+
+about_phtml=Fichier 'à propos'. Vous pouvez le laisser tel quel.
+
+help_phtml=Aides aux utilisateurs. Vous pouvez le laisser tel quel.
+main_phtml=Fichier principal d'organisation de sortie. Vous pouvez le laisser tel quel.
+msg_phtml=Messages d'erreur. Vous pouvez le laisser tel quel.
+
+intro_phtml=Introduction du module décrivant son contenu.
+introhook_phtml=Configuration des paramètres confparm1, confparm2,..., confparm4.
+endhook_phtml=Ajout d'un texte ou de liens en dessous des énoncés de tous les exercices du module.
+
+src_cpp_qcm_cpp=Fichier source générant l'ensemble des fichiers OEF de ce module
+src_cpp_confparm_inc=Paramètres de personnalisation
+src_cpp_author_inc=Informations sur l'auteur de ce module
+
+src_ordered_oef=<small>(Généré par CPP) - questions dans l'ordre.</small>
+src_serial_oef=<small>(Généré par CPP) - questions en série.</small>
+src_shuffle_oef=<small>(Généré par CPP) - questions dans le désordre.</small>
+
+var_proc=Fichier de traitement de variables général (par exemple, dossier d'images utilisé, précision des calculs).
+
+var_init=Initialisation de variables.
+var_def=Déclarations de variables d'utilisateurs.
+
+filedesc=Explication de chaque fichier dans ce module.

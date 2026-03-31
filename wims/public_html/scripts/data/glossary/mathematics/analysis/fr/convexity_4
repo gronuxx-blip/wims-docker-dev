@@ -1,0 +1,39 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Convexité (Exemple 4)
+
+!readproc data/glossary/mathematics/analysis/macro/convexity_gen convexity,4
+
+!set gl_lang=convexe,concave\
+croissante,décroissante
+
+!if $gl_num<3
+  !set gl_phrase1=<p>La fonction \(f\) est $(gl_lang[1;$gl_num]) sur <span class="nowrap">\(\mathrm{I}\).</span></p>
+  !set gl_phrase2=<p>La fonction \(f^{'}\) est $(gl_lang[2;$gl_num]) sur <span class="nowrap">\(\mathrm{I}\).</span></p>
+!else
+  !set gl_phrase1=<p>La fonction \(f\) est $(gl_lang[1;$(gl_typeConv[1])]) sur \
+  \(\left\lbrack $gl_aa1 \,;$gl_infl \right\rbrack\) et $(gl_lang[1;$(gl_typeConv[2])]) sur \
+  <span class="nowrap">\(\left\lbrack $gl_infl \,;$gl_bb1 \right\rbrack\).</span></p>
+  !set gl_phrase2=<p>La fonction \(f^{'}\) est $(gl_lang[2;$(gl_typeConv[1])]) sur \
+  \(\left\lbrack $gl_aa1 \,;$gl_infl \right\rbrack\) et $(gl_lang[2;$(gl_typeConv[2])]) sur \
+  <span class="nowrap">\(\left\lbrack $gl_infl \,;$gl_bb1 \right\rbrack\).</span></p>
+!endif
+<p>Soit \(f\) la fonction définie et dérivable sur \(\mathrm{I}=\left\lbrack $(gl_aa1) \,;$(gl_bb1) \right\rbrack\) 
+de courbe représentative <span class="nowrap">\(\mathcal{C}\).</span><br>
+Soit \(f^{'}\) la fonction dérivée de \(f\) de courbe représentative <span class="nowrap">\(\mathcal{C}_{f'}\).</span>
+</p>
+
+<div class="grid-x grid-margin-x">
+  <div class="cell small-12 medium-6 large-6">
+    $gl_phrase1  
+    !readproc slib/geo2D/jsxgraph id$(gl_a)1 brd$(gl_a)1,[$gl_xsize x $gl_ysize,min=250px max=400px scroll],$(gl_script$(gl_a)1)
+      $slib_out
+  </div>
+  <div class="cell small-12 medium-6 large-6">
+    <div>
+      $gl_phrase2 
+      !readproc slib/geo2D/jsxgraph id$gl_b brd$gl_b,[$gl_xsize x $gl_ysize,min=250px max=400px scroll],$(gl_script$(gl_b))
+      $slib_out
+    </div>
+  </div>
+</div>

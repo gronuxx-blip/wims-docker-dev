@@ -1,0 +1,100 @@
+Évolutions successives et évolution réciproque
+Calculer le taux d’évolution global à partir des taux d’évolution successifs, calculer un taux d’évolution réciproque (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,statistics
+levelH4,percentage
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Calculer le taux d’évolution global à partir des taux d’évolution successifs, calculer un taux d’évolution réciproque (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H5/algebra/OEFpctprem.fr
+exo=evolsucc1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Deux évolutions successives sur un prix
+<p>Calculer le prix d'un article après deux évolutions successives.</p>
+
+
+:H5/algebra/OEFpctprem.fr
+exo=evolsucc2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Deux évolutions successives sur un prix (2)
+<p>Calculer le taux d'évolution global résultant de deux évolutions successives appliquées sur une valeur donnée.</p>
+
+
+:H5/algebra/OEFpctprem.fr
+exo=evolsucc2b&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Évolutions successives sans valeur initiale
+<p>Calculer le taux d'évolution global résultant de deux évolutions successives.</p>
+
+
+:H5/algebra/OEFpctprem.fr
+exo=evolsucc4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+QCM sur évolutions successives 
+<p>Caractériser l'évolution résultant de deux évolutions successives.</p>
+
+
+:H5/algebra/OEFpctprem.fr
+exo=evolsucc3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Évolution réciproque
+Calculer le taux d'évolution réciproque d'un taux d'évolution donné.
+
+
+:H5/algebra/OEFpctprem.fr
+exo=evolsucc5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Expression littérale et évolutions successives
+<p>Associer à chaque description d'évolutions d'un prix \(x\) l'expression en \(x\) correspondante.</p>
+
+
+:H5/analysis/oefpercent2.fr
+exo=evolution
+30
+1
+Trois évolutions successives
+<p>Utilisation des coefficients multiplicateurs pour caractériser des évolutions successives.</p>
+
+
+:H5/analysis/oefpercent2.fr
+exo=costume&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul de prix suite à 2 évolutions successives
+<p>Calcul du prix d'un article ayant subi deux évolutions successives.</p>
+
+
+:H5/analysis/oefpercent2.fr
+exo=lait&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul de prix suite à 3 évolutions successives
+<p>Calcul du prix d'un article ayant subi trois évolutions successives.</p>
+
+
+
+:H5/analysis/oefpercent2.fr
+exo=tvared&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Réduction et TVA
+<p>Résolution d'un problème portant sur des évolutions successives.</p>
+
+
+:H5/analysis/oefpercent2.fr
+exo=tvamod&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+TVA modifiée
+<p>Résolution d'un problème portant sur des évolutions successives.</p>
+
+

@@ -1,0 +1,35 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=angles,measurement
+!set gl_title=Angles adjacents
+!set gl_level=
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>
+    Définition
+  </h4>
+  Deux angles sont dits <strong>adjacents</strong> lorsque
+  <ul>
+    <li>
+      ils ont même sommet ;
+    </li><li>
+      ils ont un côté commun ;
+    </li><li>
+      ils sont situés de part et d'autre de ce côté.
+    </li>
+  </ul>
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>
+    Propriété
+  </h4>
+  Soit \(\widehat{x \mathrm{O} y}\) et \(\widehat{y \mathrm{O} z}\) deux angles
+  adjacents.<br>
+  \(\widehat{x \mathrm{O} y} + \widehat{y \mathrm{O} z} =
+  \widehat{x \mathrm{O} z}\).
+</div>

@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Couple
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(E\) un ensemble. Un <strong>couple</strong> d'éléments de \(E\) est une suite de deux éléments de \(E\).</p>
+<p>Le couple des éléments \(x\) et \(y\) de \(E\) est noté <span class ="nowrap">\((x\,,y)\).</span></p>
+
+</div>
+

@@ -1,0 +1,32 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Déterminant de deux vecteurs du plan
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\overrightarrow{u}\) et \(\overrightarrow{v}\) deux vecteurs du plan muni d'un repère de coordonnées respectives <span class="nowrap">\((x\,;y)\) et \((x^{'}\,;y^{'})\).</span><br>
+Le déterminant des vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) est le réel, noté <span class="nowrap">\(\mathrm{det}\left(\overrightarrow{u}\,,\overrightarrow{v}\right)\),</span> défini par&nbsp;:
+<div class="wimscenter">
+\(\mathrm{det}\left(\overrightarrow{u}\,,\overrightarrow{v}\right) = x y^{'}-y x^{'}\)
+</div>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Soit \(\overrightarrow{u}\) et \(\overrightarrow{v}\) deux vecteurs du plan muni d'un repère.<br>
+Les vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont colinéaires si, et seulement si, leur déterminant est nul.
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarques</h4>
+Soit <span class="nowrap">\(\mathrm{A}\),</span> <span class="nowrap">\(\mathrm{B}\),</span> \(\mathrm{C}\) et \(\mathrm{D}\) quatre points du plan muni d'un repère.
+<ul>
+  <li>Les points <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{C}\) sont alignés si, et seulement si, le déterminant des vecteurs \(\overrightarrow{\mathrm{AB}}\) et \(\overrightarrow{\mathrm{AC}}\) est nul.
+  </li>
+  <li>Lorsque les droites \((\mathrm{AB})\) et \((\mathrm{CD})\) sont définies, celles-ci sont parallèles si, et seulement si, le déterminant des vecteurs \(\overrightarrow{\mathrm{AB}}\) et \(\overrightarrow{\mathrm{CD}}\) est nul.</li>
+</ul>
+</div>

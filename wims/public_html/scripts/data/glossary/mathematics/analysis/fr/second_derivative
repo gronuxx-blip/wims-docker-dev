@@ -1,0 +1,15 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Fonction dérivée seconde
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(f\) une fonction définie et dérivable sur un intervalle <span class = "nowrap">\(\mathrm{I}\).</span></p>
+<p>On dit que la fonction \(f\) est deux fois dérivable sur \(\mathrm{I}\) lorsque la fonction \(f'\) est dérivable sur <span class = "nowrap">\(\mathrm{I}\) ;</span> on appelle alors <strong>fonction dérivée seconde</strong> de <span class = "nowrap">\(f\),</span> notée <span class = "nowrap">\(f''\),</span> la dérivée de la fonction <span class = "nowrap">\(f'\).</span></p>
+</div>
+

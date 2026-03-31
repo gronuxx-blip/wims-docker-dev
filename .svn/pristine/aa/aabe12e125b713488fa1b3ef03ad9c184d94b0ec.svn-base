@@ -1,0 +1,103 @@
+/** Grouped input styles */
+
+/* WIMS custom styles */
+
+/*
+.input-group{
+  justify-content: center;
+}
+*/
+
+/* Add border radius around group */
+div.input-group>:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+div.input-group>:last-child,
+div.input-group>:last-child>button,
+div.input-group>:last-child>.button  {
+  border-radius: 0 5px 5px 0;
+}
+
+
+/* from Foundation for Sites
+ * Version 6.8.1
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
+
+
+.input-group {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  align-items: stretch;
+}
+
+/*
+.input-group > :first-child,
+.input-group > :first-child.input-group-button > * {
+  border-radius: 0;
+}
+
+.input-group > :last-child,
+.input-group > :last-child.input-group-button > * {
+  border-radius: 0;
+}
+*/
+
+.input-group-button a,
+.input-group-button input,
+.input-group-button button,
+.input-group-button label,
+.input-group-button,
+.input-group-field,
+.input-group-label {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.input-group-label {
+  padding: 0 1rem;
+  border: 1px solid #cacaca;
+  background: #e6e6e6;
+  color: #0a0a0a;
+  text-align: center;
+  white-space: nowrap;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+}
+
+.input-group-label:first-child {
+  border-right: 0;
+}
+
+.input-group-label:last-child {
+  border-left: 0;
+}
+
+.input-group-field {
+  border-radius: 0;
+  flex: 1 1 0px;
+  min-width: 0;
+}
+
+.input-group-button {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.input-group-button a,
+.input-group-button input,
+.input-group-button button,
+.input-group-button label {
+  align-self: stretch;
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1rem;
+}

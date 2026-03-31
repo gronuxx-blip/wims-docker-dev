@@ -1,0 +1,127 @@
+
+:H6/algebra/oefplancomplexe.fr
+exo=affixe&qnum=1&qcmlevel=3&scoredelay=&confparm1=A&confparm2=ALG
+10
+1
+Placer un point d'affixe donnée
+forme algébrique
+
+
+module=H6/algebra/docintrocomplex.fr&block=plan&cmd=new,10,0
+:H6/algebra/cplxcalc.fr
+exo=calculcplx&confparm1=1&confparm1=5&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme sous forme algébrique
+
+
+exercice de David ajouté au Doc pour remplacer un autre
+module=H6/algebra/docintrocomplex.fr&block=somme&cmd=new,10,0
+:H6/geometry/OEFcplxTS.fr
+exo=opercplx1
+10
+1
+Calcul de combinaisons linéaires
+forme algébrique
+
+
+module=H6/algebra/docintrocomplex.fr&block=prodreel&cmd=new,10,0
+:H6/algebra/oefplancomplexe.fr
+exo=oper&qnum=1&qcmlevel=3&scoredelay=&confparm1=A&confparm2=ALG&confparm3=1
+10
+1
+Affixes et opérations
+Placer un point avec une affixe de forme algébrique
+
+
+module=H6/algebra/docintrocomplex.fr&block=prodreel&cmd=new,10,0
+:H6/algebra/cplxcalc.fr
+exo=calculcplx&confparm1=9&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Produit sous forme algébrique
+
+
+exercice de David inséré dans le doc
+module=H6/algebra/docintrocomplex.fr&block=produit&cmd=new,10,0
+:H6/algebra/cplxcalc.fr
+exo=calculcplx&confparm1=13&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Carré d'un nombre complexe
+sous forme algébrique
+
+exercice de David dans le doc
+module=H6/algebra/docintrocomplex.fr&block=produit&cmd=new,10,0
+:H5/algebra/quizcomplex.en
+exo=reim&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Parties réelles, imaginaires et conjugués
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=conjugue&cmd=new,10,0
+:H6/algebra/cplxcalc.fr
+exo=calculcplx&confparm1=2&confparm1=3&confparm1=6&confparm1=7&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Somme et conjugués
+
+
+exercice de David inséré dans le doc
+module=H6/algebra/docintrocomplex.fr&block=conjugue&cmd=new,10,0
+:H6/algebra/oefplancomplexe.fr
+exo=oper&qnum=1&qcmlevel=3&scoredelay=&confparm1=A&confparm2=ALG&confparm3=2
+10
+1
+Produit et conjugués
+résultat graphique
+
+
+module=H6/algebra/docintrocomplex.fr&block=conjugue&cmd=new,10,0
+:H5/algebra/quizcomplex.en
+exo=conj
+10
+1
+Propriétés des conjugués
+
+
+
+module=H6/algebra/docintrocomplex.fr&block=conjugue&cmd=new,10,0
+:H6/algebra/cplxcalc.fr
+exo=calculcplx&confparm1=21&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Inverse sous forme algébrique
+
+
+exercice de David sans équivalent
+module=H6/algebra/docintrocomplex.fr&block=inverse&cmd=new,10,0
+:H6/algebra/cplxcalc.fr
+exo=calculcplx&confparm1=17&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Calcul de quotient
+
+
+exercice de David dans le doc
+module=H6/algebra/docintrocomplex.fr&block=quotient&cmd=new,10,0
+:H6/algebra/cplxcalc.fr
+exo=calculcplx&confparm1=18&confparm1=19&qnum=1&scoredelay=&qcmlevel=1
+10
+1
+Quotient et conjugué
+
+
+exercice de David dans le doc
+module=H6/algebra/docintrocomplex.fr&block=quotient&cmd=new,10,0
+:H3/algebra/arithtable.en
+exo=table2x2&exo=partial2x2&exo=typed2x2&qnum=1&qcmlevel=3&scoredelay=&confparm1=21&confparm2=2&intro_presentsol=1&intro_qcmpresent=4&intro_check=1&intro_check=2&intro_expert=yes
+10
+1
+Remplir un tableau avec des nombres complexes
+somme et produit en forme algébrique
+
+
+module=H6/algebra/docintrocomplex.fr&block=quotient&cmd=new,10,0

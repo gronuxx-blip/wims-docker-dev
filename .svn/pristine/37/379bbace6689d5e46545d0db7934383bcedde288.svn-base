@@ -1,0 +1,15 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Période
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(f\) une fonction périodique d'ensemble de définition <span class="nowrap">\(E\).</span><br>
+On appelle <strong>période</strong> de la fonction \(f\) tout réel \(T\) strictement positif tel que pour tout <span class="nowrap">\(x\in E\),</span> <span class="nowrap">\(f(x+T)=f(x)\).</span>
+
+</div>
+:

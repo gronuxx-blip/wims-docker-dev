@@ -1,0 +1,122 @@
+
+:H4/analysis/oefgrfctref.fr
+exo=chgrtrigo1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Choix d'une sinusoïde
+Reconnaître le graphe d'une fonction cos ou sin.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=chgrtrigo2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Choix d'une sinusoïde II
+Reconnaître le graphe d'une fonction cos ou sin.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=grtrigo1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Graphes de fonctions trigo simples II
+Reconnaître le graphe de fonctions cos ou sin.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=assgrtrigo1
+10
+1
+Association de sinusoïdes
+Reconnaître le graphe de fonctions cosinus ou sinus.
+
+
+:H4/analysis/oefgrfctref.fr
+exo=assgrtrigo2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Association de sinusoïdes II
+Reconnaître le graphe de fonctions cosinus et sinus.
+
+
+:H5/analysis/OEFoperfonct.fr
+exo=opertrigo&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Opérations sur fonctions trigo
+Identifier le graphe de fonctions composées d'une fonction trigo.
+
+Fonctions associées non vues au lycée
+:H5/analysis/sincos.fr
+exo=eq1interv
+10
+1
+Équation 1 sur un intervalle
+Résolution d'une équation d'inconnue cos(x) ou sin(x).
+
+
+:H5/algebra/trigo.fr
+exo=equtrig
+10
+1
+Équations trigonométriques
+Résolution d'une équation d'inconnue cos(x) ou sin(x).
+
+
+:U1/analysis/oefDerives.fr
+exo=derives7&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivée d'une fonction de sin et cos
+Dérivée d'une fonction.
+
+
+:H6/analysis/OEFderivee.fr
+exo=form6&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Formules6 (sin et cos)
+Dérivées de fonctions avec cos et sin.
+
+Dérivée de composées
+:H6/analysis/OEFderivee.fr
+exo=pdt2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Produit avec sin ou cos
+Déterminer la dérivée d'un produit avec cos ou sin.
+
+
+:H6/analysis/oefderiv.fr
+exo=trigo2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Fonctions Trigonométriques II
+Dérivée d'une composée.
+
+
+:H4/analysis/OEFevalwimsfctref.fr
+exo=ptetrigo3
+10
+1
+Propriétés de sinus et cosinus 3
+Déterminer les variations par lecture graphique.
+
+
+:H4/analysis/OEFevalwimsfctref.fr
+exo=ptetrigo4
+10
+1
+Propriétés de sinus et cosinus 4
+Déterminer les variations par lecture graphique.
+
+
+
+:H4/analysis/OEFevalwimsfctref.fr
+exo=ptetrigo5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Propriétés de sinus et cosinus 5
+Parité.
+
+

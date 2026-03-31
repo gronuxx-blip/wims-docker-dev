@@ -1,0 +1,115 @@
+
+:H4/geometry/oefline.fr
+exo=pointsentiers&qnum=2&qcmlevel=3&scoredelay=&intro_qcmpresent=4&intro_presentsol=1&intro_check=1&intro_check=2&intro_check=3&intro_check=4&intro_expert=yes
+10
+1
+Point à coordonnées entières sur une droite
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S1S1&cmd=new,9,0
+:H5/geometry/oefline2d.en
+exo=pntonline&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Point sur une droite
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S1S1&cmd=new,9
+:H5/geometry/oefline2d.en
+exo=lineonpnt2&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Droite passant par un point
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S1S1&cmd=new,9
+:H4/algebra/h4droites.fr
+exo=selectEqAB1&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Sélectionner une équation pour une droite définie par deux points
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S1S1&cmd=new,9,0
+:H4/algebra/h4droites.fr
+exo=selectVectDir2&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Sélectionner un vecteur directeur
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S1S3&cmd=new,9
+:H4/algebra/h4droites.fr
+exo=equationDe2pts&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Équation cartésienne d'une droite passant par deux points
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S1S3&cmd=new,9
+:H5/geometry/oefline2d.en
+exo=pnt2eq&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Équation cartésienne d'une droite passant par deux points
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S1S3&cmd=new,9
+:H4/geometry/oefline.fr
+exo=equ_dr1&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Équation cartésienne
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S1S3&cmd=new,9
+:H5/geometry/oefline2d.en
+exo=pntonline2&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Point sur une droite
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S2S1&cmd=new,9
+:H4/algebra/h4droites.fr
+exo=selectVectDir2&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Vecteur directeur
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S3S2&cmd=new,9
+:H5/geometry/oefline2d.en
+exo=par1&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Équation d'une parallèle à une droite donnée par une équation
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S3S2&cmd=new,9
+:H5/geometry/oefline2d.en
+exo=par2&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Équation d'une parallèle
+
+
+
+module=U1/geometry/DroitesPlans.fr&block=mainS1S3S2&cmd=new,9
+:H5/geometry/oefline2d.en
+exo=parm2eq&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Équation cartésienne
+

@@ -1,0 +1,48 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Fonction périodique
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+Soit une fonction \(f\) définie sur un ensemble de réels <span class="nowrap">\(E\).</span><br>
+La fonction \(f\) est <strong>périodique</strong> s'il existe un réel strictement positif \(T\) vérifiant
+les deux conditions suivantes&nbsp;:
+<ul>
+<li>
+pour tout réel \(x\) de \(E\), \(x+T\) et \(x-T\) appartient à <span class="nowrap">\(E\) ;</span> 
+</li>
+<li>
+pour tout réel \(x\) de \(E\), <span class="nowrap">\(f(x+T)=f(x)\).</span> 
+</li>
+</ul>
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarque</h4>
+Un réel \(T\) vérifiant les conditions ci-dessus est appelé <i>période</i> de la fonction
+<span class="nowrap">\(f\).</span>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+Si \(f\) est une fonction périodique de période \(T\) alors pour tout entier relatif \(k\)
+et pour tout réel \(x\) de l'ensemble de définition de <span class="nowrap">\(f\),</span> on a &nbsp;:
+<div class="wimscenter">
+\(f(x+k\times T) = f(x)\)
+</div>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (translation)</h4>
+Le plan est muni d'un repère <span class="nowrap">\(\left(\mathrm{O},\overrightarrow{i},\overrightarrow{j}\right)\).</span><br>
+Soit \(T\) un réel non nul. <br>
+La courbe représentative d'une fonction est invariante par translation de vecteur \(T\,\overrightarrow{i}\) si et seulement si
+la fonction est périodique de période <span class="nowrap">\(T\).</span>
+</div>

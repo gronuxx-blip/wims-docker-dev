@@ -1,0 +1,272 @@
+
+!set gl_typExple=$wims_read_parm
+!readproc data/glossary/mathematics/geometry/macro/randalphanum_gen
+!set gl_a=$(gl_rd)$(gl_typExple)
+
+!if $gl_typExple !=1
+  !set gl_longList=5,4,2\
+  6,4,3\
+  6,5,2\
+  6,5,3\
+  6,5,4\
+  7,6,3\
+  7,6,4\
+  7,6,5\
+  7,5,4\
+  8,7,6\
+  8,7,5\
+  8,7,4\
+  8,6,5\
+  8,6,4\
+  8,6,3\
+  9,8,7\
+  9,7,6\
+  9,7,5\
+  9,7,4\
+  9,6,5\
+  10,9,8\
+  10,9,7\
+  10,8,7\
+  10,7,6\
+  10,7,5\
+  11,7,5
+
+  !set gl_long=!randline $(gl_longList)
+  gl_long=!shuffle $(gl_long)
+  gl_AB=$(gl_long[1])
+  gl_AC=$(gl_long[2])
+  gl_BC=$(gl_long[3])
+
+  !set gl_ang=!randitem -Math.PI/2,-Math.PI/3,-Math.PI/4,-Math.PI,Math.PI,Math.PI/4,Math.PI/3,Math.PI/2,Math.PI*2
+
+  !if $gl_typExple !=3
+    !set gl_rap=!randitem -3,-11/4,-5/2,-9/4,-2,-7/4,-3/2,-5/4,-3/4,-1/4,-1/2,-1,1/2,1/4,3/4,5/4,3/2,7/4,2,9/4,5/2,11/4,3
+    gl_AM=$[abs($(gl_AB)*$gl_rap)]
+    gl_AN=$[abs($(gl_AC)*$gl_rap)]
+    gl_MN=$[abs($(gl_BC)*$gl_rap)]
+  !else
+    !!set gl_rap=!randitem -3,-5/2,-2,-3/2,-1/2,1/2,3/2,2,5/2,3
+    gl_rap=!randitem -2.45,-2.23,-2.17,-1.66,-1.38,-1.12,-0.88,-0.27,0.47,0.54,0.72,1.19,1.26,2.33,2.57,2.86
+    gl_modif=!randitem 4,5
+    !!gl_modif2=!randitem 0.97,0.98,0.99,1.01,1.02,1.03
+    gl_modif2=!randitem -0.03,-0.02,-0.01,0.01,0.02,0.03
+    !!gl_rap2=$[($gl_rap)*($gl_modif2)]
+    gl_rap2=$[($gl_rap)+($gl_modif2)]
+    !if $gl_modif=4
+      gl_AM=$[abs($(gl_AB)*$gl_rap2)]
+      gl_AN=$[abs($(gl_AC)*$gl_rap)]
+    !else
+      gl_AM=$[abs($(gl_AB)*$gl_rap)]
+      gl_AN=$[abs($(gl_AC)*$gl_rap2)]
+    !endif
+    gl_MN=$[abs($(gl_BC)*$gl_rap)]
+  !endif 
+  
+  !set gl_xN=$[($[($gl_AM)^2]+$[($gl_AN)^2]-$[($gl_MM)^2])/($[2*$gl_AM])]
+  !set gl_yN=$[sqrt($[$[($gl_AN)^2]-$[($gl_xN)^2]])]
+  !!set gl_dimJsx=$[max($[abs($gl_xN)],$[abs($gl_yN)],$[abs($gl_AM)])]
+
+  !set gl_data1=\mathrm{AB},\mathrm{AC},\mathrm{BC},\mathrm{AM},\mathrm{AN},\mathrm{MN}
+  !set gl_data2=$gl_AB,$gl_AC,$gl_BC,$gl_AM,$gl_AN,$gl_MN
+  !set gl_dimJsx=$(gl_data2[1])
+  !for gl_v=2 to 6
+    gl_dimJsx=$[max($gl_dimJsx,$(gl_data2[$gl_v]))]
+  !next $gl_v
+  gl_dimJsx=$[1.1*$gl_dimJsx]
+!endif
+
+
+
+!!! JSXGraph
+!set gl_xsize=1
+!set gl_ysize=1
+
+!set gl_JXGOptions=JXG.Options.text.cssDefaultStyle = '';\
+JXG.Options.text.highlightCssDefaultStyle = '';\
+JXG.Options.axis.lastArrow = false;\
+JXG.Options.elements.highlight=false;\
+JXG.Options.point.showInfobox=false;\
+JXG.Options.elements.tabindex = -1;
+
+!set gl_BoardOptions=axis:false,\
+grid:false,\
+drawZero:false,\
+showCopyright : false,\
+showNavigation:true,\
+showZoom : true,\
+keepaspectratio : false,\
+zoom: {factorX: 1.10,factorY: 1.10,wheel: true,needShift: true,eps: 0.001},\
+pan: {\
+needShift: false,\
+enabled: true,\
+needTwoFingers: true,\
+pinchHorizontal: true,\
+pinchVertical: true,\
+pinchSensitivity: 7}
+
+!if $gl_typExple=1
+  !set gl_code=const brd$(gl_a) = JXG.JSXGraph.initBoard('id$(gl_a)', {\
+  boundingbox:[-4,14,14,-4],\
+  $gl_BoardOptions});\
+  brd$(gl_a).renderer.displayCopyright('JSXGraph v'+JXG.version,11);\
+  dir4 = function () {\
+    if (!this.visProp.fixed) {\
+      brd$(gl_a).containerObj.style.cursor = 'move';\
+    }\
+  };\
+  out = function () {\
+    if (!this.visProp.fixed) {\
+      brd$(gl_a).containerObj.style.cursor = 'default';\
+    }\
+  };\
+  dir2 = function () {\
+    if (!this.visProp.fixed) {\
+      brd$(gl_a).containerObj.style.cursor = 's-resize';\
+    }\
+  };\
+  let ptA_$(gl_a) = brd$(gl_a).create('point', [4,10], {face:'cross',name:'A',strokeColor: '#858585',tabindex:5,label:{autoPosition:true,offset:[5,10]}});\
+  let ptB_$(gl_a) = brd$(gl_a).create('point', [5,8], {face:'cross',name:'B',tabindex:5,label:{strokeColor:"red",fixed:false,autoPosition:true,offset:[5,10]}});\
+  let ptC_$(gl_a) = brd$(gl_a).create('point', [3,7], {face:'cross',name:'C',tabindex:5,label:{strokeColor:"red",fixed:false,autoPosition:true,offset:[5,10]}});\
+  let d1_$(gl_a) = brd$(gl_a).create('line',[ptA_$(gl_a),ptB_$(gl_a)],{name:'d',strokeColor: '#858585',withLabel:true,label:{autoPosition:true},layer: 1});\
+  let d2_$(gl_a) = brd$(gl_a).create('line',[ptA_$(gl_a),ptC_$(gl_a)],{name:"d'",strokeColor: '#858585',withLabel:true,label:{autoPosition:true},layer: 1});\
+  let ptM_$(gl_a) = brd$(gl_a).create('glider', [7,4,d1_$(gl_a)], {face:'cross',name:'M',strokeColor:"blue",tabindex:5,label:{strokeColor:"blue",fixed:false,autoPosition:true,offset:[5,10]}});\
+  let d3_$(gl_a) = brd$(gl_a).create('parallel',[ptB_$(gl_a),ptC_$(gl_a),ptM_$(gl_a)],{visible:false});\
+  let ptN_$(gl_a) = brd$(gl_a).create('intersection', [d2_$(gl_a),d3_$(gl_a)], {face:'cross',name:'N',strokeColor:"blue",label:{strokeColor:"blue",fixed:false,autoPosition:true,offset:[5,10]}});\
+  let T1_$(gl_a)=brd$(gl_a).create('polygon',[ptA_$(gl_a),ptB_$(gl_a),ptC_$(gl_a)],{strokeColor: 'red',fillColor: 'red',fillOpacity:0.2,borders:{strokeWidth:3,strokeColor:"red"}});\
+  let T2_$(gl_a)=brd$(gl_a).create('polygon',[ptA_$(gl_a),ptM_$(gl_a),ptN_$(gl_a)],{strokeColor: 'blue',fillColor: 'blue',fillOpacity:0.2,borders:{strokeWidth:4,strokeColor:"blue",layer: 5}});\
+  ptA_$(gl_a).on('over',dir4);\
+  ptA_$(gl_a).on('out',out);\
+  ptM_$(gl_a).on('over',dir2);\
+  ptM_$(gl_a).on('out',out);\
+  ptB_$(gl_a).on('over',dir4);\
+  ptB_$(gl_a).on('out',out);\
+  ptC_$(gl_a).on('over',dir4);\
+  ptC_$(gl_a).on('out',out);\
+  brd$(gl_a).fullUpdate();
+
+!else
+  !set gl_code=const brd$(gl_a) = JXG.JSXGraph.initBoard('id$(gl_a)', {\
+  boundingbox:[$[-1*$gl_dimJsx],$gl_dimJsx,$gl_dimJsx,$[-1*$gl_dimJsx]],\
+  $gl_BoardOptions});\
+  brd$(gl_a).renderer.displayCopyright('JSXGraph v'+JXG.version,11);\
+  let rap_$(gl_a)=$(gl_rap);\
+  let ang_$(gl_a)=$(gl_ang);\
+  let ptA_$(gl_a) = brd$(gl_a).create('point', [0, 0],{face:'cross',name:'A',strokeColor: '#858585',fixed:true,label:{autoPosition:true,offset:[5,10]}});\
+  let p2_$(gl_a) = brd$(gl_a).create('point', [$(gl_AB), 0],{visible:false});\
+  let c1_$(gl_a) = brd$(gl_a).create('circle',[ptA_$(gl_a),$(gl_AC)],{visible:false});\
+  let c2_$(gl_a) = brd$(gl_a).create('circle',[p2_$(gl_a),$(gl_BC)],{visible:false});\
+  let p3_$(gl_a) = brd$(gl_a).create('intersection', [c1_$(gl_a),c2_$(gl_a)],{visible:false});\
+  let tri1_$(gl_a)=brd$(gl_a).create('polygon',[ptA_$(gl_a),p2_$(gl_a),p3_$(gl_a)],{strokeColor: 'white',fillColor: 'red',fillOpacity:0.2,visible:false});\
+  let t1_$(gl_a) = brd$(gl_a).create('transform', [rap_$(gl_a), rap_$(gl_a)], {type: 'scale'});\
+  let t2_$(gl_a) = brd$(gl_a).create('transform', [ang_$(gl_a),ptA_$(gl_a)], {type: 'rotate'});\
+  let ptB_$(gl_a) = brd$(gl_a).create('point', [p2_$(gl_a),t2_$(gl_a)], {face:'cross',name:'B',strokeColor: '#858585',label:{autoPosition:true,offset:[5,10]}});\
+  let ptC_$(gl_a) = brd$(gl_a).create('point', [p3_$(gl_a),t2_$(gl_a)], {face:'cross',name:'C',strokeColor: '#858585',label:{autoPosition:true,offset:[5,10]}});\
+  let tri2_$(gl_a)=brd$(gl_a).create('polygon',[ptA_$(gl_a),ptB_$(gl_a),ptC_$(gl_a)],{strokeColor: 'white',fillColor: 'red',fillOpacity:0.2,visible:true});\
+  let ptM_$(gl_a) = brd$(gl_a).create('point', [ptB_$(gl_a),t1_$(gl_a)], {face:'cross',name:'M',strokeColor:"blue",label:{autoPosition:true,offset:[5,10]}});\
+  let ptN_$(gl_a) = brd$(gl_a).create('point', [ptC_$(gl_a),t1_$(gl_a)], {face:'cross',name:'N',strokeColor:"blue",label:{autoPosition:true,offset:[5,10]}});\
+  let tri3_$(gl_a)=brd$(gl_a).create('polygon',[ptA_$(gl_a),ptM_$(gl_a),ptN_$(gl_a)],{strokeColor: 'white',fillColor: 'blue',fillOpacity:0.2,visible:true});
+!endif
+
+!set gl_script$(gl_a)=$gl_JXGOptions\
+  $gl_code
+
+!if $gl_typExple !=1
+  !if $gl_typExple =2 
+    !set gl_listNum=1,2,3
+    !set gl_choix=!randitem $gl_listNum
+    !set gl_compl=!listcomplement $gl_choix in $gl_listNum
+    !set gl_rep=
+    !for gl_r=1 to 2
+      gl_temp=!randitem $(gl_compl[$gl_r]),$[$(gl_compl[$gl_r])+3]
+      gl_rep=!append item $gl_temp to $gl_rep
+    !next $gl_r
+    gl_choix2=!listcomplement $gl_rep in 1,2,3,4,5,6
+    gl_choix=!listuniq $gl_choix,$gl_choix2
+  !endif
+
+  !if $gl_typExple isin 34
+    gl_choix=1,2,4,5
+  !endif   
+
+  !set gl_quest1=
+  !for gl_k=1 to 4
+    !if $gl_k<4
+      gl_end=&nbsp;;&nbsp;
+    !else
+      gl_end=$empty
+    !endif
+    gl_quest1=!append line $(gl_data1[$(gl_choix[$gl_k])])=$(gl_data2[$(gl_choix[$gl_k])])$gl_end to $gl_quest1
+  !next $gl_k
+   
+  !if $gl_typExple =2
+    !set gl_quest2=
+    !for gl_kk=1 to 2
+      gl_quest2=!append item $(gl_data1[$(gl_rep[$gl_kk])]) to $gl_quest2
+    !next $gl_kk
+    !set gl_data3=!replace item number $(gl_rep[1]) by $(gl_data1[$(gl_rep[1])]) in $gl_data2
+    !set gl_data3=!replace item number $(gl_rep[2]) by $(gl_data1[$(gl_rep[2])]) in $gl_data3
+  !endif
+  !if $gl_typExple isin 34
+    !set gl_data3=$gl_data2
+  !endif
+
+  !set gl_frac1=
+  !set gl_frac2=
+  !for gl_n=1 to 3
+    gl_frac1=!append item \dfrac{$(gl_data1[$[$gl_n+3]])}{$(gl_data1[$gl_n])} to $gl_frac1
+    gl_frac2=!append line \dfrac{$(gl_data3[$[$gl_n+3]])}{$(gl_data3[$gl_n])}  to $gl_frac2
+  !next $gl_n
+
+  !if $gl_typExple =2
+    !set gl_prod0=$(gl_data3[$[$(gl_compl[1])+3]]) \times $(gl_data3[$(gl_choix[1])]) = $(gl_data3[$(gl_compl[1])]) \times $(gl_data3[$[$(gl_choix[1])+3]])
+
+    !set gl_prod1=$(gl_data3[$[$(gl_compl[2])+3]]) \times $(gl_data3[$(gl_choix[1])]) = $(gl_data3[$(gl_compl[2])]) \times $(gl_data3[$[$(gl_choix[1])+3]])
+
+    !if $(gl_rep[1])>3
+      gl_prod2=$(gl_data3[$[$(gl_compl[1])+3]]) = \dfrac{$(gl_data3[$(gl_compl[1])]) \times $(gl_data3[$[$(gl_choix[1])+3]])}{$(gl_data3[$(gl_choix[1])])}
+    !else
+      gl_prod2=\dfrac{$(gl_data3[$[$(gl_compl[1])+3]]) \times $(gl_data3[$(gl_choix[1])])}{$(gl_data3[$[$(gl_choix[1])+3]])} = $(gl_data3[$(gl_compl[1])])
+    !endif
+    !if $(gl_rep[2])>3
+      gl_prod3=$(gl_data3[$[$(gl_compl[2])+3]]) = \dfrac{$(gl_data3[$(gl_compl[2])]) \times $(gl_data3[$[$(gl_choix[1])+3]])}{$(gl_data3[$(gl_choix[1])])}
+    !else
+      gl_prod3=\dfrac{$(gl_data3[$[$(gl_compl[2])+3]]) \times $(gl_data3[$(gl_choix[1])])}{$(gl_data3[$[$(gl_choix[1])+3]])} = $(gl_data3[$(gl_compl[2])])
+    !endif
+  !endif
+  
+  !if $gl_typExple =4
+    !set gl_rapAf=!texmath $[abs($gl_rap)]
+  !endif 
+  !if $gl_typExple =3
+    !if $gl_modif=4
+      !set gl_rapAf1=!texmath $[abs($gl_rap2)]
+      !set gl_rapAf2=!texmath $[abs($gl_rap)]
+    !else
+      !set gl_rapAf1=!texmath $[abs($gl_rap)]
+      !set gl_rapAf2=!texmath $[abs($gl_rap2)]
+    !endif
+  !endif
+  
+
+  !if $lang=fr
+    !set gl_quest1=!replace internal . by , in $gl_quest1
+    !set gl_frac2=!replace internal . by , in $gl_frac2
+    !if $gl_typExple =2
+      !set gl_prod0=!replace internal . by , in $gl_prod0
+      !set gl_prod1=!replace internal . by , in $gl_prod1
+      !set gl_prod2=!replace internal . by , in $gl_prod2
+      !set gl_prod3=!replace internal . by , in $gl_prod3
+      !set gl_rep1=!replace internal . by , in $(gl_data2[$(gl_rep[1])])
+      !set gl_rep2=!replace internal . by , in $(gl_data2[$(gl_rep[2])])
+    !endif
+    !if $gl_typExple =4
+      !set gl_rapAf=!replace internal . by , in $gl_rapAf
+    !endif
+    !if $gl_typExple =3
+      !set gl_rapAf1=!replace internal . by , in $gl_rapAf1
+      !set gl_rapAf2=!replace internal . by , in $gl_rapAf2
+    !endif
+    !endif
+  !endif
+!endif
+

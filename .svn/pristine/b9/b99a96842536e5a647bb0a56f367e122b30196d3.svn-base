@@ -1,0 +1,30 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Échelle
+!set gl_level=E6 Cycle&nbsp;3
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+L'<strong>échelle</strong> d'une représentation est le rapport entre les longueurs représentées et les longueurs réelles.
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Notation</h4>
+<p>Si une échelle est une fraction de numérateur 1 et de dénominateur <span class="nowrap">\(\mathrm{N}\),</span> on la note souvent \(1:\mathrm{N}\) ou encore <span class="nowrap"> \(1/\ \mathrm{N}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>Si l'échelle est strictement supérieure à 1, la représentation est un agrandissement&nbsp;; si l'échelle est strictement inférieure à 1, c'est une réduction.
+</p>
+</div>
+

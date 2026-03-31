@@ -1,0 +1,13 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Base orthonormée du plan
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\left(\overrightarrow{u},\overrightarrow{v}\right)\) une base du plan.<br>
+Cette base est <strong>orthonormée</strong> lorsque les droites de vecteurs directeurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont perpendiculaires et les vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) ont pour norme <span class="nowrap">\(1\).</span>
+</div>

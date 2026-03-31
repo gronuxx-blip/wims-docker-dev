@@ -1,0 +1,20 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=distance,coordinates,analytic_geometry
+!set gl_title=Distance de deux points du plan
+!set gl_level=H4
+:
+:
+:
+:
+
+<div class="wims_thm"><h4>Théorème</h4>
+Le plan est muni d'un repère <strong>orthonormé</strong>
+<span class="nowrap">\(\left(\mathrm{O}\,;\overrightarrow{i},\overrightarrow{j}\right)\).</span><br>
+Soit \(\mathrm{A}\) et \(\mathrm{B}\) deux points de coordonnées respectives
+\((x_\mathrm{A}; y_\mathrm{A})\) et <span class="nowrap">\((x_\mathrm{B}; y_\mathrm{B})\),</span> <strong>la distance</strong> \(\mathrm{AB}\) des deux points \(\mathrm{A}\) et
+\(\mathrm{B}\) est donnée par&nbsp;:
+<div class="wimscenter">
+  \(\sqrt{(x_\mathrm{B} - x_\mathrm{A})^2 + (y_\mathrm{B} - y_\mathrm{A})^2}\)
+</div>
+</div>

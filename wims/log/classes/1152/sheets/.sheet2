@@ -1,0 +1,61 @@
+
+:H4/algebra/develop.fr
+exo=dev2&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Développement (I)
+
+:H4/algebra/develop.fr
+exo=dev3&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Développement (II)
+
+:H4/algebra/develop.fr
+exo=dev4&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Développement (III)
+
+:H4/algebra/develop.fr
+exo=bin3&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Développement d'un binôme de degré 3
+
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=3&confparm2=A&confparm2=1&confparm2=2&confparm2=3&confparm3=1&confparm4=2&qnum=1&scoredelay=&intro_expert=yes&intro_presentsol=2&intro_check=3&intro_check=4&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_qcmpresent=5
+10
+1
+Factorisation (I)
+
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=3&confparm2=1&confparm2=2&confparm2=5&confparm2=7&confparm3=1&confparm4=2&qnum=1&scoredelay=&intro_expert=yes&intro_presentsol=2&intro_check=3&intro_check=4&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_qcmpresent=5
+10
+1
+Factorisation (II)
+
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=3&confparm2=B&confparm2=C&confparm2=1&confparm2=2&confparm2=3&confparm2=4&confparm3=1&confparm4=2&qnum=1&scoredelay=&intro_expert=yes&intro_presentsol=2&intro_check=3&intro_check=4&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_qcmpresent=5
+10
+1
+Factorisation (III)
+
+:H4/algebra/factorcom.fr
+exo=factorcom1&confparm1=3&confparm2=A&confparm2=1&confparm2=2&confparm2=3&confparm2=4&confparm3=2&confparm4=2&qnum=1&scoredelay=&intro_expert=yes&intro_presentsol=2&intro_check=3&intro_check=4&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_qcmpresent=5
+10
+1
+Factorisation (IV)
+
+:H4/algebra/factorcom.fr
+exo=eqfactorcom1&exo=eqfactorcom2&confparm1=2&confparm2=A&confparm2=B&confparm2=C&confparm2=1&confparm2=2&confparm2=3&confparm3=1&confparm4=2&qnum=2&scoredelay=&intro_expert=yes&intro_presentsol=2&intro_check=3&intro_check=4&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_qcmpresent=5
+10
+1
+Équation polynomiale (I)
+
+:H4/algebra/factorcom.fr
+exo=eqfactorcom1&exo=eqfactorcom2&confparm1=2&confparm2=D&confparm2=E&confparm2=1&confparm2=2&confparm2=3&confparm3=1&confparm4=2&qnum=2&scoredelay=&intro_expert=yes&intro_presentsol=2&intro_check=3&intro_check=4&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_qcmpresent=5
+10
+1
+Équation polynomiale (II)
+

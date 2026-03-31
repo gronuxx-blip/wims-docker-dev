@@ -1,0 +1,132 @@
+type=order
+textarea="instruction data"
+iEdit="instruction"
+
+:Si presentano alcune parole le cui lettere sono state mischiate
+
+<p>L'utente deve quindi ricostruire le parole corrette.</p>
+<p>Attenzione: assicuratevi che le parole proposte non abbano anagrammi
+  oppure fornite un suggerimento che eviti le ambiguità.</p>
+
+:%%%%%%%%%%%%%%%%%      ATTENZIONE      %%%%%%%%%%%%%%%%%%%%
+
+Se si rimuovono le indicazioni del modulo modelli (le righe che
+cominciano con ':') è necessario rimuovere tutta questa parte
+introduttiva del file. Altrimenti Createxo potrebbe non accettare il
+codice dell'esercizio.
+
+:%%%%%%%% Parametri che possono essere ridefiniti %%%%%%%%%%%%%%%%%
+
+:\title{Anagrammi}
+:\author{Olivier, Bado}
+:\email{bado@unice.fr}
+:\credits{}
+Il comando credits permette di indicare le fonti se, ad esempio, l'esercizio contiene immagini.
+
+:Consegna
+\text{instruction=Ecco alcune parole che sono state scombinate. 
+<p>Ricostruitele!</p>}
+
+:Elenco delle parole da rimischiare
+Inesrire una parola per riga, senza spazi.
+È possibile inserire un indizio facoltativo per ogni parola, separato con una virgola.
+\text{data=mangiare,a tavola
+finire,nulla dura in eterno
+corriere
+mettere,porre
+}
+
+:Feefback
+Testo che viene visualizzato dopo che l'utente ha dato la risposta.
+\text{feedback=}
+
+:Mumero di parole da presentare
+Massimo 20
+\integer{nb_words=2}
+
+:Dimensione dello spazio per la risposta.
+Impostare basandosi sulla parola più lunga.
+\integer{size=20}
+
+:Tipo di analisi della risposta.
+I tipi <span class="tt">case</span> e <span class="tt">nocase</span> sono soprattutto pensati per le
+applicazioni linguistiche. Per tutti gli altri utilizzi è preferibile l'opzione
+<span class="tt">atext</span>.
+\text{atype=item(1,case (nessun errore tollerato),
+  nocase (tollerate differenze maiuscole/minuscole),
+  atext (ignorate differenze plurale/singolare e articoli))}
+
+:Stile personalizzato
+Qui potete inserire codice CSS per personalizzare l'esercizio.<br>
+Esempio: inserire <code>.name {color: #599}</code> mostrare le parole da colorare in blu pastello.
+\text{styles=}
+
+:%%%%%%%%%%%%%% Nulla da modificare fino all'enunciato %%%%%%%%%%%%%%%%
+
+\text{melanges=}
+\matrix{reponses=}
+\matrix{indices=}
+\text{data=wims(nonempty rows \data)}
+\integer{datacnt=rows(\data)}
+\integer{nb_words=min(\nb_words,\datacnt)}
+\integer{nb_words=min(20,\nb_words)}
+
+\text{order=shuffle(\datacnt)}
+\text{data=row(\order,\data)}
+
+\for{i=1 to \nb_words}{
+  \text{mot=\data[\i;1]}
+  \text{indice=\data[\i;2]}
+  \if{\indice issametext }{
+    # pour éviter que wims fasse sauter la ligne vide
+    \text{indice=##**##}
+  }
+  \text{mot=wims(nospace \mot)}
+  \integer{nbletter=wims(charcnt \mot)}
+  \text{order=shuffle(\nbletter)}
+  \text{melange=wims(char \order of \mot)}
+  \text{melanges=wims(append item \melange to \melanges)}
+  \matrix{reponses=wims(append line \mot to \reponses)}
+  \matrix{indices=wims(append line \indice to \indices)}
+}
+
+# on ne prend en compte que les \nb_words premiers answers
+\text{qlist=wims(makelist reply x for x=1 to \nb_words)}
+\steps{\qlist}
+
+\css{<style>.big_bullet>li{font-size:1.4em;margin-bottom:.5em}.indice{color:#999}</style>}
+\text{styles=wims(nospace \styles)}
+:%%%%%%%%%%%%% Enunciato (in html). %%%%%%%%%%%%%%%%%%%%
+
+\statement{
+\if{\styles notsametext }{<style>\styles</style>}
+
+<div class="instruction">\instruction</div>
+<ul class="big_bullet">
+  \for{k=1 to \nb_words}{
+    <li class="oef_input">
+      <label for="reply\k" class="name">\melanges[\k] :</label>
+      \embed{r \k,\size
+        autocomplete="off"}
+      \if{\indices[\k;] notsametext ##**##}{
+        <span class="indice">(\indices[\k;])</span>
+      }
+    </li>
+  }
+</ul>
+}
+
+:%%%%%%%%%%%%% Non modificare nulla da qui in poi. %%%%%%%%%%%%%%%%%
+
+\answer{Champ 1}{\reponses[1;]}{type=\atype}{}
+\answer{Champ 2}{\reponses[2;]}{type=\atype}{}
+\answer{Champ 3}{\reponses[3;]}{type=\atype}{}
+\answer{Champ 4}{\reponses[4;]}{type=\atype}{}
+\answer{Champ 5}{\reponses[5;]}{type=\atype}{}
+\answer{Champ 6}{\reponses[6;]}{type=\atype}{}
+\answer{Champ 7}{\reponses[7;]}{type=\atype}{}
+\answer{Champ 8}{\reponses[8;]}{type=\atype}{}
+\answer{Champ 9}{\reponses[9;]}{type=\atype}{}
+\answer{Champ 10}{\reponses[10;]}{type=\atype}{}
+
+\feedback{1=1}{\feedback}

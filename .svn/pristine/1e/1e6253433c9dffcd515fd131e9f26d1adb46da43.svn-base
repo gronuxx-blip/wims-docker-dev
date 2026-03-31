@@ -1,0 +1,46 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=3\
+,m\
+,a\
+,b
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_comment=
+slib_example= 5,4,6\
+[2,3],4,6
+slib_require=pari
+!exit
+
+:proc
+slib_out=
+
+!distribute item $wims_read_parm into slib_data,slib_a,slib_b
+slib_data=!declosing $slib_data
+slib_cnt=!itemcnt $slib_data
+!if $slib_cnt=1
+  slib_data=1,$slib_data
+!endif
+
+slib_test=!exec octave pkg list statistics
+!if Installation iswordof $slib_test
+  slib_out=!exec octave frnd($slib_a,$slib_b,$slib_data)
+!else
+  !set slib_gpprog=stat
+  !readproc slib/stat/commun stat
+  !for slib_j=1 to $(slib_data[1])
+    !reset slib_line
+    !for slib_jj=1 to $(slib_data[2])
+      slib_res=!exec pari printf("%.5f",statfisherrandom($slib_a,$slib_b))
+      slib_line=!append item $slib_res to $slib_line
+    !next
+    slib_out=!append line $slib_line to $slib_out
+  !next
+!endif
+slib_out=!trim $slib_out
+slib_out=!replace internal $\
+$ by ; in $slib_out
+slib_out=!words2items $slib_out

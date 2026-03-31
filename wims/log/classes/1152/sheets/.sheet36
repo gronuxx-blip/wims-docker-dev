@@ -1,0 +1,114 @@
+
+:H6/analysis/OEFcontinueTS.fr
+exo=questcont1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+La fonction est-elle continue 1
+Déterminer si une fonction donnée par son expression est continue.
+
+Pas mal de polynômes et de fonction partie entière.
+:H6/analysis/OEFcontinueTS.fr
+exo=questcont2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+La fonction est-elle continue 2
+Déterminer si une fonction donnée par son expression est continue.
+
+À priori, uniquement partie entière sur différents intervalles
+:H6/analysis/OEFcontinueTS.fr
+exo=questcont3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+La fonction est-elle continue 3
+Déterminer si une fonction donnée par son expression est continue.
+
+Fonctions définies par morceaux et vérification à faire de la continuité en un point
+:H6/analysis/OEFcontinueTS.fr
+exo=questcont4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+La fonction est-elle continue 4
+Déterminer si une fonction donnée par son expression est continue.
+
+Bien pour vérifier que la limite au point où la fonction n'est pas définie au départ est égal à l'image donnée de ce point.
+:H6/analysis/OEFcontinueTS.fr
+exo=trouvecont1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Rendre une fonction continue 1
+Déterminer la valeur d'un paramètre pour qu'une fonction soit continue.
+
+
+:H6/analysis/OEFcontinueTS.fr
+exo=trouvecont2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Rendre une fonction continue 2
+Déterminer la valeur d'un paramètre pour qu'une fonction soit continue.
+
+
+:H6/analysis/OEFcontinueTS.fr
+exo=trouvecont3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Rendre une fonction continue 3
+Déterminer la valeur d'un paramètre pour qu'une fonction soit continue.
+
+
+:U1/analysis/joint.en
+order=1&fundif=1&tolerance=0.01
+10
+1
+Joint
+Choix d'un paramètre pour que la fonction soit continue.
+
+
+:U1/analysis/joint2.en
+order=2&fundif=1&tolerance=0.01
+10
+1
+Joint II
+Déterminer deux paramètres afin qu'une fonction soit continue.
+
+Bien pour vérifier la compréhension de la continuité
+:U1/analysis/oefcont.fr
+exo=mixmult
+10
+1
+Multiplication mixte
+Opération sur les fonctions continues. Produit de fonctions.
+
+
+:H6/analysis/OEFcontinueTS.fr
+exo=contdef1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Pourquoi une fonction est continue 1
+Opération sur les fonctions continues (avec des fonctions affine, cosinus, sinus, racine carrée, puissance, 1/x).
+
+Bien pour la justification à savoir donner
+:H6/analysis/OEFcontinueTS.fr
+exo=contdef2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Pourquoi une fonction est continue 2
+Opération sur les fonctions continues (avec des fonctions affine, cosinus, sinus, racine carrée, puissance, 1/x, exp, ln).
+
+
+:H6/analysis/OEFcontinueTS.fr
+exo=tviscan&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+TVI: Méthode de balayage
+Théorème des valeurs intermédiaires.
+
+Bien pour appliquer la méthode de balayage
+:H6/analysis/OEFcontinueTS.fr
+exo=tvidicho&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+TVI: Méthode de dichotomie
+Théorème des valeurs intermédiaires.
+
+
+

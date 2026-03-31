@@ -1,0 +1,23 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Permutation
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(n\) un entier naturel non nul et soit \(E\) un ensemble possédant \(n\) éléments <span class = "nowrap">\(a_1\), \(a_2\), \(\dots\), \(a_n\).</span><br>
+On appelle <strong>permutation</strong> de \(E\) tout <span class = "nowrap">\(n\)-uplet</span> d'éléments deux à deux distincts de <span class = "nowrap">\(E\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>Soit \(n\) un entier naturel non nul.<br>
+Le nombre de permutations d'un ensemble à \(n\) éléments est <span class = "nowrap">\(n!\).</span></p>
+
+</div>

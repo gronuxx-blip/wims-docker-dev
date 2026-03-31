@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Produit de deux nombres
+!set gl_level=E6 Cycle&nbsp;3
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>
+Soit \(a\) et \(b\) deux nombres.<br>
+Le <strong>produit</strong> de \(a\) par \(b\) est le résultat de la multiplication de \(a\) par <span class="nowrap">\(b\).</span><br>
+Les nombres \(a\) et \(b\) sont appelés <strong> facteurs</strong> de ce produit.
+</p>
+</div>

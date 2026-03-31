@@ -1,0 +1,52 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=discrete_probability_distribution,geometric_distribution
+!set gl_title=Loi géométrique tronquée
+!set gl_level=
+:
+:
+:
+:
+<div class="wims_thm">
+    <h4>Théorème</h4>
+Soit \(p\) un nombre réel tel que <span class="nowrap">\(p \in \left \rbrack0\,;1\right \lbrack\).</span><br>
+Soit E une épreuve de Bernoulli à deux issues \(\mathrm{A}\) et \(\overline{\mathrm{A}}\) de probabilités respectives \(p\) et <span class="nowrap">\(q=1-p\).</span><br>
+Pour tout entier naturel <span class="nowrap">\(k \in \NN^*\),</span> la probabilité \(p_k\) que l'événement \(\mathrm{A}\) soit réalisé pour la première fois à la \(k\)-ième épreuve E est donnée par&nbsp;:
+  <div class="wimscenter">
+    \(p_k = p \times q^{k-1}\)
+  </div>
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Théorème</h4>
+Soit \(p\) un nombre réel tel que <span class="nowrap">\(p \in \left \rbrack0\,;1\right \lbrack\).</span> On pose
+  <span class="nowrap">\(q=1-p\).</span><br>
+Pour tout <span class="nowrap">\(n \in \NN^*\) :</span>
+  <div class="wimscenter">
+    \(\displaystyle{\sum_{k=1}^n p \times q^{k-1} + q^n = 1}\)
+  </div>
+</div>
+:
+:
+<div class="wims_defn">
+    <h4>
+      Définition
+    </h4>
+    Soit \(p\) un nombre réel tel que <span class="nowrap">\(p \in\left \rbrack0\,;1\right \lbrack\).</span> On pose
+    <span class="nowrap">\(q=1-p\).</span>
+    <br>Soit \(n\) un entier naturel non nul.
+    <br>
+    On appelle <strong>loi géométrique tronquée de paramètres \(n\) et \(p\)
+    </strong> la loi de probabilité donnant le nombre d'épreuves indépendantes de
+    Bernoulli nécessaires à la réalisation d'un premier succès.
+    <ul>
+      <li>
+       <span class="nowrap">\(\mathrm{P}({0})= q^n\).</span>
+      </li>
+      <li>
+       Pour tout \(k \in \NN^*\) tel que <span class="nowrap">\(k \leqslant n\),</span>
+       <span class="nowrap">\(\mathrm{P}({k})= p \times q^{k-1}\).</span>
+      </li>
+    </ul>
+</div>

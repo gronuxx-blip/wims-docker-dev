@@ -1,0 +1,60 @@
+Moyenne, écart interquartile, écart type
+Indicateurs de tendance centrale d’une série statistique (moyenne pondérée) et indicateurs de dispersion (écart interquartile, écart type) (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,statistics
+levelH4,descriptive_statistics,mean,standard_deviation,quartile,median
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Indicateurs de tendance centrale d’une série statistique (moyenne pondérée) et indicateurs de dispersion (écart interquartile, écart type) (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/stat/descriptives.fr
+exo=moymanqte&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Moyenne - valeur manquante
+<p>Déterminer la valeur manquante d'une série dont on connaît la moyenne.</p>
+
+
+:H4/stat/descriptives.fr
+exo=ecarttype&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul d'écart type (liste)
+<p>Calculer l'écart type d'une série présentée sous forme de liste.</p>
+
+
+:H4/stat/descriptives.fr
+exo=ecarttype2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul d'écart type (tableau)
+<p>Calculer l'écart type d'une série dont le tableau des effectifs est donné.</p>
+
+
+:H4/stat/descriptives.fr
+exo=quartiles&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul de l'écart interquartile (liste)
+<p>Calculer les quartiles et l'écart interquartile d'une série présentée sous forme de liste.</p>
+
+
+:H4/stat/descriptives.fr
+exo=quartiles2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul de l'écart interquartile (tableau)
+<p>Calculer les quartiles et l'écart interquartile d'une série dont le tableau des effectifs est donné.</p>
+
+
+:H4/stat/descriptives.fr
+exo=comparaison&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Comparaisons avec indicateurs
+<p>QCM sur la comparaison de séries en utilisant les couples (moyenne, écart type) et (médiane, écart interquartile).</p>
+
+
+

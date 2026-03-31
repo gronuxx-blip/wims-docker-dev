@@ -1,0 +1,61 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=complex_number
+!set gl_title=Forme trigonométrique d'un nombre complexe non nul
+!set gl_level=H5 STI2D&nbsp;Spécialité, H6 Générale&nbsp;Experte
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \(r\) un nombre réel strictement positif et \(\displaystyle{\theta}\) un
+ nombre réel.
+<br>
+Soit \(z\) le nombre complexe de module \(r\) et d'argument
+<span class="nowrap">\(\displaystyle{\theta}\).</span>
+<br>
+Une <strong>forme trigonométrique</strong> de \(z\) est
+ <span class="nowrap">\(r(\cos\theta+\mathrm{i}\, \sin\theta)\).</span>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+Un complexe non nul \(z\) possède une infinité de formes trigonométriques.
+<br>
+Si \(r(\cos\theta+\mathrm{i}\,\sin\theta)\) et
+\(r^{'}(\cos\theta^{'}+\mathrm{i}\,\sin\theta^{'})\) sont deux formes trigonométriques de
+ \(z\) alors \(r=r^{'}\) et il existe un entier relatif \(k\) tel que
+ <span class="nowrap"> \(\theta^{'}=\theta +2k\pi\).</span>
+</div>
+:
+:
+ <div class="wims_thm">
+ <h4>Théorème</h4>
+ Soit \(z\), \(z_1\) et \(z_2\) trois nombres complexes non nuls de formes
+  trigonométriques respectives
+   <span class="nowrap">\(r(\cos\theta+\mathrm{i}\,\sin\theta)\),</span>
+  \(r_1(\cos\theta_1 + \mathrm{i}\,\sin\theta_1)\) et <span class="nowrap">
+  \(r_2(\cos\theta_2+\mathrm{i}\,\sin\theta_2)\).</span> Alors&nbsp;:
+<ul>
+  <li>
+  \(\frac{1}{z}=\frac{1}{r}(\cos(-\theta)+\mathrm{i}\,\sin(-\theta))\)
+  </li>
+  <li>
+  \(z_1 z_2 = r_1 r_2(\cos(\theta_1+\theta_2)+\mathrm{i}\,\sin(\theta_1+\theta_2))\)
+  </li>
+  <li>
+  \(\frac{z_1}{z_2}=\frac{r_1}{r_2}(\cos(\theta_1-\theta_2)+\mathrm{i}\,\sin(\theta_1-\theta_2))\)
+  </li>
+  <li>
+  pour tout entier relatif \(n\), \(z^n=r^n(\cos(n\theta)+\mathrm{i}\,\sin(n\theta))\)
+  </li>
+  <li>
+  \(\bar z = r(\cos(-\theta)+\mathrm{i}\,\sin(-\theta))\)
+  </li>
+  <li>
+  \(-z=r(\cos(\theta+\pi)+\mathrm{i}\,\sin(\theta+\pi))\)
+  </li>
+</ul>
+</div>

@@ -1,0 +1,26 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Identité remarquable (troisième)
+!set gl_level=H3 
+:
+:
+:
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+Pour tous nombres \(a\) et <span class="nowrap">\(b\) :</span>
+<span class="nowrap">\(a^2 - b^2=(a+b)(a-b)\).</span>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+On peut utiliser cette identité remarquable&nbsp;:
+<ul>
+<li>soit, pour factoriser une expression algébrique de la forme <span class="nowrap">\(a^2 - b^2\) ;</span>
+</li>
+<li>soit, pour développer une expression algébrique de la forme <span class="nowrap">\((a+b) (a-b)\).</span>
+</li>
+</ul>
+</div>

@@ -1,0 +1,30 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Pourcentage
+!set gl_level=E6 Cycle&nbsp;3
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(p\) et \(N\) deux nombres.<br>
+On désigne par \(p\) pourcent de <span class="nowrap">\(N\),</span> noté \(p\;\%\) de  <span class="nowrap">\(N\),</span>  le nombre \(n\) défini par <span class="nowrap">\(n=\dfrac{p}{100}\times N\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+Soit \(N\) un nombre.
+<ul>
+<li> \(50\,\%\) de \(N\) est la moitié de <span class="nowrap">\(N\).</span>
+</li>
+<li>\(100\,\%\) de \(N\) est la totalité de <span class="nowrap">\(N\).</span>
+</li>
+<li>\(200\,\%\) de \(N\) est le double de <span class="nowrap">\(N\).</span>
+</li>
+</ul>
+
+</div>

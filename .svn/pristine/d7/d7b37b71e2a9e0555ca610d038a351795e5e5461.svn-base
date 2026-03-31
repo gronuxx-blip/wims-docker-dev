@@ -1,0 +1,25 @@
+clean=$1
+dir=*/*
+#dir="mathematics/geometry"
+pwddir=`pwd`
+configdir=$pwddir
+outputdir="$pwddir/tmp"
+mkdir -p $outputdir
+validator="$configdir/w3c-validator.py"
+cleanup="$configdir/validator_clean.pl --option=$clean"
+rm -f $outputdir/html.log
+mod=scripts/data/glossary
+mod=adm/tool/glossary
+
+cd ../../public_html/scripts/data/glossary;
+for parm in `ls $dir/fr/*`; do
+  message=`wget "http://127.0.0.1/wims/wims.cgi?cmd=new&module=$mod&special_parm=$parm&job=main" -nv -O  test.html ;
+  echo "\n$parm\n" >> $outputdir/html.log
+  $validator test.html  2>&1;`
+  if [ "$message" ] ; then
+    echo -e "$job\n$message\n" >> $outputdir/html.log;
+  fi;
+  $cleanup --dir=$outputdir
+done
+
+exit

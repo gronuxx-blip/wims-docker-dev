@@ -1,0 +1,39 @@
+
+:H5/analysis/sincos.fr
+exo=eq1interv&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Équation 1 sur un intervalle
+valeurs remarquables, relations, équations.
+
+:H5/analysis/sincos.fr
+exo=relations&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Relations de base
+valeurs remarquables, relations, équations.
+
+:H5/analysis/sincos.fr
+exo=valrem1&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Valeurs remarquables 1
+valeurs remarquables, relations, équations.
+
+:H5/analysis/sincos.fr
+exo=valrem2&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Valeurs remarquables 2
+valeurs remarquables, relations, équations.
+
+:H5/analysis/OEFfctref.fr
+exo=choix1&exo=choix2&confparm1=F&confparm2=2&confparm2=3&confparm2=5&confparm4=4&qnum=3&scoredelay=&intro_expert=yes&intro_presentsol=2&intro_check=3&intro_check=4&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_qcmpresent=5
+10
+1
+Graphe des fonctions trigonométriques (I)
+:H5/analysis/OEFfctref.fr
+exo=sinus&confparm1=A&confparm1=B&confparm1=C&confparm2=2&confparm2=3&qnum=3&scoredelay=&intro_expert=yes&intro_presentsol=2&intro_check=3&intro_check=4&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_qcmpresent=5
+10
+1
+Graphe des fonctions trigonométriques (II)

@@ -1,0 +1,83 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=homothety,vectors
+!set gl_title=Homothétie (collège)
+!set gl_level=H3 cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_prems">
+<h4>Première approche</h4>
+<p>
+Une homothétie permet d'agrandir ou de réduire une figure.<br>
+Les longueurs de la figure obtenue sont proportionnelles aux longueurs de la figure initiale.</p>
+<p>Une homothétie est caractérisée  par son centre, un point, et son rapport, un nombre non nul.</p>
+<p>L'image d'une figure par une homothétie de centre  \(\mathrm{O}\) et de rapport \(k\)  non nul  est : </p>
+<ul>
+<li>un agrandissement de cette figure si \(k>1\) ou <span class="nowrap">\(k< -1\) ;</span></li>
+<li>une réduction de cette figure si le nombre \(k\) non nul vérifie <span class="nowrap">\(-1<k<1\) ;</span></li>
+<li>la figure elle-même si <span class="nowrap">\(k=1\) ;</span></li>
+<li>la figure obtenue par la symétrie de centre \(\mathrm{O}\) si <span class="nowrap">\(k=-1\).</span></li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriétés</h4>
+<p>
+Des unités de longueur, d'aire et de volume sont fixées.
+</p>
+<ul>
+<li> Toute homothétie conserve l'alignement, le parallélisme, les mesures des angles.
+</li>
+<li> Toute homothétie transforme&nbsp;:
+<ul>
+<li> une droite en une droite qui lui est parallèle&nbsp;;
+</li>
+<li> un triangle en un triangle semblable&nbsp;;
+</li>
+<li> un segment de longueur \({\ell}\) en un segment de longueur \(k\times {\ell}\) si \(k > 0\) et de longueur \((-k)\times{\ell}\) si <span class="nowrap">\(k < 0\) ;</span>
+</li>
+<li> une figure plane d'aire \(\mathcal{A}\) en une figure plane d'aire <span class="nowrap">\(k^2\times\mathcal{A}\) ;</span>
+</li>
+<li> un solide de volume \(\mathcal{V}\) en un solide de volume \(k^3\times\mathcal{V}\) si \(k > 0\) et de volume \((-k)^3\times\mathcal{V}\) si <span class="nowrap">\(k < 0\).</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définition (non exigible)</h4>
+<p>
+Soit \(\mathrm{O}\) et \(\mathrm{M}\) deux points distincts  du plan et  \(k\) un nombre non nul.<br>
+L'image de  \(\mathrm{M}\) par l'<strong>homothétie de centre \(\mathrm{O}\) et de rapport \(k\)</strong> est le point \(\mathrm{M}^{'}\) de la droite \((\mathrm{OM})\) tel que&nbsp;:
+</p>
+<ul>
+<li>si <span class="nowrap">\(k > 0\),</span> \(\mathrm{OM}^{'} = k\times \mathrm{OM}\) et \(\mathrm{M}^{'}\) appartient à la demi-droite  <span class="nowrap">\(\lbrack\mathrm{OM})) ;</span>
+</li>
+<li>si <span class="nowrap"> \(k < 0\),</span> \(\mathrm{OM}^{'} = -k\times \mathrm{OM}\) et \(\mathrm{M}^{'}\) n'appartient pas à la demi-droite <span class="nowrap">\(\lbrack\mathrm{OM})),</span> c'est-à-dire que le point \(\mathrm{O}\) est situé entre les points \(\mathrm{M}\) et <span class="nowrap">\(\mathrm{M}^{'}\).</span>
+</li>
+</ul>
+L'image du point \(\mathrm{O}\) par une homothétie de centre \(\mathrm{O}\) est \(\mathrm{O}\) lui-même.
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Cas particuliers</h4>
+<p>
+Soit un point \(\mathrm{M}^{'}\)  image d'un point \(\mathrm{M}\) par une homothétie de centre \(\mathrm{O}\) et de rapport un nombre \(k\) non nul.<br>
+</p>
+<ul>
+<li> si \(k = 1\) alors \(\mathrm{M}^{'} \) et \(\mathrm{M}\) sont confondus&nbsp;;
+</li>
+<li> si \(k = -1\) alors \(\mathrm{M}^{'}\) est le symétrique de \(\mathrm{M}\) par rapport à <span class="nowrap">\(\mathrm{O}\) ;</span>
+ </li>
+<li> si \(k = \dfrac{1}{2}\) alors \(\mathrm{M}^{'}\) est le milieu du segment <span class="nowrap">\([\mathrm{OM}]\) ;</span>
+</li>
+<li> si \(k = 2\) alors \(\mathrm{M}\) est le milieu du segment <span class="nowrap">\(\big[\mathrm{OM}^{'}\big]\).</span>
+</li>
+</ul>
+</div>

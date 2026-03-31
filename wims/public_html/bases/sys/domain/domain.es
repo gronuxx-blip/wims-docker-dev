@@ -1,0 +1,731 @@
+2_shape:Figura en dimensión 2
+2d_arrays:Matrices 2D
+3_shape:Figura en dimensión 3
+abelian_group:Grupo abeliano
+absolute_frequency:Frecuencia absoluta
+absolute_value:Valor absoluto
+abstract_algebra:Álgebra abstracta
+acceleration:Aceleración
+acid_base_reaction:Reacción ácido base
+actions:Acciones
+activation_energy:Energía de activación
+active_site:Sitio activo
+adaptative_immunity:Inmunidad adaptativa
+addition:Adición
+addition_reaction:Reacción de adición
+affine_function:Función afín
+affine_geometry:Geometría afín
+algebra:Álgebra
+algebra_geometry:Álgebra geométrica
+algebraic_fraction:Fracción algebraica
+algebraic_geometry:Geometría algebraica
+algorithmics:Algoritmia
+altitude:Altitud
+american_civilisation:Civilización americana
+amino_acid:Aminoácido
+analysis:Análisis
+analytic_geometry:Geometría analítica
+ancient_greek:Griego antiguo
+anesthetic_drug:Fármaco anestésico
+angle_bisector:Bisectriz
+angles:Ángulos
+animal_cell:Célula animal
+animal_physiology:Fisiología animal
+animal_tissue:Tejido animal
+antibiotherapy:Antibioterapia
+antibody:Anticuerpo
+antibody_diversity:Diversidad de anticuerpos
+antigen:Antígeno
+antiseptic_drug:Fármaco antiséptico
+area:Área
+argument:Argumento
+arithmetic:Aritmética
+arithmetic_sequence:Progresión aritmética
+arrays:Arreglos
+arts:Artes
+association_rate:Tasa de asociación
+astronomy:Astronomía
+asymptote:Asíntota
+atom:Átomo
+automation:Automatización
+bacteria:Bacteria
+barycenter:Baricentro
+basis:Base
+basis_change:Cambio de bases
+between_variance:Varianza entre grupos
+bezout_algorithm:Algoritmo de Bezout
+bilinear_algebra:Álgebra bilineal
+binomial:Binomio
+binomial_distribution:Distribución binomial
+binomial_test:Prueba binomial
+biochemistry:Bioquímica
+biodiversity:Biodiversidad
+bioinformatics:Bioinformática
+biology:Biología
+biotechnology:Biotecnología
+bodenstein_steady_state:Estado estacionario de Bodenstein
+body_system:Sistema corporal
+bonds:Bonos
+botany:Botánica
+bound:Cota
+boxplot:Diagrama de caja
+business_english:Inglés de negocios
+butterfly:Mariposa
+calculation:Cálculo
+calculus:Cálculo
+calendar:Calendario
+canonical_form:Forma canónica
+capacitor:Condensador
+catalysis:Catálisis
+cell_biology:Biología celular
+cell_cycle:Ciclo celular
+cell_death:Muerte celular
+cell_differentiation:Diferenciación celular
+cell_division:División celular
+cercl_a1:CERCL_A1
+cercl_a2:CERCL_A2
+cercl_b1:CERCL_B1
+cercl_b2:CERCL_B2
+cercl_c1:CERCL_C1
+cercl_c2:CERCL_C2
+characteristic_polynomial:Polinomio característico
+chemical_bond:Enlace químico
+chemical_equilibrium:Equilibrio químico
+chemical_kinetics:Cinética química
+chemical_nomenclature:Nomenclatura química
+chemical_polarity:Polaridad química
+chemical_reaction:Reacción química
+chemical_synthesis:Síntesis química
+chemistry:Química
+chessgame:Juego de ajedrez
+chisquare_test:Prueba ji cuadrado
+chromatin:Cromatina
+chromosome:Cromosoma
+cinematics:Cinemática
+circle:Círculo
+circle_equation:Ecuación de la circunferencia
+circuit_law:Ley de Kirchhoff
+circulation:Circulación
+civic_education:Educación cívica
+class_i:Clase I
+class_ii:Clase II
+classical_antiquity:Antigüedad clásica
+climate:Clima
+clock:Reloj
+clonal_selection:Selección clonal
+clthm:Teorema del límite central
+clustering:Análisis de clústeres
+code:Código
+coding:Codificación
+codon:Codón
+collections:Colección
+color:Color
+combination:Combinación
+combinatorics:Combinatoria
+combustion:Combustión
+common_ancestor:Antepasado común
+complement_system:Sistema del complemento
+complementary_subspace:Subespacio complementario
+complex_analysis:Análisis complejo
+complex_number:Número complejo
+complex_plane:Plano complejo
+complexation:Complejización
+complexity:Complejidad
+composite_types:Tipos compuestos
+cond_instruction:Instrucción condicional
+conditional_frequency:Frecuencia condicional
+conditional_probability:Probabilidad condicional
+cone:Cono
+confidence_interval:Intervalo de confianza
+congruence:Congruencia
+conics:Cónica
+connective_tissue:Tejido conectivo
+contingency_table:Tabla de contingencia
+continued_fraction:Fracción continua
+continuity:Continuidad
+continuous_probability_distribution:Distribución de probabilidad continua
+contraposition:Contraposición,Contrarrecíproca
+contrast_agent:Agente de contraste
+contribution_variance:Contribución a la varianza
+convergence:Convergencia
+conversion:Conversión
+convexity:Convexidad
+cooperativity:Cooperatividad
+coordinates:Coordenada
+coordination:Coordinación
+corporate_finance:Finanzas corporativas
+correlation:Correlación
+covariance:Covarianza
+cram:Representación de Cram
+critical_point:Punto crítico
+cross_product:Producto cruz
+cryptology:Criptología
+crystallography:Cristalografía
+cube:Cubo
+cubic_crystal_system:Sistema cristalino cúbico
+cumulative_distribution:Función de distribución acumulada
+cumulative_frequency:Frecuencia acumulada
+curl:Rotacional
+curve_fitting:Ajuste de curvas
+curves:Curva
+cyclic_code:Código cíclico
+cyclic_group:Grupo cíclico
+cylinder:Cilindro
+cytokine:Citocina
+data_analysis:Análisis de datos
+data_gestion:Gestión de datos
+data_structures:Estructuras de datos
+decile:Decil
+decimals:Números decimales, Número decimal
+definite_integral:Integral definida
+dendritic_cell:Célula dendrítica
+density:Densidad
+derivative:Derivada
+descriptive_statistics:Estadística descriptiva
+determinant:Determinante
+development_of_lymphocytes:Desarrollo de linfocitos
+diabete_drug:Fármaco para la diabetes
+diacritical_mark:Signo diacrítico
+diagonalization:Diagonalización
+diastereoisomerism:Diastereoisomerismo
+differentiability:Diferenciabilidad
+differential_equation:Ecuación diferencial
+differential_geometry:Geometría diferencial
+differential_system:Sistema de ecuaciones diferenciales
+differentiation:Diferenciación
+dimension:Dimensión
+dimensional_analysis:Análisis dimensional
+diophantine_equations:Ecuaciones diofánticas
+dirac_delta_function:Delta de Dirac
+direction:Dirección
+discrete_logarithm:Logaritmo discreto
+discrete_mathematics:Matemáticas discretas
+discrete_probability_distribution:Distribución de probabilidad discreta
+distance:Distancia
+distance_method:Método de distancias
+divergence:Divergencia
+diversity:Diversidad
+divisibility:Divisibilidad
+division:División
+dna:ADN
+dna_polymerase:ADN polimerasa
+dna_repair:Reparación del ADN
+dna_replication:Replicación del ADN
+domain:Dominio
+dose:Dosis
+dynamic_system:Sistema dinámico
+dynamics:Dinámica
+earth_sciences:Ciencias de la Tierra
+ecogestion:Gestión ecológica
+ecology:Ecología
+economics:Economía
+electrical_engineering:Ingeniería eléctrica
+electricity:Electricidad
+electro_chemistry:Electroquímica
+electrode:Electrodo
+electronics:Electrónica
+electrophoresis:Electroforesis
+electrostatics:Electrostática
+elementary_algebra:Álgebra elemental
+elementary_arithmetic:Aritmética elemental
+elementary_calculus:Cálculo elemental
+elementary_geometry:Geometría elemental
+elementary_mathematics:Matemáticas elementales
+elementary_reaction:Reacción elemental
+elimination_reaction:Reacción de eliminación
+ellipse:Elipse
+emphasis:Énfasis
+enantiomerism:Enantiomerismo
+encryption:Encriptación
+endomorphism_reduction:Reducción de endomorfismo
+energy:Energía
+english:Inglés
+english_grammar:Gramática inglesa
+english_vocabulary:Vocabulario inglés
+enthalpy:Entalpía
+entropy:Entropía
+enzyme:Enzima
+epithelial_tissue:Tejido epitelial
+equation_systems:Sistema de ecuaciones
+equations:Ecuación
+error_correcting_codes:Código corrector de errores
+error_detection:Detección de errores
+estimation:Estimación
+ethology:Etología
+etymology:Etimología
+eucaryote:Eucariota
+euclidean_algorithm:Algoritmo de Euclides
+euclidean_cloud:Nube euclidiana
+euclidean_geometry:Geometría euclidiana
+eulerian_graph:Grafo euleriano
+events:Eventos
+evolution:Evolución
+expectation:Esperanza
+exponent:Exponente
+exponential:Exponencial
+exponential_distribution:Distribución exponencial
+extremum:Extremo
+factorial:Factorial
+factorization:Factorización
+fc_receptor:Receptor Fc
+field:Cuerpo
+financial_analysis:Análisis financiero
+financial_market:Mercado financiero
+financial_mathematics:Matemáticas financieras
+finite_field:Cuerpo finito
+finite_group:Grupo finito
+finnish:Finlandés
+flow_cytometry:Citometría de flujo
+fluid_mechanics:Mecánica de fluidos
+force:Fuerza
+fourier_series:Series de Fourier
+fourier_transform:Transformada de Fourier
+fraction:Fracción
+french:Francés
+french_conjugation:Conjugación francesa
+french_grammar:Gramática francesa
+french_reading:Lectura en francés
+french_spelling:Ortografía francesa
+french_vocabulary:Vocabulario francés
+frieze:Friso
+function_variation:Variación de funciones
+functional_group:Grupo funcional
+functions:Función
+games:Juegos
+gas_mechanics:Mecánica de gases
+gauss_algorithm:Algoritmo de Gauss
+gaz_mechanics:Mecánica de gases
+gcd_lcm:Máximo común divisor y mínimo común múltiplo
+gene_expression:Expresión génica
+gene_rearrangement:Reordenamiento génico
+genetics:Genética
+geography:Geografía
+geology:Geología
+geometric_distribution:Distribución geométrica
+geometric_sequence:Progresión geométrica
+geometric_vocabulary:Vocabulario geométrico
+geometry:Geometría
+german:Alemán
+german_conjugation:Conjugación alemana
+german_grammar:Gramática alemana
+german_vocabulary:Vocabulario alemán
+gestion:Gestión
+gibbs_free_energy:Energía libre de Gibbs
+goldbach:Goldbach
+gradient:Gradiente
+grammar:Gramática
+graph:Teoría de grafos
+graph_coloring:Coloración de grafos
+graphing:Gráfico de funciones
+gravity:Gravedad
+greek:Griego
+group:Grupo
+group_action:Acción de grupo
+group_theory:Teoría de grupos
+habitat:Hábitat
+hamming:Distancia de Hamming
+heat_exchange:Intercambio de calor
+hematopoiesis:Hematopoyesis
+hierarchical_cluster_analysis:Análisis de clústeres jerárquicos
+histocompatibility:Histocompatibilidad
+histogram:Histograma
+histology:Histología
+history:Historia
+homography:Homografía
+homology:Homología
+homonymy:Homonimia
+homothety:Homotecia
+hyperbola:Hipérbola
+hyperplane:Hiperplano
+ideal_gas:Gas ideal
+image:Imagen
+immunoglobulines:Inmunoglobulinas
+immunology:Inmunología
+imperative_programming:Programación imperativa
+implication:Implicancia,Implicación
+independent_events:Eventos independientes
+independent_random_variables:Variables aleatorias independientes
+inductance:Inductancia
+industrial_sciences:Ciencias e Ingenierías Industriales
+inequalities:Desigualdad
+inequations:Inecuación
+inertia_principle:Principio de inercia
+infection:Infección
+inferential_statistics:Estadística inferencial
+infonet:Tecnologías de la información y la comunicación
+informatics:Informática
+information_theory:Teoría de la información
+inhibitor:Inhibidor
+injectivity:Inyectividad
+innate_immunity:Inmunidad innata
+inorganic_chemistry:Química inorgánica
+integers:Números enteros,Enteros
+integral:Integral
+integrated_rate_law:Ley de velocidad integrada
+integration:Cálculo integral
+interferon:Interferón
+interpolation:Interpolación
+intervals:Intervalo
+invasive_species:Especies invasoras
+inverse_function:Función inversa
+ionisation:Ionización
+ioput:Entrada/Salida
+irreducible_fraction:Fracción irreducible
+isomers:Isómeros
+isometries:Isometría
+kepler:Kepler
+kinetic_mechanism:Mecanismo cinético
+kinetics:Cinética
+language:Lenguaje
+laplace_distribution:Distribución de Laplace
+laplace_transforms:Transformada de Laplace
+latin:Latín
+length:Longitud
+leucocyte:Leucocito
+level_set:Conjunto de nivel
+lewis:Representación de Lewis
+lexical_field:Campo léxico
+life_sciences:Sciences de la vie
+limit:Límite
+line:Recta
+line_equation:Ecuación de la recta
+line_integral:Integral de línea
+linear_algebra:Álgebra lineal
+linear_differential_equation:Ecuación diferencial lineal
+linear_function:Función lineal
+linear_maps:Aplicación lineal
+linear_optimisation:Optimización lineal
+linear_system:Sistema lineal
+lines:Rectas
+linguistics:Lingüística
+lissajous:Curvas de Lissajous
+listening:Comprensión auditiva
+literal_calculation:Cálculo literal
+literature:Literatura
+logarithm:Logaritmo
+logic:Lógica
+logic_recreation:Recreaciones lógicas
+loops:Bucles
+lymphocyte:Linfocito
+lymphoid_organ:Órgano linfoide
+macrophage:Macrófago
+magnetism:Magnetismo
+management:Gestión
+maps:Mapas
+markov:Markov
+markov_chains:Cadenas de Markov
+masse:Masa
+math_skill:Habilidad matemática
+math_symbols:Símbolos matemáticos
+mathematics:Matemáticas
+matrix:Matriz
+maximum_flow:Flujo máximo
+maximum_parsimony:Máxima parsimonia
+mean:Media
+measurement:Medición
+mechanics:Mecánica
+medecine:Medicina
+median:Mediana
+median_line:Línea mediana
+medication:Medicación
+medicinal_chemistry:Química medicinal
+meiosis:Meiosis
+membrane:Membrana
+mental_calculation:Cálculo mental
+metabolism:Metabolismo
+methodical_calculation:Cálculo metódico
+methodology:Metodología
+mhc:CMH
+microbe:Microorganismo
+microbiology:Microbiología
+midpoint:Punto medio
+misc:Miscelánea
+mitosis:Mitosis
+modelling:Modelización
+modular_arithmetic:Aritmética modular
+module:Módulo
+molecular_biology:Biología molecular
+molecular_orbital:Orbital molecular
+molecule:Molécula
+monophyletic_group:Grupo monofilético
+monotonic_function:Función monótona
+month_week:Meses y semanas
+moon:Luna
+multiplication:Multiplicación
+multivariable_function:Función de varias variables
+muscle_tissue:Tejido muscular
+music:Música
+mycology:Micología
+negation:Negación
+nervous_tissue:Tejido nervioso
+neurosciences:Neurociencias
+neutrophil:Neutrófilo
+newman:Representación de Newman
+nk_cell:Célula NK
+normal_distribution:Distribución normal
+normal_vector:Vector normal
+nsaids:AINEs
+nucleic_acid:Ácido nucleico
+nucleotide:Nucleótido
+number:Número
+number_line:Recta numérica
+number_theory:Teoría de números
+number_writing:Escritura de números
+numbering_system:Sistema de numeración
+numeration:Numeración
+numerical_analysis:Análisis numérico
+numerical_integration:Integración numérica
+numerical_method:Métodos numéricos
+ode:EDO
+ohm_law:Ley de Ohm
+oper_prec:Precedencia de operadores
+operation:Operación
+operational_research:Investigación de operaciones
+optics:Óptica
+order:Orden
+organelle:Organelo
+organic_chemistry:Química orgánica
+oscillators:Oscilador
+oxydoreduction:Oxidación-reducción
+pain_drug:Fármaco para el dolor
+parabola:Parábola
+parallel:Paralelo
+parallelogram:Paralelogramo
+parametric_curves:Curvas paramétricas
+parametric_surfaces:Superficies paramétricas
+partial_derivative:Derivada parcial
+passive_form:Forma pasiva
+past_tenses:Tiempos pasados
+pbsolving:Resolución de problemas
+peptide:Péptido
+percentage:Porcentaje
+percents:Porcentajes
+perimeter:Perímetro
+periodic_table:Tabla periódica
+permutation:Permutación
+perpendicular_bisector:Mediatriz
+pert:PERT
+phagocytosis:Fagocitosis
+pharmacology:Farmacología
+pharmacy:Farmacia
+pharmocophore:Farmacóforo
+phase_changes:Cambios de fase
+phi2:Coeficiente de contingencia
+phonetics:Fonética
+photosynthesis:Fotosíntesis
+phylo_homology:Homología filogenética
+phylogenetic_tree:Árbol filogenético
+phylogenetics:Filogenética
+phys:Física
+physical_chemistry:Química física
+physical_education:Educación física
+physics:Física
+physiology:Fisiología
+plane:Plano
+plane_equation:Ecuación del plano
+plane_section:Sección plana
+planet:Planeta
+planetology:Planetología
+plant:Planta
+plant_cell:Célula vegetal
+poisson_distribution:Distribución de Poisson
+polar_curves:Curvas polares
+polygons:Polígonos
+polyhedron:Poliedro
+polynomials:Polinomios
+population_genetics:Genética de poblaciones
+potential:Potencial
+power:Potencias
+power_series:Series de potencias
+pre_algebra:Álgebra elemental
+pre_calculus:Cálculo elemental
+precipitation:Precipitación 
+prediction_interval:Intervalo de predicción
+preimage:Preimagen
+pression:Presión
+primes:Números primos
+primitive:Primitiva
+priority_rule:Reglas de prioridad
+prism:Prisma
+prob_graph:Grafo probabilístico
+probability:Probabilidad
+probability_distribution:Distribución de probabilidad
+probability_generating_function:Función generadora de probabilidad
+probability_space:Espacio de probabilidad
+procedures:Procedimientos
+process_control:Control de procesos
+process_engineering:Ingeniería de procesos
+production_management:Gestión de la producción
+prog_functions:Funciones en programación
+programming:Programación
+pronunciation:Pronunciación
+proportionality:Proporcionalidad
+protein:Proteína
+protractor:Transportador
+pyramid:Pirámide
+pythagore:Pitágoras
+python:Python
+qhse:QHSE
+quadratic_form:Forma cuadrática
+quadrilateral:Cuadrilátero
+quality_control:Control de calidad
+quantifier:Cuantificador
+quantile:Cuantil
+quartile:Cuartil
+quizz:Prueba
+quotient_group:Grupo cociente
+radiation:Radiación
+random:Aleatorio
+random_variable:Variable aleatoria
+random_vector:Vector aleatorio
+range_kernel:Rango y núcleo
+rank:Rango
+rate_constant:Constante de velocidad
+rate_law:Ley de velocidad
+ratio:Razón
+rational_number:Número racional
+ray_optics:Óptica geométrica
+reaction_order:Orden de reacción
+reaction_rate:Velocidad de reacción
+reading:Lectura
+real_function:Función real
+real_number:Número real
+reasoning:Razonamiento
+receptor:Receptor
+rectangles:Rectángulos
+recurrence_relation:Relación de recurrencia
+recursive_functions:Funciones recursivas
+reference_function:Funciones de referencia
+regression:Regresión
+relative_number:Número relativo
+relativity:Relatividad
+resistance:Resistencia
+ribosome:Ribosoma
+ring:Anillo
+riskreturn:Riesgo y rentabilidad
+rna:ARN
+rna_transcription:Transcripción del ARN
+rna_translation:Traducción del ARN
+road_traffic_safety:Seguridad vial
+root_tree:Árbol enraizado
+roots:Raíces
+rotation:Rotación
+ruler_and_compass:Regla y compás
+rv_convergence:Convergencia de variables aleatorias
+sampling:Muestreo
+sampling_distribution:Distribución muestral
+satellite:Satélite
+scalar_product:Producto escalar
+scheduling:Teoría de la planificación
+sciences:Ciencias
+scientific_notation:Notación científica
+selection_of_lymphocytes:Selección de linfocitos
+sense:Sentido
+sentence_stress:Acento oracional
+sequence:Sucesiones
+series:Series
+set_theory:Teoría de conjuntos
+sets:conjuntos
+signal_processing:Procesamiento de señales
+signaling_pathway:Vía de señalización intracelular
+signdigits:Cifras significativas
+similarities:Similitudes
+simplex_method:Método simplex
+simulation:Simulación
+skill:Habilidades
+skill_calculate:Habilidad de cálculo
+skill_communicate:Habilidad de comunicación
+skill_modelling:Habilidad de modelización
+skill_reasoning:Habilidad de razonamiento
+skill_represent:Habilidad de representación
+skill_search:Habilidad de búsqueda
+solar_system:Sistema solar
+solid_geometry:Geometría en el espacio
+solubility:Solubilidad
+solutions:Soluciones
+spatial_skill:Habilidad espacial
+speaking:Expresión oral
+specificity:Especificidad
+spelling:Ortografía
+sphere:Esfera
+sports:Deportes
+spreadsheet:Hoja de cálculo
+squareroot:Raíz cuadrada
+standard_deviation:Desviación estándar
+static_register:Registro estático
+statistical_test:Prueba estadística
+statistics:Estadística
+stereochemistry:Estereoquímica
+stereogenic_center:Centro estereogénico
+steroid:Esteroides
+stokes_thm:Teorema de Stokes
+struct:Estructura
+student_test:Prueba t de Student
+subst_integral:Integración por sustitución
+substitution_reaction:Reacción de sustitución
+subtraction:Sustracción
+supervision:Supervisión
+surfaces:Superficies
+surjectivity:Sobreyectividad
+sustainable_dev:Desarrollo sostenible
+symmetric_group:Grupo simétrico
+symmetry:Simetría
+t_cell_receptor:Receptor de célula T
+tangent:Tangente
+tangent_plane:Plano tangente
+tax:Impuesto
+taylor_expansion:Expansión de Taylor
+taylor_series:Serie de Taylor  
+technical_language:Lenguaje técnico
+tensor_field:Campo tensorial
+test:Prueba estadística
+thales:Tales
+thermochemistry:Termoquímica
+thermodynamics:Termodinámica
+threatened_species:Especies amenazadas
+tiling:Teselado
+time:Tiempo
+timeline:Línea de tiempo
+titration:Titulación
+topology:Topología
+toxin:Toxina
+trajectory:Trayectoria
+transformation_group:Grupo de transformaciones
+transition_matrix:Matriz de transición
+translation:Traducción
+tree_topology:Topología de árbol
+triangles:Triángulos
+trigonometric_circle:Círculo trigonométrico
+trigonometric_functions:Funciones trigonométricas
+trigonometry:Trigonometría
+trinomial:Trinomio
+truth_table:Tabla de verdad
+uniform_distribution:Distribución uniforme
+units_tests:Pruebas unitarias
+unroot_tree:Árbol no enraizado
+upper_bound:Cota superior
+vaccine:Vacuna
+variables:Variables
+variance:Varianza
+variation_coefficient:Coeficiente de variación
+vector_space:Espacio vectorial
+vectorial_analysis:Análisis vectorial
+vectorial_field:Campo vectorial
+vectorial_geometry:Geometría vectorial
+vectors:Vectores
+vegetal_physiology:Fisiología vegetal
+vegetal_tissue:Tejido vegetal
+velocity:Velocidad
+vibration:Acústica
+virology:Virología
+virus:Virus
+vocabulary:Vocabulario
+voltage:Voltaje
+volume:Volumen
+ward_method:Método de Ward
+weaver:Representación Weaver
+within_variance:Varianza intragrupos
+writing:Escritura
+written_english:Inglés escrito
+zdomain:Otros dominios
+zoology:Zoología

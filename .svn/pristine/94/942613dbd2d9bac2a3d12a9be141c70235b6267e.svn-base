@@ -1,0 +1,25 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Vecteurs orthogonaux du plan
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p> On dit que deux vecteurs du plan sont orthogonaux lorsque leur produit scalaire est nul.</p>
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarque</h4>
+<p>Le vecteur nul est orthogonal à tout vecteur du plan.</p>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+<p>Deux droites du plan de vecteurs directeurs respectifs \(\overrightarrow{u}\)
+et \(\overrightarrow{v}\) sont perpendiculaires si et seulement si les vecteurs
+\(\overrightarrow{u}\) et \(\overrightarrow{v}\) sont orthogonaux.</p>
+</div>
+

@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Tangente d'un angle aigu
+!set gl_keywords=trigonometry,triangles
+!set gl_level=H3 Cycle&nbsp;4 
+:
+:
+:
+:
+<div class="wims_defn">
+   <h4>Définition</h4>
+Soit \(\mathrm{ABC}\) un triangle rectangle en <span class="nowrap">\(\mathrm{A}\).</span><br>
+La <strong>tangente</strong> de l'angle <span class="nowrap">\(\widehat{\mathrm{ABC}}\),</span> notée <span class="nowrap">\(\tan\left(\widehat{\mathrm{ABC}}\right)\),</span> est définie par <span class="nowrap">
+\(\tan\left(\widehat{\mathrm{ABC}}\right) = \frac{\text{longueur du côté opposé à l'angle}\; \widehat{\mathrm{ABC}}}{\text{longueur du côté adjacent à l'angle}\; \widehat{\mathrm{ABC}}}\)
+</span> <span class="nowrap">soit \(\tan\left(\widehat{\mathrm{ABC}}\right) = \frac{\mathrm{AC}}{\mathrm{AB}}\).</span>
+</div>

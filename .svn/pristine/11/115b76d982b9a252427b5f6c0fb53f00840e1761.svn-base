@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Projeté orthogonal d'un point sur une droite du plan
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn">
+<H4>Définition</H4>
+<p>Soit \(\increment\) une droite du plan et soit \(\mathrm{A}\) un point du plan.</p>
+<p>On appelle projeté orthogonal du point \(\mathrm{A}\) sur la droite \(\increment\) le point d'intersection entre la droite \(\increment\) et la droite perpendiculaire à la droite \(\increment\) passant par le point <span class="nowrap">\(\mathrm{A}\).</span></p>
+</div>
+
+

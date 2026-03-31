@@ -1,0 +1,23 @@
+!! +exec+ +score+ +subst+ +var+ +adm+
+tit:getsheetstatus
+type:$type_both; $type_adm
+
+syntax:!getsheetstatus ``[class=qclass]'' ``[user=quser]'' ``[sheet=qsheet]''
+mean:return 0 if the current sheet is in preparation, 1 if it is activated,\
+  2 if it is expired and 3 if it is hidden.\
+  The technical variables attached to quser in qclass are taken in account.\
+  so if the current sheet is activate or expired, the sheet can be hidden if the technical\
+  conditions are fulled.\
+  <ul><li>Default value for class is ``wims_class''.</li> \
+  <li>Default value for user is ``wims_user''.</li></ul>\
+  Write ``!getsheetstatus user=no'' to ask the generic status of the sheet.\
+  The command can be used in non administrative module if no user and no class is specified.\
+  So it applies to the current ``wims_user'' and ``wims_class''.
+
+  One can have the following values\
+  <table class="wimsborder"><tr><th>getscorestatus</th><th>getscorestatus with tech</th><th>getsheetstatus</th><th>getsheetstatus with techn. cond. can be</th><tr>\
+    <tr><td>no</td><td>no</td><td>0</td><td>0</td></tr>\
+    <tr><td>yes</td><td>yes | no</td><td>1</td><td>1 | 3</td></tr>\
+    <tr><td>no</td><td>no</td><td>2</td><td>2 | 3</td></tr>\
+    <tr><td>no</td><td>no</td><td>3</td><td>3</td></tr>\
+    </table>\

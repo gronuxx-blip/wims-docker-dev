@@ -1,0 +1,18 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=roots,equation,trinomial,polynomials,factorization,canonical_form
+!set gl_title=Discriminant
+!set gl_level=H5 Générale
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(a\) un réel non nul, \(b\) et \(c\) deux réels. Soit \(f\)
+la fonction polynôme du second degré définie pour tout réel \(x\)
+par <span class="nowrap">\(f(x)=a x^2 + b x + c\).</span>
+<br>
+Le <strong>discriminant</strong> de \(f\) est le nombre réel
+ <span class="nowrap">\(\increment= b^2 - 4 a c\).</span>
+</div>
+:mathematics/algebra/fr/discriminant_1

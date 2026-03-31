@@ -1,0 +1,104 @@
+
+:U1/analysis/oefDerives.fr
+exo=derives2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Sens physique d'une dérivée
+Lien entre le signe du nombre dérivé et la pente de la tangente.
+
+
+:H5/analysis/oefderivee.fr
+exo=tauxvar4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Taux de variation 4
+Lien entre le signe du taux d'accroissement et les variations.
+
+Très bien pour comprendre le "pour tout"
+:H5/analysis/oefderivee.fr
+exo=tangente4&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Tangente horizontale
+Recherche d'extrema locaux.
+
+
+:H5/analysis/oefderivee.fr
+exo=tangente2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Tracé d'une tangente
+Tracer la tangente d'une fonction donnée par son graphe.
+
+
+:H5/analysis/oefderivee.fr
+exo=tangente1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Tracé d'une tangente par étapes
+Placer la tangente d'une fonction donnée par son graphe et son expression.
+
+
+:H5/analysis/oefderivee.fr
+exo=tangente5&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Exploiter le tracé d'une tangente
+Lecture graphique d'un nombre dérivé et d'une image à l'aide du tracé d'une tangente.
+
+À partir de la première
+:H5/analysis/oefderivee.fr
+exo=tangente3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Exploiter l'équation d'une tangente
+Déterminer un nombre dérivé et l'image d'un point à l'aide de l'équation d'une tangente.
+
+À partir de la première
+:H5/analysis/oefderivee1S.fr
+exo=eqtgte2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Nombre dérivé et équation de la tangente 2
+Déterminer l'équation d'une tangente.
+
+À partir de la première
+:H5/analysis/oefderivee1S.fr
+exo=tgtedir&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Tangente de direction donnée
+Déterminer l'équation de deux tangentes de coefficients directeurs donnés.
+
+À partir de la première
+:H5/analysis/oefderivee1S.fr
+exo=tgte2ptstep&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Tangente passant par 1 point
+Déterminer l'équation de deux tangentes passant par un point extérieur à la courbe.
+
+:H5/analysis/oefderivee.fr
+exo=coef1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Coefficients fonction degré 2
+Déterminer les coefficients d'une fonction du second degré dont on connaît une tangente et un point sur le graphe.
+
+
+:H5/analysis/oefderivee.fr
+exo=coef2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Coefficients fonction degré 2 (2)
+Déterminer les coefficients d'une fonction du second degré dont on connaît une tangente et un point sur le graphe.
+
+Retrouver les coefficients d'une fonction polynôme de degré 2, connaissant le point d'intersection avec l'axe des ordonnées et une tangente.
+:H5/analysis/oefderivee1S.fr
+exo=fct2tgte&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fonction donnée par 2 tangentes et 1 point
+Déterminer l'expression d'une fonction du second degré dont on connaît un point sur le graphe et deux nombres dérivés.
+
+

@@ -1,0 +1,272 @@
+
+:H6/analysis/oefintegrale.fr
+exo=formules1&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées et primitives 1
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formules2&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées et primitives 2
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formules3&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées et primitives 3
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formules4&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées et primitives 4
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formules5&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées et primitives 5 (avec exp)
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formules6&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées et primitives 6 (puiss ent et fract)
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formules7&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées et primitives 7 (sin et cos)
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formules8&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées et primitives 8 (exp et log)
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formules8b&confparm2=XT&confparm1=R&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Formules de dérivées (exp et log) et primitives (exp)
+Déterminer des dérivées et des primitives de composées de fonctions usuelles.
+
+:U1/analysis/quizint.en
+exo=poly2&qnum=1&scoredelay=60,120&seedrepeat=0&qcmlevel=1
+10
+1
+Polynôme de degré 2
+Reconnaître la primitive d'une fonction polynôme de degré 2.
+
+
+:U1/analysis/quizint.en
+exo=poly3&qnum=1&scoredelay=60,120&seedrepeat=0&qcmlevel=1
+10
+1
+Polynôme de degré 3
+Reconnaître la primitive d'une fonction polynôme de degré 3.
+
+
+:U1/analysis/quizint.en
+exo=sincos1&qnum=1&scoredelay=60,120&seedrepeat=0&qcmlevel=1
+10
+1
+sin et cos I
+Reconnaître la primitive d'une fonction cosinus ou sinus.
+
+
+:U1/analysis/quizint.en
+exo=sincos2&qnum=1&scoredelay=60,120&seedrepeat=0&qcmlevel=1
+10
+1
+sin et cos II
+Reconnaître la primitive d'une composée de la fonction cosinus ou sinus.
+
+
+:H6/analysis/patternPrimitives.fr
+exo=vraifaux&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Vrai / Faux sur les primitives
+Déterminer des primitives de fonctions usuelles.
+
+
+:H6/analysis/patternPrimitives.fr
+exo=primPolynomes&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fonctions polynômes
+Déterminer la primitive vérifiant une certaine condition d'une fonction polynomiale.
+
+
+:H5/analysis/oefintts.fr
+exo=fracln
+10
+1
+Primitives de fractions rationnelles
+Déterminer une primitive d'une fraction rationnelle par étapes.
+
+
+:H5/analysis/oefintts.fr
+exo=primitivesfr
+10
+1
+Primitives de fractions rationnelles II
+Déterminer une primitive d'une fraction rationnelle par étapes.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formeprim1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Primitive de forme donnée 1
+Déterminer une primitive d'une fraction rationnelle avec la forme de la primitive donnée.
+
+
+:H6/analysis/oefintegrale.fr
+exo=formeprim2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Primitive de forme donnée 2
+Déterminer une primitive d'une fraction rationnelle avec la forme de la primitive donnée.
+
+
+:U1/analysis/OEFprimitive.fr
+exo=cosexp&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+(Acos(x)+Bsin(x))exp(x)
+Déterminer une primitive en reconnaissant la dérivée d'un produit de fonctions.
+
+
+:U1/analysis/OEFprimitive.fr
+exo=polexp&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+P(x)exp(x)
+Déterminer une primitive en reconnaissant la dérivée d'un produit de fonctions.
+
+Dur sans indication et correction
+:U1/analysis/OEFprimitive.fr
+exo=puissn&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Forme u'u^n
+Déterminer la primitive vérifiant une certaine condition en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:H6/analysis/patternPrimitives.fr
+exo=primPuissEnt&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Exposants relatifs ou rationnels
+Déterminer la primitive vérifiant une certaine condition en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:H6/analysis/patternPrimitives.fr
+exo=primPuissances&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fonctions puissances ou exp.
+Déterminer la primitive vérifiant une certaine condition en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:H6/analysis/patternPrimitives.fr
+exo=primExpo&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fonctions avec exponentielle
+Déterminer la primitive vérifiant une certaine condition en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:U1/analysis/OEFprimitive.fr
+exo=expo&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Forme u'exp(u)
+Déterminer une primitive en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:U1/analysis/OEFprimitive.fr
+exo=inverse&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Forme u'/u
+Déterminer une primitive en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:H6/analysis/patternPrimitives.fr
+exo=primLogarithmes&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fonctions avec logarithme
+Déterminer une primitive en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:U1/analysis/OEFprimitive.fr
+exo=cosinus&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Forme u'cos(u)
+Déterminer une primitive en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:U1/analysis/OEFprimitive.fr
+exo=sinus&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Forme u'sin(u)
+Déterminer une primitive en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:H6/analysis/patternPrimitives.fr
+exo=primTrigo&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Fonctions trigonométriques
+Déterminer la primitive vérifiant une certaine condition en reconnaissant la dérivée d'une composée de fonctions.
+
+
+:U1/analysis/oef-int-L1EG.fr
+exo=primitive_aff_exp_x
+10
+1
+Primitive de aff_exp(x)
+Déterminer la primitive vérifiant une certaine condition en reconnaissant la dérivée d'une composée de fonctions par IPP.
+
+
+:U1/analysis/oef-int-L1EG.fr
+exo=primitive_aff_ln_x
+10
+1
+Primitive de aff_ln(x)
+Déterminer la primitive vérifiant une certaine condition en reconnaissant la dérivée d'une composée de fonctions par IPP.
+
+
+:U1/analysis/graphint.en
+repeat=1&asktype=1&present=3&list=3
+10
+1
+Intégrale graphique
+Reconnaître le graphe de la primitive d'une fonction.
+
+

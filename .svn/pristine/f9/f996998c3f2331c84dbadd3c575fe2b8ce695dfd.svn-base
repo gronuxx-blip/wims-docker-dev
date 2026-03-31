@@ -1,0 +1,21 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Demi-droite graduée (collège)
+!set gl_level=E6 Cycle&nbsp;3
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Une <strong>demi-droite graduée</strong> est définie par&nbsp;:
+<ul>
+  <li>un point, l'origine de la demi-droite&nbsp;;</li> 
+  <li>un sens (imposé par la demi-droite)&nbsp;;</li>
+  <li>une unité de longueur.</li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriété</h4>Chaque point de la demi-droite est repéré par un nombre qui est sa distance à l'origine de la demi-droite exprimée dans l'unité de longueur choisie.
+</div>

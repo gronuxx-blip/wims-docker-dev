@@ -1,0 +1,11 @@
+!set t=!recordcnt wimshome/log/classes/$wims_class/exams/.exams
+!set aelist=
+!for i=1 to $t
+  !! ------test if exam is hidden for this user
+  !set tmp_status=!getsheetstatus class=$wims_class exam=$i
+  !if $tmp_status iswordof 1 2
+    !set aelist=!append item $i to $aelist
+  !endif
+  !reset tmp_status
+!next i
+!set m=!itemcnt $aelist

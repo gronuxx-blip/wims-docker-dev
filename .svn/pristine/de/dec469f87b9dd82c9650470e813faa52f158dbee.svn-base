@@ -1,0 +1,111 @@
+Puissances entières relatives
+Collection d'exercices sur des calculs d'expressions mettant en jeu des puissances entières relatives (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,algebra
+levelH4,power,literal_calculation
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur des calculs d'expressions mettant en jeu des puissances entières relatives (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/puissances.fr
+exo=val1&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Puissance d'un entier
+<p>Calculer la puissance d'un entier.</p>
+
+
+
+algebra
+:H4/algebra/puissances.fr
+exo=signe1&confparm1=8&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Signe d'une puissance
+<p>Déterminer le signe d'un nombre de la forme \(a^n\) où \(a\) et \(n\) sont des entiers relatifs donnés.</p>
+
+
+
+algebra
+:H4/algebra/contribution.fr
+exo=elassaoui2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Exposant manquant
+<p>Compléter l'exposant manquant dans l'égalité proposée.</p>
+
+
+
+algebra
+:H4/algebra/puissances.fr
+exo=transpuiss&confparm1=1&confparm1=4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier avec des puissances (1)
+<p>Écrire une expression de la forme \(x^n \times x^p\) sous la forme \(x^q\) où \(n\), \(p\) et \(q\) sont des entiers relatifs.</p>
+
+
+
+algebra
+:H4/algebra/puissances.fr
+exo=transpuiss&confparm1=2&confparm1=5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier avec des puissances (2)
+<p>Écrire une expression de la forme \(\frac{x^n}{x^p}\) sous la forme \(x^q\) où \(n\), \(p\) et \(q\) sont des entiers relatifs.</p>
+
+
+
+algebra
+:H4/algebra/puissances.fr
+exo=transpuiss&confparm1=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier avec des puissances (3)
+<p>Écrire une expression de la forme \((x^n)^p\) sous la forme \(x^q\) où \(n\), \(p\) et \(q\) sont des entiers relatifs.</p>
+
+
+
+algebra
+:H4/algebra/puissances.fr
+exo=transpuiss&confparm1=7&confparm1=10&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier avec des puissances (4)
+<p>Écrire une expression de la forme \((x^n)^p \times (x^r)^s\) sous la forme \(x^q\) où \(n\), \(p\), \(r\),\(s\) et \(q\) sont des entiers relatifs.</p> <p>&nbsp;</p>
+
+
+
+algebra
+:H4/algebra/puissances.fr
+exo=transpuiss&confparm1=8&confparm1=11&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier avec des puissances (5)
+<p>Écrire une expression de la forme \(\frac{(x^n)^p}{(x^r)^s}\) sous la forme \(x^q\) où \(n\), \(p\), \(r\), \(s\) et \(q\) sont des entiers relatifs.</p>
+
+
+
+algebra
+:H4/math/quizzautomat.fr
+exo=puis1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calculs multiples
+<p>Calculer une expression numérique mettant en jeu des puissances.</p>
+
+
+
+algebra
+:H4/algebra/oefnombres.fr
+exo=power10&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Tableau de puissances
+<p>Effectuer des calculs sur des puissances entières et indiquer leurs signes.</p>
+
+
+
+algebra

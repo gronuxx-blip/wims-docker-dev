@@ -1,0 +1,197 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Fonction carré (exemple 1)
+!set gl_ens_entier_pos=!makelist x for x=1 to 10
+!for elt in $gl_ens_entier_pos
+    !set img=!eval $elt*$elt
+    !set gl_ens_entier_pos_img=!append item $img to $gl_ens_entier_pos_img
+!next
+!set gl_ens_entier_neg=!makelist -x for x=1 to 10
+!for elt in $gl_ens_entier_neg
+    !set img=!eval $elt*$elt
+    !set gl_ens_entier_neg_img=!append item $img to $gl_ens_entier_neg_img
+!next
+!!Génération de 10 rationnels
+!set gl_ens_rat_pos=!exec pari (Rat()=my(nb);nb=random({[1,20]})/random({[2,10]});while(denominator(nb)==1,nb=random({[1,20]})/random({[2,10]}));nb);(Gene(n)=my(V);V=vector(n,i,i=Rat());V;);Gene(10)
+!!Suppression des doublons parmi ces 10 rationnels
+!set gl_ens_rat_pos=!listuniq $gl_ens_rat_pos
+!for r in $gl_ens_rat_pos
+    !set gl_ens_rat_neg=!append item -$r to $gl_ens_rat_neg
+!next
+!!Calcul des images des rationnels
+!for elt in $gl_ens_rat_pos
+  !set img=!exec maxima $elt*$elt
+  !set gl_ens_rat_pos_img=!append item $img to $gl_ens_rat_pos_img
+!next
+!for elt in $gl_ens_rat_neg
+  !set img=!exec maxima $elt*$elt
+  !set gl_ens_rat_neg_img=!append item $img to $gl_ens_rat_neg_img
+!next
+!!Génération de  décimaux
+!set gl_ens_dec_frac=!exec pari (Rat()=my(nb);nb=random({[1,50]})/random({[10,10]});while(denominator(nb)==1,nb=random({[1,50]})/random({[10,10]}));nb);(Gene(n)=my(V);V=vector(n,i,i=Rat());V;);Gene(10)
+!!Suppression des doublons 
+!set gl_ens_dec_pos_frac=!listuniq $gl_ens_dec_frac
+!for elt in $gl_ens_dec_pos_frac
+    !set val=!eval $elt
+    !set gl_ens_dec_pos=!append item $val to $gl_ens_dec_pos
+!next
+!for elt in $gl_ens_dec_pos
+  !set img=!eval $elt*$elt
+  !set gl_ens_dec_pos_img=!append item $img to $gl_ens_dec_pos_img
+!next
+!for elt in $gl_ens_dec_pos_frac
+    !set val=!eval $elt
+    !set gl_ens_dec_neg=!append item -$val to $gl_ens_dec_neg
+!next
+!for elt in $gl_ens_dec_neg
+  !set img=!eval $elt*$elt
+  !set gl_ens_dec_neg_img=!append item $img to $gl_ens_dec_neg_img
+!next
+!!Génération de radicaux
+!set gl_ens_rac=
+!set nb_rac=!itemcnt $gl_ens_rac_img
+!while $nb_rac!=10
+    !set n=!randint 1,100
+    !set rac_de_n=!eval sqrt($n)
+    !set floor_de_rac_de_n=!eval floor($rac_de_n)
+    !if $rac_de_n!=$floor_de_rac_de_n
+        !if $n notin $gl_ens_rac_img
+            !set gl_ens_rac_img=!append item $n to $gl_ens_rac_img
+            !set nb_rac=!itemcnt $gl_ens_rac_img
+        !endif
+    !endif
+
+!endwhile
+!set gl_ens_rac=
+!for c in $gl_ens_rac_img
+    !set core_c=!exec pari core($c,1)
+    !set a=$(core_c[2])
+    !set b=$(core_c[1])
+    !if $b==1
+        !set racc=$a
+    !else
+        !if $a!=1
+            !set racc=$a\sqrt{$b}
+        !else
+            !set racc=\sqrt{$b}
+        !endif
+    !endif
+    !set gl_ens_rac=!append item $racc to $gl_ens_rac
+!next
+!!Ensemble des points enstiers dans une matrice
+!set gl_mat_pt=
+!set gl_mat_pt_entier_pos=$gl_ens_entier_pos;$gl_ens_entier_pos_img
+!set gl_mat_pt_entier_neg=$gl_ens_entier_neg;$gl_ens_entier_neg_img
+!!Choix d'un pt à coordonnées des entiers
+!set gl_r1=!randint 1,10
+!set gl_pt_entier_pos=$(gl_mat_pt_entier_pos[;$gl_r1])
+!set gl_r2=!randint 1,10
+!set gl_pt_entier_neg=$(gl_mat_pt_entier_neg[;$gl_r2])
+!set gl_mat_pt=!append item ($gl_pt_entier_pos) to $gl_mat_pt
+!set gl_mat_pt=!append item ($gl_pt_entier_neg) to $gl_mat_pt
+!!Ensemble des points rationnels dans une matrice
+!set gl_mat_pt_rat_pos=$gl_ens_rat_pos;$gl_ens_rat_pos_img
+!set gl_mat_pt_rat_neg=$gl_ens_rat_neg;$gl_ens_rat_neg_img
+!set gl_card_rat=!itemcnt $gl_ens_rat_pos
+!set gl_rang=!randint 1,$gl_card_rat
+!set gl_pt_rat_pos=$(gl_mat_pt_rat_pos[;$gl_rang])
+!set gl_rang=!randint 1,$gl_card_rat
+!set gl_pt_rat_neg=$(gl_mat_pt_rat_neg[;$gl_rang])
+!set gl_mat_pt=!append item ($gl_pt_rat_pos) to $gl_mat_pt
+!set gl_mat_pt=!append item ($gl_pt_rat_neg) to $gl_mat_pt
+!!Ensemble des points décimaux dans une matrice
+!set gl_mat_pt_dec_pos=$gl_ens_dec_pos;$gl_ens_dec_pos_img
+!set gl_mat_pt_dec_neg=$gl_ens_dec_neg;$gl_ens_dec_neg_img
+!set gl_card_dec=!itemcnt $gl_ens_dec_pos
+!set gl_r3=!randint 1,$gl_card_dec
+!set gl_pt_dec_pos=$(gl_mat_pt_dec_pos[;$gl_r3])
+!set gl_mat_pt=!append item ($gl_pt_dec_pos) to $gl_mat_pt
+!set gl_r4=!randint 1,$gl_card_dec
+!set gl_pt_dec_neg=$(gl_mat_pt_dec_neg[;$gl_r4])
+!set gl_mat_pt=!append item ($gl_pt_dec_neg) to $gl_mat_pt
+!!Ensemble des points radicaux
+!set gl_mat_pt_rac_pos=$gl_ens_rac;$gl_ens_rac_img
+!set gl_card_rac=!itemcnt $gl_ens_rac
+!set rg_rac=!randint 1,$gl_card_rac
+!set gl_pt_rac=$(gl_mat_pt_rac_pos[;$rg_rac])
+!set gl_mat_pt=!append item ($gl_pt_rac) to $gl_mat_pt
+!set gl_mat_pt=!shuffle $gl_mat_pt
+!set gl_mat_pt=$(gl_mat_pt[1])
+!set gl_mat_pt=!append item (0,0) to $gl_mat_pt
+!set gl_mat_pt=!shuffle $gl_mat_pt
+!set gl_phrase=
+!set gl_phrase=!append item <strong>L'image</strong> de \(x\) par la fonction carré est \(x*x\) qui vaut <span class="nowrap">\(y\)&#46;</span> to $gl_phrase
+!set gl_phrase=!append item \(y\) est <strong>l'image de</strong> \(x\) par la fonction carré car <span class="nowrap">\(x*x=y\)&#46;</span> to $gl_phrase
+!set gl_nb_phrase=!itemcnt $gl_phrase
+!set gl_nb_val=!itemcnt $gl_ens_ante
+!set gl_nb_pt=!itemcnt $gl_mat_pt
+<h4 class="wimscenter">Exemple - Calcul d'images et d'antécédents</h4>
+<ul>
+!for cpt=1 to $gl_nb_pt
+    !set pt1=!declosing $(gl_mat_pt[$cpt])
+    !set reste=$cpt%2+1
+    !set ph=$(gl_phrase[$reste])
+    !set pt_x=!texmath $(pt1[1])
+    !set pt_y=!texmath $(pt1[2])
+    !set ph=!replace internal \(x\) by \($pt_x\) in $ph
+    !set ph=!replace internal y\) by $pt_y\) in $ph
+    !if $[floor($pt_x)]==$pt_x && $pt_x>=0
+        !set ph=!replace internal x*x by $pt_x^2 in $ph
+    !else
+        !set ph=!replace internal x*x by \left($pt_x\right)^2 in $ph
+        !set ph=!replace internal . by &#44; in $ph 
+    !endif
+    <li>$ph</li>
+!next
+</ul>
+!!Des antécédents
+!set gl_ens_nb=
+!set gl_ens_couple=
+!set rg_nb1=!randint 1,10
+!set rg_nb2=!randint 1,10
+!set rg_nb3=!randint 1,$gl_card_dec
+!set rg_nb4=!randint 1,$gl_card_rat
+!set rg_nb5=!randint 1,$gl_card_rat
+!set gl_ens_nb=!append item $(gl_ens_entier_pos_img[$rg_nb1]) to $gl_ens_nb
+!set gl_ens_nb=!append item $(gl_ens_entier_neg[$rg_nb2]) to $gl_ens_nb
+!set gl_ens_nb=!append item $(gl_ens_dec_pos_img[$rg_nb3]) to $gl_ens_nb
+!set gl_ens_nb=!append item $(gl_ens_rat_pos_img[$rg_nb4]) to $gl_ens_nb
+!set gl_ens_nb=!append item $(gl_ens_rat_pos[$rg_nb5]) to $gl_ens_nb
+!set gl_ens_nb=!shuffle $gl_ens_nb
+!set gl_ens_nb=$(gl_ens_nb[1])
+!set gl_ens_nb=!append item 0 to $gl_ens_nb
+!set gl_ens_nb=!shuffle $gl_ens_nb
+<ul>
+!for elt in $gl_ens_nb
+    !set ent=!randint 1,100
+    !set alter=!exec pari $ent%2==0
+    !if $elt<0
+        <li>\($elt\) n'a aucun <strong>antécédent</strong> par la fonction carré car l'équation \(x^2=$elt\) n'a aucune solution réelle.</li>
+    !else
+        !if $elt==0
+            <li>\(0\) est le seul <strong>antécédent</strong> de \(0\) par la fonction carré. En effet l'unique solution de l'équation \(x^2=0\) est <span class="nowrap">\(0\).</span></li>
+        !else
+            !if $elt==13.69
+                !set elt_simp=3.7
+                !set elt_tex=!texmath $elt
+            !else
+                !set elt_simp=!exec maxima sqrt($elt)
+                !set elt_simp=!replace internal 2^(3/2) by (2*sqrt(2)) in $elt_simp
+                !set elt_simp=!texmath $elt_simp
+                !set elt_tex=!texmath $elt
+            !endif
+            !set ph1=Par la fonction carré \($elt_tex\) a pour <strong>antécédents</strong> \(-$elt_simp\) et \($elt_simp\) \
+            car ce sont les seules solutions de l'équation <span class="nowrap">\(x^2=$elt_tex\)&#46;</span>
+            !set ph2=Les <strong>antécédents</strong> de \($elt_tex\) par la fonction carré sont \(-$elt_simp\) et \($elt_simp\) \
+            car ce sont les seules solutions de l'équation <span class="nowrap">\(x^2=$elt_tex\)&#46;</span>
+            !if $alter==0
+                !set ph=$ph1
+            !else   
+                !set ph=$ph2
+            !endif
+            !set ph=!replace internal . by &#44; in $ph 
+            <li>$ph</li>
+        !endif
+    !endif
+!next
+</ul>

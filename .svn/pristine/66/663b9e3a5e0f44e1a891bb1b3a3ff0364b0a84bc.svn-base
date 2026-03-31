@@ -1,0 +1,141 @@
+Coordonnées d'un vecteur
+Collection d'exercices sur la lecture graphique et le calcul des coordonnées d'un vecteur, décomposition d'un vecteur dans une base orthonormée, norme d'un vecteur (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,geometry
+levelH4,vectors,coordinates,translation,basis,parallelogram
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la lecture graphique et le calcul des coordonnées d'un vecteur, décomposition d'un vecteur dans une base orthonormée, norme d'un vecteur (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H3/geometry/oefcoord.fr
+exo=CORvect3
+30
+1
+Par lecture graphique
+<p>Associer 3 vecteurs représentés graphiquement dans un repère à leurs coordonnées.</p>
+
+
+
+measure
+:H4/geometry/OEFevalwimscoord.fr
+exo=grvecteur5&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées d'un vecteur (graphique) 
+<p>Déterminer les coordonnées d'un vecteur par lecture graphique.</p>
+
+
+
+measure
+:H4/geometry/OEFevalwimscoord.fr
+exo=formule2&exo=formule5&confparm1=1&qnum=2&scoredelay=&seedrepeat=0&intro_expert=yes&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_good=0&intro_sol=1&intro_feed=1&intro_hint=1&intro_qcmpresent=4&intro_check=1&intro_check=2
+30
+1
+Coordonnées d'un vecteur (formule)
+<p>Retrouver la formule donnant les coordonnées d'un vecteur.</p>
+
+
+
+notebook
+:H3/geometry/oefcoord.fr
+exo=vecteurs&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées d'un vecteur
+<p>Calculer, dans un repère, les coordonnées d'un vecteur connaissant les coordonnées de son origine et de son extrémité.</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimsvect1.fr
+exo=calculcoord2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Produit d'un vecteur par un réel
+<p>Calculer les coordonnées d'un vecteur produit d'un vecteur par un réel.......</p>
+
+
+
+algebra
+:H3/geometry/oefcoord.fr
+exo=trans1
+30
+1
+Image par une translation (1)
+<p>Calculer, dans un repère, les coordonnées de l'image d'un point de coordonnées données par une translation de vecteur de coordonnées données.</p>
+
+
+
+algebra
+:H3/geometry/oefcoord.fr
+exo=trans2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Image par une translation (2)
+<p>Calculer, dans un repère, les coordonnées de l'image d'un point de coordonnées données par une translation de vecteur de coordonnées à calculer.</p>
+
+
+
+algebra
+:H5/geometry/oefgeoplan.fr
+exo=basevectortho&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Décomposer un vecteur dans une base orthonormée
+<p>Exprimer, par lecture graphique sur un quadrillage, un vecteur \(\overrightarrow{w}\) en fonction de deux vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) formant une base orthonormée.</p>
+
+
+
+measure
+:H4/geometry/oefvectdetpara.fr
+exo=prlgrm3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées du 4e sommet d'un parallélogramme
+<p>Calculer les coordonnées du 4<sup>e</sup> sommet d'un parallélogramme connaissant les coordonnées des trois autres sommets.</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimsvect1.fr
+exo=coordvecpt4
+30
+1
+Calcul des coordonnées de vecteurs avec opérations (1)
+<p>Calculer les coordonnées d'un vecteur défini par une relation vectorielle faisant intervenir des vecteurs de coordonnées données.</p>
+
+
+
+algebra
+:H4/geometry/oefvectdetpara.fr
+exo=coordop&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul des coordonnées de vecteurs avec opérations (2)
+<p>Calculer les coordonnées d'un vecteur défini par une relation vectorielle faisant intervenir des points de coordonnées données.</p>
+
+
+
+algebra
+:H4/geometry/oefvectdetpara.fr
+exo=norme1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Norme d'un vecteur (1)
+<p>Calculer la norme d'un vecteur connaissant les coordonnées de celui-ci dans une base orthonormée.</p>
+
+
+
+algebra
+:H4/geometry/oefvectdetpara.fr
+exo=norme2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Norme d'un vecteur (2)
+<p>Calculer la norme d'un vecteur \(\overrightarrow{A B}\) connaissant les coordonnées de \(A\) et de \(B\) dans un repère orthonormé.</p>
+
+
+
+algebra

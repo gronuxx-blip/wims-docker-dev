@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Différence de deux nombres
+!set gl_level=H1 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+<p>
+Soit \(a\) et \(b\) deux nombres.<br>
+La <strong>différence</strong> entre \(a\) et <span class="nowrap">\(b\), </span> notée <span class="nowrap">\(a - b\),</span> est le résultat de la soustraction du nombre \(b\) au nombre <span class="nowrap">\(a\).</span><br>
+Les nombres \(a\) et \(b\) sont appelés <strong>termes</strong> de cette différence.
+</p>
+</div>

@@ -1,0 +1,141 @@
+Équations
+Collection d'exercices sur les équations du premier degré et les équations se ramenant à une équation produit nul (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,algebra
+levelH4,equations
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur les équations du premier degré et les équations se ramenant à une équation produit nul (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H3/algebra/oefeqineq.fr
+exo=Equation&confparm2=1&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(a x+b=0\) (1)
+<p>Résoudre une équation du 1<sup>er</sup> degré à coefficients entiers relatifs et second membre nul en mode guidé.</p>
+
+
+
+steps
+:H3/algebra/oefeqineq.fr
+exo=Equation&confparm2=2&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(a x+b=0\) (2)
+<p>Résoudre une équation du 1<sup>er</sup> degré à coefficients entiers relatifs et second membre nul.</p>
+
+
+module=H3/algebra/oefeqineq.fr&exo=Equation&confparm2=1&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1&cmd=new,10,0
+algebra
+:H3/algebra/oefeqineq.fr
+exo=Equation&confparm2=2&confparm1=4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(a x+b=0\) (3)
+<p>Résoudre une équation du 1<sup>er</sup> degré à coefficients rationnels et second membre nul.</p>
+
+
+module=H3/algebra/oefeqineq.fr&exo=Equation&confparm2=1&confparm1=4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1&cmd=new,10,0
+algebra
+:H4/algebra/OEFevalwimsequ.fr
+exo=equation3
+30
+1
+Équation \(a x + b= c\)
+<p>Résoudre une équation du 1<sup>er</sup> degré à coefficients entiers relatifs.</p>
+
+
+
+algebra
+:H4/algebra/OEFevalwimsequ.fr
+exo=equation3&exo=equation5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(a x + b= c\)
+<p>Résoudre une équation du 1<sup>er</sup> degré à coefficients entiers ou rationnels.</p>
+
+
+
+algebra
+:H3/algebra/oefeqineq.fr
+exo=Equation2&confparm2=1&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(a x+b=c x+d\) (1)
+<p>Résoudre une équation du type \(a x+b=c x+d\) à coefficients entiers relatifs en mode guidé.</p>
+
+
+
+steps
+:H3/algebra/oefeqineq.fr
+exo=Equation2&confparm2=2&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(a x+b=c x+d\) (2)
+<p>Résoudre une équation du type \(a x+b=c x+d\) à coefficients entiers relatifs.</p>
+
+
+module=H3/algebra/oefeqineq.fr&exo=Equation2&confparm2=1&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1&cmd=new,10,0
+algebra
+:H4/algebra/OEFevalwimsequ.fr
+exo=equaprod1&exo=equaprod2&exo=equaprod3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Equation produit nul
+<p>Résoudre une équation produit nul.</p>
+
+
+
+algebra
+:H2/algebra/oefprobequa.fr
+exo=bouhlel3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation et identités remarquables
+<p>Résoudre une équation en utilisant une identité remarquable.</p>
+
+
+
+algebra
+:H4/algebra/factorcom.fr
+exo=eqfactorcom1&exo=eqfactorcom2&confparm1=2&confparm2=A&confparm2=1&confparm2=2&confparm3=1&confparm4=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation se ramenant à une équation produit nul (1)
+<p>Résoudre une équation à coefficients entiers relatifs se ramenant à une équation produit nul.</p>
+
+
+
+algebra
+:H4/algebra/factorcom.fr
+exo=eqfactorcom1&exo=eqfactorcom2&confparm1=2&confparm2=A&confparm2=1&confparm2=2&confparm2=3&confparm3=1&confparm4=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation se ramenant à une équation produit nul (2)
+<p>Résoudre une équation à coefficients entiers relatifs se ramenant à une équation produit nul.</p>
+
+
+
+algebra
+:H4/algebra/factorcom.fr
+exo=eqfactorcom1&exo=eqfactorcom2&confparm1=2&confparm2=B&confparm2=1&confparm2=2&confparm2=3&confparm3=1&confparm4=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation se ramenant à une équation produit nul (3)
+<p>Résoudre une équation à coefficients entiers relatifs se ramenant à une équation produit nul.</p>
+
+
+
+algebra
+:H3/algebra/oefeqineq.fr
+exo=solution&confparm2=2&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Solutions d'équations
+<p>Sélectionner parmi les nombres proposés ceux qui sont solutions de l'équation.</p>
+
+
+
+quizz

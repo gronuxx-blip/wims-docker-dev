@@ -1,0 +1,30 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=function,sine,odd
+!set gl_title=Fonction sinus
+!set gl_level=H5
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Dans le plan muni d'un repère orthonormé direct, on considère l'image \(\mathrm{M}\) d'un réel \(x\) sur le cercle
+trigonométrique.<br>
+Le <b>sinus</b> du réel \(x\), noté <span class="nowrap">\(\sin(x)\),</span> est l'ordonnée du point
+<span class="nowrap">\(\mathrm{M}\).</span><br>
+La fonction sinus est la fonction qui à tout réel \(x\) associe le réel <span class="nowrap">\(\sin(x)\).</span>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (parité)</h4>
+La fonction sinus est une fonction <strong>impaire</strong>, sa courbe représentative dans un repère orthogonal
+est symétrique par rapport à l'axe des ordonnées.
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (variations)</h4>
+La fonction sinus est croissante sur l'intervalle <span class="nowrap">\(\left \lbrack-\dfrac{\pi}{2}\,; \dfrac{\pi}{2} \right\rbrack\).</span>
+</div>

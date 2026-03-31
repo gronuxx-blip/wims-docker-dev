@@ -1,0 +1,14 @@
+!! +exec+ +score+ +subst+ +var+ +adm+
+tit:getexoindex
+type:$type_both; $type_adm
+
+syntax:!getexoindex module=``adress1'' param=``adress2'' ``[sheet=qsheet]''
+mean: (IN PROGRESS up to next stable release)\
+  find the number of the work determined by the two first lines \
+  ``adress1'' and ``adress2'' in a sheet of a class and its severity in the sheet: \
+  <ul><li>Default value for class is ``wims_class''.</li><li>\
+  If the value of `qsheet` is not precised, find the first occurence in the class sheets.\
+  </li><li>\
+  Example: ``module=E3/number/oeftablemult.fr param=exo=3x&qnum=1&seedrepeat=0&qcmlevel=1 sheet=4''\
+  </ul>\
+  The command can be used in non administrative module if no class is specified.

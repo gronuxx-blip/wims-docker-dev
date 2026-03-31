@@ -1,0 +1,117 @@
+type=classify
+textarea="data1 data2 distract"
+iEdit="legend enonce question"
+
+:Classificare oggetti in diagrammi di Venn
+
+Viene presentata una lista di oggetti e due proprietà e 
+  è richiesto di classificare gli oggetti in base a tali proprietà.
+<p>
+Per costruire un esercizio con questo modello predisporre le due
+liste e definire le proprietà.
+</p>
+<p> Attenzione, le due liste devono avere una interesezione.
+Può essere necessario sviluppare l'esercizio con un minimo di
+programmazione in modo da generare le due liste, nonché la lista
+dei distrattori.
+</p>
+<p class="wims_credits">Autore del modello: <a href="mailto:qualite@wimsedu.info">Bernadette Perrin-Riou</a></p>
+
+:%%%%%%%%%%%%%%%%%      ATTENZIONE      %%%%%%%%%%%%%%%%%%%%
+
+Se si rimuovono le indicazioni del modulo modelli (le righe che
+cominciano con ':') è necessario rimuovere tutta questa parte
+introduttiva del file. Altrimenti Createxo potrebbe non accettare il
+codice dell'esercizio.
+
+:%%%%%%%% Parametri che possono essere ridefiniti %%%%%%%%%%%%%%%%%
+:\title{Classificare in un diagramma di Venn}
+:\author{Bernadette, Perrin-Riou}
+:\email{bernadette.m.riou@orange.fr}
+:\credits{}
+:Prima lista (sinistra)
+\text{data1=tana,topo,toro}
+:Seconda lista (destra, deve esserci una intersezione con la prima lista)
+\text{data2=cosa,roba,coso,topo,toro}
+:Distrattori
+\text{distract=bava,casa,rana}
+:Consegna
+\text{enonce=Il cerchio destra contiene parole con la o,
+ Il cerchio a sinistra contiene parole con la t.}
+:Question
+\text{question=Mettere le parole proposte al loro posto.}
+: Opzione esempi
+\text{option1=item(1,0 sans exemple,
+	1 avec exemple)}
+: Opzione distrattori
+\text{option2=item(1,0 sans distracteur,
+	1 avec distracteur)}
+:Legenda nel disegno
+\text{legend=t,o}
+
+:%%%%%%%%%%%%%% Parte che precede l'enunciato: da non modificare %%%%%%%%%%%%%%%%
+\text{option=wims(word 1 of \option1),wims(word 1 of \option2)}
+
+\text{list1=\data1}
+\text{list2=\data2}
+\text{inter=wims(listintersect \list1 and \list2)}
+\text{list1=wims(listcomplement \inter in \list1)}
+\text{list2=wims(listcomplement \inter in \list2)}
+\integer{cnt=items(\inter)}
+\integer{cnt1=items(\list1)}
+\integer{cnt2=items(\list2)}
+\if{\option[2]=1}{
+  \text{distract=wims(listcomplement \inter in \distract)}
+  \text{distract=wims(listcomplement \list1 in \distract)}
+  \text{distract=wims(listcomplement \list2 in \distract)}
+  \text{distract=\distract[1,2]}
+}
+\if{\cnt>1}{\text{inter=shuffle(\inter)}}
+\if{\cnt1>1}{\text{list1=shuffle(\list1)}}
+\if{\cnt2>1}{\text{list2=shuffle(\list2)}}
+\text{l=\legend}
+\text{ll=\l}
+\text{dessin=}
+\if{\option[1]=1}{
+  \matrix{dessin=text black,-2.1,0.5,giant,\list1[1]
+text black,-0.4,0.5,giant,\inter[1]
+text black,1,0.5,giant,\list2[1]}
+}
+\text{rep1=\list1[-1]}
+\text{rep2=\inter[-1]}
+\text{rep3=\list2[-1]}
+\text{rep=\rep1,\rep2,\rep3}
+
+\text{cercles=xrange -3.1,3.1
+yrange -1.1,1.1
+text black,-1,0.8,large,\l[1]
+circles black,-1,0,2
+text black,1,0.8,large,\l[2]
+circles black,1,0,2}
+\if{\option[1]=1}{
+  \text{cercles=\cercles
+\dessin}
+}
+\text{cercles=draw(550,550
+\cercles)}
+\matrix{specialreply=reply 1,60x200
+reply 2,180x200
+reply 3,300x200}
+
+:%%%%%%%%%%%%% Enunciato (in html). %%%%%%%%%%%%%%%%%%%%
+
+\statement{
+  \enonce
+  <div class="wims_question">\question
+    <div class="wimscenter">
+  \special{imagefill \cercles,450x450,80x40
+  \specialreply
+  }
+    </div></div>
+}
+
+:%%%%%%%%%%%%% Non modificare nulla da qui in poi. %%%%%%%%%%%%%%%%%
+
+\answer{}{\rep[1];\distract}{type=dragfill}{option=shuffle}
+\answer{}{\rep[2]}{type=dragfill}
+\answer{}{\rep[3]}{type=dragfill}

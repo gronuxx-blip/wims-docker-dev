@@ -1,0 +1,35 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=3\
+,[data]\
+,a\
+,b
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_example=[0.2,0.4,0.7],4,5\
+0.5,2,3
+slib_require=pari
+!exit
+
+:proc
+slib_out=
+
+!distribute item $wims_read_parm into slib_data,slib_a,slib_b
+slib_data=!declosing $slib_data
+slib_test=!exec octave pkg list statistics
+
+!if Installation iswordof $slib_test
+  slib_out= !exec octave gaminv($slib_data,$slib_a,$[1/$slib_b])
+!else
+  !readproc slib/stat/commun stat
+  !for slib_p in $(slib_data)
+    slib_res=!exec pari statgammainv($slib_a,$slib_p,g=gamma($slib_a))/$slib_b
+    slib_out=!append item $slib_res to $slib_out
+  !next
+!endif
+slib_out=!words2items $slib_out
+!!slib_out=!line -1 of $slib_out
+slib_out=!trim $slib_out

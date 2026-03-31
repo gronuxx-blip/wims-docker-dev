@@ -1,0 +1,56 @@
+:H1/geometry/OEFevalwimsgrd.fr
+exo=oefduree1&qnum=2
+10
+1
+Durée1_Conversion
+<p>Conversion - Notion de base difficulté 1</p>
+
+
+
+:H1/geometry/OEFevalwimsgrd.fr
+exo=oefduree2&qnum=2&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Durée2_Conversion heure minute
+<p>Conversion heure minute, difficulté 2</p>
+
+
+
+
+
+:H1/geometry/OEFevalwimsgrd.fr
+exo=oefduree3&qnum=2&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Durée3_Conversion jour seconde
+<p>Conversion jour seconde,difficulté 3</p>
+
+
+
+
+
+:H1/geometry/OEFevalwimsgrd.fr
+exo=oefduree4&qnum=2&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Durée4_Conversion jour semaine
+<p>Conversion jour semaine, difficulté 4</p>
+
+
+
+
+:H1/geometry/OEFevalwimsgrd.fr
+exo=oefduree5&qnum=3&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Durée5_Conversion heure en jour heure
+<p>Conversion heure en jour heure,difficulté 5</p>
+
+
+
+:H1/geometry/OEFevalwimsgrd.fr
+exo=oefduree5&exo=oefduree4&exo=oefduree3&exo=oefduree2&exo=oefduree1&qnum=2&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Durée6_Toutes conversions 1-5
+<p>Conversion jour semaine, difficulté 1 à 5 aléatoirement</p>

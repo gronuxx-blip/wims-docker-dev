@@ -1,0 +1,161 @@
+Coordonnées d'un point du plan
+Collection d'exercices sur coordonnées d'un point du plan, coordonnées du milieu d'un segment et calcul de la distance entre deux points (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,geometry
+levelH4,coordinates,distance
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur coordonnées d'un point du plan, coordonnées du milieu d'un segment et calcul de la distance entre deux points (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H3/geometry/oefcoord.fr
+exo=ptcoord&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Lire les coordonnées d'un point
+<p>Déterminer les coordonnées d'un point placé dans un repère.</p>
+
+
+
+measure
+:H3/geometry/oefcoord.fr
+exo=coordpt&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Placer un point dans le plan repéré
+<p>Placer un point de coordonnées données dans un repère.</p>
+
+
+
+measure
+:H4/geometry/OEFevalwimscoord.fr
+exo=formule1&exo=formule4&confparm1=2&qnum=2&scoredelay=&seedrepeat=0&intro_expert=yes&intro_expow=1&intro_sepow=1&intro_precw=0.9&intro_good=0&intro_sol=1&intro_feed=1&intro_hint=1&intro_qcmpresent=4&intro_check=1&intro_check=2
+30
+1
+Coordonnées du milieu d'un segment (formule)
+<p>Retrouver la formule donnant les coordonnées du milieu d'un segment connaissant les coordonnées des extrémités de ce segment.</p>
+
+
+
+notebook
+:H4/geometry/OEFevalwimscoord.fr
+exo=grmilieu1&exo=grmilieu2&exo=grmilieu3&exo=grmilieu4&exo=grmilieu5&confparm1=2&qnum=3&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées du milieu d'un segment (1)
+<p>Déterminer les coordonnées du milieu d'un segment représenté graphiquement (série de 3 exercices à terminer pour avoir une note).</p>
+
+
+
+measure
+:H4/geometry/OEFevalwimscoord.fr
+exo=milieu1&exo=milieu2&exo=milieu3&exo=milieu4&exo=milieu5&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées du milieu d'un segment (2)
+<p>Déterminer les coordonnées du milieu d'un segment connaissant les coordonnées des extrémités de ce segment.</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimscoord.fr
+exo=cercle1&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées du centre d'un cercle
+<p>Calculer les coordonnées du centre d'un cercle connaissant les coordonnées de deux points diamétralement opposés de ce cercle.</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimscoord.fr
+exo=cercle2&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Coordonnées d'un point d'un cercle
+<p>Calculer les coordonnées d'un point d'un cercle connaissant les coordonnées du point qui lui est diamétralement opposé et les coordonnées du centre du cercle.</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimsvect1.fr
+exo=calculcoord4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Parallélogramme
+<p>Calculer les coordonnées de deux sommets d'un parallélogramme connaissant les coordonnées de son centre et des deux autres sommets dans un repère.</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimscoord.fr
+exo=formule3&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Distance entre deux points (formule)
+<p>Retrouver la formule donnant la distance entre deux points connaissant les coordonnées de ces deux points.</p>
+
+
+
+notebook
+:H4/geometry/OEFevalwimscoord.fr
+exo=grlongueur1&exo=grlongueur2&exo=grlongueur3&exo=grlongueur4&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Longueur d'un segment (1)
+<p>Calculer la longueur d'un segment connaissant graphiquement les coordonées entières de ses extrémités.</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimscoord.fr
+exo=longueur1&exo=longueur2&exo=longueur3&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Longueur d'un segment (2)
+<p>Calculer la longueur d'un segment connaissant les coordonées de ses extrémités (coordonnées entières).</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimscoord.fr
+exo=longueur4&exo=longueur5&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Longueur d'un segment (3)
+<p>Calculer la longueur d'un segment connaissant les coordonées de ses extrémités.</p>
+
+
+
+algebra
+:H4/geometry/OEFevalwimscoord.fr
+exo=cercle3&exo=cercle4&confparm1=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Rayon et diamètre d'un cercle
+<p>Calculer le rayon ou le diamètre d'un cercle connaissant les coordonnées du centre et d'un point du cercle ou de deux points diamétralement opposés sur ce cercle.</p>
+
+
+
+algebra
+:H5/geometry/oefgeomvec.fr
+exo=aire_tri_iso&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Aire d'un triangle isocèle
+<p>Exercice à étapes proposant de calculer l'aire d'un triangle isocèle connaissant les coordonnées de ses 3 sommets.</p>
+
+
+
+steps
+:H5/geometry/oefgeomvec.fr
+exo=pytha&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Triangles rectangles
+<p>Déterminer si un triangle est rectangle ou non connaissant les coordonnées de ses sommets dans un repère orthonormé.</p>
+
+
+
+algebra

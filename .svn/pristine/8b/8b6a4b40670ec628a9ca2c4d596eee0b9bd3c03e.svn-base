@@ -1,0 +1,30 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=function,cosine,even
+!set gl_title=Fonction cosinus
+!set gl_level=H5
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Dans le plan muni d'un repère orthonormé direct, on considère l'image \(\mathrm{M}\) d'un réel \(x\) sur le cercle
+trigonométrique.<br>
+Le <b>cosinus</b> du réel \(x\), noté \(\cos(x)\), est l'abscisse du point <span class="nowrap">\(\mathrm{M}\).</span><br>
+La fonction cosinus est la fonction qui à tout réel \(x\) associe le réel \(\cos(x)\).
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (parité)</h4>
+La fonction cosinus est une fonction <strong>paire</strong>, sa courbe représentative dans un repère orthogonal est symétrique par rapport à l'axe des ordonnées.
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (variations)</h4>
+La fonction cosinus est décroissante sur l'intervalle <span class="nowrap">\(\left  \lbrack 0\,;\pi\right \rbrack\).</span>
+</div>
+
+

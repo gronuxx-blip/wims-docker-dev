@@ -1,0 +1,33 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Partie d'un ensemble
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(E\) un ensemble.<br>
+Une <strong>partie</strong> \(A\) de l'ensemble \(E\) est un sous-ensemble de <span class="nowrap">\(E\).</span><br>
+On dit alors que \(A\) est <i>inclus</i> dans \(E\) que l'on note&nbsp;: <span class="nowrap">\(A \subset E\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+  <h4>Remarque</h4>
+<p>Tout ensemble \(E\) admet comme parties particulières l'ensemble vide \({\emptyset}\) et l'ensemble \(E\) lui-même.
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Propriété</h4>
+<p>
+Soit \(n\) un entier naturel et soit \(E\) un ensemble possédant \(n\) éléments.<br>
+Le nombre de parties de \(E\) est <span class="nowrap">\(2^n\).</span>
+</p>
+</div>
+

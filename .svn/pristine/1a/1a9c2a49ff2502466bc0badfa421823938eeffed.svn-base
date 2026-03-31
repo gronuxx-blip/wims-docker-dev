@@ -1,0 +1,224 @@
+Proportion et pourcentage
+Collection d'exercices sur proportion, pourcentage d’une sous-population dans une population (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,statistics
+levelH4,descriptive_statistics,percentage,absolute_frequency
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur proportion, pourcentage d’une sous-population dans une population (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/stat/descriptives.fr
+exo=frequence&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Fréquence d'une valeur (liste)
+<p>Déterminer la fréquence d'une valeur dans une liste de valeurs.</p>
+
+
+
+
+ 
+:H4/stat/descriptives.fr
+exo=freqtabcroise&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Fréquences à partir d'un tableau
+<p>Déterminer les fréquences de valeurs organisées dans un tableau.</p>
+
+
+
+
+ 
+:H5/algebra/OEFpctprem.fr
+exo=proportion1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul de proportion
+<p>Calculer une proportion sous forme de fraction puis de pourcentage.</p>
+
+
+
+
+:H5/algebra/OEFpctprem.fr
+exo=proportion2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Proportion 1
+<p>Calculer l'effectif d'une sous-population connaissant sa proportion dans la population et l'effectif de la population.</p>
+
+
+
+
+:H5/algebra/OEFpctprem.fr
+exo=proportion3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Proportion 2
+<p>Calculer l'effectif d'une sous-population connaissant sa proportion dans la population et l'effectif de la population.</p>
+
+
+
+
+:H5/algebra/OEFpctprem.fr
+exo=proportion4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Proportion 3
+<p>Calculer l'effectif d'une population connaissant l'effectif d'une sous-population et sa proportion dans la population.</p>
+
+
+
+
+:H5/analysis/oefpercent1.fr
+exo=percent1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calculer un pourcentage d'une quantité
+<p>Calculs simples de pourcentages. </p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=percentref&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Déterminer la référence d'un pourcentage
+<p>Déterminer l'effectif de la population à partir des données d'une sous-population.</p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=percentyx&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Pourcentage d'une quantité y par rapport à x
+
+
+
+
+
+ 
+:H5/algebra/OEFpctprem.fr
+exo=compare1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Comparer à l'aide de pourcentages (1)
+<p>Utiliser les pourcentages pour comparer deux sous-populations.</p>
+
+
+
+
+ 
+:H5/probability/OEFproba1S.fr
+exo=interpret&qnum=1&scoredelay=&seedrepeat=0&lang_choice=fr&qcmlevel=1
+30
+1
+Tableau croisé
+<p>Calculer des proportions en pourcentage sur des données d'un tableau à double entrée.</p>
+
+
+
+
+:H5/algebra/OEFpctprem.fr
+exo=compare2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Comparer à l'aide de pourcentages (2)
+<p>Utiliser les pourcentages pour comparer deux sous-populations, les données étant organisées dans un tableau.</p>
+
+
+
+
+ 
+:H5/algebra/OEFpctprem.fr
+exo=proportion5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Parts proportionnelles
+
+
+
+
+
+:H5/algebra/OEFpctprem.fr
+exo=somme1
+30
+1
+Somme de proportions 1
+<p>QCM sur les proportions de sous-populations d'une même population.</p>
+
+
+
+
+ 
+:H5/algebra/OEFpctprem.fr
+exo=somme2
+30
+1
+Somme de proportions 2
+<p>Calculs de proportions, les données étant organisées dans un tableau.</p>
+
+
+
+
+ 
+:H5/algebra/OEFpctprem.fr
+exo=somme3&exo=somme4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Somme de proportions 3
+<p>QCM</p>
+
+
+
+
+ 
+:H5/algebra/OEFpctprem.fr
+exo=somme5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Somme de proportions 4
+<p>Calculer une proportion.</p>
+
+
+
+
+ 
+:H5/algebra/OEFpctprem.fr
+exo=tva&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Facture et TVA
+
+
+
+
+
+:H5/analysis/oefpercent1.fr
+exo=brevet&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Le brevet des collèges
+<p>Exercice sur les pourcentages avec une seule référence (possibilité de choisir différentes aides).</p>
+
+
+
+
+ 
+:H5/analysis/oefpercent1.fr
+exo=college&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Le collège A
+<p>Exercice sur les pourcentages avec une seule référence (possibilité de choisir différentes aides).</p>
+
+
+
+
+ 

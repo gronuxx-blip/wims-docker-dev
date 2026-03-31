@@ -1,0 +1,24 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=vectors,analytic_geometry,coordinates,distance
+!set gl_title=Norme d'un vecteur du plan
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\overrightarrow{u}\) un vecteur du plan et soit \(\mathrm{A}\) et \(\mathrm{B}\)
+deux points du plan tels que <span class="nowrap">\(\overrightarrow{u}=\overrightarrow{\mathrm{AB}}\).</span><br>
+On appelle <strong>norme</strong> du vecteur \(\overrightarrow{u}\) le réel noté
+\(\left\||\overrightarrow{u}\right\||\) défini par <span class="nowrap">\(\left\||\overrightarrow{u}\right\||=\mathrm{AB}\).</span>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Le plan est muni d'un repère <em>orthonormé</em> \(\left(\mathrm{O}\,;\overrightarrow{i},\overrightarrow{j}\right)\).<br>
+Pour tout vecteur \(\overrightarrow {u}\) de coordonnées <span class="nowrap">\(\left( \begin{array}{c}
+x \\
+y
+\end{array} \right)\),</span> <span class="nowrap">\(\left\||\overrightarrow{u}\right\|| = \sqrt{x^2 + y^2}\).</span>
+</div>

@@ -1,0 +1,23 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Système complet d'événements
+!set gl_level=H5
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(n\) un entier naturel supérieur ou égal à 2 et soit <span class="nowrap">\(A_1\),</span> <span class="nowrap">\(A_2\),</span> ..., \(A_n\) des événements non vides d'un univers \({\Omega}\).</span></p>
+<p>L'ensemble des événements <span class="nowrap">\(A_1\),</span> <span class="nowrap">\(A_2\),</span> ..., \(A_n\) forment un <strong>système complet d'événements</strong> de \({\Omega}\) lorsque les deux conditions suivantes sont réalisées&nbsp;:</p>
+<ul>
+<li>
+les événements <span class="nowrap">\(A_1\),</span> <span class="nowrap">\(A_2\),</span> ..., \(A_n\) sont deux à deux incompatibles&nbsp;;
+</li>
+<li>
+la réunion des événements <span class="nowrap">\(A_1\),</span> <span class="nowrap">\(A_2\),</span> ..., \(A_n\) est égale à <span class="nowrap">\({\Omega}\).</span>
+</li>
+</ul>
+</div>
+

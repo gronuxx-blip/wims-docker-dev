@@ -1,0 +1,13 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Base orthogonale de l'espace
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\left(\overrightarrow{u}\,,\overrightarrow{v}\,,\overrightarrow{w}\right)\) une base de l'espace.<br>
+Cette base est <strong>orthogonale</strong> lorsque les vecteurs <span class="nowrap">\(\overrightarrow{u}\),</span> \(\overrightarrow{v}\) et \(\overrightarrow{w}\) sont deux à deux orthogonaux.
+</div>

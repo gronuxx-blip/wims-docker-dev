@@ -1,0 +1,37 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=2\
+,m\
+,n
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_example= 3,4\
+[2,3],4
+slib_require=pari
+!exit
+
+:proc
+slib_out=
+
+!distribute item $wims_read_parm into slib_size,slib_degree
+slib_size=!declosing $slib_size
+slib_cnt=!itemcnt $slib_size
+!if $slib_cnt=1
+  slib_size=1,$slib_size
+!endif
+!!deprecated syntax
+!!slib_out=!exec octave chisquare_rnd($slib_degree,$slib_size)
+!!slib_out=!exec octave chi2rnd($slib_degree,$slib_size)
+
+slib_out=!exec pari chi2cdf(t,v)=if(t>0,incgamc(v/2,t/2)/gamma(v/2),0);\
+  k1=[$slib_size][1]; k2=[$slib_size][2];\
+  M=matrix(k1,k2);\
+  for(i=1,k1,for(j=1,k2,u=random()/2^31; M[i,j]=solve(x=0,oo,chi2cdf(x,$slib_degree)-u)));\
+  print(M)
+
+!!slib_out=!words2items $slib_out
+
+slib_out=!trim $slib_out

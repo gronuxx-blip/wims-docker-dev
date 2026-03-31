@@ -1,0 +1,25 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Coût moyen
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+Soit \(N\) un entier naturel non nul. Le <strong>coût moyen</strong> \(C_M\) associé à la production de  \(N\)  unités est le quotient du coût total  \(C_T\)  de la production par le nombre d'unités produites <span class="nowrap">\(N\) :</span>
+<div class="wimscenter">
+\(C_M=\dfrac{C_T}{N}\)
+</div>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+Lorsque le coût associé à une production est donné par une fonction  \(C\) du nombre \(q\) d'unités produites, le  coût moyen de \(q\) unités vaut <span class="nowrap">\(C_M=\dfrac{C(q)}{q}\).</span>
+
+</div>
+
+:

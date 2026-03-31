@@ -1,0 +1,32 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=3\
+,[data]\
+,a\
+,b
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_example=[0.4,0.5,0.9],3,4
+slib_require=pari
+!exit
+
+:proc
+slib_out=
+!distribute item $wims_read_parm into slib_data,slib_a,slib_b
+slib_data=!declosing $slib_data
+
+slib_test=!exec octave pkg list statistics
+!if Installation iswordof $slib_test
+  slib_out=!exec octave betacdf([$slib_data],$slib_a,$slib_b)
+!else
+  !readproc slib/stat/commun stat
+  !for slib_x in $(slib_data)
+    slib_res=!exec pari printf("%.5f",statbetacdf($slib_a,$slib_b,$slib_x))
+    slib_out=!append item $slib_res to $slib_out
+  !next
+!endif
+slib_out=!words2items $slib_out
+slib_out=!trim $slib_out

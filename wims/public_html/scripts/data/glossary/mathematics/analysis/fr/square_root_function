@@ -1,0 +1,27 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=function, square root
+!set gl_title=Fonction racine carrée
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+    La fonction <strong>racine carrée</strong> est la fonction numérique \(f\) définie pour tout nombre réel <strong>positif</strong>
+    \(x\) par \(f(x)=\sqrt{x}\).
+</div>
+:
+:
+<div class="wims_rem"> 
+    <h4>Remarque</h4>
+    Dans un repère orthogonal du plan, la courbe représentative de la fonction racine carrée est une <strong>demi-parabole</strong>.
+</div>
+:
+:
+<div class="wims_thm">
+    <h4>Propriété</h4>
+  La fonction racine carrée est strictement croissante sur l'intervalle \(\left \lbrack 0\,; +\infty \right\lbrack\).
+</div>
+

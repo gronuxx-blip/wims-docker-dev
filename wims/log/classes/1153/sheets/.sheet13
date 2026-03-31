@@ -1,0 +1,81 @@
+Fonction racine carrée
+Collection d'exercices sur la fonction racine carrée&nbsp;: images, antécédents, résolutions d'équations et d'inéquations en utilisant les variations (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,analysis
+levelH4,real_function,functions,image,preimage,curves,function_variation,extremum,reference_function,equations,inequations,squareroot
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la fonction racine carrée&nbsp;: images, antécédents, résolutions d'équations et d'inéquations en utilisant les variations (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/number/evalwimsracine.fr
+exo=valeur2&exo=valeur3&exo=valeur5&qnum=3&random=0&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Images
+<p>Série de 3 calculs d'images par la fonction racine carrée</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=ordre1&exo=ordre2&exo=ordre3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Enadrement (1)
+<p>Encadrer en utilisant le sens de variation de la fonction racine carrée.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=ordre4&exo=ordre5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Encadrement (2)
+<p>Encadrer en utilisant le sens de variation de la fonction racine carrée.</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=racequ1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(\sqrt{x}=a\)
+<p>Résoudre une équation de la forme \(\sqrt{x}=a\)</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=racequ2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation \(a \sqrt{x} + b =c\)
+<p>Résoudre une équation de la forme \(a \sqrt{x} + b =c\)</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=racineq1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Inéquation \(\sqrt{x} > a\)
+<p>Résoudre une inéquation de la forme&nbsp; \(\sqrt{x} &gt; a\)</p>
+
+
+
+algebra
+:H4/algebra/oeffctref.fr
+exo=racineq2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Iinéquation \(a \sqrt{x} + b > c\)
+<p>Résoudre une inéquation de la forme \(a \sqrt{x} + b &gt; c\)</p>
+
+
+
+algebra

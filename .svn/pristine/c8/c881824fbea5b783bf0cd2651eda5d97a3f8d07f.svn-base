@@ -1,0 +1,3 @@
+!! list of all primitives for msg2wims (useful for conversion of doc, sheet presentation)
+
+!set msgprim=if ifval for while reload fold ref link docform form resource calcform embed exercise tool doc example help adm tooltip href slib def define comment draw canvasdraw audio glossary

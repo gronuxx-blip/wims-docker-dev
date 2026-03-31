@@ -1,0 +1,15 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=slope
+!set gl_title=Pente
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+     <h4>Définition</h4>
+ Le plan étant muni d'un repère, le coefficient directeur d'une droite  \(\mathcal{D}\) non parallèle à l'axe des ordonnées est également appelé <strong>pente</strong> de la droite <span class="nowrap">\(\mathcal{D}\).</span>
+
+</div>
+

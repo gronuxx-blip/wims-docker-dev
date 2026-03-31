@@ -1,0 +1,81 @@
+!changeto help/fr/sheetpage.phtml
+
+<h3>Using a document block for worksheet presentation</h3>
+
+You may put the address of a document block
+(such as <span class="tt wims_fname">c1/main</span>) to be the presentation page of the work sheet.
+The document itself need not be readable by participants.
+<p>Leave this field blank if you want to use the standard presentation page.</p>
+<p>
+Links to individual exercises should be defined using the command
+    <span class="tt wims_code_variable">\exercise</span>.</p>
+You can use the following pre-defined variables:
+<ul>
+ <li><span class="tt wims_code_variable">\scorerequire</span>
+   Required points of each exercise of the sheet
+ </li>
+ <li><span class="tt wims_code_variable">\scoregot</span>
+   Participant's point achievements on each exercise (i0)
+ </li>
+ <li><span class="tt wims_code_variable">\scoremean</span>
+   Liste de l'indicateur i1 pour chaque exercice de la feuille.
+   Participant's average score on each exercise (i1)
+ </li>
+ <li><span class="tt wims_code_variable">\scorebests</span>
+   Liste des sommes cumulatives des N meilleurs scores pour chaque exercice de la feuille (N est le nombre de points requis divisé par 10).
+ </li>
+ <li><span class="tt wims_code_variable">\scorelevels</span>
+   Liste de l'indicateur i2 pour chaque exercice de la feuille.
+ </li>
+ <li><span class="tt wims_code_variable">\scorealltries</span>
+   Liste du nombre de tentatives de chaque exercice de la feuille.
+ </li>
+ <li><span class="tt wims_code_variable">\expiration</span>
+   Expiration date of the sheet (format yyyymmdd).
+ </li>
+ <li><span class="tt wims_code_variable">\today</span>
+   Date of today (format yyyymmdd).
+ </li>
+ <li><span class="tt wims_code_variable">\user_login</span>
+   l'identifiant du participant.
+ </li>
+ <li><span class="tt wims_code_variable">\user_firstname</span>
+   le prénom du participant.
+ </li>
+ <li><span class="tt wims_code_variable">\user_lastname</span>
+   le nom du participant.
+ </li>
+ <li><span class="tt wims_code_variable">\class_code</span>
+   le numéro de la classe.
+ </li>
+ <li><span class="tt wims_code_variable">\title</span>
+   le titre de la feuille.
+ </li>
+ <li><span class="tt wims_code_variable">\desc</span>
+   le descriptif de la feuille.
+ </li>
+ <li><span class="tt wims_code_variable">\nbexo</span>
+   le nombre d'exercices de la feuille.
+ </li>
+ <li><span class="tt wims_code_variable">\sheet</span>
+  le numéro de la feuille.
+  </li>
+ <li><span class="tt wims_code_variable">\infoexo$$k</span>
+   les informations sur l'exercice k de la feuille.
+ </li>
+</ul>
+<p>All the score parameters are lists of numbers, each member of the list
+corresponding to the number for an exercise of the sheet.</p>
+
+<b>For example</b>, if you are creating worksheet number 5,
+  for example write the following instructions
+<pre>
+\exercise{5/1} : Score required: \scorerequire[1]
+                 Score obtained: \scoregot[1]
+
+\exercise{5/2} : Score required: \scorerequire[2]
+                 Score obtained: \scoregot[2]
+
+\exercise{5/3}{Un autre titre}: Score required \scorerequire[3]
+                Score obtained: \scoregot[3]
+</pre>

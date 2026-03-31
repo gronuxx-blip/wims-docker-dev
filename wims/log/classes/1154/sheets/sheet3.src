@@ -1,0 +1,149 @@
+<div class="wimscenter"><h2> \title</h2></div>
+<div>\desc</div>
+\def{text commentaires_profs=39 exos max+affichage ssi tous les niveaux précédents sont validés,
+ fait le 10 octobre 2025 MB 12.6}
+\if{\nbexo<10}{\def{integer tetoile=40/\nbexo}}
+                        {\def{integer tetoile=60/\nbexo}}
+\if{\nbexo>25}{\def{integer tetoile=80/\nbexo}}
+\def{text tetoile=\tetoile%}
+\def{text etoile=<img style="float:right;height:\tetoile;width:\tetoile;" src="gifs/logo.gif" alt="récompense" >}
+\def{integer nscore=\scorebests[1]}
+\def{text conditionaff=1}
+\def{integer p=\scorebests[1]*10}
+\def{integer temp=\scorebests[2]*10}
+\def{text p=\p,\temp}
+\if{\scorebests[1]=10}{
+ \def{text conditionaff=\conditionaff,1}
+ }{\def{text conditionaff=\conditionaff,0}}
+\if{(\scorebests[2]=10) and (\conditionaff[2]=1)}{
+ \def{text conditionaff=\conditionaff,1}
+ }{
+ \def{text conditionaff=\conditionaff,0}
+ }
+\for{k0=3 to \nbexo}{
+\def{integer temp=\scorebests[\k0]*10}
+\def{text p=\p,\temp}
+\if{(\scorebests[\k0]=10) and (\conditionaff[\k0]=1)}{
+ \def{text conditionaff=\conditionaff,1}
+ }{
+ \def{text conditionaff=\conditionaff,0}
+ }}
+\for{jj=2 to \nbexo}{
+  \def{integer i=\nbexo-\jj+2}
+  \def{integer exoprecedent=\i-1}
+  \if{\conditionaff[\i]==1 }{
+        \if{\scorebests[\nbexo]==10 and \i==\nbexo}{<div class="wims_question"><b>Bravo ! </b><br>Dernier niveau validé ! <br><b>FELICITATIONS \user_firstname &#128540;</b></div>}
+        <div class="wims_question">
+        \if{\scorebests[\i]=10}{\for{kk=1 to \i}{\etoile }}
+        \if{\i=1}{\exercise{\sheet/1}{Niveau 1}}
+        \if{\i=2}{\exercise{\sheet/2}{Niveau 2}}
+        \if{\i=3}{\exercise{\sheet/3}{Niveau 3}}
+        \if{\i=4}{\exercise{\sheet/4}{Niveau 4}}
+        \if{\i=5}{\exercise{\sheet/5}{Niveau 5}}
+        \if{\i=6}{\exercise{\sheet/6}{Niveau 6}}
+        \if{\i=7}{\exercise{\sheet/7}{Niveau 7}}
+        \if{\i=8}{\exercise{\sheet/8}{Niveau 8}}
+        \if{\i=9}{\exercise{\sheet/9}{Niveau 9}}
+        \if{\i=10}{\exercise{\sheet/10}{Niveau 10}}
+        \if{\i=11}{\exercise{\sheet/11}{Niveau 11}}
+        \if{\i=12}{\exercise{\sheet/12}{Niveau 12}}
+        \if{\i=13}{\exercise{\sheet/13}{Niveau 13}}
+        \if{\i=14}{\exercise{\sheet/14}{Niveau 14}}
+        \if{\i=15}{\exercise{\sheet/15}{Niveau 15}}
+        \if{\i=16}{\exercise{\sheet/16}{Niveau 16}}
+        \if{\i=17}{\exercise{\sheet/17}{Niveau 17}}
+        \if{\i=18}{\exercise{\sheet/18}{Niveau 18}}
+        \if{\i=19}{\exercise{\sheet/19}{Niveau 19}}
+        \if{\i=20}{\exercise{\sheet/20}{Niveau 20}}
+        \if{\i=21}{\exercise{\sheet/21}{Niveau 21}}
+        \if{\i=22}{\exercise{\sheet/22}{Niveau 22}}
+        \if{\i=23}{\exercise{\sheet/23}{Niveau 23}}
+        \if{\i=24}{\exercise{\sheet/24}{Niveau 24}}
+        \if{\i=25}{\exercise{\sheet/25}{Niveau 25}}
+        \if{\i=26}{\exercise{\sheet/26}{Niveau 26}}
+        \if{\i=27}{\exercise{\sheet/27}{Niveau 27}}
+        \if{\i=28}{\exercise{\sheet/28}{Niveau 28}}
+        \if{\i=29}{\exercise{\sheet/29}{Niveau 29}}
+        \if{\i=30}{\exercise{\sheet/30}{Niveau 30}}
+        \if{\i=31}{\exercise{\sheet/31}{Niveau 31}}
+        \if{\i=32}{\exercise{\sheet/32}{Niveau 32}}
+        \if{\i=33}{\exercise{\sheet/33}{Niveau 33}}
+        \if{\i=34}{\exercise{\sheet/34}{Niveau 34}}
+        \if{\i=35}{\exercise{\sheet/35}{Niveau 35}}
+        \if{\i=36}{\exercise{\sheet/36}{Niveau 36}}
+        \if{\i=37}{\exercise{\sheet/37}{Niveau 37}}
+        \if{\i=38}{\exercise{\sheet/38}{Niveau 38}}
+        \if{\i=39}{\exercise{\sheet/39}{Niveau 39}}
+         \if{\scorealltries[\i]>0}{<br >Meilleur score :
+            \if{\p[\i]>79}{<b><span style="color:green"> \p[\i] &#37;</span></b>
+                }{\if{\p[\i]>50}{<span style="color:orange">\p[\i] &#37;</span>
+                    }{<span style="color:red">\p[\i] &#37;</span>}
+                }
+            <br >Essais :<span style="color:#33ff6b;">
+            \def{integer essais=\scorealltries[\i]}
+            \for{kp=1 to \essais}{ &#9632; }
+            </span>
+            \if{\p[\i]=100}{<br>Bravo ! Le niveau \i est atteint
+                }{
+                \if{\p[\i]>75}{<br>On y est presque \user_firstname, essaie encore}{<br>\user_firstname il va falloir s'entraîner encore..}}}
+            {<br>Jamais essayé. <b>\user_firstname</b> tu n'as pas encore commencé ?}
+        \if{\p[\i]<100}{<div class="wimscenter">
+          <div class="wims_button">
+          \if{\i=1}{\exercise{\sheet/1}{<span style="color:var(--wims_ref_button_color)">Niveau 1</span>}}
+          \if{\i=2}{\exercise{\sheet/2}{<span style="color:var(--wims_ref_button_color)">Niveau 2</span>}}
+          \if{\i=3}{\exercise{\sheet/3}{<span style="color:var(--wims_ref_button_color)">Niveau 3</span>}}
+          \if{\i=4}{\exercise{\sheet/4}{<span style="color:var(--wims_ref_button_color)">Niveau 4</span>}}
+          \if{\i=5}{\exercise{\sheet/5}{<span style="color:var(--wims_ref_button_color)">Niveau 5</span>}}
+          \if{\i=6}{\exercise{\sheet/6}{<span style="color:var(--wims_ref_button_color)">Niveau 6</span>}}
+          \if{\i=7}{\exercise{\sheet/7}{<span style="color:var(--wims_ref_button_color)">Niveau 7</span>}}
+          \if{\i=8}{\exercise{\sheet/8}{<span style="color:var(--wims_ref_button_color)">Niveau 8</span>}}
+          \if{\i=9}{\exercise{\sheet/9}{<span style="color:var(--wims_ref_button_color)">Niveau 9</span>}}
+          \if{\i=10}{\exercise{\sheet/10}{<span style="color:var(--wims_ref_button_color)">Niveau 10</span>}}
+          \if{\i=11}{\exercise{\sheet/11}{<span style="color:var(--wims_ref_button_color)">Niveau 11</span>}}
+          \if{\i=12}{\exercise{\sheet/12}{<span style="color:var(--wims_ref_button_color)">Niveau 12</span>}}
+          \if{\i=13}{\exercise{\sheet/13}{<span style="color:var(--wims_ref_button_color)">Niveau 13</span>}}
+          \if{\i=14}{\exercise{\sheet/14}{<span style="color:var(--wims_ref_button_color)">Niveau 14</span>}}
+          \if{\i=15}{\exercise{\sheet/15}{<span style="color:var(--wims_ref_button_color)">Niveau 15</span>}}
+          \if{\i=16}{\exercise{\sheet/16}{<span style="color:var(--wims_ref_button_color)">Niveau 16</span>}}
+          \if{\i=17}{\exercise{\sheet/17}{<span style="color:var(--wims_ref_button_color)">Niveau 17</span>}}
+          \if{\i=18}{\exercise{\sheet/18}{<span style="color:var(--wims_ref_button_color)">Niveau 18</span>}}
+          \if{\i=19}{\exercise{\sheet/19}{<span style="color:var(--wims_ref_button_color)">Niveau 19</span>}}
+          \if{\i=20}{\exercise{\sheet/20}{<span style="color:var(--wims_ref_button_color)">Niveau 20</span>}}
+          \if{\i=21}{\exercise{\sheet/21}{<span style="color:var(--wims_ref_button_color)">Niveau 21</span>}}
+          \if{\i=22}{\exercise{\sheet/22}{<span style="color:var(--wims_ref_button_color)">Niveau 22</span>}}
+          \if{\i=23}{\exercise{\sheet/23}{<span style="color:var(--wims_ref_button_color)">Niveau 23</span>}}
+          \if{\i=24}{\exercise{\sheet/24}{<span style="color:var(--wims_ref_button_color)">Niveau 24</span>}}
+          \if{\i=25}{\exercise{\sheet/25}{<span style="color:var(--wims_ref_button_color)">Niveau 25</span>}}
+          \if{\i=26}{\exercise{\sheet/26}{<span style="color:var(--wims_ref_button_color)">Niveau 26</span>}}
+          \if{\i=27}{\exercise{\sheet/27}{<span style="color:var(--wims_ref_button_color)">Niveau 27</span>}}
+          \if{\i=28}{\exercise{\sheet/28}{<span style="color:var(--wims_ref_button_color)">Niveau 28</span>}}
+          \if{\i=29}{\exercise{\sheet/29}{<span style="color:var(--wims_ref_button_color)">Niveau 29</span>}}
+          \if{\i=30}{\exercise{\sheet/30}{<span style="color:var(--wims_ref_button_color)">Niveau 30</span>}}
+          \if{\i=31}{\exercise{\sheet/31}{<span style="color:var(--wims_ref_button_color)">Niveau 31</span>}}
+          \if{\i=32}{\exercise{\sheet/32}{<span style="color:var(--wims_ref_button_color)">Niveau 32</span>}}
+          \if{\i=33}{\exercise{\sheet/33}{<span style="color:var(--wims_ref_button_color)">Niveau 33</span>}}
+          \if{\i=34}{\exercise{\sheet/34}{<span style="color:var(--wims_ref_button_color)">Niveau 34</span>}}
+          \if{\i=35}{\exercise{\sheet/35}{<span style="color:var(--wims_ref_button_color)">Niveau 35</span>}}
+          \if{\i=36}{\exercise{\sheet/36}{<span style="color:var(--wims_ref_button_color)">Niveau 36</span>}}
+          \if{\i=37}{\exercise{\sheet/37}{<span style="color:var(--wims_ref_button_color)">Niveau 37</span>}}
+          \if{\i=38}{\exercise{\sheet/38}{<span style="color:var(--wims_ref_button_color)">Niveau 38</span>}}
+          \if{\i=39}{\exercise{\sheet/39}{<span style="color:var(--wims_ref_button_color)">Niveau 39</span>}}
+             </span>
+          </div>
+          </div>}
+            </div>}}
+<div class="wims_question">
+\if{\scorebests[1]=10}{<img style="float:right;height:\tetoile;width:\tetoile;" src="gifs/logo.gif" alt="récompense" >}
+\exercise{\sheet/1}{Niveau 1}
+\if{\scorealltries[1]>0}{<br>Meilleur score :
+     \if{\scorebests[1]>7.9}{<b><span style="color:green"> \p[1] &#37;</span></b>}{\if{\scorebests[1]>5}{<span style="color:orange">\p[1] &#37;</span>}{<span style="color:red">\p[1] &#37;</span>}}
+     \def{text bar1=&#9632;}
+     <br >Essais :<span style="color:#33ff6b;">
+     \for{i0=1 to \scorealltries[1]}{&#9632;}</span>\if{\p[1]=100}{<br>Bravo ! Le niveau 1 est atteint}{
+                \if{\p[1]>75}{<br>On y est presque \user_firstname, essaie encore}{<br>\user_firstname il va falloir s'entraîner encore..}}}
+            {<br>Jamais essayé. <b>\user_firstname</b> tu n'as pas encore commencé ? <br>Clic sur \exercise{\sheet/1}{
+            Niveau 1} pour commencer}
+\if{\scorebests[1]<10}{<div class="wimscenter"><div class="wims_button">\exercise{\sheet/1}{<span style="color:var(--wims_ref_button_color)">Niveau 1</span>}</div></div>}
+</div>
+<p>\nbexo niveaux disponibles</p>
+        

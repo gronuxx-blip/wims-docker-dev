@@ -1,0 +1,24 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=3\
+,[data]\
+,lambda\
+,sigma
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_example=[2,6.4],5,0.5
+!exit
+
+:proc
+
+!distribute item $wims_read_parm into slib_data,slib_a,slib_b
+
+slib_data=!declosing $slib_data
+slib_cnt= !itemcnt $slib_data
+slib_cst= $[(pi*$slib_b)^(-1)]
+slib_out=!values 0.5+atan((x-$slib_a)/$slib_b)/pi for x in $slib_data
+
+slib_out=!trim $slib_out

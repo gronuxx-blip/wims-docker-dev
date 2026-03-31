@@ -1,0 +1,131 @@
+Valeur absolue
+Collection d'exercices sur la valeur absolue introduite pour exprimer la distance entre deux nombres réels et caractériser les intervalles de centre donné (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics
+levelH4,absolute_value,intervals,distance,inequalities
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la valeur absolue introduite pour exprimer la distance entre deux nombres réels et caractériser les intervalles de centre donné (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/analysis/OEFevalwimsordre.fr
+exo=distvalabs1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Valeur absolue et distance (1)
+<p>QCM : Traduire une égalité contenant une valeur absolue en terme de distance entre deux points d'abscisses données d'une droite graduée.</p>
+
+
+
+quizz
+:H4/algebra/oefordrevabs.fr
+exo=distva&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Valeur absolue et distance (2)
+<p>Traduire une distance entre deux points d'une droite graduée par une valeur absolue.</p>
+
+
+
+algebra
+:H4/analysis/OEFevalwimsordre.fr
+exo=distvalabs3&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Valeur absolue et distance (3)
+<p>Traduire une égalité avec une valeur absolue en terme de distance.</p>
+
+
+
+algebra
+:H4/algebra/oefordrevabs.fr
+exo=corrdistva&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Valeur absolue et distance (4)
+<p>Associer des distances à des valeurs absolues.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=distvalabs4&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Valeur absolue et distance (5)
+<p>Traduire des configurations géométriques simples mettant en jeu des distances à l'aide de valeurs absolues.</p>
+
+
+
+cerveau
+:H4/analysis/OEFevalwimsordre.fr
+exo=eqvalabs1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation avec une valeur absolue (1)
+<p>Résoudre une équation du type \(\vert x - a \vert = b\) en utilisant la notion de distance entre deux réels.</p>
+
+
+
+algebra
+:H4/analysis/OEFevalwimsordre.fr
+exo=eqvalabs2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation avec une valeur absolue (2)
+<p>Résoudre une équation du type \(\vert m x - a \vert = b\), avec \(m = 1\) ou \(m = -1\), en utilisant la notion de distance entre deux réels.</p>
+
+
+
+algebra
+:H4/algebra/oefordrevabs.fr
+exo=resolva2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Équation avec deux valeurs absolues
+<p>Résoudre une équation du type \(\vert x - a \vert = \vert x - b \vert\) en utilisant la notion de distance entre deux réels.</p>
+
+
+
+algebra
+:H4/algebra/valabs.fr
+exo=descrinterv&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Description d'un intervalle en terme de valeur absolue
+<p>Traduire un intervalle borné par une valeur absolue.</p>
+
+
+
+bulles
+:H4/analysis/OEFevalwimsordre.fr
+exo=ineqvalabs1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Valeur absolue et intervalle (1)
+<p>Traduire une inégalité du type \(\vert x - a \vert \leqslant r\) par un intervalle.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=ineqvalabs3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Valeur absolue et intervalle (2)
+<p>Traduire une inégalité du type \(\vert m x - a \vert \leqslant r\) avec \(m = 1\) ou \(m =-1\) par un intervalle.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=ineqvalabs2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Valeur absolue et intervalle (3)
+<p>Traduire une inégalité du type \(\vert x - a \vert \leqslant r\) ou \(\vert x - a \vert \geqslant r\) par un intervalle ou une réunion d'intervalles.</p>
+
+
+
+organiser

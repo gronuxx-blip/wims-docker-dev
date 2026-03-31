@@ -1,0 +1,40 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_parms=5\
+,[data]\
+0,mu\
+1,sigma
+
+slib_example=[0.2,0.4,0.5],0,1
+slib_require=pari
+!exit
+
+:proc
+!set slib_gpprog=stat
+!readproc slib/stat/commun
+
+!distribute item $wims_read_parm into slib_data,slib_mean,slib_var
+slib_out=
+!default slib_mean=0
+!default slib_var=1
+
+slib_data=!declosing $slib_data
+
+slib_test=!exec octave pkg list statistics
+!if Installation iswordof $slib_test
+  slib_out=!exec octave norminv([$slib_data], $slib_mean,$slib_var)
+!else
+  !readproc slib/stat/commun stat
+  !for slib_a in $(slib_data)
+    slib_res=!exec pari statnormalinv($slib_mean,$slib_var,$slib_a)
+    slib_out=!append item $slib_res to $slib_out
+  !next
+!endif
+
+slib_out=!words2items $slib_out
+
+slib_out=!trim $slib_out

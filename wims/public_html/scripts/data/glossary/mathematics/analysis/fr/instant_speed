@@ -1,0 +1,26 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Vitesse instantanée
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+<div><em>Des unités de longueur et de temps étant choisies, on considère l'unité de vitesse associée</em>. 
+</div>
+<div class="spacer">
+On note \(d(t)\) la distance parcourue par un objet en mouvement à l'instant <span style="white-space:nowrap">\(t\).</span>
+<br> On suppose de plus que la fonction \(d\) est dérivable en un réel <span style="white-space:nowrap">\(t_0\).</span>
+<br>
+La vitesse instantanée de l'objet à l'instant \(t_0\) est le <i>nombre dérivé</i> \(d^{'}(t_0)\) de la fonction \(d\) en <span class="nowrap">\(t_0\) :</span> 
+
+<div class="wimscenter">
+\(\displaystyle{d^{'}(t_0)=\lim_{t \to t_0}\frac{d(t)-d(t_0)}{t-t_0}}\)
+</div>
+</div>
+</div>
+
+

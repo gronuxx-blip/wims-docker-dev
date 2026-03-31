@@ -1,0 +1,20 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Parallélépipède rectangle (pavé droit)
+!set gl_level=H2 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Un <strong>parallélépipède rectangle</strong> ou <strong>pavé droit</strong> est un solide dont toutes les faces sont des rectangles.
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+Un parallélépipède rectangle possède six faces, huit sommets et douze arêtes.
+</div>
+

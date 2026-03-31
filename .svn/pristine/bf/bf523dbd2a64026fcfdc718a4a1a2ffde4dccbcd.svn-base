@@ -1,0 +1,22 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Ratio
+!set gl_level=H1
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit <span class="nowrap">\(a\),</span> <span class="nowrap">\(b\),</span> \(c\) et \(d\) quatre nombres non nuls. On dit que les nombres \(a\) et \(b\) sont dans le <strong>ratio</strong> \(c\,: d\) si <span class="nowrap">\(\dfrac{a}{c}=\dfrac{b}{d}\)&nbsp;</span>.
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit <span class="nowrap">\(a\),</span> <span class="nowrap">\(b\),</span> <span class="nowrap">\(c\),</span> <span class="nowrap">\(d\),</span> <span class="nowrap">\(e\)</span> et \(f\) six nombres non nuls. On dit que les nombres <span class="nowrap">\(a\),</span> \(b\) et \(c\) sont dans le <strong>ratio</strong> \(d\,: e\,: f\) si <span class="nowrap">\(\dfrac{a}{d}=\dfrac{b}{e}=\dfrac{c}{f}\)&nbsp;</span>.
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarque</h4>
+Un ratio donné entre deux ou trois grandeurs permet de traduire une répartition qui ne correspond pas forcément à un partage en parts égales.
+</div>

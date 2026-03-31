@@ -1,0 +1,4 @@
+:Modéliser le hasard, calculer des probabilités
+<p><em>L’ensemble des issues est fini.</em></p> <ul> <li>Ensemble (univers) des issues. Événements. Réunion, intersection, complémentaire.</li> <li>Loi (distribution) de probabilité. Probabilité d’un évènement : somme des probabilités des issues.</li> <li>Relation <span class="wims_mathml">P(AUB)+P(A&#8745;B)=P(A)+P(B)</span>.</li> <li>Dénombrement à l’aide de tableaux et d’arbres.</li> </ul>
+glossary 13,sheet 37,sheet 28
+1

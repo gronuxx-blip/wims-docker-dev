@@ -1,0 +1,29 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Taux d'évolution
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Le <strong>taux d'évolution</strong> d'une grandeur qui varie d'une valeur non nulle \(A\) à une valeur \(B\) est le nombre <span class="nowrap">\(\dfrac{B-A}{A}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>Si le taux d'évolution d'une grandeur est positif, cela signifie que celle-ci augmente&nbsp;; s'il est négatif, cela signifie qu'elle diminue.
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>Soit \(t\) un nombre réel.<br>
+Appliquer un taux d'évolution \(t\) à une grandeur revient à la multiplier par <span class="nowrap">\(1 + t\).</span>
+</p>
+</div>

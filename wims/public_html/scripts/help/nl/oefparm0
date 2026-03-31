@@ -1,0 +1,24 @@
+
+:Beschikbare parameter types
+:Functie,Voorbeeld,Effect
+:real
+\real{x=9.1^9+6^8}
+\x is een willekeurig getal, afgerond op 8 significante cijfers. Voor meer precisie gebruikt u pari of maxima met het text type: \text{a=pari(9.1^9+6^8)}
+:complex
+\complex{z=(1+2*i)^3}
+\z is een complex getal z=(1+2*i)^3
+:text
+\text{a=1 2  3}
+\a is tekst zonder modificaties of interpretaties
+:integer
+\integer{n=3*exp(\a)}
+\n is de integer nabij 3*e<sup>\a</sup> (en wordt eerst berekend als reëel, dus met slechts 8 significante cijfers)
+:rational
+\rational{x=2*5/6}
+\x is het (exacte) rationele getal 5/3
+:function
+\function{f=2*x^2}
+de functie 2 x^2
+:matrix
+\matrix{m=1,2,3<br>4,5,6<br>7,8,9}
+\m is de matrix met 3 rijen et 3 kolommen.

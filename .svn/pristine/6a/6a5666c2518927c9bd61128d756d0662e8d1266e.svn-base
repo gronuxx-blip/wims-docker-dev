@@ -1,0 +1,35 @@
+
+!! html text to test partialdetag process have to copy in a partialdetag area (for example forum)
+!!
+
+<a class class = ="wims_button" href href = ="http://hacked.com">Répondre avec citation</a>
+<a class ="wims_button" href="http://hacked.com">Répondre avec citation</a>
+Puisque \(1+b^2<a^2), les classes d'équivalence sont égales :  \(class=class_2)
+<font color="red"> test de couleur </font>
+<a class class = ="wims_button"	href	="http://hacked.com">Répondre avec citation</a>
+<a class class = ="wims_button"	href
+="http://hacked.com">Répondre avec citation</a>
+<
+a
+class
+="wims_button"
+href
+="http://hacked.com">
+Répondre avec citation
+<
+/a>
+
+
+
+!!  -------------------  code to make list_replace automatically with list of word (not to use in production mode)
+prohibited_words=<script>,<form>,<meta,behavior:,javascript:,
+prohibited_words=onabort=,onafterprint=,onanimationend=,onanimationiteration=,onanimationstart=,\
+onbeforeprint=,onbeforeunload=,onblur=,oncanplay=,oncanplaythrough=,onchange=,onclick=,oncontextmenu=,oncopy=,oncut=,ondblclick=,ondrag=,ondragend=,ondragenter=,ondragleave=,ondragover=,ondragstart=,ondrop=,ondurationchange=,onended=,onerror=,onfocus=,onfocusin=,onfocusout=,onfullscreenchange=,onfullscreenerror=,onhashchange=,oninput=,oninvalid=,onkeydown=,onkeypress=,onkeyup=,onload=,onloadeddata=,onloadedmetadata=,onloadstart=,onmessage=,onmousedown=,onmouseenter=,onmouseleave=,onmousemove=,onmouseover=,onmouseout=,onmouseup=,onmousewheel=,onoffline=,ononline=,onopen=,onpagehide=,onpageshow=,onpaste=,onpause=,onplay=,onplaying=,onpopstate=,onprogress=,onratechange=,onresize=,onreset=,onscroll=,onsearch=,onseeked=,onseeking=,onselect=,onshow=,onstalled=,onstorage=,onsubmit=,onsuspend=,ontimeupdate=,ontoggle=,ontouchcancel=,ontouchend=,ontouchmove=,ontouchstart=,ontransitionend=,onunload=,onvolumechange=,onwaiting=,onwheel=
+
+list=$empty
+!for mot in $prohibited_words
+  mot1=!char 1 to -2 of $mot
+  replace=!char 2 to -2 of $mot
+  list=!append line /^ *!insmath /!s/\s*$mot1\s*=/ \&#111;$replace\&#61;/gi;\ to $list
+!next mot
+!debug $list

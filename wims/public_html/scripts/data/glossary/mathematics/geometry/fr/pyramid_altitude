@@ -1,0 +1,13 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Hauteur d'une pyramide
+!set gl_level=H2 cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+La <strong>hauteur</strong> d'une pyramide est la distance entre le sommet de la pyramide et sa base.
+</div>
+

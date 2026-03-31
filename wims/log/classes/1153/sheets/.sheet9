@@ -1,0 +1,141 @@
+Généralités sur les fonctions
+Collection d'exercices sur le vocabulaire des fonctions, diverses lectures graphiques, résolutions graphiques d'équations et inéquations (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,analysis
+levelH4,functions,image,preimage,curves,real_function
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur le vocabulaire des fonctions, diverses lectures graphiques, résolutions graphiques d'équations et inéquations (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=vocabfct1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Vocabulaire sur les fonctions (1)
+<p>Traduire la notion d'image ou d'antécédent par la notation fonctionnelle.</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=vocabfct3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Vocabulaire sur les fonctions (2)
+<p>Traduire la notation \(f : a \longmapsto b\) par différentes phrases utilisant image et antécédent.</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsfnctg.fr
+exo=vocabfct4
+30
+1
+Vocabulaire sur les fonctions (3)
+<p>Traduire la notion d'image, d'antécédent ou d'appartenance à une courbe par la notation fonctionnelle.</p>
+
+
+
+bulles
+:H4/math/quizzautomat.fr
+exo=fct2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Appartenance à une courbe
+<p>Déterminer algébriquement si un point appartient à la courbe représentative d'une fonction.</p>
+
+
+
+algebra
+:H4/analysis/oeffonctgen.fr
+exo=lectgrimage2
+30
+1
+Lecture graphique d'une image
+<p>Déterminer graphiquement l'image d'un nombre par une fonction.</p>
+
+
+
+bulles
+:H4/analysis/oeffonctgen.fr
+exo=lectgrantec2
+30
+1
+Lecture graphique d'antécédents
+<p>Déterminer graphiquement les antécédents d'un nombre par une fonction.</p>
+
+
+
+bulles
+:H4/analysis/oeffonctgen.fr
+exo=lecttbimage&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Lecture d'image par tableau de valeurs
+<p>Déterminer des images par une fonction à partir d'un tableau de valeurs.</p>
+
+
+
+bulles
+:H4/analysis/oeffonctgen.fr
+exo=lecttbantec&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Lecture d'antécédents par tableau de valeurs
+<p>Déterminer des antécédents par une fonction à partir d'un tableau de valeurs.</p>
+
+
+
+bulles
+:H4/analysis/oeffonctgen.fr
+exo=eqgr2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Résolution graphique \(f(x) = k\)
+<p>Résoudre graphiquement une équation de la forme \(f(x)=k\).</p>
+
+
+
+bulles
+:H4/analysis/oeffonctgen.fr
+exo=ineqgr&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Résolution graphique \(f(x) \leq k\) ou \(f(x) \geq k\)
+<p>Résoudre graphiquement une inéquation de la forme \(f(x) \leqslant k\) ou \(f(x) \geqslant k\).</p>
+
+
+
+organiser
+:H4/analysis/oeffonctgen.fr
+exo=ineqgr2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Résolution graphique \(f(x) \leq a x+b\) ou \(f(x) \geq a x+b\)
+<p>Résoudre graphiquement une inéquation de la forme \(f(x) \leqslant g(x)\) ou \(f(x) \geqslant g(x)\).</p>
+
+
+
+organiser
+:H4/analysis/oeffonctgen.fr
+exo=ineqgr2courbes&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Résolution graphique \(f(x) \leq g(x)\) ou \(f(x) \geq g(x)\)
+<p>Résoudre graphiquement une inéquation de la forme \(f(x) \leqslant g(x)\) ou \(f(x) \geqslant g(x)\).</p>
+
+
+
+organiser
+:H4/math/quizzautomat.fr
+exo=fct3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Signe graphiquement
+<p>Déterminer graphiquement le signe d'une fonction.</p>
+
+
+
+organiser

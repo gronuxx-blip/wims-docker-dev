@@ -1,0 +1,35 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Théorème de Thalès
+!set gl_level=H3 
+:
+:
+:
+:
+<div class="wims_thm"><h4>Théorème de Thalès</h4>
+Soit \(\mathrm{A}\) un point du plan et soit \(d\) et \(d^{'}\) deux droites sécantes en <span class="nowrap">\(\mathrm{A}\).</span><br>
+Soit deux points distincts \(\mathrm{B}\) et \(\mathrm{M}\) de la droite \(d\) et soit deux points distincts \(\mathrm{C}\) et \(\mathrm{N}\) de la droite <span class="nowrap">\(d^{'}\) ;</span> ces quatre points étant distincts du point <span class="nowrap">\(\mathrm{A}\).</span><br>
+Si les droites \((\mathrm{BC})\) et \((\mathrm{MN})\) sont parallèles alors on a&nbsp;:
+<div class="wimscenter">
+\(\dfrac{\color{blue}\mathrm{AM}}{\color{red}\mathrm{AB}}=\dfrac{\color{blue}\mathrm{AN}}{\color{red}\mathrm{AC}} = \dfrac{\color{blue}\mathrm{MN}}{\color{red}\mathrm{BC}}\)
+</div>
+</div>
+:mathematics/geometry/fr/thales_1
+:
+<div class="wims_rem"><h4>Remarque</h4>
+Lorsque le théorème de Thalès s'applique, il peut permettre de calculer une longueur.
+</div>
+:mathematics/geometry/fr/thales_2
+:
+<div class="wims_rem"><h4>Remarque</h4>
+Le théorème de Thalès permet de démontrer que deux droites ne sont pas parallèles.
+</div>
+:mathematics/geometry/fr/thales_3
+:
+<div class="wims_thm"><h4>Réciproque du théorème de Thalès</h4>
+Soit \(\mathrm{A}\) un point du plan et soit \(d\) et \(d^{'}\) deux droites sécantes en <span class="nowrap">\(\mathrm{A}\).</span><br>
+Soit deux points distincts \(\mathrm{B}\) et \(\mathrm{M}\) de la droite \(d\) et soit deux points distincts \(\mathrm{C}\) et \(\mathrm{N}\) de la droite  <span class="nowrap">\(d^{'}\) ;</span> ces quatre points étant distincts du point <span class="nowrap">\(\mathrm{A}\).</span><br>
+Si \(\dfrac{\mathrm{AM}}{\mathrm{AB}}=\dfrac{\mathrm{AN}}{\mathrm{AC}}\) et si les points <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{M}\) sont alignés dans le même ordre que les points <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{C}\) et \(\mathrm{N}\) alors les droites \((\mathrm{BC})\) et \((\mathrm{MN})\) sont parallèles.
+</div>
+:mathematics/geometry/fr/thales_4

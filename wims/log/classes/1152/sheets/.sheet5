@@ -1,0 +1,42 @@
+
+:H6/analysis/oefencad.fr
+exo=carre&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Encadrement d'un carré
+
+:H6/analysis/oefencad.fr
+exo=encadproduit&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Encadrement d'un produit
+
+:H6/analysis/oefencad.fr
+exo=difference&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Encadrement d'une différence
+
+:H6/analysis/oefencad.fr
+exo=oefencad1&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Encadrement de nombres réels
+
+:H6/analysis/oefencad.fr
+exo=oefencad2&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Encadrement de nombres réels 2
+
+:H6/analysis/oefencad.fr
+exo=valabs&qnum=1&qcmlevel=1&scoredelay=
+10
+1
+Encadrement de |x|
+
+:H6/analysis/scenarineq.fr
+exo=quad1&style=1&level=5
+20
+1
+Retrouver l'erreur dans un calcul

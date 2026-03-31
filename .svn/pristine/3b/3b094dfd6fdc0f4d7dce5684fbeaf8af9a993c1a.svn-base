@@ -1,0 +1,13 @@
+swlist=draw,canvasdraw,tikz,gap,maxima,m2,octave,pari,povray,yacas,jsxgraph,graphviz,graphvizsvg,insmath,jmol,jsme,reactiondraw,float_calc,c,fortran77,ocaml,pascal,perl,python,scilab,sh
+swname=Flydraw,Canvasdraw,Flydraw2tikz,GAP,Maxima,Macaulay 2,Octave,PARI/GP,Povray,YACAS,JSXGraph,Graphviz png,Graphviz svg,MathML,Jmol,jsme,reactiondraw,float_calc,C,Fortran 77,Ocaml,Pascal,Perl,Python,Scilab,sh (bash)
+swlistjs=!nospace flydraw,gp,octave,js
+securetest=
+securetest=!sh echo OK
+!if $securetest=$empty
+  swlistsecure=!makelist x for x=1 to 18
+  swlist=$(swlist[$swlistsecure])
+  swname1=$(swname[$swlistsecure])
+  swname_comp=!listcomplement $swname1 in $swname
+  swname_comp=!replace internal , by ,$ $ in $swname_comp
+  swname=$swname1
+!endif

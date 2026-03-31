@@ -1,0 +1,211 @@
+Intervalles
+Collection d'exercices sur le vocabulaire lié aux intervalles, la traduction inégalités et intervalles et l'intersection et la réunion d'intervalles (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics
+levelH4,intervals,inequalities
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur le vocabulaire lié aux intervalles, la traduction inégalités et intervalles et l'intersection et la réunion d'intervalles (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/algebra/OEFevalwimsequ.fr
+exo=representation1&exo=representation2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représentation d'un ensemble de nombres (1)
+<p>Traduire sous forme de représentation graphique sur la droite numérique un ensemble de nombres défini par une inégalité.</p>
+
+
+
+quizz
+:H4/algebra/OEFevalwimsequ.fr
+exo=representation3&exo=representation4&exo=representation5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représentation d'un ensemble de nombres (2)
+<p>Traduire en inégalité(s) un ensemble de nombres représenté graphiquement sur la droite numérique.</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsordre.fr
+exo=vocabint2&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Vocabulaire sur les intervalles
+<p>QCM : questions sur le vocabulaire des intervalles (fermé, ouvert, borné...).</p>
+
+
+
+quizz
+:H4/analysis/OEFevalwimsordre.fr
+exo=vocabint1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Amplitude, rayon et centre d'un intervalle
+<p>Indiquer l'amplitude, le rayon et le centre d'un intervalle.</p>
+
+
+
+bulles
+:H4/analysis/OEFevalwimsordre.fr
+exo=vocabint3&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Traduire un encadrement en intervalle
+<p>Traduire un encadrement en intervalle en choisissant la bonne étiquette.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=vocabint4&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Traduire une inégalité ou un encadrement en intervalle (1)
+<p>Traduction d'une inégalité ou d'un encadrement en intervalle en choisissant la bonne étiquette.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=vocabint5&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Traduire une inégalité ou un encadrement en intervalle (2)
+<p>Traduction d'une inégalité ou d'un encadrement en intervalle à construire (par étiquettes).</p>
+
+
+
+organiser
+:H4/math/quizzautomat.fr
+exo=intervallesint&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Traduire un intervalle borné en encadrement
+<p>Traduction d'un intervalle borné en encadrement à construire (par étiquettes).</p>
+
+
+
+organiser
+:H4/math/quizzautomat.fr
+exo=intervallesint2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Traduire un intervalle non borné en inégalité
+<p>Traduction d'un intervalle non borné en une inégalité à construire (par étiquettes).</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=interint1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Intersection d'intervalles (1)
+<p>Intersection de deux intervalles bornés à construire (par étiquettes) avec illustration graphique.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=interint2&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Intersection d'intervalles (2)
+<p>Intersection de deux intervalles, au moins un des deux non borné à construire (par étiquettes) avec illustration graphique.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=interint3&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Intersection d'intervalles (3)
+<p>Intersection de deux intervalles bornés à construire (par étiquettes) sans illustration graphique.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=interint4&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Intersection d'intervalles (4)
+<p>Intersection de deux intervalles dont au moins un non borné, à construire (par étiquettes) sans illustration graphique.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=interint5&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Intersection d'intervalles (5)
+<p>Traduction d'inégalités à l'aide d'intervalles à construire (par étiquettes).</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=reunionint1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Réunion d'intervalles (1)
+<p>Réunion de deux intervalles bornés à construire (par étiquettes) avec illustration graphique.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=reunionint2&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Réunion d'intervalles (2)
+<p>Réunion de deux intervalles, au moins un des deux non borné, à construire (par étiquettes) avec illustration graphique.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=reunionint3&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Réunion d'intervalles (3)
+<p>Traduire à l'aide d'un seul intervalle, si possible, la réunion de deux intervalles bornés. À construire par étiquettes.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=reunionint4&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Réunion d'intervalles (4)
+<p>Traduire à l'aide d'un seul intervalle, si possible, la réunion de deux intervalles, dont au moins l'un des deux est non borné. À construire par étiquettes.</p>
+
+
+
+organiser
+:H4/analysis/OEFevalwimsordre.fr
+exo=reunionint5&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Réunion d'intervalles (5)
+<p>Traduction de deux inégalités à l'aide d'intervalles (par étiquettes).</p>
+
+
+
+organiser
+:H4/algebra/oefordrevabs.fr
+exo=intuninter&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Union et intersection d'intervalles
+<p>Déterminer l'intersection ou la réunion de deux intervalles I et J.</p>
+
+
+
+organiser

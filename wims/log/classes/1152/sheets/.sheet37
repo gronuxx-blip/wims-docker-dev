@@ -1,0 +1,160 @@
+
+:H5/analysis/oefderivee.fr
+exo=tauxvar1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Taux de variation 1
+Calcul d'un taux d'accroissement entre deux valeurs réelles.
+
+À partir de la première
+:H5/analysis/oefderivee1S.fr
+exo=txvarab&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Taux de variation d'une fonction entre a et b
+Calcul d'un taux d'accroissement entre deux valeurs réelles.
+
+À partir de la première (fonction poly second degré)
+:H5/analysis/oefderivee.fr
+exo=tauxvar2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Taux de variation 2
+Calcul d'un taux d'accroissement entre un réel et t.
+
+À partir de la première
+:H5/analysis/oefderivee1S.fr
+exo=txvarh&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul taux de variation entre a et a+h
+Calcul d'un taux d'accroissement entre un réel et h.
+
+À partir de la première
+:H5/analysis/oefderivee.fr
+exo=tauxvar3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Taux de variation 3
+Calcul d'un taux d'accroissement entre a et a+h.
+
+À partir de la première
+:H5/analysis/oefderivee1S.fr
+exo=nbderiv&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Nombre dérivé
+Déterminer un nombre dérivé à l'aide d'un taux d'accroissement.
+
+À partir de la première. TB car donne les différentes étapes.
+:H5/analysis/oefderivee1S.fr
+exo=eqtgte1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Nombre dérivé et équation de la tangente 1
+Déterminer l'équation d'une tangente via un taux d'accroissement.
+
+
+:H5/analysis/oefderivee1S.fr
+exo=eqsecante&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Équation de la sécante à une courbe
+Déterminer l'équation d'une sécante à une courbe.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=derdef1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivabilité 1
+Dérivabilité en un point.
+
+
+:H6/analysis/OEFderiveTS.fr
+exo=derdef2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Dérivabilité 2
+Déterminer des paramètres pour qu'une fonction soit dérivable.
+
+
+:U1/analysis/oefDerives.fr
+exo=derives1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Définition d'une dérivée
+Définitions de la dérivée.
+
+:H6/analysis/oefderiv.fr
+exo=poly&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Polynome I
+Déterminer le nombre dérivé d'une fonction polynomiale.
+
+
+:H6/analysis/oefderiv.fr
+exo=mult1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Multiplication I
+Déterminer le nombre dérivé d'un produit de fonctions.
+
+
+:H6/analysis/oefderiv.fr
+exo=mult2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Multiplication II
+Déterminer le nombre dérivé d'un produit de fonctions.
+
+
+:H6/analysis/oefderiv.fr
+exo=multmixt&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Multiplication mixte
+Déterminer le nombre dérivé d'un produit de fonctions.
+
+
+:H6/analysis/oefderiv.fr
+exo=div1
+10
+1
+Division I
+Déterminer le nombre dérivé d'un quotient de fonctions.
+
+
+:H6/analysis/oefderiv.fr
+exo=divmixt
+10
+1
+Division mixte
+Déterminer le nombre dérivé d'un quotient de fonctions.
+
+
+:H6/analysis/oefderiv.fr
+exo=comp1
+10
+1
+Composition I
+Déterminer le nombre dérivée de la composée de deux fonctions.
+
+Avec le tableau donnant les différentes valeurs pour faire le calcul
+:H6/analysis/oefderiv.fr
+exo=compmixt
+10
+1
+Composition mixte
+Déterminer le nombre dérivée d'une composée de fonctions.
+
+
+:H6/analysis/oefderiv.fr
+exo=trigo3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Fonctions Trigonométriques III
+Déterminer le nombre dérivée d'une composée.
+
+

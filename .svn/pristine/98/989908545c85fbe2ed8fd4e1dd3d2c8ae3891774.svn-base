@@ -1,0 +1,8 @@
+slib_lang_exists_tmp=yes
+
+slib_title=Fonction de répartition de la loi de Weibull
+
+slib_out=Valeurs en <span class="tt">data</span> de la fonction de répartition de la loi de Weibull de paramètres <span class="tt">a</span>\
+ et <span class="tt">b</span> (réels strictement positifs).
+slib_comment=<span class="tt">data</span> peut être une liste de réels entre crochets.\
+La densité est a*b*exp(-b*x^a)*x^(a-1) pour x&gt;0.

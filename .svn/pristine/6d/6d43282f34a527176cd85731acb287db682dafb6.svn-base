@@ -1,0 +1,241 @@
+Représentation géométrique des vecteurs
+Collection d'exercices sur la représentation géométrique des vecteurs ne faisant pas intervenir de calculs sur les coordonnées (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,geometry
+levelH4,vectors
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la représentation géométrique des vecteurs ne faisant pas intervenir de calculs sur les coordonnées (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/geometry/oefvectdirnorm.fr
+exo=01colineaire&confparm1=2&confparm3=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représenter un vecteur de même direction qu'un vecteur donné
+<p>Sur un quadrillage, déplacer l'extrémité libre d'un vecteur pour qu'il soit de même direction qu'un vecteur donné.</p>
+
+<p>Cet exercice d'apprentissage propose de déplacer l'extrémité libre du vecteur bleu sur le quadrillage pour que les deux vecteurs soient de même direction. Une analyse de la réponse et des éléments de solution sont proposés dans l'applet GeoGebra.</p>
+
+measure
+:H4/geometry/oefvectdirnorm.fr
+exo=02memesens&confparm1=2&confparm3=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représenter un vecteur de même sens qu'un vecteur donné
+<p>Sur un quadrillage, déplacer l'extrémité libre d'un vecteur pour qu'il soit de même sens qu'un vecteur donné.</p>
+
+<p>Cet exercice d'apprentissage propose de déplacer l'extrémité libre du vecteur bleu sur le quadrillage pour que les deux vecteurs soient de même sens. Une analyse de la réponse et des éléments de solution sont proposés dans l'applet GeoGebra.</p>
+
+measure
+:H4/geometry/oefvectdirnorm.fr
+exo=03sensoppose&confparm1=2&confparm3=1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représenter un vecteur de sens opposé à un vecteur donné
+<p>Sur un quadrillage, déplacer l'extrémité libre d'un vecteur pour qu'il soit de sens opposé à un vecteur donné.</p>
+
+<p>Cet exercice d'apprentissage propose de déplacer l'extrémité libre du vecteur bleu sur le quadrillage pour que les deux vecteurs soient de sens opposé. Une analyse de la réponse et des éléments de solution sont proposés dans l'applet GeoGebra.</p>
+
+measure
+:H4/geometry/oefvectdirnorm.fr
+exo=04egaux&confparm1=2&confparm3=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représenter un vecteur égal à un vecteur donné
+<p>Sur un quadrillage, déplacer l'extrémité libre d'un vecteur pour qu'il soit égal à un vecteur donné.</p>
+
+<p>Cet exercice d'apprentissage propose de déplacer l'extrémité libre du vecteur bleu sur le quadrillage pour que les deux vecteurs soient égaux. Une analyse de la réponse et des éléments de solution sont proposés dans l'applet GeoGebra.</p>
+
+measure
+:H4/geometry/oefvectdirnorm.fr
+exo=05oppose&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représenter un vecteur opposé à un vecteur donné
+<p>Sur un quadrillage, déplacer l'extrémité libre d'un vecteur pour qu'il soit opposé à un vecteur donné.</p>
+
+<p>Cet exercice d'apprentissage propose de déplacer l'extrémité libre du vecteur bleu sur le quadrillage pour que les deux vecteurs soient opposés. Une analyse de la réponse et des éléments de solution sont proposés dans l'applet GeoGebra.</p>
+
+measure
+:H4/geometry/oefvectdirnorm.fr
+exo=06memenorme&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représenter un vecteur de même norme qu'un vecteur donné
+<p>Sur un quadrillage, déplacer l'extrémité libre d'un vecteur pour qu'il soit de même norme qu'un vecteur donné.</p>
+
+<p>Cet exercice d'apprentissage propose de déplacer l'extrémité libre du vecteur bleu sur le quadrillage pour que les deux vecteurs soient de même norme. Une analyse de la réponse et des éléments de solution sont proposés dans l'applet GeoGebra.</p>
+
+measure
+:H4/geometry/oefvectdirnorm.fr
+exo=07memenormenoncoli&confparm1=2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Représenter un vecteur de direction différente mais de même norme qu'un vecteur donné
+<p>Sur un quadrillage, déplacer l'extrémité libre d'un vecteur pour qu'il soit de même norme mais pas de même direction qu'un vecteur donné.</p>
+
+<p>Cet exercice d'apprentissage propose de déplacer l'extrémité libre du vecteur bleu sur le quadrillage pour que les deux vecteurs soient de même norme et ne soient pas de même direction. Une analyse de la réponse et des éléments de solution sont proposés dans l'applet GeoGebra.</p>
+
+measure
+:H4/geometry/oefvectgraph.fr
+exo=somme&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Construire la somme de 2 vecteurs (1)
+<p>Construire, sur un quadrillage, un représentant du vecteur \(\overrightarrow{u} + \overrightarrow{v}\).</p>
+
+
+
+measure
+:H5/geometry/oefgeoplan.fr
+exo=sommevect1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Construire la somme de deux vecteurs (2)
+<p>Construire, sur un quadrillage, le représentant d'origine donnée du vecteur somme de deux vecteurs.</p>
+
+
+
+measure
+:H4/geometry/oefvectgraph.fr
+exo=somme3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Construire la somme de 3 vecteurs
+<p>Construire, sur un quadrillage, un représentant du vecteur \(\overrightarrow{u} + \overrightarrow{v} + \overrightarrow{w}\).</p>
+
+
+
+measure
+:H4/geometry/oefvectgraph.fr
+exo=difference&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Construire la différence de 2 vecteurs (1)
+<p>Construire, sur un quadrillage, un représentant du vecteur \(\overrightarrow{u} - \overrightarrow{v}\).</p>
+
+
+
+measure
+:H5/geometry/oefgeoplan.fr
+exo=diffvect1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Construire la différence de deux vecteurs (2)
+<p>Construire, sur un quadrillage, le représentant d'origine donnée du vecteur différence de deux vecteurs.</p>
+
+
+
+measure
+:H4/geometry/OEFevalwimsvect1.fr
+exo=pdtreel1&exo=pdtreel2&qnum=2&random=0&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Produit d'un vecteur par un réel (1)
+<p>Compléter, par lecture graphique, une égalité vectorielle de la forme \(\overrightarrow{A B}=k \overrightarrow{A C}\).</p>
+
+
+
+measure
+:H4/geometry/OEFevalwimsvect1.fr
+exo=pdtreel3&exo=pdtreel4&qnum=2&random=0&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Produit d'un vecteur par un réel (2)
+<p>Compléter, par lecture graphique, une égalité vectorielle de la forme \(\overrightarrow{A B}=k \overrightarrow{C D}\).</p>
+
+
+
+measure
+:H5/geometry/oefgeoplan.fr
+exo=placerptvect1&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Placer un point défini par une relation vectorielle simple
+<p>Placer sur une droite un point défini par une relation vectorielle simple.</p>
+
+
+
+measure
+:H5/geometry/oefgeoplan.fr
+exo=basevectortho&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Décomposer un vecteur dans une base orthonormée
+<p>Exprimer, par lecture graphique sur un quadrillage, un vecteur \(\overrightarrow{w}\) en fonction de deux vecteurs \(\overrightarrow{u}\) et \(\overrightarrow{v}\) formant une base orthonormée.</p>
+
+
+
+measure
+:H5/geometry/oefgeoplan.fr
+exo=comblinvect&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Construire un vecteur défini par une relation vectorielle
+<p>Construire, sur un quadrillage, un vecteur défini par une relation vectorielle.</p>
+
+
+
+measure
+:H5/geometry/oefgeoplan.fr
+exo=ruche&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Compléter des égalités vectorielles
+<p>Compléter, par lecture graphique, des égalités vectorielles.</p>
+
+
+
+measure
+:H5/geometry/oefgeoplan.fr
+exo=caractvect&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Caractérisations vectorielles
+<p>Associer des configurations simples du plan avec des relations vectorielles.</p>
+
+
+
+measure
+:H4/geometry/OEFevalwimsvect1.fr
+exo=reperptch2
+30
+1
+Configurations du plan et relations vectorielles
+<p>Retrouver les égalités vectorielles qui définissent certaines configurations du plan.</p>
+
+
+
+quizz
+:H5/geometry/oefgeoplan.fr
+exo=relchasles&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier avec la relation de Chasles
+<p>Simplifier une relation vectorielle en utilisant la relation de Chasles.</p>
+
+
+
+organiser
+:H5/geometry/oefgeoplan.fr
+exo=getegalvect&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Obtenir une égalité vectorielle simple
+<p>Simplifier une égalité vectorielle en utilisant la relation de Chasles.</p>
+
+
+
+measure
+:H5/geometry/oefgeoplan.fr
+exo=transfplacer&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Placer un point défini par une relation vectorielle
+<p>Placer sur une droite un point défini par une relation vectorielle (utilisation de la relation de Chasles).</p>
+
+
+
+measure

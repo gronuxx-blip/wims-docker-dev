@@ -1,0 +1,16 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=gl_ens
+!set gl_title=Sous-ensemble
+!set gl_level=H4
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+Soit \(E\) et \(F\) deux ensembles.<br>
+L'ensemble \(F\) est un <strong>sous-ensemble</strong> de l'ensemble \(E\) lorsque tous les éléments de \(F\) sont des éléments de <span class="nowrap">\(E\).</span><br>
+On dit alors que \(F\) est <i>inclus</i> dans <span class="nowrap">\(E\).</span>
+</div>
+:

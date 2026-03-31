@@ -1,0 +1,33 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Taux d'évolution réciproque
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définitions</h4>
+<ul>
+<li>Lorsqu'une grandeur varie d'une valeur non nulle \(A\) à une valeur non nulle <span class="nowrap">\(B\),</span> l'évolution permettant de passer de la valeur \(B\) à la valeur \(A\) est appelée <strong>évolution réciproque</strong>.
+</li>
+<li>Lorsqu'une grandeur varie d'une valeur non nulle \(A\) à une valeur non nulle <span class="nowrap">\(B\),</span> le taux d'évolution permettant de passer de la valeur \(B\) à la valeur \(A\) est appelé <strong>taux d'évolution réciproque</strong>.
+</li>
+</ul>
+</div>
+:
+:
+
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>Si une grandeur subit une évolution de coefficient multiplicateur <span class="nowrap">\(CM\),</span> son évolution réciproque a pour coefficient multiplicateur <span class="nowrap">\(CM' = \dfrac{1}{CM}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>Le calcul du coefficient multiplicateur de l'évolution réciproque permet de déterminer le taux d'évolution réciproque.
+</p>
+</div>

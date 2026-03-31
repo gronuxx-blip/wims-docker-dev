@@ -1,0 +1,26 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Projeté orthogonal d'un point sur une droite de l'espace
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\mathrm{A}\) un point de l'espace et soit \(\increment\) une droite de l'espace.<br>
+Le projeté orthogonal du point \(\mathrm{A}\) sur la droite \(\increment\) est le point d'intersection entre la droite \(\increment\) et le plan perpendiculaire à la droite \(\increment\) passant par  <span = "nowrap">\(\mathrm{A}\).</span>
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\mathrm{A}\) un point de l'espace et soit \(\increment\) une droite de l'espace.<br>
+La distance du point \(\mathrm{A}\) à la droite \(\increment\) est la distance entre le point \(\mathrm{A}\) et son projeté orthogonal sur la droite <span = "nowrap">\(\increment\).</span>
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarque</h4>
+Soit \(\mathrm{A}\) un point de l'espace et soit \(\increment\) une droite de l'espace.<br>
+Le projeté orthogonal du point \(\mathrm{A}\) sur la droite \(\increment\) est le point de la droite \(\increment\) qui minimise la distance \(\mathrm{AM}\) lorsque le point \(\mathrm{M}\) décrit la droite <span = "nowrap">\(\increment\).</span>
+</div>
+

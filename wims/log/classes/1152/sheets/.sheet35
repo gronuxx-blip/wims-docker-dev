@@ -1,0 +1,138 @@
+
+:H5/analysis/limpolfrac.fr
+exo=polyfactinf1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite en l'infini d'un polynôme (factorisé) 1
+Déterminer la limite d'un polynôme.
+
+Bien pour travailler la limite de composée
+:H5/analysis/limpolfrac.fr
+exo=polyfactinf2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite en l'infini d'un polynôme (factorisé) 2
+Déterminer la limite d'un polynôme.
+
+Bien pour travailler la limite de composée
+:H5/analysis/limpolfrac.fr
+exo=polyfactinf3&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite en l'infini d'un polynôme (factorisé) 3
+Déterminer la limite d'un polynôme.
+
+Produit de polynômes factorisés. Bien pour travailler la limite de composée
+:H5/analysis/limpolfrac.fr
+exo=fracdevinf&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite en l'infini d'une fraction (développée)
+Déterminer la limite d'une fraction rationnelle.
+
+Bien car correction détaillée
+:H5/analysis/limpolfrac.fr
+exo=fracnondevinf&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite en l'infini d'une fraction (non-développée)
+Déterminer la limite d'une fraction rationnelle.
+
+
+:H5/analysis/OEFasymptote.fr
+exo=limfrac&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limites de fractions rationnelles
+Déterminer la limite d'une fraction rationnelle.
+
+Bien avec un exposant inconnu
+:H5/analysis/oefderivation.fr
+exo=gaidon5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Limite de quotient de polynômes
+Déterminer la limite de fractions rationnelles.
+
+Relier les quotients à leur limite
+:U1/analysis/oeflim.fr
+exo=limite&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Calcul de limites
+Déterminer la limite d'une fraction rationnelle.
+
+Limite, y compris qd x tend vers un réel fini
+:U1/analysis/oeflim.fr
+exo=limfract&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limites de fractions rationnelles
+Déterminer la limite d'une fraction rationnelle avec une puissance variable.
+
+
+:H5/analysis/oefderivation.fr
+exo=gaidon4
+10
+1
+Limites de fonctions usuelles
+Déterminer la limite d'une fonction usuelle.
+
+Avec croissances comparées
+:H6/analysis/OEFlimiteTS.fr
+exo=calcoper7&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Opérations sur les limites 7
+Déterminer la limite d'une fonction.
+
+
+:H6/analysis/OEFlimiteTS.fr
+exo=calcoper8&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Opérations sur les limites 8
+Déterminer la limite d'une fonction.
+
+Utilisation de la quantité conjuguée
+:H6/analysis/OEFlimiteTS.fr
+exo=calcoper9&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Opérations sur les limites 9
+Déterminer la limite d'une fonction.
+
+Utilisation de la quantité conjuguée
+:H6/analysis/OEFlimiteTS.fr
+exo=limcomp1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limites et composition 1
+Déterminer la limite d'une composée de fonctions.
+
+À partir de deux tableaux de variations
+:H6/analysis/OEFlimiteTS.fr
+exo=limcomp2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limites et composition 2
+Déterminer la limite d'une composée de fonctions.
+
+Limites avec nécessité de lever une indétermination parfois (polynômes à factoriser)
+:H6/analysis/OEFlimiteTS.fr
+exo=compare1&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite et comparaison 1
+Déterminer une limite à l'aide d'une comparaison.
+
+
+:H6/analysis/OEFlimiteTS.fr
+exo=compare2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Limite et comparaison 2
+Déterminer une limite à l'aide du théorème des gendarmes.
+
+Bien pour déterminer quelle inégalité ou encadrement permet de conclure ou non
+

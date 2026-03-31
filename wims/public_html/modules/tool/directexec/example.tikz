@@ -1,0 +1,6 @@
+new 400,400
+xrange -10,10
+yrange -10,10
+hline 0,0,black
+vline 0,0,black
+angle 0,0,4,30,60,red

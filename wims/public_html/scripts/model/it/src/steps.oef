@@ -1,0 +1,312 @@
+type=question
+textarea="data instruction instruction1 instruction2 instruction3 feedback1 feedback2 feedback3"
+iEdit="instruction instruction1 instruction2 instruction3 feedback1 feedback2 feedback3"
+
+:Vengono poste due o tre domande successive su un oggetto scelto a caso in una lista.
+È possibile scegliere il tipo di domande
+(numeriche, testo, scelte multiple). Nel caso di domande a scelta multipla,
+è necessario compilare l'elenco delle scelte possibili.
+
+<p>
+I dati per ciauscun oggetto (un oggetto per riga) devono essere separati da virgole
+e formattati nel modo seguente:
+</p>
+<pre>
+oggetto, risposta alla domanda 1, risposta alla domanda 2, risposta alla domanda 3
+</pre>
+<p>
+L'oggetto può essere una immagine (nel qual caso inserire il codice html: <span class="tt wims_address">&lt;img src="\imagedir/nom.png" alt=""></span>).
+Nel caso di risposte a scelta multipla, come risposta occorre inserire il numero della risposta corretta.
+</p>
+<p>
+Nei feedback, per indicare l'oggetto si può utilizzare il comando <span class="tt wims_code_variable">\name</span>.
+</p>
+:%%%%%%%% Parametri che possono essere ridefiniti %%%%%%%%%%%%%%%%%
+
+:\title{Domande successive su un oggetto}
+:\author{Bernadette, Perrin-Riou}
+:\email{bernadette.m.riou@orange.fr}
+:\credits{}
+
+:Formato della domanda 1
+\text{format1=item(1, radio (una scelta sola nella lista seguente),
+    numeric (la risposta è un numero),
+    function (fonction d'une variable),
+    case (nessuna differenza ammessa),
+	nocase (ammessa differenza maiuscolo/minuscolo),
+	atext (ignorato plurale/singolare e articoli)
+	)}
+:Lista di scelte per la domanda 1 (se di tipo radio)
+Inserire l'elenco delle risposte corrette se si è scelto il tipo radio
+\text{choix1=primo gruppo, secondo gruppo, terzo gruppo}
+
+:Formato dlela domanda 2
+\text{format2=item(4,radio (una scelta sola nella lista seguente),
+    numeric (la risposta è un numero),
+    function (fonction d'une variable),
+    case (nessuna differenza ammessa),
+	nocase (ammessa differenza maiuscolo/minuscolo),
+	atext (ignorato plurale/singolare e articoli)
+	)}
+:Lista di scelte per la domanda 2 (se di tipo radio)
+Inserire l'elenco delle risposte corrette se si è scelto il tipo radio
+\text{choix2=}
+:Formato della domanda 3
+\text{format3=item(5,0 (nessuna domanda),
+    radio (una scelta sola nella lista seguente),
+    numeric (la risposta è un numero),
+    function (fonction d'une variable),
+    case (nessuna differenza ammessa),
+	nocase (ammessa differenza maiuscolo/minuscolo),
+	atext (ignorato plurale/singolare e articoli)
+   	)}
+:Lista di scelte per la domanda 3 (se di tipo radio)
+Inserire l'elenco delle risposte corrette se si è scelto il tipo radio
+\text{choix3=}
+
+:Testo per risposta corretta
+\text{right=Hai ragione.}
+
+:Testo per risposta non corretta
+\text{false=La risposta è sbagliata.}
+
+:Testo che introduce lo spazio della risposta
+
+\text{name_my_answer=La tua risposta:}
+
+:Conclusione forzata dell'esercizio in caso di errore
+\text{opt_arr=item(2,sì,no)}
+
+:Dati principali
+<p>I dati per le risposte alle domande devono essere inseriti utilizzato questo semplice formato:
+<pre>ogg 1, risposta domanda 1 per ogg 1, risposta domanda 2 per ogg 1, risposta domanda 3 per ogg 1
+ogg 2, risposta domanda 1 per ogg 2, risposta domanda 2 per ogg 2, risposta domanda 3 per ogg 2
+...
+</pre>
+(per ciascun oggetto i dati sono separati da virgole e tutto deve essere scritto in un'unica riga).
+<h3>radio</h3> Nel caso di risposte a scelta multipla, la risposta alla domanda è semplicmente il numero della risposta
+corretta nella lista dei dati.
+<h3>numeric</h3>
+ Nel caso di risposte di tipo numerico, la risposta alla domanda è un numero 
+ reale. La risposta dell'utente sarà considerata corretta
+ se l'errore relativo è inferiore a 0.001. <br>
+ Per avere un altro valore per la prcisione relativa, 
+ inserire la risposta alla domanda nella forma: <span class="tt">[riposta,precisione]</span>
+  invece del semplice <span class="tt">risposta</span><div>
+  Per esempio,
+  <ul><li>[0.3,0.1] significa che la risposta sarà considerata corretta 
+   se è compresa in senso lato tra 0.27 e 0.33.
+    </li><li>[1/3,0] significa che le risposte 1/3 o 2/6 saranno accettate, 
+    ma non sarà accettato alcun valore approssimato di 1/3.
+  </li></ul></div>
+<h3>function</h3>
+ Nel caso in cui il tipo di risposta è una funzione, la risposta dell'utente
+ sarà valutata su 10 punti scelti a caso nell'intervalo [-5,5] (di default) 
+ e i valori su questi punto saranno confrontati con la risposta corretta.
+ La risposta sarà considerata corretta se l'errore relativo
+ per questi 10 punti è inferiore a 0.001. È possibile definire un intervallo
+ diverso per verificare la correttezza della riposta.
+ <p>Per esempio, se la risposta corretta è <span class="tt">sin(t)*t</span> e 
+ si vuole che la risposta sia valutata nell'intervallo [0,6] inserire 
+ la risposta nella forma:
+ <span class="tt">[sin(t)*t,t=[0,6]]</span> invece del semplice <span class="tt">sin(t)*t</span>
+ </p>
+
+\matrix{data= manger,1,Je mangeais,Je mangerai
+finir, 2, Je finissais, Je finirai
+courir,3, Je courais, Je courrai}
+
+:%%%%%%%%%%%%%%
+\text{data=randomrow(\data)}
+\text{name=<span class="name">\data[1]</span>}
+\text{data=\data[2..-1]}
+
+:Istruzioni generali
+\text{instruction=Dobbiamo studiare il verbo \name.}
+
+:Istruzioni per il primo passo
+\text{instruction1=Indicare il gruppo di \name.}
+
+:Istruzioni per il secondo passo
+\text{instruction2=Inserisci l'imperfetto del verbo \name alla prima persona singolare, senza dimenticare il pronome.}
+
+:Istruzioni per il terzo passo
+\text{instruction3=Inserisci il futuro del verbo \name alla prima persona singulare, senza dimenticare il pronome.}
+
+:%%%%%%%%%%%%%% Nulla da modificare fino all'enunciato %%%%%%%%%%%%%%%%
+\text{option=\opt_arr issametext sì? :nonstop}
+\text{giveanal=\giveanal issametext sì? 1:0}
+\precision{1000}
+\real{prec_rel=0.001}
+\range{-5..5}
+\css{<style>
+  .name {color:#047;}
+  .big_bullet>li{font-size: 2em; color: #599; margin: 0 0 .5em .5em; padding: 0 .5em .5em 1em}
+  .big_bullet div{font-size:1rem;margin:.2em;}
+  .big_bullet .instruction,.big_bullet .reponse{color:initial;}
+</style>}
+
+\text{format1=wims(word 1 of \format1)}
+\text{format2=wims(word 1 of \format2)}
+\text{format3=wims(word 1 of \format3)}
+\text{rep1=wims(declosing \data[1])}
+\text{rep2=\data[2]}
+\text{rep3=\data[3]}
+
+\text{reponse1=\rep1}
+\text{reponse2=\rep2}
+\text{reponse3=\rep3}
+\if{\format1 issametext radio}{
+  \text{rep1=\data[1];\choix1}
+  \text{reponse1=\choix1[\data[1]]}
+}
+\if{\format1 issametext numeric}{
+  \text{format1=range}
+  \real{prec1=items(\reponse1)=2 and \reponse1[2]>=0 ? \reponse1[2]:\prec_rel}
+  \text{reponse1=\reponse1[1]}
+  \real{rep1inf=\reponse1*(1-\prec1)}\real{rep1sup=\reponse1*(1+\prec1)}
+  \text{rep1=\rep1inf,\rep1sup,\reponse1}
+}
+\if{\format1 issametext function}{
+   \text{reponse1=\reponse1[1]}
+}
+
+\if{\format2 issametext radio}{
+  \text{rep2=\data[2];\choix2}
+  \text{reponse2=\choix2[\data[2]]}
+}
+\if{\format2 issametext numeric}{
+  \text{format2=range}
+  \real{prec2=items(\reponse2)=2 and \reponse2[2]>=0 ? \reponse2[2]:\prec_rel}
+  \text{reponse2=\reponse2[1]}
+  \real{rep2inf=\reponse2*(1-\prec2)}\real{rep2sup=\reponse2*(1+\prec2)}
+  \text{rep2=\rep2inf,\rep2sup,\reponse2}
+}
+\if{\format2 issametext function}{
+   \text{reponse2=\reponse2[1]}
+}
+\if{\format3 issametext radio}{
+  \text{rep3=\data[3];\choix3}
+  \text{reponse3=\choix3[\data[3]]}
+}
+\if{\format3 issametext numeric}{
+  \text{format3=range}
+  \real{prec3=items(\reponse3)=2 and \reponse3[2]>=0 ? \reponse3[2]:\prec_rel}
+  \text{reponse3=\reponse3[1]}
+  \real{rep3inf=\reponse3*(1-\prec3)}\real{rep3sup=\reponse3*(1+\prec3)}
+  \text{rep3=\rep3inf,\rep3sup,\reponse3}
+}
+\if{\format3 issametext function}{
+   \text{reponse3=\reponse3[1]}
+}
+\text{STEP=r1}
+\if{\format2!=0}{\text{STEP=\STEP
+  r2}
+  \if{\format3!=0}{\text{STEP=\STEP
+  r3}}
+}
+
+\text{reponse1=<strong class="name">\reponse1</strong>}
+\text{reponse2=<strong class="name">\reponse2</strong>}
+\text{reponse3=<strong class="name">\reponse3</strong>}
+
+:Feedback per il primo passo
+Per definire un testo che verrà visualizzato nel secondo passaggio
+dell'esercizio.
+Si può utilizzare il comando \reponse1 per mostrare la risposta
+corretta alla domanda 1.
+
+\text{feedback1=\name è un verbo del gruppo \reponse1.}
+
+:Feedback per il secondo passo
+Per definire un testo che verrà visualizzato nel terzo passaggio
+dell'esercizio.
+Si può utilizzare il comando \reponse2 per mostrare la risposta
+corretta alla domanda 2.
+
+\text{feedback2=L'imperfetto alla prima persona singolare del verbo \name è \reponse2.}
+
+:Feedback finale
+
+\text{feedback3=Il futuro alla prima persona singolare del verbo \name è \reponse3.}
+
+
+:%%%
+
+\nextstep{\STEP}
+\text{presentgood=}
+\statement{
+<div>\instruction</div>
+<ol class="big_bullet"><li class="wims_question">
+  <div class="instruction">\instruction1</div>
+    <div class="reponse">
+    \if{\step=1}{
+      \if{\format1 notsametext radio}
+        {<label for="reply1">\name_my_answer</label>}
+        {\name_my_answer}
+      \embed{r1}
+    }{
+      \name_my_answer <span class="name">\reply1</span>
+  }
+  </div>
+
+  \if{\step>=2}{
+    \if{\presentgood>0}{
+    <div class="feedback
+      \if{\sc_reply1=1}{oef_indgood">\right}{\if{\sc_reply1<=0}{oef_indbad}{oef_indpartial}">\false} \feedback1
+    </div>
+     }
+    </li><li class="wims_question">
+      <div class="instruction">\instruction2</div>
+  }
+
+  \if{\step=2 or \step>=4}{
+    <div class="reponse">
+    \if{\format2 notsametext radio}{
+        <label for="reply2">\name_my_answer</label>
+    }{
+        \name_my_answer
+    }
+      \embed{r2}
+    </div>
+  }
+
+  \if{\step>=3}{
+    \if{\step < 4}{
+      <div class="reponse">
+        \name_my_answer <span class="name">\reply2</span>
+      </div>
+    }
+    \if{\presentgood>0}{
+    <div class="feedback
+      \if{\sc_reply2=1}{oef_indgood">\right}{\if{\sc_reply2<=0}{oef_indbad}{oef_indpartial}">\false} \feedback2
+    </div>
+    }
+    \if{\format3!=0}{
+      </li><li class="wims_question">
+      <div class="instruction"> \instruction3</div>
+      <div class="reponse">
+      \if{\format3 notsametext radio}{
+          <label for="reply3">\name_my_answer</label>
+      }{
+          \name_my_answer
+      }
+        \embed{r3}
+      </div>
+    }
+  }
+  \if{\step>=4 and \format3!=0}{
+    \if{\presentgood>0}{
+    <div class="feedback
+      \if{\sc_reply3=1}{oef_indgood">\right}{\if{\sc_reply3<=0}{oef_indbad}{oef_indpartial}">\false} \feedback3
+    </div>
+  }
+  }
+  </li>
+</ol>
+}
+
+\answer{}{\rep1}{type=\format1}{option=\option}
+\answer{}{\rep2}{type=\format2}{option=\option}
+\answer{}{\rep3}{type=\format3}{option=\option}
+\text{presentgood=slib(oef/env presentgood)}

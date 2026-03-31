@@ -1,0 +1,25 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Loi uniforme discrète (lycée)
+!set gl_level=H6 Générale&nbsp;Complémentaire
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>
+Soit \(n\) un entier naturel non nul et soit \(X\) une variable aléatoire prenant pour valeurs <span class="nowrap">\(1,2,\ldots,n\).</span><br>
+On dit que la variable aléatoire \(X\) suit la <strong>loi uniforme</strong> sur \(\{1,2,\dots,n\}\) si pour tout entier \(i\) compris entre 1 et \(n\),  <span class="nowrap">\(\mathbf{P}\left(X = i \right) = \dfrac{1}{n}\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété </h4>
+<p>Soit \(n\) un entier naturel non nul et soit \(X\) une variable aléatoire suivant la loi uniforme sur <span class="nowrap">\(\{1,2,\dots,n\}\).</span><br>
+La variable aléatoire \(X\) admet pour espérance <span class="nowrap">\(\mathbf{E}(X) = \dfrac{n + 1}{2}\).</span>
+</p>
+</div>
+

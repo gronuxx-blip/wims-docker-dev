@@ -1,0 +1,217 @@
+
+:H6/algebra/oefcomplex.en
+exo=sqrt
+10
+1
+Racine carrée
+
+
+
+module=U1/algebra/doccomplex.fr&block=racine&cmd=new,10
+:H6/algebra/oefcomplex.en
+exo=quadpoly
+10
+1
+Racines d'un polynôme quadratique.
+
+
+
+module=U1/algebra/doccomplex.fr&block=exercice2&cmd=new,10
+:H6/algebra/oefcomplex.en
+exo=quadouble&exo=quadouble2
+10
+1
+Racines doubles 1
+
+
+
+module=U1/algebra/doccomplex.fr&block=exercice2&cmd=new,10,0
+:H6/algebra/oefcomplex.en
+exo=rootcoef
+10
+1
+Lien entre racines et coefficients.
+
+
+
+module=U1/algebra/doccomplex.fr&block=exercice2&cmd=new,10
+:H6/algebra/oefcomplex.en
+cmd=new&cmd=new&exo=quadouble2&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Racines doubles 2
+
+
+
+module=U1/algebra/doccomplex.fr&block=exercice2&cmd=new,10,0
+:H6/algebra/oefcomplex.en
+exo=tworoots2&exo=tworoots
+10
+1
+Différence de racines
+
+
+
+module=U1/algebra/doccomplex.fr&block=exercice2&cmd=new,10,0
+:U1/algebra/coincpolyroots.en
+Degree=2&coeff=real&leading=1&maxreply=5&severity=2
+10
+1
+Recherche d'une polynôme à coefficients réels
+ses racines sont données graphiquement
+
+
+module=U1/algebra/doccomplex.fr&block=exercice2&cmd=new,10,0
+:U1/algebra/coincpolyroots.en
+Degree=2&coeff=complex&leading=1&maxreply=5&severity=2
+10
+1
+Recherche d'un polynôme à coefficients complexes
+ses racines sont données graphiquement
+
+
+module=U1/algebra/doccomplex.fr&block=exercice2&cmd=new,10,0
+:H6/algebra/oefcomplex.en
+cmd=new&cmd=new&exo=rootcoef&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+Racines conjuguées
+
+
+
+module=U1/algebra/doccomplex.fr&block=casparticuliers&cmd=new,10
+:H4/algebra/factorracine.fr
+exo=deg3ent2&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+10
+1
+Factorisation
+
+
+
+module=U1/algebra/doccomplex.fr&block=casparticuliers&cmd=new,10
+:H6/algebra/oefcomplex.en
+exo=eqmod
+10
+1
+Équations avec modules
+
+
+
+module=U1/algebra/doccomplex.fr&block=zbar&cmd=new,10
+:H6/algebra/oefcomplex.en
+exo=cbrt
+10
+1
+Sur les racines cubiques de l'unité
+
+
+
+module=U1/algebra/doccomplex.fr&block=racine0&cmd=new,10
+:H6/algebra/oefcomplex.en
+exo=pentaroot
+10
+1
+Sur les racines cinquièmes de l'unité
+
+
+
+module=U1/algebra/doccomplex.fr&block=racine0&cmd=new,10
+:H6/algebra/oefcomplex.en
+exo=sumofi&exo=sumofj&exo=sumroot
+10
+1
+Sur la somme des racines de l'unité
+
+
+
+module=U1/algebra/doccomplex.fr&block=racine0&cmd=new,10
+:H6/algebra/comprshoot.en
+level=3
+10
+1
+Placer les racines cubiques
+
+
+
+module=U1/algebra/doccomplex.fr&block=degresup&cmd=new,10
+:H6/algebra/oefcomplex.en
+exo=cubrt
+10
+1
+Sur les racines cubiques
+
+
+
+module=U1/algebra/doccomplex.fr&block=degresup&cmd=new,10
+:H6/algebra/comprshoot.en
+level=5
+10
+1
+Placer les racines quatrièmes d'un nombre
+dans le plan complexe
+
+
+module=U1/algebra/doccomplex.fr&block=racinegeometrie&cmd=new,10,0
+:H6/algebra/comprshoot.en
+level=6
+10
+1
+Placer les racines cinquièmes d'un nombre
+dans le plan complexe
+
+
+module=U1/algebra/doccomplex.fr&block=racinegeometrie&cmd=new,10,0
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=sommeprod2
+10
+1
+Calculer la somme et le produit des racines
+sans les calculer
+
+
+module=U1/algebra/doccomplex.fr&block=viete0&cmd=new,10,0
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=coefracine1
+10
+1
+Trouver deux nombres connaissant leur somme et leur produit
+
+
+
+module=U1/algebra/doccomplex.fr&block=viete0&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=coefracine5
+10
+1
+Calculer la valeur de résistances
+
+
+
+module=U1/algebra/doccomplex.fr&block=viete0&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=coefracine2
+10
+1
+Longueur de deux côtés de l'angle droit d'un triangle rectangle dont on connaît le périmètre
+
+
+
+module=U1/algebra/doccomplex.fr&block=polynomesym&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=coefracine3
+10
+1
+Longueur de deux côtés de l'angle droit d'un triangle rectangle dont on connaît l'aire.
+
+
+
+module=U1/algebra/doccomplex.fr&block=polynomesym&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=pbdeg25
+10
+1
+Trouver deux nombres connaissant leur somme et leur produit
+
+
+
+module=U1/algebra/doccomplex.fr&block=polynomesym&cmd=new,10

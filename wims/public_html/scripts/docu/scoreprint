@@ -1,0 +1,43 @@
+!distribute items $wims_read_parm into tmp_work,tmp_severity
+!set tmp_work=!replace internal / by , in $tmp_work
+!distribute items $tmp_work into tmp_sheet,tmp_work
+!set tmp_status_sheet=!getsheetstatus sheet=$tmp_sheet
+!if $tmp_work!=$empty and $tmp_sheet!=$empty
+  !set status=!getscorestatus sheet=$tmp_sheet
+  !set require=!getscorerequire sheet=$tmp_sheet work=$tmp_work
+  !distribute words $tmp_severity into severity_w,severity_s,severity_ss
+  !if $tmp_status_sheet iswordof 1 2 or $wims_user=supervisor
+    <div class="wims_tooltip wims_sheet_item">
+    <div class="wims_tooltiptext" style="width:20em">
+    !if $wims_user!=supervisor and $tmp_status_sheet=1
+      $wims_name_Sheet $tmp_sheet
+    !else
+      $wims_name_Sheet $tmp_sheet ($(wims_name_shstatus[$tmp_status_sheet+1]))
+    !endif
+    $wims_name_Exercise $tmp_work
+    !if $wims_user!= and $wims_user!=supervisor
+      !if $require!=0 and $require!=$empty
+        <ul class="wims_nopuce">
+        <li>$(wims_name_thsheet[3]): $require</li>
+        !if $wims_user!=$empty and $wims_user!=supervisor
+          !set mean=!getscoremean sheet=$tmp_sheet work=$tmp_work
+           <li>$(wims_name_thsheet[7]): $[$mean]/10</li>
+          !if $severity_ss=0
+            !set got=!getscore sheet=$tmp_sheet work=$tmp_work
+            <li>$(wims_name_thsheet[5]): $[round(100*$got/$require)]%</li>
+          !endif
+          !if $severity_ss=1
+            !set best=!getscorebest sheet=$tmp_sheet work=$tmp_work
+            <li>$(wims_name_thsheet[10]): $[round(100*$best/$require)]%</li>
+          !endif
+          !if $severity_ss=2
+            !set level=!getscorelevel sheet=$tmp_sheet work=$tmp_work
+          <li>$(wims_name_thsheet[13]): $[$level]/10</li>
+          !endif
+        !endif
+        </ul>
+      !endif
+    !endif
+    </div></div>
+  !endif
+!endif

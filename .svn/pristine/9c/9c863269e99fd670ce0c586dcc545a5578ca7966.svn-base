@@ -1,0 +1,39 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=p-uplet
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Soit \(E\) un ensemble et soit \(p\) un entier supérieur ou égal à 2.<br>
+Un <span class = "nowrap">\( p\)<strong>-uplet</strong></span> d'éléments de \(E\) est une suite de \(p\) éléments de <span class ="nowrap">\(E\).</span></p>
+<p>Le  <span class = "nowrap">\(p\)-uplet</span> des éléments  <span class = "nowrap">\(a_1\), \(a_2\), \(\dots\), \(a_p\)</span> de \(E\) est noté <span class ="nowrap"> \(\big(a_1,a_2,\dots,a_p\big)\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>Un <strong>triplet</strong> est un <span class ="nowrap">3-uplet</span> et un <strong>couple</strong> est un <span class ="nowrap">2-uplet</span>.
+</p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+<p>Soit \(n\) et \(k\) des entiers naturels supérieurs ou égaux à 2 et soit \(E\) un ensemble  possédant \(n\) éléments.<br>
+Le nombre de <span class ="nowrap">\(k\)-uplets</span> d'éléments <em>distincts</em> de \(E\) est <span class ="nowrap">\(n\times (n-1)\times\dots\times(n-k+1)\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+<p>Soit \(n\) et \(k\) des entiers naturels supérieurs ou égaux à 2 et soit \(E\) un ensemble  possédant \(n\) éléments.<br>
+Le nombre de <span class ="nowrap">\(k\)-uplets</span> d'éléments (pas forcément distincts) de \(E\) est le nombre d'éléments du produit cartésien <span class ="nowrap">\(E^k\),</span> soit <span class ="nowrap">\(n^k\).</span>
+</p>
+</div>

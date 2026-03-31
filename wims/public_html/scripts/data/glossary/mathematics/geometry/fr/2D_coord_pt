@@ -1,0 +1,42 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=coordinates,vectors,analytic_geometry
+!set gl_title=Coordonnées d'un point du plan
+!set gl_level=H4 
+:
+:
+:
+:
+Le plan est supposé muni d'un repère
+<span class="nowrap">\(\mathcal{R}=\left(\mathrm{O}\,;\overrightarrow {i},\overrightarrow {j}\right)\).</span>
+
+<div class="wims_thm"><h4>Théorème</h4>
+Soit \(\mathrm{M}\) un point du plan. <br>
+Il existe un unique couple \((x\,;y)\) de nombres réels tel que&nbsp;:
+<span class="nowrap">
+\(\overrightarrow{\mathrm{OM}}=x\overrightarrow{i}+y\overrightarrow{j}\).</span>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définitions</h4>
+Soit \(\mathrm{M}\) un point du plan.<br>
+Les réels uniques \(x\) et \(y\) tels que
+\(\overrightarrow{\mathrm{OM}}=x\overrightarrow{i}+y\overrightarrow{j}\) sont les <strong>
+coordonnées</strong> du point \(\mathrm{M}\) dans le repère <span class="nowrap">
+\(\mathcal{R}\).</span><br>
+On note <span class="nowrap">\(\mathrm{M} (x\,;y)\),</span> \(x\) est l'<strong>abscisse</strong>, \(y\) est l'<strong>ordonnée</strong> du point \(\mathrm{M}\) dans ce repère.
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+Si \(\mathrm{A}\) et \(\mathrm{B}\) sont deux points distincts de coordonnées
+respectives \((x_\mathrm{A}\,; y_\mathrm{A})\) et \((x_\mathrm{B}\,; y_\mathrm{B})\)
+alors le milieu du segment \(\lbrack\mathrm{AB}\rbrack\) a pour coordonnées
+<span class="nowrap">
+\(\left(\frac{x_\mathrm{A}+x_\mathrm{B}}{2}\,;
+\frac{y_\mathrm{A}+y_\mathrm{B}}{2}\right)\).
+</span>
+
+</div>

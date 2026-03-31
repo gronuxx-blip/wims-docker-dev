@@ -1,0 +1,17 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Racine d'une fonction polynôme
+!set gl_level=H5 Générale&nbsp;et&nbsp;Technologique 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Soit \(P\) une fonction polynôme non nulle.<br>
+On appelle <strong>racine</strong> de \(P\) tout nombre réel \(a\) tel que <span class="nowrap">\(P(a)=0\).</span>
+</div>
+
+
+

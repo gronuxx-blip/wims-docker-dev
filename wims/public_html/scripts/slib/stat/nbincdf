@@ -1,0 +1,41 @@
+!if $wims_read_parm!=slib_header
+  !goto proc
+!endif
+
+slib_parms=3\
+,[data]\
+5,n\
+0.5,p
+
+slib_author=Sophie, Lemaire; Bernadette, Perrin-Riou
+
+slib_example=[1,3,5],3,0.6
+slib_require=pari
+!exit
+
+:proc
+slib_out=
+!distribute item $wims_read_parm into slib_data,slib_n,slib_p
+
+!default slib_n= 5
+!default slib_p=0.5
+!if $slib_p>=1 or $slib_p<=0
+  slib_out=0
+  !exit
+!endif
+slib_data=!declosing $slib_data
+slib_cnt= !itemcnt $slib_data
+
+slib_test=!exec octave pkg list statistics
+!if Installation iswordof $slib_test
+  slib_out=!exec octave nbincdf([$slib_data], $slib_n, $slib_p)
+!else
+  !readproc slib/stat/commun stat
+  !for slib_x in $(slib_data)
+    slib_res=!exec pari statnegbincdf($slib_n,$slib_p,$slib_x)
+    slib_out=!append item $slib_res to $slib_out
+  !next
+!endif
+
+slib_out=!words2items $slib_out
+slib_out=!trim $slib_out

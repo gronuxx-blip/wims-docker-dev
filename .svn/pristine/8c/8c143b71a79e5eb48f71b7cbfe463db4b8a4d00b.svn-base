@@ -1,0 +1,77 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=coordinates,vectors,basis,analytic_geometry
+!set gl_title=Coordonnées d'un vecteur du plan
+!set gl_level=H4 
+:
+:
+:
+:
+Le plan est supposé muni d'un repère
+<span class="nowrap">\(\left(\mathrm{O}\,;\overrightarrow {i},\overrightarrow {j}\right)\).</span>
+<div class="wims_thm"><h4>Théorème</h4>
+Soit \(\overrightarrow {v}\) un vecteur du plan. <br>
+Il existe un unique couple \((x;y)\) de nombres réels tel que&nbsp;:
+<span class="nowrap">
+\(\overrightarrow{v}=x\overrightarrow{i}+y\overrightarrow{j}\).</span>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Définitions</h4>
+Soit \(\overrightarrow{v}\) un vecteur du plan. <br>
+Les réels uniques \(x\) et \(y\) tels que
+\(\overrightarrow{v}=x\overrightarrow{i}+y\overrightarrow{j}\) sont les <strong>
+coordonnées</strong> du vecteur \(\overrightarrow{v}\) dans la base
+<span class="nowrap">\((\overrightarrow {i},\overrightarrow {j})\).
+</span><br>
+On note <span class="nowrap">\(\overrightarrow{v}\left( \begin{array}{c}
+x \\
+y
+\end{array} \right)\)</span>, \(x\) est l'<strong>abscisse</strong>, \(y\) est l'<strong>ordonnée</strong>
+du vecteur \(\overrightarrow{v}\) dans cette base.
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriétés</h4>
+<ul>
+<li>Si \(\mathrm{A}\) et \(\mathrm{B}\) sont deux points de coordonnées
+respectives \((x_\mathrm{A}\,; y_\mathrm{A})\) et \((x_\mathrm{B}\,; y_\mathrm{B})\)
+alors le vecteur \(\overrightarrow{\mathrm{AB} }\) a pour coordonnées
+<span class="nowrap">
+\(\left( \begin{array}{c}
+x_\mathrm{B}-x_\mathrm{A} \\
+y_\mathrm{B}-y_\mathrm{A}
+\end{array} \right)\).</span>
+</li>
+<li>Si \(\overrightarrow{u}\) et  \(\overrightarrow{v}\)
+sont deux vecteurs de coordonnées respectives
+\(\left( \begin{array}{c}
+x \\
+y
+\end{array} \right)\)
+ et
+\(\left( \begin{array}{c}
+x^{'} \\
+y^{'}
+\end{array} \right)\) alors le vecteur \(\overrightarrow{u}+\overrightarrow{v}\)
+a pour coordonnées <span style="white-space:nowrap">
+\(\left( \begin{array}{c}
+x + x^{'}\\
+y + y^{'}
+\end{array} \right)\) .</span>
+</li>
+<li>Si \(\overrightarrow{v}\) est un vecteur de coordonnées
+\(\left( \begin{array}{c}
+x \\
+y
+\end{array} \right)\) et \(k\) un nombre réel alors le vecteur
+\(k \overrightarrow{v}\) a pour coordonnées <span style="white-space:nowrap">
+\(\left( \begin{array}{c}
+k x \\
+k y
+\end{array} \right)\).</span>
+</li>
+</ul>
+</div>

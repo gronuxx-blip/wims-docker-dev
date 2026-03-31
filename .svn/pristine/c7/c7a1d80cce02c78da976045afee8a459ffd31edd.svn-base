@@ -1,0 +1,93 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=function, square
+!set gl_title=Fonction carré
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+    La fonction <strong>carré</strong> est la fonction numérique \(f\) définie pour tout nombre réel \(x\) par \(f(x)=x^2\).
+</div>
+:mathematics/analysis/fr/square_function_1
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+    Dans un repère orthogonal du plan, la courbe représentative de la fonction carré est appelée <strong>parabole</strong>.
+</div>
+:mathematics/analysis/fr/square_function_2
+:
+<div class="wims_thm">
+<h4>Propriété (parité) </h4>
+La fonction carré est une fonction <strong>paire</strong>, sa courbe représentative dans un repère orthogonal est symétrique par rapport à l'axe des ordonnées.
+</div>
+:mathematics/analysis/fr/square_function_3
+:
+<div class="wims_thm">
+<div class="grid-container fluid">
+<div class="grid-x grid-margin-x">
+<div class="cell small-12 medium-6 large-4" >
+    <h4>Propriété (variations) </h4>
+   La fonction carré  est :
+<ul>
+<li>
+strictement décroissante sur l'intervalle <span class="nowrap">\(\left \rbrack -\infty \,; 0 \right \rbrack\)&nbsp;;</span>
+</li>
+<li>
+strictement croissante sur l'intervalle <span class="nowrap">\(\left\lbrack 0 \,; +\infty \right\lbrack\).</span>
+</li>
+</ul>
+</div>
+<div class="cell small-12 medium-6 large-8">
+<strong><em>Tableau de variation</em></strong>
+  <table id="tab_var_sq_func" class="unbreakable">
+<tr>
+<th valign="middle" >\(x\)</th>
+<td>\(-\infty\)</td>
+<td>&nbsp;</td>
+<td>\(0\)</td>
+<td>&nbsp;</td>
+<td >\(+\infty\)</td>
+</tr>
+<tr>
+<th valign="middle" rowspan="3">\(f:x\longmapsto x^2\)</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td style="font-size:1.5em">\(\searrow\)</td>
+<td>&nbsp;</td>
+<td  style="font-size:1.5em">\(\nearrow\)</>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td valign="middle">\(0\)</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<script>
+let tab_var_sq = document.getElementById("tab_var_sq_func");
+let tab_var_sq_tbody = tab_var_sq.getElementsByTagName("tbody");
+tab_var_sq_tbody[0].style.background="transparent";
+tab_var_sq_tbody[0].style.border = "1px solid #999";
+const nb_tr =tab_var_sq_tbody[0].childElementCount;
+for(let ind_tr=0;ind_tr<nb_tr;ind_tr++){
+tab_var_sq_tbody[0].children[ind_tr].style.background="transparent";
+}
+tab_var_sq_tbody[0].children[0].children[0].style.borderRight="1px solid #999";
+tab_var_sq_tbody[0].children[1].children[0].style.borderRight="1px solid #999";
+tab_var_sq_tbody[0].children[0].style.borderBottom="1px solid #999";
+</script>

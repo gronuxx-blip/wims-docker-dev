@@ -1,0 +1,131 @@
+Racines carrées
+Collection d'exercices sur des calculs d'expressions mettant en jeu des racines carrées (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics,algebra
+levelH4,squareroot,literal_calculation
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur des calculs d'expressions mettant en jeu des racines carrées (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H4/number/evalwimsracine.fr
+exo=valeur2&exo=valeur3&exo=valeur5&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Valeur
+<p>Calculer une racine carrée.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=produit2&exo=produit4&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Produit
+<p>Calculer le produit de deux racines carrées.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=quotient2&exo=quotient5&qnum=2&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Quotient
+<p>Calculer le quotient de deux racines carrées ou la racine carrée d'un quotient.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=definition1&exo=definition3&exo=definition4&exo=definition5&exo=produit1&exo=quotient1&exo=somme5&qnum=3&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Définitions
+<p>Série de 3 exercices sur des définitions et propriétés relatives à la racine carrées.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=produit7&exo=quotient7&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Racine carrées et puissances entières relatives
+<p>Calculer des produits ou des quotients de racines carrées de puissances entières relatives.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=produit6&exo=quotient6&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Racine carrées et puissances de 10
+<p>Calculer des produits ou des quotients de racines carrées de puissances de dix.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=simplifier1&exo=simplifier3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier (1)
+<p>Compléter pour écrire sous la forme \(a\sqrt{b}\) où \(b\) est un entier le plus petit possible.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=simplifier4&exo=simplifier6&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier (2)
+<p>Écrire une racine carrée sous la forme \(a \sqrt{b}\) avec \(b\) entier positif le plus petit possible.</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=somme1&exo=somme2&exo=somme3&exo=somme4&qnum=2&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Simplifier (3)
+<p>Calculer une racine carrée de la forme \(\sqrt{a^2+b^2}\) ou \(\sqrt{a^2-b^2}\)où \(a\) et \(b\) sont des entiers donnés (exercice avec étiquette à déplacer).</p>
+
+
+
+algebra
+:H4/number/evalwimsracine.fr
+exo=reduire1&qnum=1&scoredelay=&qcmlevel=1
+30
+1
+Écriture réduite d'une somme de racines carrées
+<p>Réduire la somme de deux racines carrées.</p>
+
+
+
+algebra
+:H3/algebra/oefracine.fr
+exo=expression&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Calcul d'expression
+<p>Calculer la valeur d'une expression \(A(x)\) pour une valeur de \(x\) égale à une racine carrée.</p>
+
+
+
+algebra
+:H3/algebra/oefracine.fr
+exo=devred&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Développer et réduire
+<p>Développer et réduire des expressions contenant des racines carrées.</p>
+
+
+
+algebra

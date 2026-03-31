@@ -1,0 +1,26 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Droite graduée (collège)
+!set gl_level=H1 Cycle&nbsp;4
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Une <strong>droite graduée</strong> est définie par&nbsp;:
+<ul>
+  <li>un point appelé origine&nbsp;;</li>
+  <li> un sens&nbsp;;</li>
+  <li>une unité de longueur.</li>
+</ul>
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriété</h4>Chaque point de la droite est repéré par un nombre relatif donnant la position de ce point par rapport à l'origine de la droite.
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Le nombre relatif qui repère un point sur une droite graduée est appelé <strong>abscisse</strong> de ce point.
+</div>

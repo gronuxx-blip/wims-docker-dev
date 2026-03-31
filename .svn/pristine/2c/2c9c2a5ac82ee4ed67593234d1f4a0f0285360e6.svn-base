@@ -1,0 +1,35 @@
+!set lang_exists=yes
+
+!distribute lines Short version\
+  Description\
+  Resources\
+  Related concepts\
+  ??\
+into name_abstract,name_definition,name_activities, name_connexe,\
+  name_choose
+
+!set name_example_dyna=Dynamic example of the notion
+!set name_glose_infos=Glose informations
+!set name_example_infos=Dynamic example informations
+!set name_linklight_glose="light" link (without interface)
+!set name_link_glose=Link for this notion
+!set name_doc_insert=Link in doc
+!set name_oef_insert=Link in OEF
+!set name_this_glose=this glose
+!set name_this_exple=this dynamic example
+!set name_glose_in_doc=to insert this glose in WIMS document
+!set name_glose2=To display only part of this glossary, replace in the previous\
+ codes, list
+!set name_grains=with the list of box numbers in the order in which they are to\
+ be inserted (even numbers correspond to dynamic examples).
+!set name_glose_in_oef=to insert this glose in OEF exercise
+!set name_exple_in_doc=to insert this dynamic example in WIMS document
+!set name_exple_in_oef=to insert this dynamic example in OEF exercise
+!set wims_name_rmq=Note
+
+!set name_filter=Filter
+!set name_filters=Filters
+!set name_filter_desc=Display only glosses that match the criteria.
+!set name_domain=Domain
+!set name_zone=Subject
+!set name_contact=Contacts

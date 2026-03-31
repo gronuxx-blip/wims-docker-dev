@@ -1,0 +1,29 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Courbe représentative d'une fonction (Collège)
+!set gl_level=H3 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+<p>Dans un repère, la courbe représentative d'une fonction \(f\) est l'ensemble des points de coordonnées <span class="nowrap">\((x,f(x))\).</span>
+</p>
+</div>
+:
+:
+<div class="wims_rem">
+<h4>Remarques</h4>
+<p>
+Soit \(\mathrm{M}\) un point de la courbe représentative d'une fonction <span class="nowrap">\(f\).</span>
+</p>
+<ul>
+<li>
+Si le point \(\mathrm{M}\) a pour abscisse \(a\) alors son ordonnée est l'image de \(a\) par <span class="nowrap">\(f\),</span> c'est-à-dire <span class="nowrap">\(f(a)\).</span>
+</li>
+<li>Si le point \(\mathrm{M}\) a pour ordonnée \(b\) alors son abscisse est un antécédent de \(b\) par <span class="nowrap">\(f\).</span>
+</li>
+</ul>
+</div>

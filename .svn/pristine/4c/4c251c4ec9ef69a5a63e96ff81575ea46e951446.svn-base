@@ -1,0 +1,37 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=gl_deriv
+!set gl_title=Point d'inflexion
+!set gl_level=H6 Générale&nbsp;Spécialité, H6 Générale&nbsp;Complémentaire 
+:
+:
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+  Le plan est muni d'un repère.<br>
+Soit \(\mathrm{I}\) un intervalle de \(\displaystyle{\RR}\) et soit \(f\) une
+fonction dérivable sur l'intervalle <span class="nowrap">
+\(\mathrm{I}\).</span><br>
+On note \(\mathcal{C}\) la courbe représentative de la fonction \(f\) dans ce repère.<br>
+Soit \(\mathrm{A}\) un point de la courbe \(\mathcal{C}\) et \(T\) la tangente à  la courbe \(\mathcal{C}\) en
+<span class="nowrap">\(\mathrm{A}\).</span><br>
+ Le point \(\mathrm{A}\) est un <strong>point d'inflexion</strong> de la courbe \(\mathcal{C}\) si et
+ seulement si la courbe traverse la tangente \(T\) en
+ <span class="nowrap">\(\mathrm{A}\).</span>
+</div>
+:mathematics/analysis/fr/inflexion_1
+:
+<div class="wims_thm">
+  <h4>Propriété</h4>
+  Le plan est muni d'un repère.<br>
+Soit \(\mathrm{I}\) un intervalle de \(\displaystyle{\RR}\) et soit \(f\) une
+ fonction deux fois dérivable sur l'intervalle <span class="nowrap">
+ \(\mathrm{I}\).</span><br>
+On note \(\mathcal{C}\) la courbe représentative de la fonction \(f\) dans ce repère.<br>
+Soit \(\mathrm{A}\) un point de la courbe \(\mathcal{C}\) d'abscisse <span class="nowrap">\(a\).</span><br>
+Le point \(\mathrm{A}\)  est un <strong>point d'inflexion</strong> de la courbe \(\mathcal{C}\) si et
+ seulement si \(f^{''}\) s'annule en \(a\) en changeant de signe.
+
+</div>
+:mathematics/analysis/fr/inflexion_2

@@ -1,0 +1,61 @@
+Nombres premiers
+Collection d'exercices sur la notion de nombres premiers (Programme de seconde BO spécial n°1 du 22 janvier 2019).
+??,2022
+1
+H4
+mathematics
+levelH4,arithmetic,divisibility,primes
+Groupe EULER-WIMS, Académie de Versailles
+euler.wims@ac-versailles.fr
+Collection d'exercices sur la notion de nombres premiers (Programme de seconde BO spécial n°1 du 22 janvier 2019)
+
+:H1/arithmetic/oefprimes.fr
+exo=prime1&confparm1=2&confparm2=15&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Nombres premiers d'une liste ordonnée
+<p>Reconnaitre les nombres premiers d'une liste ordonnée de 15 nombres entiers consécutifs inférieurs ou égaux à 100.</p>
+
+
+
+cerveau
+:H1/arithmetic/oefprimes.fr
+exo=labprime&confparm1=2&confparm2=20&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Labyrinthe des nombres premiers
+Sortir d'un labyrinthe de nombres entiers naturels en ne passant que par des cases contenant des nombres premiers
+
+
+
+organiser
+:H1/arithmetic/oefprimes.fr
+exo=divpremier1&confparm1=2&confparm2=20&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Diviseur premier d'un entier
+<p>Trouver dans une liste de nombres entiers le diviseur premier d'un nombre entier naturel donné.</p>
+
+
+
+cerveau
+:H1/arithmetic/oefprimes.fr
+exo=divpremier2&confparm1=2&confparm2=20&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Diviseur premier de deux entiers
+<p>Trouver dans une liste de nombres entiers le diviseur premier commun à deux nombres entiers naturels donnés.</p>
+
+
+
+cerveau
+:H1/arithmetic/oefdecomp.fr
+exo=4_decompo_sansexpo&confparm1=2&confparm2=3&confparm3=3&confparm4=1&confparm4=2&confparm4=3&qnum=1&scoredelay=&seedrepeat=0&qcmlevel=1
+30
+1
+Décomposer un entier en produit de facteurs premiers
+<p>Décomposer un entier en produit de facteurs premiers</p>
+
+
+
+cerveau

@@ -1,0 +1,35 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Radian
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Le plan est muni d'un repère orthonormé d'origine un point <span class="nowrap">\(\mathrm{O}\).</span><br>
+Soit \(\mathrm{I}\) le point de coordonnées \(\left(1\,;0\right)\) et  \(\mathrm{M}\) un point du cercle trigonométrique tel que l'arc de cercle \(\overset{\displaystyle\huge\frown}{\mathrm{IM}}\) a pour longueur 1.<br>
+On dit que la mesure de l'angle \(\widehat{\mathrm{IOM}}\) en <strong>radian</strong> vaut 1.
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriété</h4>
+Les mesures en degré et en radian d'un angle \(\widehat{\mathrm{ABC}}\) sont proportionnelles.<br>
+
+Si l'angle \(\widehat{\mathrm{ABC}}\) a pour mesure en degré \(\displaystyle{\theta}\) et en radian \(x\) alors&nbsp;:<br>
+<div class="wimscenter">
+ \(\theta= \dfrac{180}{\pi} \times x\quad\)  et \(\quad x= \dfrac{\pi}{180} \times \theta\) 
+</div>
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarques</h4>
+<ul>
+<li>Un angle de 360 degrés mesure \(2\pi\) radians&nbsp;;</li>
+<li>Un angle de 180 degrés mesure \(\displaystyle{\pi}\) radians&nbsp;;</li>
+<li>Un angle de 90 degrés mesure \(\dfrac{\pi}{2}\) radian&nbsp;;</li>
+<li>Un angle de 0 degré mesure 0 radian.</li>
+</ul>
+</div>
+

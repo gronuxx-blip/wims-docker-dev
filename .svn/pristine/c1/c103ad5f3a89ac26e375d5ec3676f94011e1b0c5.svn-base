@@ -1,0 +1,27 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=function, cube
+!set gl_title=Fonction cube
+!set gl_level=H4 
+:
+:
+:
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+    La fonction <strong>cube</strong> est la fonction numérique \(f\) définie pour tout nombre réel \(x\) par <span class="nowrap">\(f(x)=x^3\).</span>
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriété (parité)</h4>
+La fonction cube est une fonction <strong>impaire</strong>, sa courbe représentative dans un repère orthogonal est symétrique par rapport à l'origine du repère.
+</div>
+:
+:
+<div class="wims_thm">
+    <h4>Propriété (variations)</h4>
+  La fonction cube est strictement croissante sur <span class="nowrap">\(\mathbb{R}\).</span>
+
+</div>
+
+

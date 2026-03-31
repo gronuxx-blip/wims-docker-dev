@@ -1,0 +1,21 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Formule d'Al-Kashi
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_thm"><h4>Théorème d'Al-Kashi</h4>
+Soit <span class="nowrap">\(\mathrm{A}\),</span> \(\mathrm{B}\) et \(\mathrm{C}\) trois points du plan, on a alors&nbsp;:
+	<div class="wimscenter unbreakable ">
+\(\mathrm{BC}^2 = \mathrm{AB}^2 + \mathrm{AC}^2 - 2\,\mathrm{AB}\times\mathrm{AC}\,\cos{\left(\widehat{\mathrm{BAC}}\right)}\)
+</div>
+</div>
+:
+:
+<div class="wims_rem"><h4>Remarque</h4>
+Le théorème de Pythagore est un cas particulier du théorème d'Al-Kashi.<br>
+En effet, un triangle \(\mathrm{ABC}\) est rectangle en \(\mathrm{B}\) si, et seulement si, <span class="nowrap">\(\cos{\left(\widehat{\mathrm{ABC}}\right)}=0\).</span>
+</div>

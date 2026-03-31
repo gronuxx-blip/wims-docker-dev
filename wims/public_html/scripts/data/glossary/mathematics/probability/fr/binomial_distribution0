@@ -1,0 +1,57 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=discrete_probability_distribution,binomial_distribution
+!set gl_title=Loi binomiale (lycée)
+!set gl_level=H6 Générale&nbsp;et&nbsp;Technologique
+:
+:
+:
+:
+<div class="wims_thm">
+  <h4>Théorème</h4>
+  Soit \(n\in\NN\) et \(p\) un nombre réel tel que <span class="nowrap">\(p \in [0\,;1]\).</span><br>
+  Soit E une épreuve de Bernoulli à deux issues \(\mathrm{A}\) et
+  \(\overline{\mathrm{A}}\) de probabilités respectives \(p\) et
+ <span class="nowrap">\(q=1-p\).</span><br>
+  Pour tout entier naturel \(k\) tel que <span class="nowrap">\(0 \leqslant k \leqslant n\),</span> la
+  probabilité \(p_k\) que l'événement \(\mathrm{A}\) soit réalisé exactement \(k\)
+  fois à l'issue de \(n\) épreuves indépendantes E est donnée par
+  <div class="wimscenter">
+  \(p_k=\binom{n}{k} p^k q^{n-k}\)
+  </div>
+</div>
+:
+:
+<div class="wims_defn">
+  <h4>Définition</h4>
+  Soit \(n\) un entier naturel et\({\Omega}\) l'univers associé à une expérience
+  aléatoire, ensemble des entiers \(k\) tels que
+ <span class="nowrap">\(0 \leqslant k \leqslant n\).</span><br>
+  Soit \(p\) un nombre réel tel que <span class="nowrap">\(p \in [0\,;1]\).</span><br>
+  On pose <span class="nowrap">\(q=1-p\).</span><br>
+  On appelle <strong>loi binomiale de paramètres \(n\) et \(p\)</strong> la loi
+  de probabilité notée <span class="nowrap">\(\mathcal{B}(n,p)\),</span> définie sur \({\Omega}\) par
+  <div class="wimscenter">
+   \(\mathrm{P}({k}) = \binom{n}{k} p^k q^{n-k} \) pour tout entier \(k\) tel
+   que <span class="nowrap">\(0 \leqslant k \leqslant n\).</span>
+</div>
+</div>
+:
+:
+<div class="wims_thm">
+  <h4>Théorème</h4>
+  Soit \(n\) un entier naturel, \(p\) un nombre réel tel que \(p \in [0\,;1]\)
+  et \(\mathcal{B}(n,p)\) la loi binomiale de paramètres \(n\) et
+ <span class="nowrap">\(p\).</span><br>
+  On pose <span class="nowrap">\(q=1-p\).</span>
+  <ul>
+    <li>
+      L'espérance mathématique \( \mathbf{E} \) de \( \mathcal{B}(n,p) \) est
+      <span class="nowrap">\( \mathbf{E} = n p\).</span>
+    </li>
+    <li>
+      La variance \( \mathbf{V} \) de \( \mathcal{B}(n,p) \) est
+      <span class="nowrap">\( \mathbf{V} = n p q \).</span>
+    </li>
+  </ul>
+</div>

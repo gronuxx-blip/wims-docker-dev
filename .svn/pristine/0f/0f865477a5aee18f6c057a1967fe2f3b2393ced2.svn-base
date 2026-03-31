@@ -1,0 +1,11 @@
+ ------------ version 1.01
+2018-05-03: ajustement concernant la langue
+2018-05-02: changement du menu (titre pris dans la langue)
+  ajout d'une description si elle existe
+2018-04-25
+  les liens connexes peuvent être indiqués par un mot clé (tous les gloses
+  ayant ce mot clé sont alors pris). Si possible prendre les mots clés dans
+  la liste offcielle.
+
+Version 1.00 2018-04-24
+  module for management of glossary in scripts/glossary

@@ -1,0 +1,90 @@
+
+:U1/analysis/graphode.en
+atype=2&level=1hc1&repeat=1
+10
+1
+EDO graphique
+Reconnaître le graphe de la solution d'une équation différentielle homogène.
+
+
+:U1/analysis/graphode.en
+atype=2&level=1hc2&repeat=1
+10
+1
+EDO graphique
+Reconnaître le graphe de la solution d'une équation différentielle homogène.
+
+
+:U1/analysis/graphode.en
+atype=1&level=1hc1&repeat=1
+10
+1
+EDO graphique
+Reconnaître l'équation différentielle homogène vérifiée par une fonction donnée par son graphe.
+
+
+:U1/analysis/graphode.en
+atype=1&level=1hc2&repeat=1
+10
+1
+EDO graphique
+Reconnaître l'équation différentielle homogène vérifiée par une fonction donnée par son graphe.
+
+
+:U1/analysis/graphode.en
+atype=2&level=1nc1&repeat=1
+10
+1
+EDO graphique
+Reconnaître le graphe de la solution d'une équation différentielle.
+
+
+:U1/analysis/graphode.en
+atype=1&level=1nc1&repeat=1
+10
+1
+EDO graphique
+Reconnaître l'équation différentielle vérifiée par une fonction donnée par son graphe.
+
+
+:U1/analysis/oefeqdif1.fr
+exo=homvar&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+5-Homogène
+Résoudre une équation différentielle linéaire homogène.
+
+
+:U1/analysis/oefeqdif1.fr
+exo=homvarCI&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+6-Homogène conditions initiales
+Résoudre un problème de Cauchy homogène.
+
+
+:U1/analysis/oefeqdif1.fr
+exo=QCMdef&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+0-Notion d'équation différentielle
+Trouver une ou des fonctions solution d'une équation différentielle linéaire avec un second membre non constant.
+
+
+:U1/analysis/oefeqdif1.fr
+exo=solpart&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+3-Solution particulière #
+Déterminer une solution particulière de forme donnée pour une équation différentielle linéaire avec un second membre non constant.
+
+
+:U1/analysis/oefeqdif1.fr
+exo=cofcst&qnum=1&qcmlevel=1&scoredelay=&seedrepeat=0
+10
+1
+4-Exercice complet #
+Résoudre un problème de Cauchy par étapes avec un second membre non constant.
+
+
+

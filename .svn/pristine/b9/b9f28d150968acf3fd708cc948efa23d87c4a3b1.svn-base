@@ -1,0 +1,21 @@
+ <b>Vecteur.</b> (nom: <span class="tt wims_code_words">vector</span>)<br>
+ Chaque coefficient est évalué et comparé avec le coefficient correspondant de la
+ bonne réponse. Seuls les vecteurs numériques peuvent être utilisés
+ ici. La réponse et la bonne réponse peuvent avoir ou ne pas avoir une paire
+ de parenthèses qui les entourent.
+
+<br>
+:option:vector_left=" "
+Description de <span class="tt wims_code_words">option</span> :
+<p>Les options <span class="tt wims_code_words">vector_left</span> et
+<span class="tt wims_code_words">vector_right</span> permettent de choisir
+les délimiteurs à afficher, à la fois dans le champ de réponse
+et dans l'analyse de la réponse.
+</p>
+Exemple
+<pre>
+\answer{}{\rep}{type=vector}{option=vector_left=\(\lbracket\),vector_right=\(\rbracket\)}
+</pre>
+<pre>
+\answer{}{\rep}{type=vector}{option=vector_left=\(\Bigg\lbrace\),vector_right=&amp;nbsp;}
+</pre>

@@ -1,0 +1,55 @@
+
+:H4/analysis/OEFevalwimsgrph.fr
+exo=trinome1
+10
+1
+Orientation d'une parabole
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=graphe&cmd=new,10
+:H5/algebra/oefsecdeg.fr
+exo=allureprb&qnum=1&scoredelay=&qcmlevel=3
+10
+1
+Allure d'une parabole
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=graphe&cmd=new,10
+:H4/analysis/trisecdeg.fr
+exo=corresp_para
+10
+1
+Correspondance Parabole -  Trinôme
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=graphe&cmd=new,10
+:H4/analysis/OEFevalwimsgrph.fr
+exo=trinome3
+10
+1
+Sommet d'une parabole
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=graphe&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=solveeq4
+10
+1
+Nombre de points d'intersection avec l'axe des \(x\)
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=graphe&cmd=new,10
+:H5/algebra/OEFevalwimssecdeg.fr
+exo=expparabole2
+10
+1
+Reconnaître l'équation d'une parabole
+
+
+
+module=H5/algebra/docequationdeg2.fr&block=graphe&cmd=new,10

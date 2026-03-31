@@ -1,0 +1,80 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=gl_deriv
+!set gl_title=Convexité
+!set gl_level=H6 Générale&nbsp;Spécialité, H6 Générale&nbsp;Complémentaire
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Le plan est muni d'un repère orthogonal <span class="nowrap">
+\(\left(\mathrm{O}\,;\overrightarrow{i},\,\overrightarrow{j}\right)\).</span><br>
+Soit \(\mathrm{I}\) un intervalle de \(\displaystyle{\RR}\) et soit \(f\) une
+fonction définie sur l'intervalle <span class="nowrap">
+\(\mathrm{I}\).</span><br>
+On note \(C\) la courbe représentative de la fonction \(f\) dans le repère
+<span class="nowrap">
+\(\left(\mathrm{O}\,;\overrightarrow{i},\overrightarrow{j}\right)\).</span><br>
+La fonction \(f\) est dite <strong>convexe sur \(\mathrm{I}\)</strong> si et
+seulement si pour tous points \(\mathrm{A}\) et \(\mathrm{B}\) de la courbe \(C\) d'abscisses respectives des réels \(a\) et \(b\) de \(\mathrm{I}\) tels que <span class="nowrap">\(a < b\),</span> le segment \([\mathrm{AB}]\) est situé au-dessus de la courbe \(C\) sur l'intervalle <span class="nowrap">\([a\,;b]\).</span><br>
+La fonction \(f\) est dite <strong>concave sur \(\mathrm{I}\)</strong> si et
+seulement si pour tous points \(\mathrm{A}\) et \(\mathrm{B}\) de la courbe \(C\) d'abscisses respectives des réels \(a\) et \(b\) de \(\mathrm{I}\) tels que <span class="nowrap">\(a < b\),</span> le segment \([\mathrm{AB}]\) est situé au-dessous de la courbe \(C\) sur l'intervalle <span class="nowrap">\([a\,;b]\).</span>
+</div>
+:mathematics/analysis/fr/convexity_1
+:
+<div class="wims_rem">
+<h4>Remarque</h4>
+Une fonction qui n'est pas convexe sur \(\mathrm{I}\) n'est pas nécessairement
+concave sur <span class="nowrap">\(\mathrm{I}\).</span>
+</div>
+:mathematics/analysis/fr/convexity_2
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+Le plan est muni d'un repère orthogonal <span class="nowrap">
+\(\left(\mathrm{O}\,;\overrightarrow{i},\,\overrightarrow{j}\right)\).</span><br>
+Soit \(\mathrm{I}\) un intervalle de \(\displaystyle{\RR}\) et soit \(f\) une
+fonction dérivable sur l'intervalle <span class="nowrap">
+\(\mathrm{I}\).</span><br>
+On note \(C\) la courbe représentative de la fonction \(f\) dans le repère
+<span class="nowrap">
+\(\left(\mathrm{O}\,;\overrightarrow{i},\,\overrightarrow{j}\right)\).</span><br>
+La fonction \(f\) est <strong>convexe sur \(\mathrm{I}\)</strong> si et
+seulement si sa courbe représentative \(C\) est entièrement située <strong>au-dessus de
+chacune de ses tangentes</strong>.<br>
+La fonction \(f\) est <strong>concave sur \(\mathrm{I}\)</strong> si et
+seulement si sa courbe représentative \(C\) est entièrement située <strong>au-dessous de
+chacune de ses tangentes</strong>.<br>
+</div>
+:mathematics/analysis/fr/convexity_3
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+Soit \(\mathrm{I}\) un intervalle de \(\displaystyle{\RR}\) et soit \(f\) une
+fonction dérivable sur l'intervalle
+<span class="nowrap">\(\mathrm{I}\).</span><br>
+La fonction \(f\) est convexe sur \(\mathrm{I}\) si et seulement si sa fonction
+dérivée \(f^{'}\) est croissante sur <span class="nowrap">
+\(\mathrm{I}\).</span><br>
+La fonction \(f\) est concave sur \(\mathrm{I}\) si et seulement si sa fonction
+dérivée \(f^{'}\) est décroissante sur <span class="nowrap">
+\(\mathrm{I}\).</span>
+</div>
+:mathematics/analysis/fr/convexity_4
+:
+<div class="wims_thm">
+<h4>Théorème</h4>
+ Soit \(\mathrm{I}\) un intervalle de \(\displaystyle{\RR}\) et soit \(f\) une
+ fonction deux fois dérivable sur l'intervalle <span style="white-space:nowrap">
+ \(\mathrm{I}\).</span><br>
+La fonction \(f\) est convexe sur \(\mathrm{I}\) si et seulement si sa fonction
+dérivée seconde \(f^{''}\) est positive sur <span style="white-space:nowrap">
+\(\mathrm{I}\).</span><br>
+La fonction \(f\) est concave sur \(\mathrm{I}\) si et seulement si sa fonction
+dérivée seconde \(f^{''}\) est négative sur <span style="white-space:nowrap">
+\(\mathrm{I}\).</span>
+
+</div>
+:mathematics/analysis/fr/convexity_5

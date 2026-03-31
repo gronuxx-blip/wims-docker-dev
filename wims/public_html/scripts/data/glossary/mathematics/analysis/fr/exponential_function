@@ -1,0 +1,42 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=function, exponential
+!set gl_title=Fonction exponentielle
+!set gl_level=H5 
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+La fonction <strong>exponentielle</strong> est la fonction dérivable sur \(\mathbb{R}\) notée \(\exp\) telle que :
+<p><center>pour tout réel \(x\), \(\mathrm{exp}^{'}(x)=\exp(x)\) et \(\exp(0)=1\)</center></p>
+ </div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (signe)</h4>
+La fonction exponentielle est strictement positive sur <span class="nowrap">\(\mathbb{R}\) :</span>
+<p><center>pour tout réel \(x\), \(\exp(x)>0\)</center></p>
+</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété (variations)</h4>
+La fonction exponentielle est strictement croissante sur <span class="nowrap">\(\mathbb{R}\).</span>
+</div>
+:
+:
+<div class="wims_defn">
+<h4>Notations</h4>
+<ul>
+<li>
+On note <span class="nowrap">\(\exp{(1)}=\mathrm{e}\).</span><br>
+Une valeur approchée au millième par défaut de \(\mathrm{e}\) est 2,718.
+</li>
+<li>
+Pour tout réel <span class="nowrap">\(x\),</span> on note <span class="nowrap">\(\exp(x)=\mathrm{e}^x\).</span>
+</li>
+</lu>
+</div>
+

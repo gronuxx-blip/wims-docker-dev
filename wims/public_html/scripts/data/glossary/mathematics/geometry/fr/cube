@@ -1,0 +1,20 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Cube
+!set gl_level=E3 Cycle&nbsp;2
+:
+:
+:
+:
+<div class="wims_defn">
+<h4>Définition</h4>
+Un <strong>cube</strong> est un pavé droit (parallélépipède rectangle) dont toutes les faces sont des carrés.</div>
+:
+:
+<div class="wims_thm">
+<h4>Propriété</h4>
+Un cube possède six faces, huit sommets et douze arêtes.
+</div>
+
+

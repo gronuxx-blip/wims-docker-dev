@@ -1,0 +1,25 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Projeté orthogonal d'un point sur un plan de l'espace
+!set gl_level=H6 
+:
+:
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\mathrm{A}\) un point de l'espace et soit \(\mathcal{P}\) un plan de l'espace.<br>
+Le projeté orthogonal du point \(\mathrm{A}\) sur le plan \(\mathcal{P}\) est le point d'intersection entre le plan \(\mathcal{P}\) et la droite perpendiculaire au plan \(\mathcal{P}\) passant par  <span = "nowrap">\(\mathrm{A}\).</span>
+</div>
+:
+:
+<div class="wims_defn"><h4>Définition</h4>
+Soit \(\mathrm{A}\) un point de l'espace et soit \(\mathcal{P}\) un plan de l'espace.<br>
+La distance du point \(\mathrm{A}\) au plan \(\mathcal{P}\) est la distance entre le point \(\mathrm{A}\) et son projeté orthogonal sur le plan <span = "nowrap">\(\mathcal{P}\).</span>
+</div>
+:
+:
+<div class="wims_thm"><h4>Théorème</h4>
+Soit \(\mathrm{A}\) un point de l'espace et soit \(\mathcal{P}\) un plan de l'espace.<br>
+Le projeté orthogonal du point \(\mathrm{A}\) sur le plan \(\mathcal{P}\) est le point du plan \(\mathcal{P}\) qui minimise la distance \(\mathrm{AM}\) lorsque le point \(\mathrm{M}\) décrit le plan <span = "nowrap">\(\mathcal{P}\).</span>
+</div>

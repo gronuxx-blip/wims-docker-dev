@@ -1,0 +1,185 @@
+!set gl_type=dynamic
+!set gl_author=Euler, Académie de Versailles
+!set gl_title=Fonction carré (exemple 3)
+!readproc data/glossary/mathematics/geometry/macro/randalphanum_gen
+!set gl_alea3=$gl_rd
+!set gl_brd3=brd3_$gl_alea3
+!set gl_box3=id_box3_$gl_alea3
+!set gl_xa=!randint 1,6
+!set gl_sgn=!randitem -1,1
+!set gl_xa=$[$gl_sgn*$gl_xa]
+!set gl_ya=!exec pari ($gl_xa)^2
+!set gl_xb = $[-1*$gl_xa]
+!set gl_yb=!exec pari ($gl_xb)^2
+!set gl_initslide=1
+!set gl_jsxscript=JXG.Options.axis.lastArrow = false;\
+  JXG.Options.precision.mouse = 1;\
+  JXG.Options.text.useMathJax = true;\
+  JXG.Options.elements.tabindex = -1;\
+  const $gl_brd3=JXG.JSXGraph.initBoard('$gl_box3', {\
+  boundingbox:[-8,50, 8, -6],\
+  axis:true,\
+  grid:false,\
+  keepAspectRatio:false,\
+  showCopyright : false,\
+  showNavigation:true,\
+  showFullscreen: true,\
+  fullscreen: {\
+                 symbol: '\u22c7',\
+             },\
+  resize:{enabled: true, throttle: 200},\
+  zoom: {\
+  pinchHorizontal: true,\
+  pinchVertical: true,\
+  pinchSensitivity: 7,\
+  min: 0.05,\
+  max: 4,\
+  wheel: true,\
+  needShift: false\
+  },\
+  pan: {\
+  needTwoFingers: true,\
+  needShift: false\
+  },\
+  });\
+  $gl_brd3.renderer.displayCopyright('Figure réalisée avec JSXGraph v'+JXG.version,11);\
+  //Variables globales\
+  var flag = true;\
+  var objets_crees = [];\
+  //Les fonctions\
+  function carre(x){return x*x};\
+  function getMouseCoords(e,i){\
+        let pos = $gl_brd3.getMousePosition(e, i);\
+        if (e.button==0){return new JXG.Coords(JXG.COORDS_BY_SCREEN, pos, $gl_brd3);}\
+  };\
+  click_on_cf = function (e) {\
+      let canCreate = true,el;\
+      let coords = getMouseCoords(e,1);\
+      let dxA = null;\
+      let dxB = null;\
+      if (coords){\
+          dxA = coords.usrCoords[1]-($gl_xa);\
+          dxB = coords.usrCoords[1]+($gl_xa);\
+          if(Math.abs(dxA)<0.5 || Math.abs(dxB)<0.5){\
+            $gl_brd3.containerObj.style.cursor = 'not-allowed';\
+          }\
+          if (flag && Math.abs(dxA)>0.5 && Math.abs(dxB)>0.5){\
+              flag=false;\
+              if (objets_crees!=[]){\
+                    for (var o in objets_crees){objets_crees[o].remove();}\
+              }\
+              placer_pt(coords);\
+          }\
+      }\
+  }\
+  function on_cf() {\
+    if (flag){\
+      $gl_brd3.containerObj.style.cursor = 'crosshair';\
+      cf_$gl_alea3.setAttribute({highlight:true});\
+    }\
+    else {\
+      $gl_brd3.containerObj.style.cursor = 'wait';\
+      cf_$gl_alea3.setAttribute({highlight:false});\
+    }\
+  };\
+  function out_cf() {\
+    $gl_brd3.containerObj.style.cursor = 'default';\
+  };\
+  function placer_pt(pt){\
+      let pt_M = $gl_brd3.create('point',[pt.usrCoords[1],carre(pt.usrCoords[1])],{size : 2,name : '\(M\)',fixed:true,strokeColor : '#0000ff',showInfobox:false,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-1,1]}});\
+      objets_crees.push(pt_M);\
+      let copy1_pt_M = $gl_brd3.create('point',[pt.usrCoords[1],carre(pt.usrCoords[1])],{size : 2,name : '\(M1\)',face:'+',fixed:true,strokeColor : '#00ffff',showInfobox:false,visible:false,withLabel : false,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-2,2]}});\
+      let copy2_pt_M = $gl_brd3.create('point',[pt.usrCoords[1],carre(pt.usrCoords[1])],{size : 2,name : '\(M2\)',face:'circle',fixed:true,strokeColor : '#00ffff',showInfobox:false,visible:false,withLabel : false,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-2,2]}});\
+      //Dessin des pointillés\
+      let pt_My = $gl_brd3.create('point',[0,carre(pt.usrCoords[1])],{size : 2,name : '\(My\)',face:'+',fixed:true,strokeColor : '#0000ff',showInfobox:false,visible:false,withLabel : true,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-2,2]}});\
+      let pt_Mx = $gl_brd3.create('point',[pt.usrCoords[1],0],{size : 2,name : '\(Mx\)',face:'+',fixed:true,strokeColor : '#0000ff',showInfobox:false,visible:false,withLabel : true,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-2,2]}});\
+      let seg_MMx=$gl_brd3.create('segment',[pt_M,copy1_pt_M],{strokeColor : 'orange',name:'',withLabel : false,strokeOpacity : 0.6,strokeWidth : 1,dash : 3,visible : true,fixed:true});\
+      let seg_MMy=$gl_brd3.create('segment',[pt_M,copy2_pt_M],{strokeColor : 'orange',name:'',withLabel : false,strokeOpacity : 0.6,strokeWidth : 1,dash : 3,visible : true,fixed:true});\
+      objets_crees.push(seg_MMx);\
+      objets_crees.push(seg_MMy);\
+      copy1_pt_M.moveTo([pt_M.X(),0],400,{effect:'<>', callback: ()=>{copy2_pt_M.moveTo([0,pt_M.Y()],400,{callback:symetrique});}});\
+      //Création du symétrique\
+      function symetrique(){\
+          let pt_Ny = $gl_brd3.create('point',[0,pt_M.Y()],{size : 2,name : '\(Ny\)',face:'+',fixed:true,strokeColor : '#0000ff',showInfobox:false,visible:false,withLabel : true,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-2,2]}});\
+          let pt_Nx = $gl_brd3.create('point',[-pt_M.X(),0],{size : 2,name : '\(Nx\)',face:'+',fixed:true,strokeColor : '#0000ff',showInfobox:false,visible:false,withLabel : true,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-2,2]}});\
+          let pt_N=$gl_brd3.create('point',[-pt_M.X(),pt_M.Y()],{size : 2,name : '\(N\)',fixed:true,visible:false,strokeColor : '#0000ff',showInfobox:false,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-1,1]}});\
+          objets_crees.push(pt_N);\
+          let seg_MyN=$gl_brd3.create('segment',[pt_My,pt_N],{strokeColor : 'orange',name:'',withLabel : false,strokeOpacity : 0.6,strokeWidth : 1,dash : 3,visible : true,fixed:true});\
+          copy2_pt_M.moveTo([pt_N.X(),pt_N.Y()],400,{effect:'<>',callback:()=>{pt_N.setAttribute({visible:true});}});\
+          objets_crees.push(seg_MyN);\
+          let copie_pt_N = $gl_brd3.create('point',[-pt_M.X(),pt_M.Y()],{size : 2,name : '\(Nc\)',fixed:true,visible:false,strokeColor : '#0000ff',showInfobox:false,label:{strokeColor:'#0000ff',autoPosition: true,offset: [-1,1]}});\
+          let seg_NNx=$gl_brd3.create('segment',[pt_N,copie_pt_N],{strokeColor : 'orange',name:'',withLabel : false,strokeOpacity : 0.6,strokeWidth : 1,dash : 3,visible:true,fixed:true});\
+          objets_crees.push(seg_NNx);\
+          copie_pt_N.moveTo([pt_N.X(),0],400,{callback:()=>{\
+            marquer(pt_M,pt_N,'orange',2);\
+          }});\
+        }\
+    }\
+  function marquer(pt1,pt2,col,nb){\
+    //Marque angle droit\
+    const rapport_xy_$gl_alea3=$gl_brd3.unitX/$gl_brd3.unitY;\
+    const mil_pt1_pt2=$gl_brd3.create('point',[0,pt1.Y()],{face:'+',withLabel:true,fixed:true,visible:false});\
+    const pt1_bd=$gl_brd3.create('point',[0.3,pt1.Y()],{face:'+',visible:false,fixed:true});\
+    const pt1_hd=$gl_brd3.create('point',[0.3,pt1.Y()+0.3*rapport_xy_$gl_alea3],{face:'+',visible:false,fixed:true});\
+    const pt1_hg=$gl_brd3.create('point',[0,pt1_hd.Y()],{face:'+',visible:false,fixed:true});\
+    const marque_ortho_$gl_alea3=$gl_brd3.create('polygon',[mil_pt1_pt2,pt1_bd,pt1_hd,pt1_hg],{color:col,fillOpacity:1,fixed:true,borders:{visible:false}});\
+    //Marque equidistance\
+    const seg1=$gl_brd3.create('segment',[mil_pt1_pt2,pt1],{visible:true,strokeWidth:2,strokeColor:col,highlight:false});\
+    const marque_equal1=$gl_brd3.create('hatch',[seg1,nb],{tickEndings:[0.3,0.3],strokeWidth:2,strokeColor:'#000000',strokeOpacity:1});\
+    const seg2=$gl_brd3.create('segment',[mil_pt1_pt2,pt2],{visible:true,strokeWidth:2,strokeColor:col,highlight:false});\
+    const marque_equal2=$gl_brd3.create('hatch',[seg2,nb],{tickEndings:[0.3,0.3],strokeWidth:2,strokeColor:'#000000',strokeOpacity:1});\
+    if (nb!=1){\
+      objets_crees.push(marque_ortho_$gl_alea3);\
+      objets_crees.push(seg1);\
+      objets_crees.push(seg2);\
+    }\
+    flag = true;\
+  }\
+  const cf_$gl_alea3 = $gl_brd3.create('functiongraph', [function(x){return Math.pow(x,2);},-10,10],{strokeWidth:2,strokeColor:'#008854',strokeOpacity:0.8});\
+  const axe_sym_$gl_alea3=$gl_brd3.create('line',[[0,-1],[0,1]],{strokeWidth:2,strokeColor:'#0000ff',strokeOpacity:0.5});\
+  //Création des points A et B fixes\
+  const pA_$gl_alea3 = $gl_brd3.create('point',[$gl_xa,$gl_ya],{size : 3,name : '\(\mathrm{A}_0\)' ,face:'+',fixed:true,strokeColor : '#0000ff',label: {strokeColor:'#0000ff',offset: [-20,10]}});\
+  const pB_$gl_alea3 = $gl_brd3.create('point',[$gl_xb,$gl_yb],{size : 3,name : '\(\mathrm{B}_0\)',face:'+',fixed:true,strokeColor : '#0000ff',label:{strokeColor:'#0000ff',offset: [-20,10]}});\
+  //Création du segment AB\
+  const pApB_$gl_alea3 = $gl_brd3.create('segment',[pA_$gl_alea3,pB_$gl_alea3], {strokeWidth:1, strokeColor : '#0000ff',dash:0,name:'AB',withLabel:false,visible:true});\
+  //Création des pointillés\
+  const p0x_$gl_alea3 = $gl_brd3.create('segment',[pA_$gl_alea3,[pA_$gl_alea3.X(),0]],{strokeWidth:1, strokeColor : '#0000ff',strokeOpacity:0.5,dash:3,name:'p0x',withLabel:false});\
+  const p1x_$gl_alea3 = $gl_brd3.create('segment',[pB_$gl_alea3,[pB_$gl_alea3.X(),0]],{strokeWidth:1, strokeColor : '#0000ff',strokeOpacity:0.5,dash:3,name:'p1x',withLabel:false});\
+  //Marquer angle droit et équidistance\
+  marquer(pA_$gl_alea3,pB_$gl_alea3,'#0000ff',1);\
+  cf_$gl_alea3.on('down',click_on_cf);\
+  cf_$gl_alea3.on('over',on_cf);\
+  cf_$gl_alea3.on('out',out_cf);\
+
+  <div>
+    <div class="grid-container fluid">
+      <div class="grid-x grid-margin-x">
+        <div class="cell small-12 medium-6 large-8">
+            <div>
+               <h4 class="wimscenter">Exemple - Interprétation graphique de la parité</h4>
+               <p id="zone_msg"></p>
+               <p>Le plan est muni d'un repère orthogonal.<p>
+               <p>Pour tout nombre réel <span class="nowrap">\(a\),</span> \(\mathrm{M}\left(a;a^2\right)\) et \(\mathrm{N}\left(-a;a^2\right)\) sont deux points de la courbe représentative de la fonction carré et sont symétriques par rapport à l'axe des ordonnées.<span id=info3_$gl_alea3></span><br>
+               Par exemple, si \(a=$gl_xa\) les points \(\mathrm{A}_0\left($gl_xa;$gl_ya \right)\) et \(\mathrm{B}_0\left($gl_xb;$gl_yb \right)\) appartiennent à la courbe représentative de la fonction carré et sont symétriques par rapport à l'axe des ordonnées.</p>
+            </div>
+        </div>
+        <div class="cell small-12 medium-6 large-4">
+          <div>
+            !readproc slib/geo2D/jsxgraph  $gl_box3 $gl_brd3, [200x200,min=200px max=400px scroll],$gl_jsxscript
+            $slib_out
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script>
+    const span_info = document.getElementById("info3_$gl_alea3");
+    const UA = navigator.userAgent;
+    const tactile_$gl_alea3 = UA.match("mobile")||UA.match("Mobile");
+    if (tactile_$gl_alea3){
+      span_info.innerHTML = "(<em>Toucher la courbe représentative de la fonction pour placer un point et son symétrique.</em>)";
+    }
+    else{
+      span_info.innerHTML = "(<em>Faire un clic gauche sur la courbe représentative de la fonction pour placer un point et son symétrique.</em>)";
+    }
+    </script>

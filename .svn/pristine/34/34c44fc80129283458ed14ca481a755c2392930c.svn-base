@@ -1,0 +1,37 @@
+!!abstract,linked gloses,internal links,content,dynamic examples,...
+!set gl_author=Euler, Académie de Versailles
+!set gl_keywords=
+!set gl_title=Fonction valeur absolue
+!set gl_level=H5 
+:
+:mathematics/analysis/fr/absolute_value
+:
+:
+<div class="wims_defn">
+    <h4>Définition</h4>
+    La fonction <strong>valeur absolue</strong> est la fonction numérique \(f\) définie pour tout nombre réel \(x\) par <span class="nowrap">\(f(x)=\left| x \right|\).</span>
+</div>
+:
+:
+<div class="wims_thm"><h4>Propriété (parité)</h4>
+La fonction valeur absolue est une fonction <strong>paire</strong>, sa courbe représentative dans un repère orthogonal est symétrique par rapport à l'axe des ordonnées.
+</div>
+:
+:
+<div class="wims_thm">
+    <h4>Propriété (variations)</h4>
+  La fonction valeur absolue est&nbsp;:
+<ul>
+<li>
+strictement décroissante sur l'intervalle <span class="nowrap">\(\left \rbrack -\infty \,; 0 \right \rbrack\) ;</span>
+</li>
+<li>
+strictement croissante sur l'intervalle <span class="nowrap">\(\left \lbrack0 \,; +\infty \right \lbrack\).</span>
+</li>
+</ul>
+</div>
+
+
+
+
+
