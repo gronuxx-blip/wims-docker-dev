@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM debian:12
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get -y --no-install-recommends install \
