@@ -21,7 +21,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     octave \
     octave-statistics \
     graphviz \
-    ldaps-utils \
+    ldap-utils \
     scilab-cli \
     libwebservice-validator-html-w3c-perl \
     qrencode \
