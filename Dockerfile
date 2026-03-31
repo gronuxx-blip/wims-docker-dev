@@ -19,13 +19,23 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     maxima-share \
     gap \
     octave \
+    octave-statistics \
     graphviz \
+    ldaps-utils \
+    scilab-cli \
+    libwebservice-validator-html-w3c-perl \
+    qrencode \
+    fortune \
+    zip \
+    unzip \
+    openbabel \
     povray \
     yacas \
     locales \
     locales-all \
     patch \
-    bc
+    bc \
+    libgmp-dev
 
 RUN adduser --disabled-password --gecos '' wims
 USER wims
