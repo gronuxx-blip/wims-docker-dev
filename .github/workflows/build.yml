@@ -1,8 +1,8 @@
 name: Build WIMS Dev
 
 on:
-  schedule:
-    - cron: '0 2 * * *'   # toutes les nuits à 2h
+  # schedule:
+  #  - cron: '0 2 * * *'   # toutes les nuits à 2h
   workflow_dispatch:        # ou manuellement
 
 jobs:
