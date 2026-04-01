@@ -54,4 +54,10 @@ RUN chmod +x /home/wims/wims/compile && \
 USER root
 RUN a2enmod cgid && a2enmod remoteip
 
+#Charge un script
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+
 EXPOSE 80
