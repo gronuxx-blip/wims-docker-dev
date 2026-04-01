@@ -35,7 +35,11 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     locales-all \
     patch \
     bc \
-    libgmp-dev
+    libgmp-dev \
+    python3 \
+    texlive-base \
+    units-filter \
+    liburi-perl
 
 RUN adduser --disabled-password --gecos '' wims
 USER wims
