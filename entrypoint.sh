@@ -6,14 +6,19 @@
 mkdir -p /home/wims/tmp/log
 mkdir -p /home/wims/tmp/sessions
 mkdir -p /home/wims/public_html
+
 chown -R wims:wims /home/wims/tmp
 chown -R wims:wims /home/wims/public_html
 chown -R wims:wims /home/wims/log
 
+# Permissions pour qu'Apache puisse accéder aux dossiers
+chmod o+x /home/wims
+chmod o+x /home/wims/wims
+
 # ============================================
 # 2. Copier wims.cgi au bon endroit
 # ============================================
-cp /home/wims/wims/public_html/wims /home/wims/public_html/wims.cgi
+# A veérifier cp /home/wims/wims/public_html/wims /home/wims/public_html/wims.cgi
 chown wims:wims /home/wims/public_html/wims.cgi
 chmod +x /home/wims/public_html/wims.cgi
 
@@ -54,6 +59,7 @@ cd /home/wims/wims
 ./bin/setwrapexec
 ./bin/setwimsd
 ./bin/apache-config
+# A vérifier ln -sf /etc/apache2/conf-available/wims.conf /etc/apache2/conf-enabled/wims.conf 2>/dev/null || true
 a2enmod cgi
 
 # ============================================
