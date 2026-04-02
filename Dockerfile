@@ -40,7 +40,12 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     texlive-base \
     units-filter \
     liburi-perl \
-    python3-bs4
+    python3-bs4 \
+    python3-jinja2 \
+    python3-cssmin
+
+# module python3-bs4 python3-jinja2 python3-cssmin
+#pour /wims/src/Misc/chemeq/src/table_html_mendeleiev.py
 
 RUN adduser --disabled-password --gecos '' wims
 USER wims
