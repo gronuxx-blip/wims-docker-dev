@@ -42,9 +42,10 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     liburi-perl \
     python3-bs4 \
     python3-jinja2 \
-    python3-cssmin
+    python3-cssmin \
+    python3-lxml
 
-# module python3-bs4 python3-jinja2 python3-cssmin
+# module python3-bs4 python3-jinja2 python3-cssmin python3-lxml
 #pour /wims/src/Misc/chemeq/src/table_html_mendeleiev.py
 
 RUN adduser --disabled-password --gecos '' wims
