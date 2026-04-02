@@ -74,6 +74,9 @@ a2enmod cgi
 # 6. Lancement de wimsd
 # ============================================
 cd /home/wims
+# Lancer wimslogd en premier
+su - wims -c "/home/wims/wims/src/Wimslogd/wimslogd &"
+sleep 2
 su - wims -c "WIMS_HOME=/home/wims/wims /home/wims/wims/bin/wimsd &"
 sleep 2
 
