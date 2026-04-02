@@ -39,7 +39,8 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     python3 \
     texlive-base \
     units-filter \
-    liburi-perl
+    liburi-perl \
+    python3-bs4
 
 RUN adduser --disabled-password --gecos '' wims
 USER wims
