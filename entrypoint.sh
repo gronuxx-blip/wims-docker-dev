@@ -7,13 +7,20 @@ mkdir -p /home/wims/tmp/log
 mkdir -p /home/wims/tmp/sessions
 mkdir -p /home/wims/public_html
 
+# Dossier runtime Apache
+mkdir -p /var/run/apache2
+
 chown -R wims:wims /home/wims/tmp
 chown -R wims:wims /home/wims/public_html
 chown -R wims:wims /home/wims/log
 
 # Permissions pour qu'Apache puisse accéder aux dossiers
+ln -sf /home/wims/wims/public_html/wims /home/wims/public_html/wims.cgi
+chown -h wims:wims /home/wims/public_html/wims.cgi
 chmod o+x /home/wims
 chmod o+x /home/wims/wims
+
+
 
 # ============================================
 # 2. Copier wims.cgi au bon endroit
@@ -67,7 +74,7 @@ a2enmod cgi
 # 6. Lancement de wimsd
 # ============================================
 cd /home/wims
-su - wims -c "cd /home/wims && ./wims/bin/wimsd &"
+su - wims -c "WIMS_HOME=/home/wims/wims /home/wims/wims/bin/wimsd &"
 sleep 2
 
 # ============================================
