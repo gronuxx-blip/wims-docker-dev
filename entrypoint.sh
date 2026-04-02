@@ -77,7 +77,8 @@ cd /home/wims
 # Lancer wimslogd en premier
 su - wims -c "/home/wims/wims/src/Wimslogd/wimslogd &"
 sleep 2
-su - wims -c "WIMS_HOME=/home/wims/wims /home/wims/wims/bin/wimsd &"
+#su - wims -c "WIMS_HOME=/home/wims/wims /home/wims/wims/bin/wimsd &"
+./wims/bin/wimsd &
 sleep 2
 
 # ============================================
