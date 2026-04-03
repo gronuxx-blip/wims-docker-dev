@@ -75,11 +75,11 @@ a2enmod cgi
 # ============================================
 cd /home/wims
 # Lancer wimslogd en premier
-su - wims -c "/home/wims/wims/src/Wimslogd/wimslogd &"
-sleep 2
-#su - wims -c "WIMS_HOME=/home/wims/wims /home/wims/wims/bin/wimsd &"
+nohup su -s /bin/bash wims -c "/home/wims/wims/src/Wimslogd/wimslogd" > /tmp/wimslogd.log 2>&1 &
+sleep 3
 ./wims/bin/wimsd &
 sleep 2
+
 
 # ============================================
 # 7. Lancement d'Apache au premier plan
