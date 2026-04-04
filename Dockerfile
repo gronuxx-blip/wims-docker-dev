@@ -1,6 +1,9 @@
 FROM debian:12
 ARG DEBIAN_FRONTEND=noninteractive
 
+# ============================================
+# 1. Installation des paquets
+# ============================================
 RUN apt-get update && apt-get -y --no-install-recommends install \
     apache2 \
     make \
@@ -43,28 +46,45 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     python3-bs4 \
     python3-jinja2 \
     python3-cssmin \
-    python3-lxml
+    python3-lxml \
+    # Nécessaire pour apache-config
+    lsb-release \
+    net-tools
 
-# module python3-bs4 python3-jinja2 python3-cssmin python3-lxml
-#pour /wims/src/Misc/chemeq/src/table_html_mendeleiev.py
-
+# ============================================
+# 2. Compilation de WIMS
+# ============================================
 RUN adduser --disabled-password --gecos '' wims
 USER wims
 WORKDIR /home/wims
 
-# Les sources sont dans le dossier wims/
 COPY --chown=wims:wims wims/ /home/wims/wims/
 
 RUN chmod +x /home/wims/wims/compile && \
     cd /home/wims/wims && yes "" | ./compile --mathjax --jmol --modules --geogebra
 
+# ============================================
+# 3. Configuration au build (comme Gianluca)
+# ============================================
 USER root
-RUN a2enmod cgid && a2enmod remoteip
+RUN a2enmod cgid && \
+    a2enmod remoteip && \
+    # GAP symlink
+    ln -s gap /usr/bin/gap.sh && \
+    # Octave
+    echo "pkg load statistics" >> /etc/octaverc && \
+    # Povray
+    echo "read+write* = /home/wims/wims/tmp/sessions" >> /etc/povray/3.7/povray.conf && \
+    # Configuration WIMS
+    cd /home/wims/wims && \
+    ./bin/setwrapexec && \
+    ./bin/setwimsd && \
+    ./bin/apache-config
 
-#Charge un script
+# ============================================
+# 4. Entrypoint
+# ============================================
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
-
 ENTRYPOINT ["/entrypoint.sh"]
-
 EXPOSE 80
