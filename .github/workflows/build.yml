@@ -25,3 +25,5 @@ jobs:
           tags: |
             julienlld/wims-dev:latest
             julienlld/wims-dev:${{ github.run_number }}
+          cache-from: type=registry,ref=julienlld/wims-dev:cache
+          cache-to: type=registry,ref=julienlld/wims-dev:cache,mode=max
