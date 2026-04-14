@@ -15,6 +15,9 @@ chmod o+x /home/wims/wims/tmp
 chmod o+x /home/wims/wims/tmp/log
 chmod 777 /home/wims/wims/tmp/sessions
 chmod o+w /home/wims/wims/log
+#Pour activer le mode dev
+chown wims:www-data /home/wims/wims/public_html/modules/devel
+chmod 775 /home/wims/wims/public_html/modules/devel
 # ============================================
 # 2. Configuration de WIMS
 # ============================================
