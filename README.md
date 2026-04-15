@@ -51,9 +51,6 @@ manager_site=<votre-ip>
 | Variable | Description | Défaut |
 |---|---|---|
 | `MANAGER_SITE` | IP autorisée pour l'admin | IP bridge Docker |
-| `WIMS_PASS` | Mot de passe admin | aucun |
-| `TZ` | Timezone | UTC |
-| `SSMTP_MAILHUB` | Serveur mail relais | aucun |
 
 ## Commandes utiles
 
