@@ -21,7 +21,6 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     libfl-dev \
     wget \
     curl \
-    yacas \
     maxima \
     maxima-share \
     gap \
@@ -52,8 +51,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     python3-cssmin \
     python3-lxml \
     lsb-release \
-    net-tools \
-    locales locales-all
+    net-tools
 
 # ============================================
 # 2. Copie des sources
@@ -69,15 +67,15 @@ COPY --chown=wims:wims wims/ /home/wims/
 # (MathJax, JMol, GeoGebra, modules)
 # → mis en cache par Docker après le premier build
 # ============================================
-RUN chmod +x /home/wims/wims/compile && \
-    cd /home/wims/wims && \
+RUN chmod +x /home/wims/compile && \
+    cd /home/wims && \
     yes "" | ./compile --mathjax --jmol --modules --geogebra
 
 # ============================================
 # 4. Deuxième compilation sans téléchargements
 # → recompile uniquement le code C si les sources changent
 # ============================================
-RUN cd /home/wims/wims && \
+RUN cd /home/wims && \
     yes "" | ./compile
 
 # ============================================
@@ -88,8 +86,8 @@ RUN a2enmod cgid && \
     a2enmod remoteip && \
     ln -s gap /usr/bin/gap.sh && \
     echo "pkg load statistics" >> /etc/octaverc && \
-    echo "read+write* = /home/wims/wims/tmp/sessions" >> /etc/povray/3.7/povray.conf && \
-    cd /home/wims/wims && \
+    echo "read+write* = /home/wims/tmp/sessions" >> /etc/povray/3.7/povray.conf && \
+    cd /home/wims && \
     ./bin/setwrapexec && \
     ./bin/setwimsd && \
     ./bin/apache-config
