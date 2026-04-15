@@ -8,16 +8,20 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     apache2 \
     make \
     g++ \
+    texlive-base \
+    texlive-latex-base \
     gnuplot \
     pari-gp \
     flex \
     bison \
     perl \
+    liburi-perl \
     imagemagick \
     libgd-dev \
     libfl-dev \
     wget \
     curl \
+    yacas \
     maxima \
     maxima-share \
     gap \
@@ -38,17 +42,18 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     locales-all \
     patch \
     bc \
+    chemeq \
     libgmp-dev \
     python3 \
-    texlive-base \
     units-filter \
-    liburi-perl \
+    macaulay2 \
     python3-bs4 \
     python3-jinja2 \
     python3-cssmin \
     python3-lxml \
     lsb-release \
-    net-tools
+    net-tools \
+    locales locales-all
 
 # ============================================
 # 2. Copie des sources
@@ -57,7 +62,7 @@ RUN adduser --disabled-password --gecos '' wims
 USER wims
 WORKDIR /home/wims
 
-COPY --chown=wims:wims wims/ /home/wims/wims/
+COPY --chown=wims:wims wims/ /home/wims/
 
 # ============================================
 # 3. Première compilation avec téléchargements
