@@ -30,13 +30,13 @@ if [ ! -f "$config_file" ]; then
         echo "manager_site=172.17.0.1" >> "$config_file"
     fi
     chown wims:wims "$config_file"
-    chmod go-rwx "$config_file"
+    chmod o+r "$config_file"
 fi
 # ============================================
 # 3. Configuration des logiciels tiers
 # ============================================
 echo "pkg load statistics" >> /etc/octaverc
-echo "read+write* = /home/wims/tmp/sessions" >> /etc/povray/3.7/povray.conf
+echo "read+write* = /home/wims/sessions" >> /etc/povray/3.7/povray.conf
 echo 'SetUserPreference( "UseColorPrompt", false );' > /usr/lib/gap/gap.ini
 # ============================================
 # 4. Configuration des droits et Apache
