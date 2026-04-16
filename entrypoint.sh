@@ -3,7 +3,7 @@
 # 1. Création des dossiers nécessaires
 # ============================================
 mkdir -p /home/wims/tmp/log
-mkdir -p /home/wims/tmp/sessions
+mkdir -p /home/wims/sessions
 mkdir -p /home/wims/public_html
 chown -R wims:wims /home/wims/tmp
 chown -R wims:wims /home/wims/log
@@ -12,7 +12,7 @@ chown -R wims:wims /home/wims/public_html
 chmod o+x /home/wims
 chmod o+x /home/wims/tmp
 chmod o+x /home/wims/tmp/log
-chmod 777 /home/wims/tmp/sessions
+chmod 777 /home/wims/sessions
 chmod o+w /home/wims/log
 #Pour activer le mode dev
 chown wims:www-data /home/wims/public_html/modules/devel
