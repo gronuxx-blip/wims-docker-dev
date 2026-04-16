@@ -15,7 +15,7 @@ chmod o+x /home/wims/tmp/log
 chmod 777 /home/wims/sessions
 chmod o+w /home/wims/log
 #Pour activer le mode dev
-chown wims:www-data /home/wims/public_html/modules/devel
+chown wims:wims /home/wims/public_html/modules/devel
 chmod 775 /home/wims/public_html/modules/devel
 # ============================================
 # 2. Configuration de WIMS
@@ -30,13 +30,13 @@ if [ ! -f "$config_file" ]; then
         echo "manager_site=172.17.0.1" >> "$config_file"
     fi
     chown wims:wims "$config_file"
-    chmod o+r "$config_file"
+    chmod 600 "$config_file"
 fi
 # ============================================
 # 3. Configuration des logiciels tiers
 # ============================================
-echo "pkg load statistics" >> /etc/octaverc
-echo "read+write* = /home/wims/sessions" >> /etc/povray/3.7/povray.conf
+grep -q "pkg load statistics" /etc/octaverc || echo "pkg load statistics" >> /etc/octaverc
+grep -q "wims/sessions" /etc/povray/3.7/povray.conf || echo "read+write* = /home/wims/sessions" >> /etc/povray/3.7/povray.conf
 echo 'SetUserPreference( "UseColorPrompt", false );' > /usr/lib/gap/gap.ini
 # ============================================
 # 4. Configuration des droits et Apache
