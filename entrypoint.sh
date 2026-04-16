@@ -22,6 +22,15 @@ chmod o+w /home/wims/log
 #Pour activer le mode dev
 chown wims:wims /home/wims/public_html/modules/devel
 chmod 775 /home/wims/public_html/modules/devel
+# Copie des scripts d'indexation (toujours à jour)
+cp -f /opt/wims-scripts/.build-index /home/wims/log/classes/.build-index
+cp -f /opt/wims-scripts/.build-teacher /home/wims/log/classes/.build-teacher
+chmod +x /home/wims/log/classes/.build-*
+chown wims:wims /home/wims/log/classes/.build-*
+mkdir -p /home/wims/log/forums
+cp -f /opt/wims-scripts/.build-index-forums /home/wims/log/forums/.build-index
+chmod +x /home/wims/log/forums/.build-index
+chown wims:wims /home/wims/log/forums/.build-index
 # ============================================
 # 2. Configuration de WIMS
 # ============================================
