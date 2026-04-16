@@ -86,7 +86,7 @@ RUN a2enmod cgid && \
     a2enmod remoteip && \
     ln -s gap /usr/bin/gap.sh && \
     echo "pkg load statistics" >> /etc/octaverc && \
-    echo "read+write* = /home/wims/tmp/sessions" >> /etc/povray/3.7/povray.conf && \
+    echo "read+write* = /home/wims/sessions" >> /etc/povray/3.7/povray.conf && \
     cd /home/wims && \
     ./bin/setwrapexec && \
     ./bin/setwimsd && \
