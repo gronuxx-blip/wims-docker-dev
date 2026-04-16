@@ -93,10 +93,12 @@ RUN a2enmod cgid && \
     ./bin/apache-config
 
 # ============================================
-# 6. Volumes persistants
+# 6. Sauvegarde des scripts d'indexation
 # ============================================
-VOLUME /home/wims/log
-VOLUME /home/wims/public_html/modules/devel
+RUN mkdir -p /opt/wims-scripts && \
+    cp /home/wims/log/classes/.build-index /opt/wims-scripts/ && \
+    cp /home/wims/log/classes/.build-teacher /opt/wims-scripts/ && \
+    cp /home/wims/log/forums/.build-index /opt/wims-scripts/.build-index-forums
 
 # ============================================
 # 7. Entrypoint
