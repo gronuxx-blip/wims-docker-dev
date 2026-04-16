@@ -18,7 +18,6 @@ chmod o+w /home/wims/log
 chown wims:wims /home/wims/public_html/modules/devel
 chmod 775 /home/wims/public_html/modules/devel
 #Vérifier si nécessaire
-chmod 777 /home/wims/tmp
 chmod o+w /home/wims/tmp/log/.wimslogd
 # ============================================
 # 2. Configuration de WIMS
@@ -32,8 +31,8 @@ if [ ! -f "$config_file" ]; then
     else
         echo "manager_site=172.17.0.1" >> "$config_file"
     fi
-    chown wims:www-data "$config_file"
-    chmod 640 "$config_file"
+    chown www-data:www-data "$config_file"
+    chmod 600 "$config_file"
 fi
 # ============================================
 # 3. Configuration des logiciels tiers
@@ -56,7 +55,7 @@ su -s /bin/bash wims -c "cd /home/wims/public_html && ../src/Wimslogd/wimslogd" 
 sleep 2
 PID=$(pgrep wimslogd)
 echo $PID > /home/wims/tmp/log/wimslogd.pid
-chown wims:wims /home/wims/tmp/log/wimslogd.pid
+chmod o+w /home/wims/tmp/log/.wimslogd
 sleep 1
 su -s /bin/bash wims -c "cd /home/wims && ./bin/wimsd" &
 sleep 2
