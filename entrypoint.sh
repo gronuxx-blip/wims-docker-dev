@@ -33,9 +33,11 @@ if [ ! -f "$config_file" ]; then
     else
         echo "manager_site=172.17.0.1" >> "$config_file"
     fi
-    chown www-data:www-data "$config_file"
-    chmod 600 "$config_file"
 fi
+# Permissions toujours appliquées
+chown www-data:www-data "$config_file"
+chmod 600 "$config_file"
+
 # ============================================
 # 3. Configuration des logiciels tiers
 # ============================================
