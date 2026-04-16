@@ -93,7 +93,13 @@ RUN a2enmod cgid && \
     ./bin/apache-config
 
 # ============================================
-# 6. Entrypoint
+# 6. Volumes persistants
+# ============================================
+VOLUME /home/wims/log
+VOLUME /home/wims/public_html/modules/devel
+
+# ============================================
+# 7. Entrypoint
 # ============================================
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
