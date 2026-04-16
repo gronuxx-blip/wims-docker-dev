@@ -8,17 +8,19 @@ mkdir -p /home/wims/public_html
 chown -R wims:wims /home/wims/tmp
 chown -R wims:wims /home/wims/log
 chown -R wims:wims /home/wims/public_html
+mkdir -p /home/wims/log/classes
+chown wims:www-data /home/wims/log/classes
+chmod 775 /home/wims/log/classes
 # Permissions pour qu'Apache puisse accéder aux dossiers
 chmod o+x /home/wims
 chmod o+x /home/wims/tmp
 chmod o+x /home/wims/tmp/log
 chmod 777 /home/wims/sessions
+chmod 777 /home/wims/tmp
 chmod o+w /home/wims/log
 #Pour activer le mode dev
-chown wims:wims /home/wims/public_html/modules/devel
+chown wims:www-data /home/wims/public_html/modules/devel
 chmod 775 /home/wims/public_html/modules/devel
-#Vérifier si nécessaire
-chmod o+w /home/wims/tmp/log/.wimslogd
 # ============================================
 # 2. Configuration de WIMS
 # ============================================
