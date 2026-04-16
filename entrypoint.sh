@@ -9,17 +9,18 @@ chown -R wims:wims /home/wims/tmp
 chown -R wims:wims /home/wims/log
 chown -R wims:wims /home/wims/public_html
 mkdir -p /home/wims/log/classes
-chown wims:www-data /home/wims/log/classes
+chown wims:wims /home/wims/log/classes
 chmod 775 /home/wims/log/classes
 # Permissions pour qu'Apache puisse accéder aux dossiers
 chmod o+x /home/wims
 chmod o+x /home/wims/tmp
 chmod o+x /home/wims/tmp/log
+chmod 777 /home/wims/tmp/log
 chmod 777 /home/wims/sessions
 chmod 777 /home/wims/tmp
 chmod o+w /home/wims/log
 #Pour activer le mode dev
-chown wims:www-data /home/wims/public_html/modules/devel
+chown wims:wims /home/wims/public_html/modules/devel
 chmod 775 /home/wims/public_html/modules/devel
 # ============================================
 # 2. Configuration de WIMS
@@ -35,7 +36,7 @@ if [ ! -f "$config_file" ]; then
     fi
 fi
 # Permissions toujours appliquées
-chown www-data:www-data "$config_file"
+chown wims:wims "$config_file"
 chmod 600 "$config_file"
 
 # ============================================
@@ -52,6 +53,8 @@ cd /home/wims
 ./bin/setwimsd
 ./bin/apache-config
 a2enmod cgi
+sed -i 's/export APACHE_RUN_USER=www-data/export APACHE_RUN_USER=wims/' /etc/apache2/envvars
+sed -i 's/export APACHE_RUN_GROUP=www-data/export APACHE_RUN_GROUP=wims/' /etc/apache2/envvars
 # ============================================
 # 5. Lancement des démons WIMS
 # ============================================
@@ -66,4 +69,5 @@ sleep 2
 # ============================================
 # 6. Lancement d'Apache au premier plan
 # ============================================
+# Apache doit tourner en wims
 exec apachectl -D FOREGROUND
