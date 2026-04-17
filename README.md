@@ -192,4 +192,4 @@ docker cp wims:/home/wims/public_html/modules/adm/class/flashquiz <votre-dossier
 
 ## Licence
 
-- WIMS : GPL
+- WIMS : GNU GPL
